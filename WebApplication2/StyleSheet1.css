@@ -1,5 +1,17 @@
 ﻿body {
-    background-color: #000;
-    color: #FFF;
-    
+    background-color: hotpink;
+    color: hotpink;
 }
+
+h1{
+    text-align: center;
+    color: hotpink;
+}
+
+topMenu{
+    background-color: #11401F;
+    color: #E3E3AD;
+    margin-top: 1000px;
+    margin-bottom: 1000px;
+}
+

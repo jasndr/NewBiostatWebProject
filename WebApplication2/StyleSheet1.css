@@ -8,10 +8,42 @@ h1{
     color: hotpink;
 }
 
-topMenu{
-    background-color: #11401F;
-    color: #E3E3AD;
-    margin-top: 1000px;
-    margin-bottom: 1000px;
+.topNavBar{
+     background-color: #11401F;
+     color: #E3E3AD;
 }
 
+.topMostLinks{
+    background-color: #11401F;
+    color: #E3E3AD;
+}
+
+.bannerFluid{
+background-color: #11401F;
+}
+
+.BQHSbanner{
+   position:page;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    
+}
+
+#bqhsNavigation{
+    width: 750px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#bqhsNavigation li{
+    float: left;
+}
+
+#bqhsNavigation a{
+    display: block;
+    text-align: center;
+    width: 150px;
+    text-decoration: none;
+}

@@ -1,6 +1,7 @@
 ﻿body {
-    background-color: hotpink;
-    color: hotpink;
+    background-color: #FFF;
+    color: #000;
+    padding: 0px;
 }
 
 h1{
@@ -31,19 +32,42 @@ background-color: #11401F;
     
 }
 
-#bqhsNavigation{
-    width: 750px;
-    margin: 0 auto;
+#nav {
+    border: 1px solid #000;
+    border-width: 1px 0;
     list-style: none;
-}
-
-#bqhsNavigation li{
-    float: left;
-}
-
-#bqhsNavigation a{
-    display: block;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    width: 150px;
+    background-color: darkseagreen;
+}
+
+#nav li{
+    display:inline;
     text-decoration: none;
 }
+
+#nav a {
+    display:inline-block;
+    padding: 10px;
+    color: white;
+     border: 1px solid #0A0;
+     text-decoration: none;
+}
+a{
+    color:#C00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: seagreen;
+    text-decoration: none;
+}
+
+.active {
+    background-color: seagreen;
+    color: black;
+}
+
+

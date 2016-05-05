@@ -84,6 +84,11 @@ a:hover{
     width: 80%;
 }
 
+.jumbotron{
+   width: 100%;
+   height: 400px;
+}
+
 .leftSideBar{
     float: left;
     width: 20%;

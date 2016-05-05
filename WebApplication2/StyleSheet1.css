@@ -70,4 +70,42 @@ a:hover{
     color: black;
 }
 
+.currentLink{
+    color: dimgrey;
+}
+
+.hierarchy a:hover{
+    text-decoration: none;
+    background: none;
+}
+
+.mainContent{
+    float: right;
+    width: 80%;
+}
+
+.leftSideBar{
+    float: left;
+    width: 20%;
+    margin-left: -20%;
+    background-color: #FFF;
+    color: #000;
+}
+
+.visionTitle{
+    background-color: #E3E3AD;
+    color: black;
+    border: 1px solid #000;
+}
+
+.visionContent{
+    background-color: white;
+    border: 1px solid #000;
+    font-size: 12px;
+}
+
+.mahalo{
+    text-align: center;
+    font-weight: bold;
+}
 

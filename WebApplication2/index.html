@@ -1,12 +1,12 @@
 ﻿<!DOCTYPE html>
-<!--###########################################################################
-    # Office of Biostatistics & Quantitative Health Science Website
-    # University of Hawaii, John A. Burns School of Medicine
-    #
-    # @author Jason Delos Reyes
-    # @date May 2016
-    # 
-    ###########################################################################-->
+<!--######################################################################
+    # Office of Biostatistics & Quantitative Health Science Website      #
+    # University of Hawaii, John A. Burns School of Medicine             #
+    #                                                                    #
+    # @author Jason Delos Reyes                                          #
+    # @date May 2016                                                     #
+    #                                                                    #
+    ######################################################################-->
 <html>
 
 <head>
@@ -14,13 +14,15 @@
 	<meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
 
 <body>
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
-    <div class="container-fluid topNavBar">
+    <div class="container-fluid topNavBar hierarchy">
         <!--#First navigation bar -->
         <p class="pull-right">
             <a class="topMostLinks" href="http://hawaii.edu">University of Hawaii</a> | 
@@ -34,24 +36,88 @@
     <div class="container-fluid bannerFluid">
          <img class="BQHSbanner" src="OBQHS_Banner.jpg" alt="BQHS Banner" height="120" />
     </div>
+    
 
-    <!--#Mail Navigation Bar -->
+    <!--#Main Navigation Bar -->
     <ul id="nav">
         <li><a class="active" href="index.html">Welcome</a></li>
         <li><a href="expertise.html">Our Expertise</a></li>
         <li><a href="collaboration.html">Collaboration & Services</a></li>
         <li><a href="members.html">Faculty & Staff</a></li>
         <li><a href="resources.html">Resources</a></li>
-        <li><a href="jobs.html">Job Opportunities</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="jobs.html">Job Opportunities</a></li> <!--**Unsure whether or not -->
+        <li><a href="contact.html">Contact</a></li>        <!--  to place these on top links-->
     </ul>
+ 
 
+    <!-- Breadcrumb/Navigational Hierarchy -->
+    <div class="container container-fluid hierarchy">
+        <ol class="breadcrumb">
+            <li class="currentLink">BQHS</li>
+            <li><a href="#">Welcome</a></li>
+        </ol>
 
-    <!--#Title (This should be where the title should be!-->
-    <div class="container-fluid">
-        <h1>Welcome to the Office of Biostatistics & Quantitative Health Sciences!</h1>
-        <p>This is a paragraph text example!</p>
     </div>
+
+    <!--#Main Content ===> This alternates between all BQHS pages. -->
+    <div class="mainContent container-fluid">
+
+        <!--#Title (This should be where the title should be!-->
+        <div class="container-fluid">
+         <h1>Welcome to the Office of Biostatistics & Quantitative Health Sciences!</h1>
+            <p>This is a paragraph text example!</p>
+      </div>
+
+    </div>
+
+    <!--#Content Held on the left side of each page. -->
+    <div class="container-fluid leftSideBar">
+
+        <!--#Vision, Mission, and Values Statement (Header) -->
+        <div class="container-fluid visionTitle">
+            <h4>Vision, Mission, & Values</h4>
+        </div>
+        <!--#Vision, Mission and Values Statement (Content) -->
+        <div class="container-fluid visionContent">
+            <h5><strong>Vision</strong></h5>
+            <p>Strive for excellence in research, education, and service through collaboration and innovation in quantitative health sciences</p>
+
+            <h5><strong>Mission</strong></h5>
+            <p>To enhance JABSOM's research, education, and service mission by:
+            </p>
+            <ul>
+                <li>fostering the understanding and implementation of biostatistical principles from study design to dissemination;</li>
+                <li>catalyzing collaborative research throguh institutional and community partnerships;</li>
+                <li>providing quality education and training in quantitative health sciences; and</li>
+                <li>developing novel methods and generating new knoweldge to improve quantiative health research and practice.</li>
+                </ul>
+
+            <h5><strong>Values</strong></h5>
+            <p>High quality, efficient, and reliable.</p>
+
+        </div>
+
+        <!--#BQHS Enhancement Announcement (Header) -->
+        <div class="container-fluid visionTitle">
+            <h4>Enhancement Fund</h4>
+        </div>
+
+        <!--#BQHS ENhancement Announcement (Content) -->
+        <div class="container-fluid visionContent hierarchy">
+            <p><br />Your generous gift will allow BQHS to maintain and further developme this important JABSOM infrastructure resource.</p>
+            <p><strong>Make a Gift Online:</strong>
+                <a href="https://giving.uhfoundation.org/funds/12616904"><img src="button_give-now.jpg" /></a>
+            </p>
+            <p><strong>Make a Gift by Check:</strong> <br />
+                <a href="http://www.uhfoundation.org/give/gifts-us-mail">Gift by US Mail (Please designate "JABSOM Office of Biostatistics & Quantitative Health Sciences") </a>
+            </p>
+            <h4 class="mahalo">MAHALO!</h4>
+        </div>
+
+    </div>
+
+
+    
 
 
     

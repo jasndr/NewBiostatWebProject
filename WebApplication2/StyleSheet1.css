@@ -91,6 +91,18 @@ a:hover{
    height: 400px;
 }
 
+.niceHeader{
+    background-color: white;
+    color: seagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.welcomeMessage{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
 .leftSideBar{
     float: left;
     width: 20%;
@@ -133,21 +145,21 @@ a:hover{
 #leftFooter{
     float: left;
     margin: 0px;
-    width: 33%;
+    width: 25%;
     background-color: #330000;
 }
 
 #centralFooter{
     float: left;
     margin-top: 10px;
-    width: 33%;
+    width: 50%;
     background-color: #330000;
 }
 
 #rightFooter{
     float: right;
     margin: 0px;
-    width: 10%;
+    width: 7%;
     background-color: #330000;
 }
 
@@ -165,6 +177,23 @@ a:hover{
 .bridges{
     height: 37px;
     width: 130px;
+}
+
+.officeLocation{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.contactInfo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #9F9;
+}
+
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #CCC;
 }
 
 .jabsomImage{

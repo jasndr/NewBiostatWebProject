@@ -86,7 +86,9 @@ a:hover{
     color: #000;
 }
 
-
+.rotatingImages{
+    max-width: 100%;
+}
 
 .carousel-inner > .item > img,
 .carousel-innder > .item > a > img {

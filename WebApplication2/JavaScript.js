@@ -1,4 +1,4 @@
-﻿$(document).ready(function(){
+﻿/** $(document).ready(function(){
 
     img2 = new Image()
 
@@ -38,7 +38,7 @@
         setTimeout("imgOne()", seconds * 1000);
     }
 
-});
+}); */
 
 
 

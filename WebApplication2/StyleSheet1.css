@@ -86,9 +86,12 @@ a:hover{
     color: #000;
 }
 
-.jumbotron{
-   width: 100%;
-   height: 400px;
+
+
+.carousel-inner > .item > img,
+.carousel-innder > .item > a > img {
+    width: 50%;
+    margin: auto;
 }
 
 .niceHeader{

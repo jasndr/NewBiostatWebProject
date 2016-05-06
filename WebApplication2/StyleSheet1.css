@@ -96,6 +96,11 @@ a:hover{
     margin: auto;
 }
 
+.carousel-control .icon-prev,
+.carousel-control .icon-next{
+   width: 10px;
+}
+
 .carouselLinks a{
     background-color: lightgray;
     opacity: .9;

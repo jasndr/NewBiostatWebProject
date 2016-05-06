@@ -94,6 +94,16 @@ a:hover{
     margin: auto;
 }
 
+.carouselLinks a{
+    background-color: lightgray;
+    opacity: .9;
+}
+
+.carouselLinks a:hover{
+    text-decoration: none;
+    background: none;
+}
+
 .niceHeader{
     background-color: white;
     color: seagreen;

@@ -22,31 +22,37 @@
 <body>
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
-    <div class="container-fluid topNavBar hierarchy">
+    <div class="container-fluid topNavBar pull-right">
         <!--#First navigation bar -->
-        <p class="pull-right">
+        <p>
+            <a class="topMostLinks" href="contact.html">Contact</a> |
+            <a class="topMostLinks" href="jobs.html">Jobs</a> |
             <a class="topMostLinks" href="http://hawaii.edu">University of Hawaii</a> | 
-            <a class="topMostLinks" href="http://uhcancercenter.org">UH Cancer Center</a> |
             <a class="topMostLinks" href="http://jabsom.hawaii.edu">John A. Burns School of Medicine</a>
-            
-  
         </p> 
+        <div class="searchForm">                                                            <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
+            <form action="/">                               <!-- Is it even necessary (JABSOM Site not necessary) -->
+            <input class="search" type="text" name="search" placeholder=" Search..." />      <!--(For Cancer Center site, yes!) -->
+            <input class="searchButton" type="submit" value="Search" />
+            </form>
+        </div>
+
+
+
     </div>
     <!--#BQHS Banner -->
     <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner" height="120" />
+         <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>
     
 
     <!--#Main Navigation Bar -->
     <ul id="nav">
         <li><a class="active" href="index.html">Welcome</a></li>
-        <li><a href="#">Our Expertise</a></li>                <!-- (Use "expertise.html") -->
-        <li><a href="#">Collaboration & Services</a></li> <!-- (Use "collaboration.html") -->
-        <li><a href="#">Faculty & Staff</a></li>                <!-- (Use "members.html") -->
-        <li><a href="#">Resources</a></li>                    <!-- (Use "resources.html") -->
-        <li><a href="#">Job Opportunities</a></li>                 <!-- (Use "jobs.html") -->          <!--**Unsure whether or not -->
-        <li><a href="#">Contact</a></li>                        <!-- (Use "contact.html") -->       <!--  to place these on top links-->
+        <li><a href="expertise.html">Our Expertise</a></li>                <!-- (Use "expertise.html") -->
+        <li><a href="collaboration.html">Collaboration & Services</a></li> <!-- (Use "collaboration.html") -->
+        <li><a href="members.html">Faculty & Staff</a></li>                <!-- (Use "members.html") -->
+        <li><a href="resources.html">Resources</a></li>                    <!-- (Use "resources.html") -->
     </ul>
  
 
@@ -54,20 +60,16 @@
     <div class="container container-fluid hierarchy">
         <ol class="breadcrumb">
             <li class="currentLink">BQHS</li>
-            <li><a href="#">Welcome</a></li>
+            <li><a href="index.html">Welcome</a></li>
         </ol>
 
     </div>
 
-    <!--#Main Content ===> This alternates between all BQHS pages. -->
-    <div class="mainContent container-fluid">
-        
- 
 
-        <!--#Revolving Images  -->
+            <!--#Revolving Images  -->
         <div class="container rotatingImages">
             <br />
-            <div id="BQHScarousel" class="carousel slide" data-ride="carousel">
+            <div id="BQHScarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#BQHScarousel" data-slide-to="0" class="active"></li>
@@ -82,91 +84,76 @@
 
 
                 <!-- Wrapper for slides -->
-                <div class="carousel-inner carouselLinks" role="listbox" style="width:100%; height:375px !important;">
+                <div class="carousel-inner carouselLinks hierarchy" role="listbox" style="width:100%; height:100% !important;">
 
                     <div class="item active">
-                        <img src="./images/jabsom-img1.jpg" alt="JABSOM" width="560" height="345" />
+                        <div class="carousel-caption">
+                        <h3 class="niceHeader">Welcome to the Office of Biostatistics & Quantitative Health Sciences!</h3>
+                        </div>
+                        <img src="./images/jabsom-img1.jpg" alt="JABSOM" />
                     </div>
 
                     <div class="item">
                         <div class="carousel-caption">
-                            <h3><a href="#">BQHS Expertise</a></h3>
-                            <p>The faculty and staff at BQHS have extensive experience with epidemiologic investigations, 
-                               basic science research, clinical studies, clinical trials, large-scale omics data analysis,
-                               and community-based investigations. <br /><br />
-                            </p>
+                            <h3><a href="expertise.html">Research Design, Data Analysis, Results Dissemination</a></h3>
                         </div>
-                        <img src="./images/BSB_LOBBY_FEB2015-img2.JPG" alt="BQHS Expertise" width="560" height="345" />
+                        <img src="./images/BSB_LOBBY_FEB2015-img2.JPG" alt="BQHS Expertise" />
                     </div>
 
                     <div class="item">
                         <div class="carousel-caption">
-                            <h3><a href="#">BQHS Collaboration</a></h3>
-                            <p>Our faculty and staff offer biostatistical and bioinformatical services and collaborations
-                               to promote excellence in quantitative health research. <br /><br />
-                            </p>
+                            <h3><a href="collaboration.html">Biostatistical & Bioinformatical Services </a></h3>
                         </div>
-                        <img src="./images/sym_2014_core-img3.jpg" alt="BQHS Collaboration" width="560" height="345" />
+                        <img src="./images/sym_2014_core-img3.jpg" alt="BQHS Collaboration" />
                     </div>
 
                     <div class="item">
                         <div class="carousel-caption">
-                            <h3><a href="#">Faculty and Staff</a></h3>
-                            <p>If you are looking for a specific faculty or staff member, click above for a 
-                               brief directory and overview of each member's duties. <br /><br />
-                            </p>
+                            <h3><a href="#">The People Who Make It All Happen</a></h3>
                         </div>
-                        <img src="./images/JABSOM_FEB2015-img4.JPG" alt="Faculty & Staff" width="560" height="345" />
+                        <img src="./images/JABSOM_FEB2015-img4.JPG" alt="Faculty & Staff" />
                     </div>
 
                      <div class="item">
                          <div class="carousel-caption">
-                            <h3><a href="#">Resources</a></h3>
-                            <p>Basic QHS tools and methods to learn more about quantiative health sciences tools.<br /><br /></p>
+                            <h3><a href="members.html">Basic Quantiative Health Sciences Tools</a></h3>
                         </div>
-                        <img src="./images/books-img5.jpg" alt="Resources" width="560" height="345" />
+                        <img src="./images/books-img5.png" alt="Resources" />
                     </div>
 
                      <div class="item">
                          <div class="carousel-caption">
-                            <h3><a href="#">Job Opportunities</a></h3>
-                            <p>Looking for a job opportunity in biostatistics in a diverse community of paradise? <br /><br /></p>
-                        </div>
-                        <img src="./images/kakaako-edit3-img6.jpg" alt="Job Opportunities" width="560" height="345" />
+                            <h3><a href="jobs.html">Job Opportunities in Paradise</a></h3>
+                         </div>
+                        <img src="./images/kakaako-edit3-img6.jpg" alt="Job Opportunities" />
                     </div>
 
                      <div class="item">
                          <div class="carousel-caption">
-                            <h3><a href="#">Contact Us</a></h3>
-                            <p>If you have any questions, please email <a href="mailto:biostat@hawaii.edu">biostat@hawaii.edu</a>
-                               and BQHS will respond within 24 hours. If you have a service request, please visit our contact
-                               page.<br /><br />
-                            </p>
+                            <h3><a href="contact.html">Contact Us Today!</a></h3>
                         </div>
-                        <img src="./images/BSB_FEB2015-img7.JPG" alt="Contact Us" width="560" height="345" />
+                        <img src="./images/BSB_FEB2015-img7.JPG" alt="Contact Us" />
                     </div>
 
                 </div>
 
                 <!-- Left and right controls -->
-                <a class="left carousel-control" href="#BQHScarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                <a class="left carousel-control hierarchy" href="#BQHScarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left hierarchy" aria-hidden="true"></span>
+                    <span class="sr-only hierarchy">Previous</span>
                 </a>
-                <a class="right carousel-control" href="#BQHScarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                <a class="right carousel-control hierarchy" href="#BQHScarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right hierarchy" aria-hidden="true"></span>
+                    <span class="sr-only hierarchy">Next</span>
                 </a>
 
             </div>
         </div> <!--(End Revolving Images) -->
-   
 
 
-        <!--#Title-->
-        <div class="container-fluid">
-                <h1 class="niceHeader">Welcome to the Office of Biostatistics & Quantitative Health Sciences!</h1>
-                <br />
+    <!--#Main Content ===> This alternates between all BQHS pages. -->
+    <div class="mainContent container-fluid">
+    
             <!--Welcome Message -->
             <p class="welcomeMessage">Aloha! Thank you for your interest in the University of Hawaii JABSOM Office of Biostatistics & Quantitative
                Health Sciences (BQHS).
@@ -196,7 +183,7 @@
 
 
     <!--#Content Held on the left side of each page. -->
-    <div class="container-fluid leftSideBar">
+    <div class="container-fluid rightSideBar">
 
         <!--#Vision, Mission, and Values Statement (Header) -->
         <div class="container-fluid visionTitle">

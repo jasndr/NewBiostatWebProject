@@ -9,18 +9,56 @@ h1{
     color: hotpink;
 }
 
+a:hover{
+    background: none;
+    text-decoration: none;
+}
+
 .topNavBar{
-     background-color: #11401F;
+     z-index: 1;
+     position: absolute;
      color: #E3E3AD;
+     width: 100%;
+     text-align: right;
+
 }
 
 .topMostLinks{
-    background-color: #11401F;
     color: #E3E3AD;
+    text-decoration: none;
+}
+
+.topMostLinks:hover{
+    color: #FFF;
+    text-decoration: none;
+    background: none;
+}
+
+.searchForm{
+    color: black;
+}
+
+.search{
+    background-color: white;
+    color: black;
+    border: 0px solid #DBDBDB;
+}
+
+.searchButton{
+    position: relative;
+    left: -8px;
+    border: 2px solid darkseagreen;
+    background-color: darkseagreen;
+    color: white;
+    font-weight: bold;
 }
 
 .bannerFluid{
-background-color: #11401F;
+    z-index: 0;
+    position: relative;
+    width: 100%;
+    border-top: 0;
+    background-color: #114020;
 }
 
 .BQHSbanner{
@@ -79,26 +117,25 @@ a:hover{
     background: none;
 }
 
-.mainContent{
-    float: right;
-    width: 80%;
-    background-color: #FFF;
-    color: #000;
-}
-
 .rotatingImages{
-    max-width: 100%;
+    margin-top: -40px;
+    padding-bottom: 30px;
+    position: page;
+    width: 100%;
 }
 
 .carousel-inner > .item > img,
-.carousel-innder > .item > a > img {
-    width: 50%;
+.carousel-inner > .item > a > img {
+    width: 100%;
+    height: 100%;
     margin: auto;
+    
 }
 
 .carousel-control .icon-prev,
 .carousel-control .icon-next{
-   width: 10px;
+   width: 1px;
+   background: none;
 }
 
 .carouselLinks a{
@@ -111,11 +148,19 @@ a:hover{
     background: none;
 }
 
+.mainContent{
+    float: left;
+    width: 80%;
+    background-color: #FFF;
+    color: #000;
+}
+
 .niceHeader{
     background-color: white;
     color: seagreen;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    opacity: .9;
 }
 
 .welcomeMessage{
@@ -123,10 +168,10 @@ a:hover{
     font-size: 18px;
 }
 
-.leftSideBar{
-    float: left;
+.rightSideBar{
+    float: right;
     width: 20%;
-    margin-left: -20%;
+    margin-right: -20%;
     background-color: #FFF;
     color: #000;
 }

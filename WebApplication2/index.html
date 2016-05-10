@@ -11,6 +11,7 @@
 
 <head>
     <title>Biostatistics & Quantitative Health Sciences</title>
+    <link rel="icon" href="./images/Logo_Final.png" />
 	<meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -47,17 +48,49 @@
     
 
     <!--#Main Navigation Bar -->
-    <ul id="nav">
-        <li><a class="active" href="index.html">Welcome</a></li>
-        <li><a href="expertise.html">Our Expertise</a></li>                <!-- (Use "expertise.html") -->
-        <li><a href="collaboration.html">Collaboration & Services</a></li> <!-- (Use "collaboration.html") -->
-        <li><a href="members.html">Faculty & Staff</a></li>                <!-- (Use "members.html") -->
-        <li><a href="resources.html">Resources</a></li>                    <!-- (Use "resources.html") -->
-    </ul>
- 
+    <div class="mainNavBar">
+        <ul id="nav">
+            <li><a class="active" href="index.html">Welcome</a></li>                            <!-- (Welcome Link) -->
+            <li class="dropdown">
+             <a href="expertise.html" class="dropbtn">Our Expertise</a>                      <!-- (Our Expertise Link) -->
+                <div class="dropdown-content">
+                    <a href="expertise.html/#researchDesign">Research Design</a>                
+                    <a href="expertise.html/#dataAnalysis">Data Analysis</a>                    
+                    <a href="expertise.html/#resultsDissemination">Results Dissemination</a>    
+                    <a href="expertise.html/#training">Training & Education</a>
+                </div>
+            </li>        
+            <li class="dropdown">
+                <a href="collaboration.html">Collaboration & Services</a>                        <!-- (Collaboration & Services Link) -->
+                <div class="dropdown-content">
+                    <a href="collaboration.html/#consultation">Free Consultation</a>
+                    <a href="collaboration.html/#grant">Free Grant Development and Prepartation</a>
+                    <a href="collaboration.html/#longterm">Long-term Funded Projects</a>
+                    <a href="collaboration.html/#shortterm">Short-term/Non-Extramurally Funded Projects</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="members.html">Faculty & Staff</a>                                  <!-- (Faculty & Staff Link) -->
+                <div class="dropdown-content">
+                    <a href="members.html/#faculty">Faculty</a>
+                    <a href="members.html/#staff">Staff</a>
+                </div>           
+            </li>
+            <li class="dropdown">
+                <a href="resources.html">Resources</a>                                      <!-- (Resources Link) -->
+                <div class="dropdown-content">
+                    <a href="resources.html/#courses">Online Statistical Courses</a>
+                    <a href="resources.html/#test">Statistical Test</a>
+                    <a href="resources.html/#software">Statistical Software</a>
+                    <a href="resources.html/#repositories">Bioinformatics Data Repositories/Tools</a>
+                    <a href="resources.html/#additional">Additional Bioinformatics Resources</a>
+                </div>
+            </li>
+        </ul>
+    </div>
 
     <!-- Breadcrumb/Navigational Hierarchy -->
-    <div class="container container-fluid hierarchy">
+    <div class="hierarchy">
         <ol class="breadcrumb">
             <li class="currentLink">BQHS</li>
             <li><a href="index.html">Welcome</a></li>
@@ -69,7 +102,7 @@
             <!--#Revolving Images  -->
         <div class="container rotatingImages">
             <br />
-            <div id="BQHScarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div id="BQHScarousel" class="carousel" data-ride="carousel" data-interval="10000">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#BQHScarousel" data-slide-to="0" class="active"></li>
@@ -88,49 +121,49 @@
 
                     <div class="item active">
                         <div class="carousel-caption">
-                        <h3 class="niceHeader">Welcome to the Office of Biostatistics & Quantitative Health Sciences!</h3>
+                        <h2 class="niceHeader">Welcome to the Office of Biostatistics & Quantitative Health Sciences!</h2>
                         </div>
                         <img src="./images/jabsom-img1.jpg" alt="JABSOM" />
                     </div>
 
                     <div class="item">
                         <div class="carousel-caption">
-                            <h3><a href="expertise.html">Research Design, Data Analysis, Results Dissemination</a></h3>
+                            <h3 class="textBox"><strong><u>What We Do:</u></strong><br /><a href="expertise.html">Research Design, Data Analysis, Results Dissemination</a></h3>
                         </div>
                         <img src="./images/BSB_LOBBY_FEB2015-img2.JPG" alt="BQHS Expertise" />
                     </div>
 
                     <div class="item">
                         <div class="carousel-caption">
-                            <h3><a href="collaboration.html">Biostatistical & Bioinformatical Services </a></h3>
+                            <h3 class="textBox"><strong><u>What We Provide:</u></strong><br /><a href="collaboration.html">Biostatistical & Bioinformatical Services </a></h3>
                         </div>
                         <img src="./images/sym_2014_core-img3.jpg" alt="BQHS Collaboration" />
                     </div>
 
                     <div class="item">
                         <div class="carousel-caption">
-                            <h3><a href="#">The People Who Make It All Happen</a></h3>
+                            <h3 class="textBox"><strong><u>Who We Are:</u></strong><br /><a href="members.html">BQHS Faculty & Staff</a></h3>
                         </div>
                         <img src="./images/JABSOM_FEB2015-img4.JPG" alt="Faculty & Staff" />
                     </div>
 
                      <div class="item">
                          <div class="carousel-caption">
-                            <h3><a href="members.html">Basic Quantiative Health Sciences Tools</a></h3>
+                            <h3 class="textBox"><a href="members.html">Basic Quantiative Health Sciences Tools</a></h3>
                         </div>
                         <img src="./images/books-img5.png" alt="Resources" />
                     </div>
 
                      <div class="item">
                          <div class="carousel-caption">
-                            <h3><a href="jobs.html">Job Opportunities in Paradise</a></h3>
+                            <h3 class="textBox"><a href="jobs.html">Job Opportunities in Paradise</a></h3>
                          </div>
                         <img src="./images/kakaako-edit3-img6.jpg" alt="Job Opportunities" />
                     </div>
 
                      <div class="item">
                          <div class="carousel-caption">
-                            <h3><a href="contact.html">Contact Us Today!</a></h3>
+                            <h3 class="textBox"><a href="contact.html">Contact Us Today!</a></h3>
                         </div>
                         <img src="./images/BSB_FEB2015-img7.JPG" alt="Contact Us" />
                     </div>
@@ -138,11 +171,11 @@
                 </div>
 
                 <!-- Left and right controls -->
-                <a class="left carousel-control hierarchy" href="#BQHScarousel" role="button" data-slide="prev">
+                <a class="left carousel-control hierarchy carouselControls" href="#BQHScarousel" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left hierarchy" aria-hidden="true"></span>
                     <span class="sr-only hierarchy">Previous</span>
                 </a>
-                <a class="right carousel-control hierarchy" href="#BQHScarousel" role="button" data-slide="next">
+                <a class="right carousel-control hierarchy carouselControls" href="#BQHScarousel" role="button" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right hierarchy" aria-hidden="true"></span>
                     <span class="sr-only hierarchy">Next</span>
                 </a>
@@ -176,7 +209,7 @@
                <br />Director, BQHS
             </p>
 
-      </div>
+     
 
     </div> <!--(End Main Content) -->
 

@@ -94,9 +94,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\books-img5.png" />
     <Content Include="images\BSB_002-img1.png" />
     <Content Include="images\button_give-now.jpg" />
-    <Content Include="images\books-img5.jpg" />
     <Content Include="images\BSB_FEB2015-img7.JPG" />
     <Content Include="images\BSB_LOBBY_FEB2015-img2.JPG" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -113,6 +113,7 @@
     <Content Include="images\OBQHS_Banner.jpg" />
     <Content Include="images\jabsomlogo2a.gif" />
     <Content Include="images\manoaseal_transparent.png" />
+    <Content Include="images\refreshingPlant.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -127,7 +128,6 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="images\RMATRIX.jpg" />
-    <Content Include="images\sample.jpg" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-1.9.1.js" />

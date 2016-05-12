@@ -268,13 +268,12 @@ a:hover{
     height: 250px;
 }
 
-
 .moduleDarkHeader{
     color: white !important;
 }
 
-.moduleDarkHeader:hover, moduleLightHeader:hover{
-    color: white !important;
+.moduleDarkHeader:hover, .moduleLightHeader:hover{
+    color: darkseagreen !important;
 }
 
 .menuModule a{
@@ -290,10 +289,17 @@ a:hover{
 .modulePictures{
     max-height: 137px !important;
     max-width: 175px;
+    float: left;
     padding-right: 10px;
     text-align: center;
+    position: relative;
 }
 
+.moduleContent{
+    font-family: 'Segoe UI';
+    position: relative;
+    float: right;
+}
 
 .niceHeader{
     background-color: white;
@@ -315,22 +321,67 @@ a:hover{
     background-color: #FFF;
     color: #000;
     padding-bottom: 10px;
+    padding-top: 15px;
 }
 
 .visionTitle{
-    background-color: #E3E3AD;
-    color: black;
-    border: 1px solid #000;
+    background-color: darkseagreen;
+    color: white;
+    font-family: 'Segoe UI';
 }
 
 .visionContent{
-    background-color: white;
-    border: 1px solid #000;
+    background-color: #E3E3AD;
     font-size: 12px;
+    font-family: 'Segoe UI';
+}
+
+#nav2 {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: none;
+}
+
+#nav2 li{
+    display:inline;
+    text-decoration: none;
+}
+
+#nav2 a, .dropbtn{
+    display:inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav2 a:hover, .dropdown:hover .dropbtn{
+   background-color: darkseagreen;
+   color: black;
+}
+
+#nav2 .dropdown{
+    display: inline-block;
 }
 
 .mahalo{
     text-align: center;
+    font-weight: bold;
+}
+
+.contentButton{
+    border: none;
+    background-color: darkseagreen !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.contentButton:hover{
+    border: none;
+    background-color: forestgreen !important;
+    color: white !important;
     font-weight: bold;
 }
 

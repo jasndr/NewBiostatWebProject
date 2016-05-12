@@ -234,33 +234,66 @@ a:hover{
     color: #000;
 }
 
-.topLeftModule{
+.menuModule{
     float: left;
     margin: 0;
+    background-color: #FFF;
+    padding: 15px 5px 5px 15px;
+    margin-bottom: 10px;
+}
+
+.innerModule1{
     background-color: #114020;
     color: white;
-    padding: 15px;
+    padding: 10px;
+    height: 250px;
 }
 
-.topRightModule{
-    float: left;
-    margin: 0;
+.innerModule2{
     background-color: lightgray;
-    padding: 15px;
+    padding: 10px;
+    height: 250px;
 }
 
-.bottomLeftModule{
-    float: left;
-    margin: 0;
+.innerModule3{
     background-color: #E3E3AD;
-    padding: 15px;
+    padding: 10px;
+    height: 250px;
 }
-.bottomRightModule{
-    float: left;
-    margin: 0;
+
+.innerModule4{
     background-color: mediumseagreen;
-    padding: 15px;
+    color: white;
+    padding: 10px;
+    height: 250px;
 }
+
+
+.moduleDarkHeader{
+    color: white !important;
+}
+
+.moduleDarkHeader:hover, moduleLightHeader:hover{
+    color: white !important;
+}
+
+.menuModule a{
+    background: none;
+    color: green;
+}
+
+.menuModule a:hover{
+    background: none;
+    text-decoration: none;
+}
+
+.modulePictures{
+    max-height: 137px !important;
+    max-width: 175px;
+    padding-right: 10px;
+    text-align: center;
+}
+
 
 .niceHeader{
     background-color: white;

@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\alamoanabeach-img6.jpg" />
     <Content Include="images\books-img5.png" />
     <Content Include="images\BSB_002-img1.png" />
     <Content Include="images\button_give-now.jpg" />
@@ -108,8 +109,11 @@
     <Content Include="images\inbre.png" />
     <Content Include="images\jabsom-img1.jpg" />
     <Content Include="images\JABSOM_FEB2015-img4.JPG" />
-    <Content Include="images\kakaako-edit3-img6.jpg" />
     <Content Include="images\Logo_Final.png" />
+    <Content Include="images\module1.jpg" />
+    <Content Include="images\module2.jpg" />
+    <Content Include="images\module3.jpg" />
+    <Content Include="images\module4.JPG" />
     <Content Include="images\OBQHS_Banner.jpg" />
     <Content Include="images\jabsomlogo2a.gif" />
     <Content Include="images\manoaseal_transparent.png" />

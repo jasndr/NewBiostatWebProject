@@ -109,13 +109,13 @@
     <Content Include="images\inbre.png" />
     <Content Include="images\jabsom-img1.jpg" />
     <Content Include="images\JABSOM_FEB2015-img4.JPG" />
+    <Content Include="images\jabsom_logo_white_oval_transparent.png" />
     <Content Include="images\Logo_Final.png" />
     <Content Include="images\module1.jpg" />
     <Content Include="images\module2.jpg" />
     <Content Include="images\module3.jpg" />
     <Content Include="images\module4.JPG" />
     <Content Include="images\OBQHS_Banner.jpg" />
-    <Content Include="images\jabsomlogo2a.gif" />
     <Content Include="images\manoaseal_transparent.png" />
     <Content Include="images\refreshingPlant.jpg" />
     <Content Include="packages.config" />

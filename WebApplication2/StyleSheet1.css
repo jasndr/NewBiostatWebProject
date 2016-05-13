@@ -386,7 +386,7 @@ a:hover{
 }
 
 .bottomFooter{
-    background-color: #330000;
+    background-color: #4E2E28; 
     color: white;
     clear: both;
     display: block;
@@ -395,62 +395,47 @@ a:hover{
     min-height: 100%;
     width: 100%;
     bottom: 0px;
+    opacity: .9;
+}
 
-    
+.innerFooter{
+    background-color: antiquewhite;
+    color: black;
+    margin: 20px 10px 20px 10px;
+    opacity: .95;
 }
 
 #leftFooter{
     float: left;
     margin: 0px;
     width: 25%;
-    background-color: #330000;
-}
-
-#centralFooter{
-    float: left;
-    margin-top: 10px;
-    width: 50%;
-    background-color: #330000;
 }
 
 #rightFooter{
     float: right;
     margin: 0px;
-    width: 7%;
-    background-color: #330000;
+    width: 75%;
 }
 
-.rmatrix{
-    margin-top:10px;
-    height: 37px;
-    width: 130px;
-}
-
-.inbre{
-    height: 50px;
-    width: 120px;
-}
-
-.bridges{
-    height: 37px;
-    width: 130px;
-}
 
 .officeLocation{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI';
     font-size: 16px;
+    text-align: right;
+    color: #4E2E28;
 }
 
 .contactInfo{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI';
     font-size: 12px;
-    color: #9F9;
+    color: #4E2E28;
+    text-align: right;
 }
 
 .copyright{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    color: #CCC;
+    color: #000;
 }
 
 .jabsomImage{

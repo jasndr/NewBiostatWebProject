@@ -323,6 +323,8 @@ a:hover{
     font-family: 'Segoe UI';
     position: relative;
     float: right;
+    width: 50%;
+    height: 50%;
 }
 
 .niceHeader{
@@ -397,14 +399,13 @@ a:hover{
 }
 
 .contentButton{
-    border: none;
     background-color: darkseagreen !important;
     color: white !important;
     font-weight: bold !important;
+    width: 100%;
 }
 
 .contentButton:hover{
-    border: none;
     background-color: forestgreen !important;
     color: white !important;
     font-weight: bold;

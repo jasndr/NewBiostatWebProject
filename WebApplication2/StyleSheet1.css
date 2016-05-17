@@ -250,18 +250,20 @@ a:hover{
 }
 
 .innerModule1:hover{
+    background-color: #26C157;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .innerModule2{
-    background-color: lightgray;
+    background-color: lightblue;
     padding: 10px;
     height: 250px;
 }
 
 .innerModule2:hover{
+    background-color: aqua;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -274,6 +276,7 @@ a:hover{
 }
 
 .innerModule3:hover{
+    background-color: #F2F23C;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -287,6 +290,7 @@ a:hover{
 }
 
 .innerModule4:hover{
+    background-color: #0DEB70;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);

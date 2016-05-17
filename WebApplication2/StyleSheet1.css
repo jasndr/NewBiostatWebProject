@@ -250,20 +250,20 @@ a:hover{
 }
 
 .innerModule1:hover{
-    background-color: #26C157;
+    background-color: darkgreen;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .innerModule2{
-    background-color: lightblue;
+    background-color: #ADD8E6;
     padding: 10px;
     height: 250px;
 }
 
 .innerModule2:hover{
-    background-color: aqua;
+    background-color: #BEE9F7;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -276,21 +276,21 @@ a:hover{
 }
 
 .innerModule3:hover{
-    background-color: #F2F23C;
+    background-color: #F4F5BE;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .innerModule4{
-    background-color: mediumseagreen;
+    background-color: #3CB371;
     color: white;
     padding: 10px;
     height: 250px;
 }
 
 .innerModule4:hover{
-    background-color: #0DEB70;
+    background-color: #4DC482;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -301,7 +301,7 @@ a:hover{
 }
 
 .moduleDarkHeader:hover, .moduleLightHeader:hover{
-    color: darkseagreen !important;
+    color: #3F9C68 !important;
 }
 
 .menuModule a{
@@ -416,7 +416,7 @@ a:hover{
 }
 
 .bottomFooter{
-    background-color: #4E2E28; 
+    background-color: #114020; 
     color: white;
     clear: both;
     display: block;
@@ -429,7 +429,7 @@ a:hover{
 }
 
 .innerFooter{
-    background-color: antiquewhite;
+    background-color: #E3E3AD;
     color: black;
     margin: 20px 10px 20px 10px;
     opacity: .95;
@@ -452,13 +452,13 @@ a:hover{
     font-family: 'Segoe UI';
     font-size: 16px;
     text-align: right;
-    color: #4E2E28;
+    color: #114020;
 }
 
 .contactInfo{
     font-family: 'Segoe UI';
     font-size: 12px;
-    color: #4E2E28;
+    color: #114020;
     text-align: right;
 }
 
@@ -471,8 +471,8 @@ a:hover{
 .jabsomImage{
     text-align: right;
     margin-top: 10px;
-    height: 87px;
-    width: 70px;
+    height: 100px;
+    width: 80px;
 }
 
 .manoaImage{

@@ -105,6 +105,7 @@
     <Content Include="images\G12.jpg" />
     <Content Include="images\inbre.png" />
     <Content Include="images\jabsom-img1.jpg" />
+    <Content Include="images\Jabsom1-img2.jpg" />
     <Content Include="images\Jabsom10-img4.jpg" />
     <Content Include="images\Jabsom5-img1.jpg" />
     <Content Include="images\Jabsom7-img7.jpg" />
@@ -117,7 +118,6 @@
     <Content Include="images\OBQHS_Banner.jpg" />
     <Content Include="images\manoaseal_transparent.png" />
     <Content Include="images\Paradise2-img3.jpg" />
-    <Content Include="images\Paradise3-img2.jpg" />
     <Content Include="images\refreshingPlant.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">

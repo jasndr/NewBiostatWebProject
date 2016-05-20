@@ -52,13 +52,13 @@
     <!--#Main Navigation Bar -->
     <div class="mainNavBar">
         <ul id="nav">
-            <li><a class="active" href="index.html">Welcome</a></li>                            <!-- (Welcome Link) -->
+            <li><a href="index.html">Welcome</a></li>                            <!-- (Welcome Link) -->
             <li class="dropdown">
              <a href="http://biostat.jabsom.hawaii.edu/services.html" class="dropbtn">Our Expertise</a>                      <!-- (Our Expertise Link) -->
                 <div class="dropdown-content">
                     <a href="http://biostat.jabsom.hawaii.edu/services.html">Research Design</a>
                     <a href="http://biostat.jabsom.hawaii.edu/services.html">Data Analysis</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/services.html">Reults Dissemination</a>
+                    <a href="http://biostat.jabsom.hawaii.edu/services.html">Results Dissemination</a>
                     <a href="http://biostat.jabsom.hawaii.edu/services.html">Training & Education</a>
                     <!-- <a href="expertise.html/#researchDesign">Research Design</a>                
                     <a href="expertise.html/#dataAnalysis">Data Analysis</a>                    
@@ -67,7 +67,7 @@
                 </div>
             </li>        
             <li class="dropdown">
-                <a href="http://biostat.jabsom.hawaii.edu/fee.html">Collaboration & Services</a>                        <!-- (Collaboration & Services Link) -->
+                <a href="http://biostat.jabsom.hawaii.edu/fee.html" class="dropbtn">Collaboration & Services</a>                        <!-- (Collaboration & Services Link) -->
                 <div class="dropdown-content">
                     <a href="http://biostat.jabsom.hawaii.edu/fee.html">Free Consultation</a>
                     <a href="http://biostat.jabsom.hawaii.edu/fee.html">Grant Development and Peparation</a>
@@ -80,7 +80,7 @@
                 </div>
             </li>
             <li class="dropdown">
-                <a href="http://biostat.jabsom.hawaii.edu/members.html">Faculty & Staff</a>                                  <!-- (Faculty & Staff Link) -->
+                <a href="http://biostat.jabsom.hawaii.edu/members.html" class="dropbtn">Faculty & Staff</a>                                  <!-- (Faculty & Staff Link) -->
                 <div class="dropdown-content">
                     <a href="http://biostat.jabsom.hawaii.edu/members.html">Faculty</a>
                     <a href="http://biostat.jabsom.hawaii.edu/members.html">Staff</a>
@@ -89,7 +89,7 @@
                 </div>           
             </li>
             <li class="dropdown">
-                <a href="http://biostat.jabsom.hawaii.edu/resources.html">Resources</a>                                      <!-- (Resources Link) -->
+                <a href="http://biostat.jabsom.hawaii.edu/resources.html" class="dropbtn">Resources</a>                                      <!-- (Resources Link) -->
                 <div class="dropdown-content">
                     <a href="http://biostat.jabsom.hawaii.edu/resources.html">Online Statistical Courses</a>
                     <a href="http://biostat.jabsom.hawaii.edu/resources.html">Statistical Test</a>
@@ -126,7 +126,7 @@
             <!--#Revolving Images  -->
         <div class="rotatingImages">
             <br />
-            <div id="BQHScarousel" class="carousel" data-ride="carousel" data-interval="10000">
+            <div id="BQHScarousel" class="carousel" data-ride="carousel" data-interval="5000">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#BQHScarousel" data-slide-to="0" class="active"></li>
@@ -211,17 +211,17 @@
     <!--#Main Content ===> This alternates between all BQHS pages. -->
     <div class="mainContent container-fluid">
  
-        <!--First Row (Table of four contents on main page) -->   
+        <!--First Row (Table of three contents on main page) -->   
         <div class="row" id="row1">
 
-            <div class="col-md-6 menuModule">
+            <div class="col-md-4 col-xs-12 menuModule">
                 <div class="innerModule1">
                     <h4><a class="niceHeader moduleDarkHeader" href="http://biostat.jabsom.hawaii.edu/services.html">Research</a></h4>
                     <div class="row"> <!--Image and text for module (#1) -->
-                        <div class="col-md-6"> <!--Image (#1) -->
+                        <div class="col-xs-6"> <!--Image (#1) -->
                             <img class="modulePictures" src="./images/module1.jpg" alt="Research" />
                         </div>
-                        <div class="col-md-6 moduleContent"> <!-- Text(#1) -->
+                        <div class="col-xs-6 moduleContent"> <!-- Text(#1) -->
                             <p>
                                 The faculty and staff at BQHS have extensive experience with epidemiologic investigations, basic science research,
                                  and more.
@@ -234,14 +234,14 @@
              </div>
          
 
-            <div class="col-md-6 menuModule">
+            <div class="col-md-4 col-xs-12 menuModule">
                 <div class="innerModule2">
                     <h4><a class="niceHeader moduleLightHeader" href="http://biostat.jabsom.hawaii.edu/fee.html">Collaboration</a></h4>
                     <div class="row"> <!--Image and text for module (#2) -->
-                        <div class="col-md-6"> <!--Image (#2) -->
+                        <div class="col-xs-6"> <!--Image (#2) -->
                             <img class="modulePictures" src="./images/module2.jpg" alt="Collaboration" />
                         </div>
-                        <div class="col-md-6 moduleContent"> <!-- Text(#2) -->
+                        <div class="col-xs-6 moduleContent"> <!-- Text(#2) -->
                             <p>
                                 Our faculty and staff offer biostatistical and bioinformatical services and collaborations to promote excellence 
                                 in quantiative health research.
@@ -253,16 +253,14 @@
                 </div>
             </div>
 
-        </div> <!-- (End Row 1) -->
-        <div class="row"> <!--Second Row (Table of cour contents on main page) -->
-            <div class="col-md-6 menuModule">
+            <div class="col-md-4 col-xs-12 menuModule">
                 <div class="innerModule3">
                     <h4><a class="niceHeader moduleLightHeader" href="http://biostat.jabsom.hawaii.edu/resources.html">Resources</a></h4>
                     <div class="row"> <!--Image and text for module (#3) -->
-                        <div class="col-md-6"> <!--Image (#3) -->
+                        <div class="col-xs-6"> <!--Image (#3) -->
                             <img class="modulePictures" src="./images/module3.jpg" alt="Resources" />
                         </div>
-                        <div class="col-md-6 moduleContent"> <!-- Text(#3) -->
+                        <div class="col-xs-6 moduleContent"> <!-- Text(#3) -->
                             <p>
                                 Want to learn more about Biostatistics and Quantitative Health Sciences?  
                                 Find valuable tools and research methods here.
@@ -273,80 +271,20 @@
                         </div> <!--(End Image and text for module (#3) -->
                 </div>
             </div>
-            <div class="col-md-6 menuModule">
-                <div class="innerModule4">
-                    <h4><a class="niceHeader moduleDarkHeader" href="http://biostat.jabsom.hawaii.edu/members.html">People</a></h4>
-                    <div class="row"> <!--Image and text for module (#4) -->
-                        <div class="col-md-6"> <!--Image (#4) -->
-                            <img class="modulePictures" src="./images/module4.jpg" alt="People" />
-                        </div>
-                        <div class="col-md-6 moduleContent"> <!-- Text(#4) -->
-                            <p>
-                                Looking for a specific faculty or staff member?  See a brief directory and overview of our faculty and staff members
-                                and their duties.
-                                <br /><br />
-                                <a class="moduleDarkHeader" href="http://biostat.jabsom.hawaii.edu/members.html"><i>Learn More...</i></a>
-                            </p>
-                        </div>
-                        </div> <!--(End Image and text for module (#4) -->
-                </div>
-            </div>
-         </div>
+
+        </div> <!-- (End Row 1) -->
 
     </div> <!--(End Main Content) -->
 
 
-
-    <!--#Content Held on the right side of each page. -->
-    <div class="container-fluid rightSideBar">
-
-        <!--#BQHS Enhancement Announcement (Header) -->
-        <div class="container-fluid visionTitle">
-            <h4>Enhancement Fund</h4>
-        </div>
-
-        <!--#BQHS ENhancement Announcement (Content) -->
-        <div class="container-fluid visionContent hierarchy">
-            <p><br />Your generous gift will allow BQHS to maintain and further develop this important JABSOM infrastructure resource.
-                     Thank you for your generosity! <br />
-            </p> 
-
-            <ul id="nav2">
-                <li class="dropdown">
-                    <img class="giveNowButton" src="./images/button_give-now.jpg" />         
-                    <div class="dropdown-content">
-                        <a href="https://giving.uhfoundation.org/funds/12616904" target="_blank">Give Online</a>
-                        <a href="http://www.uhfoundation.org/give/gifts-us-mail" target="_blank">Give by US Mail (Designate "JABSOM BQHS")</a>
-                    </div>
-                </li>
-             </ul>         
-            <h4 class="mahalo">MAHALO!</h4>
-        </div>
-
-        <!--#Contact Us (Header) -->
-        <div class="container-fluid visionTitle">
-            <h4>Contact Us!</h4>
-        </div>
-        <div class="container-fluid visionContent hierarchy">
-            <p><br />If you have any questions, service requests, or inquiries for BQHS, please reach us below:</p>
-            <h5><b>Service Requests</b></h5>
-            <a class="btn btn-success contentButton" href="https://redcap.jabsom.hawaii.edu/redcap/surveys/?s=3C4KD88PEP" target="_blank" role="button">Online <br />Collaboration Form</a>
-            <br />
-            <h5><b>Questions and Inquiries</b></h5>
-            <a class="btn btn-success contentButton" href="mailto:biostat@hawaii.edu" role="button">Email</a>
-            <p><br /><i>Thank you for considering BQHS. We look forward to getting in contact and working with you!</i>
-            </p>
-        </div>
-
-    </div>
-
         </div> <!--(End Div to create Body Borders)  -->
 
+
       <!--#Footer -->
-    <div class="bottomFooter">
+    <div class="container bottomFooter">
 
         <!--Inner Footer Area-->
-        <div class="container innerFooter">
+        <div class="container-fluid innerFooter">
 
         <!--#Left Footer -->
         <div class="container-fluid pull-left" id="leftFooter">

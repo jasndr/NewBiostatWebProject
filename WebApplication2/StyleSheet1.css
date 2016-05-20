@@ -1,10 +1,10 @@
 ﻿body {
     background: 
         linear-gradient(
-            rgba(227, 227, 173, 0.45),
-            rgba(227, 227, 173, 0.45)
+            rgba(238, 226, 168, .24),
+            rgba(238, 226, 168, .24)
         ),
-        url("./images/refreshingPlant.jpg");
+        url("./images/leavesCut.jpg"); 
     background-size: cover;
     color: #000;
     padding: 0px;
@@ -23,14 +23,14 @@ a:hover{
 .topNavBar{
      z-index: 10;
      position: absolute;
-     color: #E3E3AD;
+     color: #EEE2A8;
      width: 100%;
      text-align: right;
 
 }
 
 .topMostLinks{
-    color: #E3E3AD;
+    color: #EEE2A8;
     text-decoration: none;
 }
 
@@ -79,8 +79,10 @@ a:hover{
 .mainBody{
     margin-left: 100px;
     margin-right: 100px;
+    padding-left: -10px;
+    padding-right: -10000px;
     z-index: 500;
-    background-color: white;   
+    background-color: #FFF;   
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -90,16 +92,18 @@ a:hover{
     z-index: 1000;
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI';
+    font-size: 17px;
 }
 
 #nav {
-    border: 1px solid #000;
     border-width: 1px 0;
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: darkseagreen;
+    background-color: #EEE2A8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 #nav li{
@@ -112,13 +116,14 @@ a:hover{
 #nav a, .dropbtn{
     display:inline-block;
     padding: 10px;
-    color: white;
+    color: #114020;
     text-decoration: none;
 }
 
+
 #nav a:hover, .dropdown:hover .dropbtn{
-   background-color: #E3E3AD;
-   color: black;
+   background: #114020;
+   color: #FFF;
 }
 
 #nav .dropdown{
@@ -129,14 +134,15 @@ a:hover{
     display: none;
     position: absolute;
     background-color: #114020;
-    color: black;
+    color: #FFF;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     text-align: left;
-    font-size: small;
+    font-size: 13px;
+    font-family: 'Segoe UI';
 }
 
 .dropdown-content a{
-    color: black;
+    color: #FFF !important;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -145,7 +151,8 @@ a:hover{
 }
 
 .dropdown-content a:hover{
-    background-color: #F1F1F1;
+    background-color: darkseagreen !important;
+    color: #FFF !important;
 
 }
 
@@ -161,13 +168,7 @@ a{
 }
 
 a:hover{
-    background-color: seagreen;
     text-decoration: none;
-}
-
-.active {
-    background-color: seagreen;
-    color: black;
 }
 
 .currentLink{
@@ -181,12 +182,10 @@ a:hover{
 
 .rotatingImages{
     margin-top: -40px;
-    margin-bottom: 20px;
-    padding-left: -100px;
-    padding-right: 0;
+    margin-bottom: 5px;
     position: relative;
     width: 100% !important;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /**box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
 
 }
 
@@ -256,73 +255,63 @@ a:hover{
 }
 
 .mainContent{
-    float: left;
-    width: 69%;
-    background-color: #FFF;
+    width: 100%;
     color: #000;
 }
 
 .menuModule{
-    float: left;
-    margin: 0;
     background-color: #FFF;
-    padding: 5px 0px 5px 0px;
-    margin-bottom: 1.25%;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .innerModule1{
-    background-color: #114020;
+    background-color: #F2975A;
     color: white;
     padding: 15px;
     height: 250px;
+    margin-left: -15px;
+    margin-right: -5px;
 }
 
 .innerModule1:hover{
-    background-color: darkgreen;
+    background-color: #F3A672;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .innerModule2{
-    background-color: #ADD8E6;
+    background-color: #F6B78C;
     padding: 15px;
     height: 250px;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .innerModule2:hover{
-    background-color: #BEE9F7;
+    background-color: #F7C3A1;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .innerModule3{
-    background-color: #E3E3AD;
+    background-color: #F9D2B8;
     padding: 15px;
     height: 250px;
+    margin-left: -5px;
+    margin-right: -15px;
 }
 
 .innerModule3:hover{
-    background-color: #F4F5BE;
+    background-color: #FBE1D0;
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-.innerModule4{
-    background-color: #3CB371;
-    color: white;
-    padding: 15px;
-    height: 250px;
-}
-
-.innerModule4:hover{
-    background-color: #4DC482;
-    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-}
 
 .moduleDarkHeader{
     color: white !important;
@@ -344,6 +333,7 @@ a:hover{
 
 .modulePictures{
     max-height: 137px !important;
+    width: 100%;
     max-width: 175px;
     float: left;
     padding-right: 10px;
@@ -369,28 +359,6 @@ a:hover{
     padding-bottom: 5px;
 }
 
-.rightSideBar{
-    float: right;
-    width: 31%;
-    background: none;
-    color: #000;
-    padding-bottom: -10px;
-    padding-top: 5px;
-}
-
-.visionTitle{
-    background-color: darkseagreen;
-    color: white;
-    font-family: 'Segoe UI';
-    width: 101.25%;
-}
-
-.visionContent{
-    background-color: #E3E3AD;
-    font-size: 12px;
-    font-family: 'Segoe UI';
-    width: 101.25%;
-}
 
 #nav2 {
     
@@ -428,23 +396,6 @@ a:hover{
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-.mahalo{
-    text-align: center;
-    font-weight: bold;
-}
-
-.contentButton{
-    background-color: darkseagreen !important;
-    color: white !important;
-    font-weight: bold !important;
-    width: 100%;
-}
-
-.contentButton:hover{
-    background-color: forestgreen !important;
-    color: white !important;
-    font-weight: bold;
-}
 
 .bottomFooter{
     background-color: #114020; 
@@ -456,14 +407,12 @@ a:hover{
     min-height: 100%;
     width: 100%;
     bottom: 0px;
-    opacity: .8;
 }
 
 .innerFooter{
-    background-color: #E3E3AD;
+    background-color: #EEE2A8;
     color: black;
     margin: 20px 10px 20px 10px;
-    opacity: .95;
 }
 
 #leftFooter{

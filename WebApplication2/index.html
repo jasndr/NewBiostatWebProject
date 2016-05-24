@@ -19,6 +19,7 @@
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
@@ -37,8 +38,10 @@
         </p> 
         <div class="searchForm">                                                            <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
             <form action="/">                                                               <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search" type="text" name="search" placeholder=" Search..." />     <!--(For Cancer Center site, yes!) -->
-            <input class="searchButton" type="submit" value="Search" />
+            <input class="search form-control-static" type="text" name="search" placeholder=" Search BQHS" />     <!--(For Cancer Center site, yes!) -->
+            <button type="submit" class="btn searchButton">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
             </form>
         </div>
     </div>
@@ -270,10 +273,10 @@
 
 
       <!--#Footer -->
-    <div class="container bottomFooter">
+    <div class="container-fluid bottomFooter">
 
         <!--Inner Footer Area-->
-        <div class="container-fluid innerFooter">
+        <div class="container innerFooter">
 
         <!--#Left Footer -->
         <div class="container-fluid pull-left" id="leftFooter">

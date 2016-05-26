@@ -302,7 +302,12 @@ a:hover{
 }
 
 .innerModule1:hover{
-    background-color: #2BA150;
+    /**background-color: #2BA150;*/
+    background: 
+        linear-gradient(
+                rgba(37, 141, 70, 1),
+                rgba(37, 141, 70, 1)
+        );
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -316,6 +321,7 @@ a:hover{
             rgba(54, 201, 100, .5)
         ),
         url("./images/Flower5-twotone.jpg");
+    color: white;
     padding: 15px;
     height: 310px;
     margin-left: -15px;
@@ -323,7 +329,11 @@ a:hover{
 }
 
 .innerModule2:hover{
-    background-color: #4ACF74;
+    /**background-color: #4ACF74;*/
+    background:
+        linear-gradient(
+            rgba(54, 201, 100, 1),
+            rgba(54, 201, 100, 1));
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -337,6 +347,7 @@ a:hover{
             rgba(114, 218, 147, .5)
         ),
         url("./images/Flower3-twotone.jpg");
+    color: white;
     padding: 15px;
     height: 310px;
     margin-left: -6px;
@@ -344,7 +355,11 @@ a:hover{
 }
 
 .innerModule3:hover{
-    background-color: #86DFA2;
+    /**background-color: #86DFA2;*/
+    background:
+        linear-gradient(
+            rgba(114, 218, 147, 1),
+            rgba(114, 218, 147, 1));
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
     box-shadow: 0 0 20px rgba(0,0,0,0.5);

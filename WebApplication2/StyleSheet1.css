@@ -110,7 +110,7 @@ a:hover{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 17px;
-    border-top: 1px solid #B5AA34; /**#FFDF00*/
+    border-top: 1px solid #EEE2A8; /**#B5AA34 #FFDF00*/
     border-bottom: 1px solid #000;
 }
 
@@ -228,11 +228,15 @@ a:hover{
     padding: 0;
 }
 
+.carousel .carousel-indicators{
+    visibility: hidden;
+}
 
 .carousel-caption{
     margin-left: -20%;
     margin-right: -20%;
-    margin-bottom: -5.25%
+    margin-bottom: -5.5%;
+    opacity: .8;
 }
 
 .carouselLinks a{
@@ -246,16 +250,15 @@ a:hover{
 }
 
 .textBox{
-    background-color: black;
-    color: white;
-    opacity: .85;
+    background-color: white;
+    color: #114020;
     font-family: 'Segoe UI';
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 .textBox a{
-    color: lightgreen;
+    color: #114020;
 }
 
 .textBox a:hover{
@@ -304,12 +307,12 @@ a:hover{
     /**background: #258D46;*/
     background:
         linear-gradient(
-            rgba(255, 255, 255, .3),
-            rgba(255, 255, 255, .3)
+            rgba(37, 141, 70, .7),
+            rgba(37, 141, 70, .7)
         ),
         url("./images/Flower1-twotone.jpg");
     background-size: cover;
-    color: black;
+    color: white;
     padding: 15px;
     height: 310px;
     margin-left: -15px;
@@ -327,15 +330,15 @@ a:hover{
 }
 
 .innerModule2{
-    /**background-color: #36C964;*/
+    /**background: #258D46;*/
     background:
         linear-gradient(
-            rgba(255, 255, 255, .3),
-            rgba(255, 255, 255, .3)
+            rgba(37, 141, 70, .75),
+            rgba(37, 141, 70, .75)
         ),
         url("./images/Flower5-twotone.jpg");
     background-size: cover;
-    color: black;
+    color: white;
     padding: 15px;
     height: 310px;
     margin-left: -15px;
@@ -353,15 +356,15 @@ a:hover{
 }
 
 .innerModule3{
-    /**background-color: #72DA93;*/
+    /**background: #258D46;*/
     background:
         linear-gradient(
-            rgba(255, 255, 255, .3),
-            rgba(255, 255, 255, .3)
+            rgba(37, 141, 70, .85),
+            rgba(37, 141, 70, .85)
         ),
         url("./images/Flower3-twotoneBW.jpg");
     background-size: cover;
-    color: black;
+    color: white;
     padding: 15px;
     height: 310px;
     margin-left: -6px;
@@ -473,7 +476,9 @@ a:hover{
 
 .innerFooter{
     width: 1025px !important;
-    background-color: #114020;
+    /**background-color: #114020;
+    background:
+        linear-gradient(rgba(0, 0, 0, 1), rgba(17, 64, 32, 1)); */
     color: white;
     margin: 0px 10px -10px 10px;
     margin-bottom: -20px !important;

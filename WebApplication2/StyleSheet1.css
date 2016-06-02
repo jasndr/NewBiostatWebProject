@@ -1,4 +1,14 @@
-﻿body {
+﻿/**-- ///////////////////////////////////////////////////////////////////
+      // Office of Biostatistics & Quantitative Health Science Website //
+      // University of Hawaii, John A. Burns School of Medicine        //
+      //                                                               //
+      // @author Jason Delos Reyes                                     //
+      // @date May 2016                                                //
+      //                                                               //
+      /////////////////////////////////////////////////////////////////// --*/
+
+/**-----------------------[In General]-------------------------------------------*/
+body {
     background: 
         linear-gradient(
             rgba(255, 255, 255, .3),
@@ -19,6 +29,8 @@ a:hover{
     text-decoration: none;
 }
 
+
+/***----------------[BQHSheader.html]------------------------------------------*/
 .topNavBar{
      z-index: 10;
      margin-top: -18px;
@@ -181,6 +193,7 @@ a:hover{
     display: block;
 }
 
+/** ------------------------------[index.html & others]------------------------------------------------------*/
 
 a{
     color:#C00;
@@ -193,7 +206,7 @@ a:hover{
 }
 
 .currentLink{
-    color: dimgrey;
+    color: dimgrey !important;
 }
 
 .hierarchy a:hover{
@@ -426,6 +439,49 @@ a:hover{
 }
 
 
+/** ---------- [expertise.html & others excl. index page] -------------------------*/
+
+.breadCrumbNav{
+    width: 102% !important;
+    margin-right: 10px;
+    margin-left: -2%;
+}
+
+.mainInfo{
+    max-width: 1030px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: -50px !important;
+    margin-right: -125px !important;
+}
+
+.leftBank{
+    float: left;
+    max-width: 31%;
+}
+
+.rightBank{
+    float: right;
+    max-width: 69%;
+    background-color: #FFF;
+    margin-left: -10px;
+}
+
+.visionTitle{
+     background-color: darkseagreen;
+     color: white;
+     font-family: 'Segoe UI';
+     width: 100%;
+ }
+ 
+.visionContent{
+     background-color: #E3E3AD;
+     font-size: 12px;
+     font-family: 'Segoe UI';
+     width: 100%;
+ }
+
+
 #nav2 {
     
     list-style: none;
@@ -462,7 +518,12 @@ a:hover{
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
+ .mahalo{
+     text-align: center;
+     font-weight: bold;
+ }
 
+/** --------------------------------- [BQHSfooter.html] ------------------------------------------------------------*/
 .bottomFooter{
     width: 100%;
     /**background-color: #114020;*/

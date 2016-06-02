@@ -1,121 +1,6 @@
-﻿<!DOCTYPE html>
-<!-- ######################################################################
-     # Office of Biostatistics & Quantitative Health Science Website      #
-     # University of Hawaii, John A. Burns School of Medicine             #
-     #                                                                    #
-     # @author Jason Delos Reyes                                          #
-     # @date May 2016                                                     #
-     #                                                                    #
-     ###################################################################### -->
-<html>
+﻿<!--#include virtual="./BQHSheader.html" -->
 
-<head>
-    <title>Biostatistics & Quantitative Health Sciences</title>
-    <link rel="icon" href="./images/Logo_Final.png" />
-	<meta charset="utf-8" />
-    <meta name="description" content="Office of Biostatistics and Quantitative Health Sciences at the University of Hawaii's John A. Burns
-        School of Medicine" />
-    <meta name="keywords" content="BQHS, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
-    <meta name="author" content="Jason Delos Reyes" />
-    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</head>
-
-
-<body>
-
-    <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
-    <div class="container-fluid topNavBar pull-right">
-        <!-- #First navigation bar -->
-        <p>
-            <a class="topMostLinks" href="http://biostat.jabsom.hawaii.edu/contact.html">Contact</a> |
-            <a class="topMostLinks" href="http://biostat.jabsom.hawaii.edu/jobs.html">Careers</a> |
-            <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
-            <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
-        </p> 
-        <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="/newbiostatsite/">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                            <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="search" placeholder="Search BQHS..." />     <!--(For Cancer Center site, yes!) -->
-            <button type="submit" class="btn searchButton">
-                <span class="glyphicon glyphicon-search"></span>
-            </button>
-            </form>
-        </div>
-    </div>
-
-
-    <!-- #BQHS Banner -->
-    <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
-    </div>  
-
-    <!-- #Main Navigation Bar -->
-    <div class="mainNavBar">
-        <ul id="nav">
-            <li><a href="index.html">Welcome</a></li>                            <!-- (Welcome Link) -->
-            <li class="dropdown">
-             <a href="http://biostat.jabsom.hawaii.edu/services.html" class="dropbtn">Our Expertise</a>                      <!-- (Our Expertise Link) -->
-                <div class="dropdown-content">
-                    <a href="http://biostat.jabsom.hawaii.edu/services.html">Research Design</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/services.html">Data Analysis</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/services.html">Results Dissemination</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/services.html">Training & Education</a>
-                    <!-- <a href="expertise.html/#researchDesign">Research Design</a>                
-                    <a href="expertise.html/#dataAnalysis">Data Analysis</a>                    
-                    <a href="expertise.html/#resultsDissemination">Results Dissemination</a>    
-                    <a href="expertise.html/#training">Training & Education</a> -->
-                </div>
-            </li>        
-            <li class="dropdown">
-                <a href="http://biostat.jabsom.hawaii.edu/fee.html" class="dropbtn">Collaboration & Services</a>                        <!-- (Collaboration & Services Link) -->
-                <div class="dropdown-content">
-                    <a href="http://biostat.jabsom.hawaii.edu/fee.html">Free Consultation</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/fee.html">Grant Development and Peparation</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/fee.html">Long-term Funded Projects</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/fee.html">Short-term/Non-Extramurally Funded Projects</a>
-                   <!-- <a href="collaboration.html/#consultation">Free Consultation</a>
-                    <a href="collaboration.html/#grant">Free Grant Development and Prepartation</a>
-                    <a href="collaboration.html/#longterm">Long-term Funded Projects</a>
-                    <a href="collaboration.html/#shortterm">Short-term/Non-Extramurally Funded Projects</a> -->
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="http://biostat.jabsom.hawaii.edu/members.html" class="dropbtn">Faculty & Staff</a>                                  <!-- (Faculty & Staff Link) -->
-                <div class="dropdown-content">
-                    <a href="http://biostat.jabsom.hawaii.edu/members.html">Faculty</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/members.html">Staff</a>
-                    <!-- <a href="members.html/#faculty">Faculty</a>
-                    <a href="members.html/#staff">Staff</a> -->
-                </div>           
-            </li>
-            <li class="dropdown">
-                <a href="http://biostat.jabsom.hawaii.edu/resources.html" class="dropbtn">Resources</a>                                      <!-- (Resources Link) -->
-                <div class="dropdown-content">
-                    <a href="http://biostat.jabsom.hawaii.edu/resources.html">Online Statistical Courses</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/resources.html">Statistical Test</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/resources.html">Statistical Calculators</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/resources.html">Statistical Software</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/resources.html">Bioinformatics Data Repositories/Tools</a>
-                    <a href="http://biostat.jabsom.hawaii.edu/resources.html">Additional Bioinformatics Tools</a>
-                    <!-- <a href="resources.html/#courses">Online Statistical Courses</a>
-                    <a href="resources.html/#test">Statistical Test</a>
-                    <a href="resources.html/#calculators">Statistical Calculators</a>
-                    <a href="resources.html/#software">Statistical Software</a>
-                    <a href="resources.html/#repositories">Bioinformatics Data Repositories/Tools</a>
-                    <a href="resources.html/#additional">Additional Bioinformatics Resources</a> -->
-                </div>
-            </li>
-        </ul>
-    </div>
-
-
-    <!-- DIV to create Body Borders -->
-    <div class="container mainBody"> 
-
-    <!-- Breadcrumb/Navigational Hierarchy -->
+         <!-- Breadcrumb/Navigational Hierarchy -->
 <!-- 
     <div class="hierarchy">
         <ol class="breadcrumb">
@@ -205,10 +90,6 @@
 
              </div>
             </div> <!--(End Revolving Images) -->
-
-
-    <!-- #Main Content ===> This alternates between all BQHS pages. -->
-    <div class="mainContent container-fluid">
  
         <!-- First Row (Table of three contents on main page) -->   
         <div class="row" id="row1">
@@ -219,8 +100,8 @@
                     <div class="row moduleContent">
                         <h4><a class="moduleLightHeader" href="http://biostat.jabsom.hawaii.edu/services.html">Research</a></h4>
                         <p>
-                            The faculty and staff at BQHS have extensive experience with epidemiologic investigations, basic science research,
-                            and more
+                            We have extensive experience with epidemiologic investigations, basic science research,
+                            and more.
                         <br /><br />
                         <a class="moduleLightHeader" href="http://biostat.jabsom.hawaii.edu/services.html"><i>Learn More...</i></a>
                     </p>
@@ -262,54 +143,4 @@
 
         </div> <!-- (End Row 1) -->
 
-    </div> <!-- (End Main Content) -->
-
-
-   </div> <!-- (End Div to create Body Borders)  -->
-
-
-      <!-- #Footer -->
-    <div class="container-fluid bottomFooter">
-
-        <!-- Inner Footer Area-->
-        <div class="container innerFooter">
-
-        <!-- #Left Footer -->
-        <div class="container-fluid pull-left" id="leftFooter">
-            <img class="jabsomImage" src="./images/jabsom_logo_white_oval_transparent.png" alt="JABSOM" />
-            <img class="manoaImage" src="./images/manoaseal_transparent.png" alt="Manoa" />
-        </div>
-        
-
-        <!-- #Right Footer -->
-        <div class="container-fluid" id="rightFooter">
-
-           <p class="officeLocation pull-left">
-               <br />651 Ilalo Street, Biosciences Building, Suite 211,
-                     Honolulu, HI 96813
-           </p>
-            <p class="contactInfo pull-left">
-                <br />Phone: <a class="moduleLightHeader" href="tel:+1-808-692-1480">808.692.1480</a>  //  Fax: 808.692.1466  //  Email: biostat@hawaii.edu    
-            </p>
-            
-            
-        </div>
-
-    </div><!-- (End of Inner Footer Area) -->
-
-        <p class="copyright"><br /><br />&copy; 2016 Office of Biostatistics & Quantitative Health Sciences, University of Hawaii, John A. Burns School of Medicine</p>
-
-    </div> <!-- (End of Footer area) -->
-
-
-
-    
-
-
-    
-
-
-
-
-</body>
-</html>
+<!--#include virtual="./BQHSfooter.html" -->

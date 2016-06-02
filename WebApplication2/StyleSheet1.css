@@ -21,6 +21,7 @@ a:hover{
 
 .topNavBar{
      z-index: 10;
+     margin-top: -18px;
      position: absolute;
      color: #B5AA34;
      width: 100%;
@@ -59,20 +60,20 @@ a:hover{
     border: 0px solid #DBDBDB;
     border-radius: 15px;
     padding-left: 10px;
-    padding-right: 30px;
+    padding-right: 20px;
     outline: none;
+    margin-top: 10px;
 }
 
 .searchButton{
     position: relative;
-    left: -8px;
     top: -2px;
     background-color: white;
     color: gray;
     font-weight: bold;
     border: none;
-    border-radius: 20px !important;
-    left: -35px;
+    border-radius: 15px !important;
+    left: -46px;
 }
 
 .bannerFluid{
@@ -82,6 +83,7 @@ a:hover{
     width: 100%;
     border-top: 0;
     background-color: #114020;
+    margin-top: -20px !important;
 }
 
 .BQHSbanner{
@@ -201,7 +203,6 @@ a:hover{
 
 .rotatingImages{
     margin-top: -10px;
-    margin-bottom: 5px;
     margin-left: -5%;
     position: relative;
     width: 110%;
@@ -280,8 +281,8 @@ a:hover{
 
 .mainContent{
     width: 1025px;
-    margin-left: -15px !important;
-    margin-top: -5px;
+   /** margin-left: -15px !important;
+    margin-top: -5px; */
     color: #000;
     background-color: #FFFFF0;
 }
@@ -289,8 +290,8 @@ a:hover{
 .menuModule{
     background-color: #FFFFF0;
     padding: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: -165px;
+    margin-bottom: -10px;
 }
 
 .menuModule a{
@@ -315,7 +316,8 @@ a:hover{
     color: white;
     padding: 15px;
     height: 310px;
-    margin-left: -15px;
+    float: left;
+   margin-left: -30px;
     margin-right: -5px;
 }
 
@@ -341,8 +343,9 @@ a:hover{
     color: white;
     padding: 15px;
     height: 310px;
+    float: left;
     margin-left: -15px;
-    margin-right: -16px;
+    margin-right: -15px;
 }
 
 .innerModule2:hover{
@@ -367,7 +370,8 @@ a:hover{
     color: white;
     padding: 15px;
     height: 310px;
-    margin-left: -6px;
+    float: left;
+    margin-left: -5px;
     margin-right: -16px;
 }
 
@@ -467,9 +471,7 @@ a:hover{
     color: white;
     clear: both;
     display: block;
-    overflow: hidden;
     position: relative;
-    min-height: 100%;
     bottom: 0px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);    
 }
@@ -480,8 +482,7 @@ a:hover{
     background:
         linear-gradient(rgba(0, 0, 0, 1), rgba(17, 64, 32, 1)); */
     color: white;
-    margin: 0px 10px -10px 10px;
-    margin-bottom: -20px !important;
+    margin: 0px 10px 0px 10px;
     padding-top: 15px;
     padding-bottom: 20px;
     border-bottom: thin solid #EEE2A8;

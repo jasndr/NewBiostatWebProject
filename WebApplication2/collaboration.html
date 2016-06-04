@@ -5,18 +5,18 @@
      #                                                                    #
      # @author Jason Delos Reyes                                          #
      # @date May 2016                                                     #
-     # BQHS Page 2                                                        #
+     # BQHS Page 3                                                        #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>Expertise | BQHS</title>
+    <title>Collaboration &amp; Services | BQHS</title>
     <link rel="icon" href="./images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
     <meta name="description" content="Office of Biostatistics and Quantitative Health Sciences at the University of Hawaii's John A. Burns
         School of Medicine" />
-    <meta name="keywords" content="BQHS, Expertise Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="keywords" content="BQHS, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -59,14 +59,14 @@
         <ul id="nav">
             <li><a href="index.html">Welcome</a></li>                            <!-- (Welcome Link) -->
             <li class="dropdown">
-             <a href="./expertise.html" class="dropbtn">Our Expertise</a>                      <!-- (Our Expertise Link) -->
+                <a href="./expertise.html" class="dropbtn">Our Expertise</a>                      <!-- (Our Expertise Link) -->
                 <div class="dropdown-content">
-                    <a href="./expertise.html#researchDesign">Research Design</a>                
-                    <a href="./expertise.html#dataAnalysis">Data Analysis</a>                    
-                    <a href="./expertise.html#resultsDissemination">Results Dissemination</a>    
+                    <a href="./expertise.html#researchDesign">Research Design</a>
+                    <a href="./expertise.html#dataAnalysis">Data Analysis</a>
+                    <a href="./expertise.html#resultsDissemination">Results Dissemination</a>
                     <a href="./expertise.html#training">Training & Education</a>
                 </div>
-            </li>        
+            </li>
             <li class="dropdown">
                 <a href="./collaboration.html" class="dropbtn">Collaboration & Services</a>                        <!-- (Collaboration & Services Link) -->
                 <div class="dropdown-content">
@@ -75,6 +75,7 @@
                     <a href="./collaboration.html#longterm">Long-term Funded Projects</a>
                     <a href="./collaboration.html#shortterm">Short-term/Non-Extramurally Funded Projects</a>
                 </div>
+            </li>
             </li>
             <li class="dropdown">
                 <a href="http://biostat.jabsom.hawaii.edu/members.html" class="dropbtn">Faculty & Staff</a>                                  <!-- (Faculty & Staff Link) -->
@@ -110,7 +111,7 @@
     <div class="hierarchy breadcrumbNav">
         <ol class="breadcrumb">
             <li><a href="./index.html">Home</a></li>
-            <li class="currentLink"><a href="./expertise.html">Our Expertise</a></li>
+            <li class="currentLink"><a href="./collaboration.html">Collaboration & Services</a></li>
         </ol>
     </div> <!-- (End Breadcrumb) -->
 
@@ -156,108 +157,79 @@
         <div class="container-fluid rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>BQHS Expertise</p></div>
+            <div class="titleOfPage"><p>BQHS Collaboration & Services</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <img class="contentImage" src="./images/Research.jpg" alt="Research" />
+                <img class="contentImage" src="./images/Collaboration.jpg" alt="Research" />
 
-                <p class="contentWords">The faculty and staff at BQHS have extensive experience with epidemiologic investigations, basic science research, clinical studies,
-                    clinical trials, large-scale omics data analysis, and community-based investigations.  We are ready to provide prompt, high quality
-                    biostatistical and bioinformatical services listed below.
+                <p class="contentWords">BQHS offers biostatistical and bioinformatical services and collaborations to promote
+                    excellence in quantitative health research. Members of academic groups or organizations can establish a
+                    collaborative agreement with BQHS, which is a cost-effective and efficient approach to ensure comprehensive
+                    and long-term analytic support for research activities. Our services and collaborative efforts are as 
+                    defined below:
                 </p>
-                <div class="contentButtonWrapper">
-                    <a class="btn btn-success contentButton" href="./documents/BQHS_Brochure_061015.pdf" target="_blank" role="button">
-                        Download BQHS Collaboration & Service Brochure</a>
+
+                <div class="hidingBox" id="consultation">  <!-- Free Project Consultation -->
+                    <div class="hbTitle" id="fcTitle"> <!-- FC Title -->
+                        <p>Free Project Consultation</p>
+                    </div>
+                    <div class="hbContent contentWords" id="fcContent"> <!-- FC Content -->
+                        <p>BQHS provides free initial consultation for each research project. The initial free consultation provides
+                            a perfect opportunitiy for researchers to explore ideas/hypotheses and discuss study feasibility with a
+                            BQHS faculty and/or staff.</p>
+                    </div>
                 </div>
 
-                <div class="hidingBox" id="researchDesign"> <!-- Research Design --> 
-                    <div class="hbTitle" id="rdTitle"> <!-- RD Title -->
-                        <p>Research Design</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="rdContent"><!-- RD Content -->
-                        <ul>
-                            <li>Grant proposal development and review</li>
-                            <li>Research feasibility discussion to establish testable research hypothesis</li>
-                            <li>Sample size and statistical power determination</li>
-                            <li>Database design</li>
-                            <li>Data-instrument development, such as questionaire</li>
-                            <li>Data-coding protocols</li>
-                            <li>Sampling procedures</li>
-                        </ul>
+                <div class="hidingBox" id="grant"> <!-- Free Grant Development and Preparation -->
+                    <div class="hbTitle" id="fgTitle"> <!-- FG Title -->
+                        <p>Free Grant Development and Preparation</p>
+                    </div>
+                    <div class="hbContent contentWords" id="fgContent"> <!-- FG Content -->
                         <p>
-                            <strong>Note:</strong> To help increae the likelihood of success in obtaining funding, BQHS faculty and staff need sufficient time to 
-                            customize the research design and data analysis sections for your individual research proposal. We <em>strongly recommend</em> that
-                            you contact BQHS as early as possible, at least several weeks before the deadline. The involvement of experienced BQHS faculty and
-                            staff from the beginning of the development of a research project tends to significantly increase the quality of an investigation.
+                            To encourage and facilitate more research activities at JABSOM and its affiliated institutes, BQHS
+                            will provide support and expertise in the developement and writing of extramural research grant proposals,
+                            excluding extensive preliminary data analysis effort, free of charge as long as adequate precentage FTE 
+                            of the participating faculty and staff is built into the grant budget. If extensive pilot data analysis is
+                            needed, the BQHS faculty and/or staff can serve as co-PI (Principal Investigators) and/or co-investigators
+                            in the grant proposal, with adequate FTE salary recovery (usually a minimum of 5% FTE). As grant application
+                            deadlines tend to be clustered around certain dates, please contact us well before the deadline so we will be
+                            able to properly support your application and increase your chance of obtaining funding.
                         </p>
-                    </div> 
+                    </div>
                 </div>
 
-                <div class="hidingBox" id="dataAnalysis"> <!-- Data Analysis --> 
-                    <div class="hbTitle" id="daTitle"> <!-- DA Title -->
-                        <p>Data Analysis</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="daContent"> <!-- DA Content -->
-                        <p>Biostatistics</p>
-                        <ul>
-                            <li>Database design and development (OpenClinica, REDCap, ACCESS)</li>
-                            <li>Data coding and management</li>
-                            <li>Comprehensive univariable and multivariable analysis</li>
-                            <li>Data safety monitoring and interim analysis</li>
-                            <li>Tailored statistical tool development to address specific research questions and challenges</li>
-                        </ul>
-                        <p>Bioinformatics</p>
-                        <ul>
-                            <li>Next Generation Sequencing
-                                <ul>
-                                    <li>RNA-Seq</li>
-                                    <li>DNA-Seq</li>
-                                    <li>Chip-Seq</li>
-                                    <li>Exome sequencing</li>
-                                    <li>Targeted sequencing</li>
-                                    <li>Variant detection and more</li>
-                                </ul>
-                            </li>
-                            <li>Microarray data analysis</li>
-                            <li>Proteomics data analysis</li>
-                            <li>Gene annotation</li>
-                            <li>Pathway Analysis</li>
-                        </ul>
-                    </div> 
+                <div class="hidingBox" id="longterm"> <!-- Long-Term Funded Projects -->
+                    <div class="hbTitle" id="ltTitle"> <!-- LT Title -->
+                        <p>Long-Term Funded Projects</p>
+                    </div>
+                    <div class="hbContent contentWords" id="ltContent"> <!-- lt Content -->
+                        <p>For extramural and intramural funded research projects, BQHS faculty and staff can support your study through
+                            either percentage FTE salary recovery or a negotiated service contract.</p>
+                    </div>
                 </div>
+
+                <div class="hidingBox" id="shortterm"> <!-- Short-Term or Non-Extramurally Funded Projects -->
+                    <div class="hbTitle" id="stTitle"> <!-- ST Title -->
+                        <p>Short-Term or Non-Extramurally Funded Projects</p>
+                    </div>
+                    <div class="hbContent contentWords" id="stContent"> <!-- ST Content -->
+                        <p>On a fee-for-service basis, faculty and staff can provide research design and analysis services to
+                            self-initiated projects supported by the investigator's department funds or other sources.</p>
+                        <p>The current BQHS rates (2016-2017) for UH or UH-affiliated projects are:</p>
+                        <ul>
+                            <li><strong>$120/hr for <em>Ph.D.-level</em> Faculty Experts</strong></li>
+                            <li><strong>$60/hr for <em>Master's-level</em> Staff Analysts</strong></li>
+                        </ul>
+                        <p>For non-UH clients, rates will be negotiated individually.</p>
+                    </div>
+                </div>
+                
                
-                <div class="hidingBox" id="resultsDissemination"> <!-- Results Dissemination --> 
-                    <div class="hbTitle" id="redTitle"> <!-- ReD Title -->
-                        <p>Results Dissemination</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="redContent"> <!-- ReD Content -->
-                        <ul>
-                            <li>Statistical results interpretation</li>
-                            <li>Results presentations (e.g., figures and tables) for manuscripts and posters</li>
-                            <li>Biostatsitics and bioinformatics methodology and results sections for reports and manuscripts</li>
-                        </ul>
-                        <p><strong>Note:</strong> Authorship is generally expected on scientific journal articles or presentations,
-                            where substative input and effort on research design and/or data analysis are provided. Reimbursement
-                            for BQHS support (either through %FTE or fee-for-service) <em>does not</em> preclude or replace 
-                            authorship.
-                        </p>
-                    </div> 
-                </div>
 
-                <div class="hidingBox" id="training"> <!-- Training and Education --> 
-                    <div class="hbTitle" id="teTitle"> <!-- TE Title -->
-                        <p>Training and Education</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="teContent"> <!-- TE Content -->
-                        <ul>
-                            <li>Quantitative health science workships and seminars for trainees (graduate students, residents, fellows), 
-                                faculty, and staff</li>
-                            <li>Statistics and bioinformatics courses of various levels of difficulty</li>
-                        </ul>
-                    </div> 
-                </div>
+
+                
 
 
               </div> <!-- (End contentOfPage) -->

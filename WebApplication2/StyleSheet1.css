@@ -623,8 +623,8 @@ a:hover{
     display: table;
     margin: 0 auto;
     text-align: center;
-    background-color: #DA6A25 !important;
-    border-color: #DA6A25 !important;
+    background-color: #C47A46 !important;
+    border-color: #C47A46 !important;
     color: #EEE2A8 !important;
 }
 
@@ -657,6 +657,16 @@ a:hover{
     margin-top: 0;
     background-color: #EEBA99;
     padding-bottom: 10px !important;
+}
+
+.hbContent a, .redLink{
+    color: #A55B27;
+    text-decoration: none;
+}
+
+.hbContent a:hover, .redLink:hover{
+    text-decoration: none;
+    color: white;
 }
 /** ----[Dropdown]---
 .hidden>#stContent{

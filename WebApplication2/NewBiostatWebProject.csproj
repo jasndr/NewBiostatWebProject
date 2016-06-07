@@ -97,6 +97,7 @@
     <Content Include="BQHSfooter.html" />
     <Content Include="BQHSheader.html" />
     <Content Include="collaboration.html" />
+    <Content Include="contact.html" />
     <Content Include="expertise.html" />
     <Content Include="images\button_give-now.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -125,6 +126,8 @@
     <Content Include="images\manoaseal_transparent.png" />
     <Content Include="images\Paris1-img4.jpg" />
     <Content Include="images\Research.jpg" />
+    <Content Include="jobs.html" />
+    <Content Include="members.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

@@ -10,7 +10,7 @@ body {
         linear-gradient(
             rgba(255, 255, 255, .3),
             rgba(255, 255, 255, .3)),
-        url("./images/Hawaii9-twotone-mirrored.jpg") !important;		
+        url("./images/Hawaii9-twotone-mirrored.jpg") no-repeat;		
     background-size: cover !important;
     color: #000;
     padding: 0px;
@@ -749,8 +749,52 @@ a:hover{
      font-weight: bold;
  }
 
+ /** -------[Contact Us]-------*/
+.googleMap {
+    width: 500px;
+    height: 380px;
+    border: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.leftDirections{
+    float: left;
+    width: 45%;
+    margin-left: 30px;
+}
 
+.rightDirections{
+    float: right;
+    width: 45%;
+    margin-left: 10px;
+    
+}
+
+/**--------[Faculty & Staff] -----------*/
+.memberImg{
+    max-width: 100%;
+}
+
+.memberTitle{
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.insideMemberLeft{
+    float: left;
+    width: 40%;
+    margin-left: 20px;
+
+}
+
+.insideMemberRight{
+    float: left;
+    width: 40%;
+    margin-left: 10px;
+}
 
 
 

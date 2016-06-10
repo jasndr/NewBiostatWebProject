@@ -14,10 +14,17 @@
     <link rel="icon" href="./images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-    <meta name="description" content="BQHS offers biostatistical services and collaborations. />
+    <meta name="description" content="BQHS offers biostatistical services and collaborations." />
     <meta name="keywords" content="BQHS, Collaboration, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <!-- TIPUE SEARCH STYLE SHEET -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./tipuesearch/tipuesearch_content.js"></script>
+    <link href="./tipuesearch/tipuesearch.css" rel="stylesheet">
+    <script src="./tipuesearch/tipuesearch_set.js"></script>
+    <script src="./tipuesearch/tipuesearch.min.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -28,249 +35,271 @@
 
 <body>
 
-    <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
-    <div class="container-fluid topNavBar pull-right">
-        <!-- #First navigation bar -->
-        <p>
-            <a class="topMostLinks" href="./contact.html">Contact</a> |
-            <a class="topMostLinks" href="./jobs.html">Careers</a> |
-            <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
-            <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
-        </p> 
-        <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="/newbiostatsite/">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                            <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="search" placeholder="Search BQHS..." />     <!--(For Cancer Center site, yes!) -->
-            <button type="submit" class="btn searchButton">
-                <span class="glyphicon glyphicon-search"></span>
-            </button>
-            </form>
-        </div>
-    </div>
+    <!-- Page Header to create fixed header -->
+    <div class="pageHeader">
 
-
-    <!-- #BQHS Banner -->
-    <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
-    </div>  
-
-    <!-- #Main Navigation Bar -->
-    <div class="mainNavBar">
-        <ul id="nav">
-            <li><a href="index.html">Welcome</a></li>                            <!-- (Welcome Link) -->
-            <li class="dropdown">
-                <a href="./expertise.html" class="dropbtn">Our Expertise</a>                      <!-- (Our Expertise Link) -->
-                <div class="dropdown-content">
-                    <a href="./expertise.html#researchDesign">Research Design</a>
-                    <a href="./expertise.html#dataAnalysis">Data Analysis</a>
-                    <a href="./expertise.html#resultsDissemination">Results Dissemination</a>
-                    <a href="./expertise.html#training">Training & Education</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="./collaboration.html" class="dropbtn">Collaboration & Services</a>                        <!-- (Collaboration & Services Link) -->
-                <div class="dropdown-content">
-                    <a href="./collaboration.html#consultation">Free Consultation</a>
-                    <a href="./collaboration.html#grant">Free Grant Development and Prepartation</a>
-                    <a href="./collaboration.html#longterm">Long-term Funded Projects</a>
-                    <a href="./collaboration.html#shortterm">Short-term/Non-Extramurally Funded Projects</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="./members.html" class="dropbtn">Faculty & Staff</a>                                  <!-- (Faculty & Staff Link) -->
-                <div class="dropdown-content">
-                    <a href="./members.html#faculty">Faculty</a>
-                    <a href="./members.html#staff">Staff</a>
-                </div>           
-            </li>
-            <li class="dropdown">
-                <a href="./resources.html" class="dropbtn">Resources</a>                                      <!-- (Resources Link) -->
-                <div class="dropdown-content">
-                    <a href="./resources.html#courses">Online Statistical Courses</a>
-                    <a href="./resources.html#test">Statistical Test</a>
-                    <a href="./resources.html#calculators">Statistical Calculators</a>
-                    <a href="./resources.html#software">Statistical Software</a>
-                    <a href="./resources.html#repositories">Bioinformatics Data Repositories/Tools</a>
-                    <a href="./resources.html#additional">Additional Bioinformatics Resources</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-
-    <!-- DIV to create Body Borders -->
-    <div class="container mainBody">
-
-        <!-- #Main Content ===> This alternates between all BQHS pages. -->
-        <div class="mainContent container-fluid">
-
-    <!-- Breadcrumb/Navigational Hierarchy -->
-    <div class="hierarchy breadcrumbNav">
-        <ol class="breadcrumb">
-            <li><a href="./index.html">Home</a></li>
-            <li class="currentLink"><a href="./collaboration.html">Collaboration & Services</a></li>
-        </ol>
-    </div> <!-- (End Breadcrumb) -->
-
-    <!-- Main Content for pages after home page (including this one) -->
-    <div class="mainInfo">
-
-
-          <!-- Donation Page to the left --> 
-        <div class="leftBank">
-
-            <!-- #BQHS Enhancement Announcement (Header) -->
-            <div class="visionTitle">
-                <h4>Enhancement Fund</h4>
-            </div>
- 
-            <!-- #BQHS ENhancement Announcement (Content) -->
-            <div class="visionContent hierarchy">
-                <p><br />Your generous gift will allow BQHS to maintain and further develop this important JABSOM infrastructure resource.
-                         Thank you for your generosity! <br />
-                </p> 
- 
-                <ul id="nav2">
-                    <li class="dropdown">
-                        <img class="giveNowButton" src="./images/button_give-now.jpg" />         
-                        <div class="dropdown-content">
-                            <a href="https://giving.uhfoundation.org/funds/12616904" target="_blank">Give Online</a>
-                            <a href="http://www.uhfoundation.org/give/gifts-us-mail" target="_blank">Give by US Mail (Designate "JABSOM BQHS")</a>
-                        </div>
-                    </li>
-                </ul>         
-                <h4 class="mahalo">MAHALO!</h4>
-            </div>
-          
-            <!-- #Contact Us (Header) -->
-            <div class="belowVisionBox hierarchy">
-                
-            </div>
-
-        </div> <!-- (End leftBank) -->
-
-
-        <!-- Majority of the content will go the right side -->
-        <div class="rightBank">
-
-            <!-- Title of Page -->
-            <div class="titleOfPage"><p>BQHS Collaboration & Services</p></div>
-            
-            <!-- Content of Page -->
-            <div class="contentOfPage"> 
-
-                <img class="contentImage" src="./images/Collaboration.jpg" alt="Research" />
-
-                <p class="contentWords">BQHS offers biostatistical and bioinformatical services and collaborations to promote
-                    excellence in quantitative health research. Members of academic groups or organizations can establish a
-                    collaborative agreement with BQHS, which is a cost-effective and efficient approach to ensure comprehensive
-                    and long-term analytic support for research activities. Our services and collaborative efforts are as 
-                    defined below:
-                </p>
-
-                <div class="hidingBox" id="consultation">  <!-- Free Project Consultation -->
-                    <div class="hbTitle" id="fcTitle"> <!-- FC Title -->
-                        <p>Free Project Consultation</p>
-                    </div>
-                    <div class="hbContent contentWords" id="fcContent"> <!-- FC Content -->
-                        <p>BQHS provides free initial consultation for each research project. The initial free consultation provides
-                            a perfect opportunitiy for researchers to explore ideas/hypotheses and discuss study feasibility with a
-                            BQHS faculty and/or staff.</p>
-                    </div>
-                </div>
-
-                <div class="hidingBox" id="grant"> <!-- Free Grant Development and Preparation -->
-                    <div class="hbTitle" id="fgTitle"> <!-- FG Title -->
-                        <p>Free Grant Development and Preparation</p>
-                    </div>
-                    <div class="hbContent contentWords" id="fgContent"> <!-- FG Content -->
-                        <p>
-                            To encourage and facilitate more research activities at JABSOM and its affiliated institutes, BQHS
-                            will provide support and expertise in the developement and writing of extramural research grant proposals,
-                            excluding extensive preliminary data analysis effort, free of charge as long as adequate precentage FTE 
-                            of the participating faculty and staff is built into the grant budget. If extensive pilot data analysis is
-                            needed, the BQHS faculty and/or staff can serve as co-PI (Principal Investigators) and/or co-investigators
-                            in the grant proposal, with adequate FTE salary recovery (usually a minimum of 5% FTE). As grant application
-                            deadlines tend to be clustered around certain dates, please contact us well before the deadline so we will be
-                            able to properly support your application and increase your chance of obtaining funding.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="hidingBox" id="longterm"> <!-- Long-Term Funded Projects -->
-                    <div class="hbTitle" id="ltTitle"> <!-- LT Title -->
-                        <p>Long-Term Funded Projects</p>
-                    </div>
-                    <div class="hbContent contentWords" id="ltContent"> <!-- lt Content -->
-                        <p>For extramural and intramural funded research projects, BQHS faculty and staff can support your study through
-                            either percentage FTE salary recovery or a negotiated service contract.</p>
-                    </div>
-                </div>
-
-                <div class="hidingBox" id="shortterm"> <!-- Short-Term or Non-Extramurally Funded Projects -->
-                    <div class="hbTitle" id="stTitle"> <!-- ST Title -->
-                        <p>Short-Term or Non-Extramurally Funded Projects</p>
-                    </div>
-                    <div class="hbContent contentWords" id="stContent"> <!-- ST Content -->
-                        <p>On a fee-for-service basis, faculty and staff can provide research design and analysis services to
-                            self-initiated projects supported by the investigator's department funds or other sources.</p>
-                        <p>The current BQHS rates (2016-2017) for UH or UH-affiliated projects are:</p>
-                        <ul>
-                            <li><strong>$120/hr for <em>Ph.D.-level</em> Faculty Experts</strong></li>
-                            <li><strong>$60/hr for <em>Master's-level</em> Staff Analysts</strong></li>
-                        </ul>
-                        <p>For non-UH clients, rates will be negotiated individually.</p>
-                    </div>
-                </div>
-                
-               
-
-
-                
-
-
-              </div> <!-- (End contentOfPage) -->
-
-
-        </div> <!-- (End rightBank) -->
-
-    </div> <!-- (End mainInfo) -->
-
-</div> <!-- (End Main Content) -->
-
-</div> <!-- (End Div to create Body Borders)  -->
-
-
-      <!-- #Footer -->
-    <div class="container-fluid bottomFooter">
-
-        <!-- Inner Footer Area-->
-        <div class="container innerFooter">
-
-        <!-- #Left Footer -->
-        <div class="container-fluid pull-left" id="leftFooter">
-            <img class="jabsomImage" src="./images/jabsom_logo_white_oval_transparent.png" alt="JABSOM" />
-            <img class="manoaImage" src="./images/manoaseal_transparent.png" alt="Manoa" />
-        </div>
-        
-
-        <!-- #Right Footer -->
-        <div class="container-fluid" id="rightFooter">
-
-           <p class="officeLocation pull-left">
-               <br />651 Ilalo Street, Biosciences Building, Suite 211,
-                     Honolulu, HI 96813
-           </p>
-            <p class="contactInfo pull-left">
-                <br />Phone: <a class="moduleLightHeader" href="tel:+1-808-692-1480">808.692.1480</a>  //  Fax: 808.692.1466  //  Email: biostat@hawaii.edu    
+        <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
+        <div class="container-fluid topNavBar pull-right">
+            <!-- #First navigation bar -->
+            <p>
+                <a class="topMostLinks" href="./contact.html">Contact</a> |
+                <a class="topMostLinks" href="./jobs.html">Careers</a> |
+                <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> |
+                <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
             </p>
-            
-            
+            <div class="searchForm">
+                <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
+                <form action="./search.html">
+                    <!-- Is it even necessary (JABSOM Site not necessary) -->
+                    <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
+                    <button type="submit" class="btn searchButton" ">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+            </div>
         </div>
 
-    </div><!-- (End of Inner Footer Area) -->
 
-        <p class="copyright"><br /><br />&copy; 2016 Office of Biostatistics & Quantitative Health Sciences, University of Hawaii, John A. Burns School of Medicine</p>
+        <!-- #BQHS Banner -->
+        <div class="container-fluid bannerFluid">
+            <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner" />
+        </div>
 
-    </div> <!-- (End of Footer area) -->
+        <!-- #Main Navigation Bar -->
+        <div class="mainNavBar">
+            <ul id="nav">
+                <li><a href="index.html">Welcome</a></li>                            <!-- (Welcome Link) -->
+                <li class="dropdown">
+                    <a href="./expertise.html" class="dropbtn">Our Expertise</a>                      <!-- (Our Expertise Link) -->
+                    <div class="dropdown-content">
+                        <a href="./expertise.html#researchDesign">Research Design</a>
+                        <a href="./expertise.html#dataAnalysis">Data Analysis</a>
+                        <a href="./expertise.html#resultsDissemination">Results Dissemination</a>
+                        <a href="./expertise.html#training">Training & Education</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="./collaboration.html" class="dropbtn">Collaboration & Services</a>                        <!-- (Collaboration & Services Link) -->
+                    <div class="dropdown-content">
+                        <a href="./collaboration.html#consultation">Free Consultation</a>
+                        <a href="./collaboration.html#grant">Free Grant Development and Prepartation</a>
+                        <a href="./collaboration.html#longterm">Long-term Funded Projects</a>
+                        <a href="./collaboration.html#shortterm">Short-term/Non-Extramurally Funded Projects</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="./members.html" class="dropbtn">Faculty & Staff</a>                                  <!-- (Faculty & Staff Link) -->
+                    <div class="dropdown-content">
+                        <a href="./members.html#faculty">Faculty</a>
+                        <a href="./members.html#staff">Staff</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="./resources.html" class="dropbtn">Resources</a>                                      <!-- (Resources Link) -->
+                    <div class="dropdown-content">
+                        <a href="./resources.html#courses">Online Statistical Courses</a>
+                        <a href="./resources.html#test">Statistical Test</a>
+                        <a href="./resources.html#calculators">Statistical Calculators</a>
+                        <a href="./resources.html#software">Statistical Software</a>
+                        <a href="./resources.html#repositories">Bioinformatics Data Repositories/Tools</a>
+                        <a href="./resources.html#additional">Additional Bioinformatics Resources</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Breadcrumb/Navigational Hierarchy -->
+        <div class="hierarchy breadcrumbNav container">
+            <ol class="breadcrumb">
+                <li><a href="./index.html">Home</a></li>
+                <li class="currentLink"><a href="./collaboration.html">Collaboration & Services</a></li>
+            </ol>
+        </div> <!-- (End Breadcrumb) -->
+
+        </div> <!-- (End of Page Header) -->
+
+        <!-- DIV to create Body Borders -->
+        <div class="container mainBody">
+
+            <!-- #Main Content ===> This alternates between all BQHS pages. -->
+            <div class="mainContent container-fluid">
+
+                <!-- Main Content for pages after home page (including this one) -->
+                <div class="mainInfo">
+
+
+                    <!-- Donation Page to the left -->
+                    <div class="leftBank">
+
+                        <!-- #BQHS Enhancement Announcement (Header) -->
+                        <div class="visionTitle">
+                            <h4>Enhancement Fund</h4>
+                        </div>
+
+                        <!-- #BQHS ENhancement Announcement (Content) -->
+                        <div class="visionContent hierarchy">
+                            <p>
+                                <br />Your generous gift will allow BQHS to maintain and further develop this important JABSOM infrastructure resource.
+                                Thank you for your generosity! <br />
+                            </p>
+
+                            <ul id="nav2">
+                                <li class="dropdown">
+                                    <img class="giveNowButton" src="./images/button_give-now.jpg" />
+                                    <div class="dropdown-content">
+                                        <a href="https://giving.uhfoundation.org/funds/12616904" target="_blank">Give Online</a>
+                                        <a href="http://www.uhfoundation.org/give/gifts-us-mail" target="_blank">Give by US Mail (Designate "JABSOM BQHS")</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <h4 class="mahalo">MAHALO!</h4>
+                        </div>
+
+                        <!-- #Contact Us (Header) -->
+                        <div class="belowVisionBox hierarchy">
+
+                        </div>
+
+                    </div> <!-- (End leftBank) -->
+                    <!-- Majority of the content will go the right side -->
+                    <div class="rightBank">
+
+                        <!-- Title of Page -->
+                        <div class="titleOfPage"><p>BQHS Collaboration & Services</p></div>
+
+                        <!-- Content of Page -->
+                        <div class="contentOfPage">
+
+                            <img class="contentImage" src="./images/Collaboration.jpg" alt="Research" />
+
+                            <p class="contentWords">
+                                BQHS offers biostatistical and bioinformatical services and collaborations to promote
+                                excellence in quantitative health research. Members of academic groups or organizations can establish a
+                                collaborative agreement with BQHS, which is a cost-effective and efficient approach to ensure comprehensive
+                                and long-term analytic support for research activities. Our services and collaborative efforts are as
+                                defined below:
+                            </p>
+
+                            <div class="hidingBox" id="consultation">
+                                <!-- Free Project Consultation -->
+                                <div class="hbTitle" id="fcTitle">
+                                    <!-- FC Title -->
+                                    <p>Free Project Consultation</p>
+                                </div>
+                                <div class="hbContent contentWords" id="fcContent">
+                                    <!-- FC Content -->
+                                    <p>
+                                        BQHS provides free initial consultation for each research project. The initial free consultation provides
+                                        a perfect opportunitiy for researchers to explore ideas/hypotheses and discuss study feasibility with a
+                                        BQHS faculty and/or staff.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="hidingBox" id="grant">
+                                <!-- Free Grant Development and Preparation -->
+                                <div class="hbTitle" id="fgTitle">
+                                    <!-- FG Title -->
+                                    <p>Free Grant Development and Preparation</p>
+                                </div>
+                                <div class="hbContent contentWords" id="fgContent">
+                                    <!-- FG Content -->
+                                    <p>
+                                        To encourage and facilitate more research activities at JABSOM and its affiliated institutes, BQHS
+                                        will provide support and expertise in the developement and writing of extramural research grant proposals,
+                                        excluding extensive preliminary data analysis effort, free of charge as long as adequate precentage FTE
+                                        of the participating faculty and staff is built into the grant budget. If extensive pilot data analysis is
+                                        needed, the BQHS faculty and/or staff can serve as co-PI (Principal Investigators) and/or co-investigators
+                                        in the grant proposal, with adequate FTE salary recovery (usually a minimum of 5% FTE). As grant application
+                                        deadlines tend to be clustered around certain dates, please contact us well before the deadline so we will be
+                                        able to properly support your application and increase your chance of obtaining funding.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="hidingBox" id="longterm">
+                                <!-- Long-Term Funded Projects -->
+                                <div class="hbTitle" id="ltTitle">
+                                    <!-- LT Title -->
+                                    <p>Long-Term Funded Projects</p>
+                                </div>
+                                <div class="hbContent contentWords" id="ltContent">
+                                    <!-- lt Content -->
+                                    <p>
+                                        For extramural and intramural funded research projects, BQHS faculty and staff can support your study through
+                                        either percentage FTE salary recovery or a negotiated service contract.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="hidingBox" id="shortterm">
+                                <!-- Short-Term or Non-Extramurally Funded Projects -->
+                                <div class="hbTitle" id="stTitle">
+                                    <!-- ST Title -->
+                                    <p>Short-Term or Non-Extramurally Funded Projects</p>
+                                </div>
+                                <div class="hbContent contentWords" id="stContent">
+                                    <!-- ST Content -->
+                                    <p>
+                                        On a fee-for-service basis, faculty and staff can provide research design and analysis services to
+                                        self-initiated projects supported by the investigator's department funds or other sources.
+                                    </p>
+                                    <p>The current BQHS rates (2016-2017) for UH or UH-affiliated projects are:</p>
+                                    <ul>
+                                        <li><strong>$120/hr for <em>Ph.D.-level</em> Faculty Experts</strong></li>
+                                        <li><strong>$60/hr for <em>Master's-level</em> Staff Analysts</strong></li>
+                                    </ul>
+                                    <p>For non-UH clients, rates will be negotiated individually.</p>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                        </div> <!-- (End contentOfPage) -->
+
+
+                    </div> <!-- (End rightBank) -->
+
+                </div> <!-- (End mainInfo) -->
+
+            </div> <!-- (End Main Content) -->
+
+        </div> <!-- (End Div to create Body Borders)  -->
+        <!-- #Footer -->
+        <div class="container-fluid bottomFooter">
+
+            <!-- Inner Footer Area-->
+            <div class="container innerFooter">
+
+                <!-- #Left Footer -->
+                <div class="container-fluid pull-left" id="leftFooter">
+                    <img class="jabsomImage" src="./images/jabsom_logo_white_oval_transparent.png" alt="JABSOM" />
+                    <img class="manoaImage" src="./images/manoaseal_transparent.png" alt="Manoa" />
+                </div>
+
+
+                <!-- #Right Footer -->
+                <div class="container-fluid" id="rightFooter">
+
+                    <p class="officeLocation pull-left">
+                        <br />651 Ilalo Street, Biosciences Building, Suite 211,
+                        Honolulu, HI 96813
+                    </p>
+                    <p class="contactInfo pull-left">
+                        <br />Phone: <a class="moduleLightHeader" href="tel:+1-808-692-1480">808.692.1480</a>  //  Fax: 808.692.1466  //  Email: biostat@hawaii.edu
+                    </p>
+
+
+                </div>
+
+            </div><!-- (End of Inner Footer Area) -->
+
+            <p class="copyright"><br /><br />&copy; 2016 Office of Biostatistics & Quantitative Health Sciences, University of Hawaii, John A. Burns School of Medicine</p>
+
+        </div> <!-- (End of Footer area) -->
 </body>
 </html>

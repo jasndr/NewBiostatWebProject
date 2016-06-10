@@ -36,6 +36,9 @@
 
 <body>
 
+    <!-- Page Header to create fixed header -->
+    <div class="pageHeader">
+
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
@@ -46,9 +49,9 @@
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
         <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="/newbiostatsite/">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                            <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="search" placeholder="Search BQHS..." />     <!--(For Cancer Center site, yes!) -->
-            <button type="submit" class="btn searchButton">
+            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
+            <input class="search form-control-static" type="text" name="q" id="tipue_search_input1" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
+            <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
             </form>
@@ -104,20 +107,21 @@
         </ul>
     </div>
 
+    <!-- Breadcrumb/Navigational Hierarchy -->
+    <div class="hierarchy breadcrumbNav container">
+        <ol class="breadcrumb">
+            <li><a href="./index.html">Home</a></li>
+            <li class="currentLink"><a href="./expertise.html">Our Expertise</a></li>
+        </ol>
+    </div> <!-- (End Breadcrumb) -->
+
+    </div> <!-- (End of Page Header) -->
 
     <!-- DIV to create Body Borders -->
     <div class="container mainBody">
 
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
-
-    <!-- Breadcrumb/Navigational Hierarchy -->
-    <div class="hierarchy breadcrumbNav">
-        <ol class="breadcrumb">
-            <li><a href="./index.html">Home</a></li>
-            <li class="currentLink"><a href="./expertise.html">Our Expertise</a></li>
-        </ol>
-    </div> <!-- (End Breadcrumb) -->
 
     <!-- Main Content for pages after home page (including this one) -->
     <div class="mainInfo">
@@ -170,9 +174,14 @@
 
                 <p class="contentWords text-center">Search BQHS</p>
 
-                <form class="text-center" action="./search.html">
-                    <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
-                </form>
+                <div class="searchForm text-center">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
+                    <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
+                        <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
+                        <button type="submit" class="btn searchButton"">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </form>
+                </div>
 
                 <div class="textcenter" id="tipue_search_content"></div>
 

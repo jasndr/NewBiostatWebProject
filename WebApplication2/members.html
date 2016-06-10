@@ -18,6 +18,13 @@
     <meta name="keywords" content="BQHS, Jobs, Faculty, Staff, Members, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <!-- TIPUE SEARCH STYLE SHEET -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="./tipuesearch/tipuesearch_content.js"></script>
+        <link href="./tipuesearch/tipuesearch.css" rel="stylesheet">
+        <script src="./tipuesearch/tipuesearch_set.js"></script>
+        <script src="./tipuesearch/tipuesearch.min.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -27,6 +34,9 @@
 
 
 <body>
+
+    <!-- Page Header to create fixed header -->
+    <div class="pageHeader">
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
@@ -38,9 +48,9 @@
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
         <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="/newbiostatsite/">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                            <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="search" placeholder="Search BQHS..." />     <!--(For Cancer Center site, yes!) -->
-            <button type="submit" class="btn searchButton">
+            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
+            <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
+            <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
             </form>
@@ -96,20 +106,21 @@
         </ul>
     </div>
 
+    <!-- Breadcrumb/Navigational Hierarchy -->
+    <div class="hierarchy breadcrumbNav container">
+        <ol class="breadcrumb">
+            <li><a href="./index.html">Home</a></li>
+            <li class="currentLink"><a href="./members.html">Faculty & Staff</a></li>
+        </ol>
+    </div> <!-- (End Breadcrumb) -->
+
+    </div> <!-- (End of Page Header) --> 
 
     <!-- DIV to create Body Borders -->
     <div class="container mainBody">
 
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
-
-    <!-- Breadcrumb/Navigational Hierarchy -->
-    <div class="hierarchy breadcrumbNav">
-        <ol class="breadcrumb">
-            <li><a href="./index.html">Home</a></li>
-            <li class="currentLink"><a href="./members.html">Faculty & Staff</a></li>
-        </ol>
-    </div> <!-- (End Breadcrumb) -->
 
     <!-- Main Content for pages after home page (including this one) -->
     <div class="mainInfo">
@@ -307,13 +318,13 @@
                      <div class="row contactRow">
                                 <div class="leftDirections">
                                     <div class="panel panel-default staffC">
-                                        <div class="panel-heading staffH">Krupa Ghandi, M.S.</div>
+                                        <div class="panel-heading staffH">Krupa Gandhi, M.S.</div>
                                         <div class="row">
                                             <div class="insideMemberLeft"><img class="memberImg" src="./images/krupa.jpg" alt="Krupa Ghandi, M.S." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Junior Biostatistician</em></p>
                                                 <p>Office: BSB 211 H-2<br />
-                                                    <a href="mailto: kghandi@hawaii.edu">kghandi@hawaii.edu</a><br />
+                                                    <a href="mailto: kgandhi@hawaii.edu">kgandhi@hawaii.edu</a><br />
                                                     <a href="tel:+18086921812">(808) 692-1812</a>
                                                 </p>
                                             </div>
@@ -361,7 +372,7 @@
                                             <div class="insideMemberLeft"><img class="memberImg" src="./images/yang.jpg" alt="Yang Rui, B.S." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Clinical Database Programmer/Analyst</em></p>
-                                                <p>Office: BSB 211 H-4<br />
+                                                <p>Office: BSB 211 A-5<br />
                                                     <a href="mailto: yrui@hawaii.edu">yrui@hawaii.edu</a><br />
                                                     <a href="tel:+18086921466">(808) 692-1466</a>
                                                 </p>
@@ -379,7 +390,7 @@
                                             <div class="insideMemberLeft"><img class="memberImg" src="./images/jason.jpg" alt="Jason Delos Reyes, B.S." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Web Application Developer</em></p>
-                                                <p>Office: BSB 211 H-7<br />
+                                                <p>Office: BSB 211 A-9<br />
                                                     <a href="mailto: jdelosr@hawaii.edu">jdelosr@hawaii.edu</a><br />
                                                     <a href="tel:+18086921481">(808) 692-1481</a>
                                                 </p>

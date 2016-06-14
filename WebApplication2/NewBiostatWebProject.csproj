@@ -98,6 +98,7 @@
     <Content Include="BQHSheader.html" />
     <Content Include="collaboration.html" />
     <Content Include="contact.html" />
+    <Content Include="donate.html" />
     <Content Include="expertise.html" />
     <Content Include="images\button_give-now.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -128,6 +129,7 @@
     <Content Include="images\Research.jpg" />
     <Content Include="jobs.html" />
     <Content Include="members.html" />
+    <Content Include="mission.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

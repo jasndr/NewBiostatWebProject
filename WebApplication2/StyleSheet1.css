@@ -13,12 +13,12 @@ html{
 body {
     background: 
         linear-gradient(
-            rgba(255, 255, 255, .3),
-            rgba(255, 255, 255, .3)),
+            rgba(193, 181, 121, .7),
+            rgba(193, 181, 121, .7)),
         url("./images/Hawaii9-twotone-mirrored.jpg");		
     background-size: cover !important;
     color: #000;
-    padding-top: 210px;
+    padding-top: 185px;
 }
 
 h1{
@@ -34,7 +34,7 @@ a:hover{
 /*---------------------[Header]------------------------------*/
 
 .pageHeaderHome{
-    margin-top: -210px;
+    margin-top: -185px;
 }
 
 .pageHeader{
@@ -118,6 +118,7 @@ a:hover{
 }
 
 .mainBody{
+    padding-top: 40px;
     width: 1025px !important;
     position: relative;
     z-index: 500;
@@ -138,7 +139,12 @@ a:hover{
     border-bottom: 1px solid #000;
 }
 
-#nav {
+.activeTab{
+    background-color: darkslategray;
+    height: 100%;
+}
+
+#nav, #nav3 {
     border-width: 1px 0;
     list-style: none;
     margin: 0;
@@ -147,28 +153,29 @@ a:hover{
     background-color: #000;
 }
 
-#nav li{
+#nav li, #nav3 li{
     display: inline;
     text-decoration: none;
     padding-left: 1.25%;
     padding-right: 1.25%;
 }
 
-#nav a, .dropbtn{
+#nav a, #nav3 a, .dropbtn{
     display: inline-block;
     white-space: nowrap;
     padding: 10px;
     color: #FFF;
     text-decoration: none;
+    height: 100%;
 }
 
 
-#nav a:hover, .dropdown:hover .dropbtn{
+#nav a:hover, #nav3 a:hover, .dropdown:hover .dropbtn{
    background: #333;
    color: #FFF;
 }
 
-#nav .dropdown{
+#nav .dropdown, #nav3 .dropdown{
     display: inline-block;
 }
 
@@ -204,6 +211,19 @@ a:hover{
     display: block;
 }
 
+.second-level-menu
+{
+    position: absolute;
+    display: none;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    background: #999999;
+}
+.second-level-menu > li:hover { background: #CCCCCC; }
 
 a{
     color:#C00;
@@ -227,7 +247,7 @@ a:hover{
 /*---------------------------[Home Page]----------------------------------*/
 
 .rotatingImages{
-    margin-top: -10px;
+    margin-top: -50px;
     margin-bottom: 5px;
     margin-left: -5%;
     position: relative;
@@ -566,11 +586,10 @@ a:hover{
 }
 
 /*-----------------------[Content Pages] ---------------------------------------------------*/
+
 .breadCrumbNav{
-    color: dimgray;
+    color: dimgray !important;
     width: 100px !important;
-    /**margin-right: -10px;
-    margin-left: -2%; */
 }
 
 .breadCrumbNav a{
@@ -581,25 +600,30 @@ a:hover{
 
     display: flex;
     width: 100%;
-    margin-top: -10px;
+    margin-top: -40px;
+    padding-top: 20px;
     margin-bottom: 10px;
 }
 
 .leftBank{
-
+     background:
+        linear-gradient(
+            rgba(255, 255, 255, .4),
+            rgba(255, 255, 255, .4)),
+        url("./images/Flower6-fade.png") no-repeat;
+     background-size: contain;
+     background-color: #ADAD67;
     flex: 1;
     padding-left: 0;
     padding-right: 5px;
-   /** float: left;
-    max-width: 31%;*/
+    margin-right: 5px;
 }
 
 .rightBank{
-    width: 70%;
+    width: 80%;
     padding-left: 5px;
     padding-right: 0;
-   /** float: right;
-    width: 69%;*/
+    margin-left: 5px;
 }
 
 .titleOfPage{
@@ -723,18 +747,6 @@ a:hover{
  }
 
 .belowVisionBox{
-    background:
-        linear-gradient(
-            rgba(255, 255, 255, .5),
-            rgba(255, 255, 255, .5)),
-        url("./images/Flower6-twotone.jpg");
-    background-size: cover;
-    margin-top: 10px;
-    margin-bottom: 0 !important;
-    font-size: 12px;
-    font-family: 'Segoe UI';
-    min-height: 300px;
-    display: block;
 }
 
 
@@ -881,14 +893,17 @@ a:hover{
 }
 
 #staffT, .staffH{
-    background-color: #66B3FF !important;
-   border: none !important; /**border-color: dodgerblue !important;*/
+    background-color: #9CF !important;
+    border: none !important; /**border-color: dodgerblue !important;*/
+}
+
+#staffT{
+    color: black !important;
 }
 
 .staffH{
    font-family: 'Raleway', sans-serif;
    font-weight: bold;
-   color: dodgerblue;
 }
 
 .staffC{

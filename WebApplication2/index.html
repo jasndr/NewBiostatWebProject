@@ -4,7 +4,7 @@
      # University of Hawaii, John A. Burns School of Medicine             #
      #                                                                    #
      # @author Jason Delos Reyes                                          #
-     # @date May 2016                                                     #
+     # @date May/June 2016                                                #
      # BQHS Page 1 - Home/Welcome                                         #
      ###################################################################### -->
 <html>
@@ -66,7 +66,18 @@
     <!-- #Main Navigation Bar -->
     <div class="mainNavBar">
         <ul id="nav">
-            <li><a href="index.html">Welcome</a></li>                            <!-- (Welcome Link) -->
+            <li class="dropdown">
+                <a href="index.html" class="dropbtn activeTab">Welcome</a>                           <!-- (Welcome Link) -->
+                    <div class="dropdown-content">
+                        <a href="./mission.html" class="dropdown-toggle">Vision, Mission, & Values</a>
+                         <ul class="dropdown-menu">
+                            <li><a href="./mission.html#Vision">Vision</a></li>
+                            <li><a href="./mission.html#Mission">Mission</a></li>
+                             <li><a href="./mission.html#Values">Values</a></li>
+                        </ul>
+                        <a href="./donate.html">Enhancement Fund</a>
+                    </div>
+           </li>
             <li class="dropdown">
              <a href="./expertise.html" class="dropbtn">Our Expertise</a>                      <!-- (Our Expertise Link) -->
                 <div class="dropdown-content">

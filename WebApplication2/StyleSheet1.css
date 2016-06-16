@@ -8,7 +8,6 @@
 
 html{
     height: 100%;
-    background-size: cover;
 }
 
 body {
@@ -16,10 +15,10 @@ body {
         linear-gradient(
             rgba(206, 194, 142, .7),
             rgba(206, 194, 142, .7)),
-        url("./images/Hawaii9-twotone-mirrored.jpg");		
+        url("./images/Hawaii9-twotone-mirrored.jpg") no-repeat center center fixed;		
     background-size: cover !important;
     color: #000;
-    padding-top: 185px;
+    /**padding-top: 185px;*/
 }
 
 h1{
@@ -35,7 +34,7 @@ a:hover{
 /*---------------------[Header]------------------------------*/
 
 .pageHeaderHome{
-    margin-top: -185px;
+    /**margin-top: -185px;*/
 }
 
 .pageHeader{
@@ -110,7 +109,7 @@ a:hover{
 }
 
 .BQHSbanner{
-   position:page;
+   position: page;
     left: 0;
     right: 0;
     top: 0;
@@ -144,7 +143,7 @@ a:hover{
     height: 100%;
 }
 
-#nav, #nav3 {
+#nav, #nav3, #navFake {
     border-width: 1px 0;
     list-style: none;
     margin: 0;
@@ -153,14 +152,14 @@ a:hover{
     background-color: #000;
 }
 
-#nav li, #nav3 li{
+#nav li, #nav3 li, #navFake li{
     display: inline;
     text-decoration: none;
     padding-left: 1.25%;
     padding-right: 1.25%;
 }
 
-#nav a, #nav3 a, .dropbtn{
+#nav a, #nav3 a, #navFake a, .dropbtn{
     display: inline-block;
     white-space: nowrap;
     padding: 10px;
@@ -170,12 +169,12 @@ a:hover{
 }
 
 
-#nav a:hover, #nav3 a:hover, .dropdown:hover .dropbtn{
+#nav a:hover, #nav3 a:hover, #navFake a:hover, .dropdown:hover .dropbtn{
    background: #333;
    color: #FFF;
 }
 
-#nav .dropdown, #nav3 .dropdown{
+#nav .dropdown, #nav3 .dropdown #navFake .dropdown{
     display: inline-block;
 }
 

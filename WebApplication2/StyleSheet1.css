@@ -11,11 +11,12 @@ html{
 }
 
 body {
-    background: 
+    /**background: 
         linear-gradient(
             rgba(206, 194, 142, .7),
             rgba(206, 194, 142, .7)),
-        url("./images/Hawaii9-twotone-mirrored.jpg") no-repeat center center fixed;		
+        url("./images/Hawaii9-twotone-mirrored.jpg") no-repeat center center fixed;		*/
+    background-color: white;
     background-size: cover !important;
     color: #000;
     /**padding-top: 185px;*/
@@ -117,11 +118,20 @@ a:hover{
 }
 
 .mainBody{
+    padding-top: 0;
+    width: 1025px !important;
+    position: relative;
+    z-index: 500;
+    background-color: #FFF; /**#FFFFF0;*/   
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.mainBodyHome{
     padding-top: 40px;
     width: 1025px !important;
     position: relative;
     z-index: 500;
-    background-color: #FFFFF0;   
+    background-color: #FFF; /**#FFFFF0;*/    
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -149,7 +159,10 @@ a:hover{
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #000;
+    background: 
+        linear-gradient(
+            rgba(51, 51, 51, 1),
+            rgba(100, 100, 100, 1));
 }
 
 #nav li, #nav3 li, #navFake li{
@@ -329,7 +342,7 @@ a:hover{
     margin-left: -15px !important;
     margin-top: -5px;
     color: #000;
-    background-color: #FFFFF0;
+    background-color: #FFF; /**#FFFFF0;*/
 }
 
 .menuModule{
@@ -429,12 +442,20 @@ a:hover{
 
 
 
-.moduleDarkHeader, .moduleLightHeader{
+.moduleLightHeader{
     color: palegoldenrod !important;
 }
 
-.moduleDarkHeader:hover, .moduleLightHeader:hover{
+.moduleLightHeader:hover{
     color: #AAA !important;
+}
+
+.moduleDarkHeader{
+    color: green !important;
+}
+
+.moduleDarkHeader:hover{
+    color: black !important;
 }
 
 .modulePictures{
@@ -510,8 +531,11 @@ a:hover{
     width: 100%;
     /**background-color: #114020;*/
     background:
-        linear-gradient(rgba(0, 0, 0, 1), rgba(17, 64, 32, 1)); 
-    color: white;
+        linear-gradient(
+            rgba(100, 100, 100, 1),
+            rgba(51, 51, 51, 1));
+    /**background-color: dimgray;*/
+    color: black;
     clear: both;
     display: block;
     overflow: hidden;
@@ -519,6 +543,7 @@ a:hover{
     min-height: 100%;
     bottom: 0px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);    
+    border-top: thin solid #AAA;
 
 }
 
@@ -527,19 +552,19 @@ a:hover{
     /**background-color: #114020;
     background:
         linear-gradient(rgba(0, 0, 0, 1), rgba(17, 64, 32, 1)); */
-    color: white;
+    color: black;
     margin: 0px 10px -10px 10px;
     margin-bottom: -20px !important;
     padding-top: 15px;
     padding-bottom: 20px;
-    border-bottom: thin solid #EEE2A8;
+    border-bottom: thin solid #CCC/**#EEE2A8*/;
 }
 
 #leftFooter{
     float: left;
     margin: 0px;
     width: 25%;
-    border-right: thick solid #EEE2A8;
+    border-right: thin solid #CCC/**#EEE2A8*/;
 }
 
 #rightFooter{
@@ -554,20 +579,20 @@ a:hover{
     font-family: 'Segoe UI';
     font-size: 16px;
     text-align: right;
-    color: #FFF;
+    color: #EEE;
 }
 
 .contactInfo{
     font-family: 'Segoe UI';
     font-size: 12px;
-    color: #FFF;
+    color: #EEE;
     text-align: right;
 }
 
 .copyright{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    color: #FFF;
+    color: #EEE;
     text-align: center;
 }
 
@@ -587,13 +612,28 @@ a:hover{
 
 /*-----------------------[Content Pages] ---------------------------------------------------*/
 
-.breadCrumbNav{
+.breadcrumb {
+    background-color: /**#FFFFF0*/ #FFF !important;
+    font-size: 12px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     color: dimgray !important;
-    width: 100px !important;
+    font-weight: normal !important;
+}
+
+.breadCrumbNav{
+    background-color: /**#FFFFF0*/ #FFF !important;
+    width: 1025px !important;
 }
 
 .breadCrumbNav a{
     color: dimgray !important;
+}
+
+:target:before{
+    content: "";
+    display: block;
+    height: 150px;
+    margin: -150px 0 0;
 }
 
 .mainInfo{

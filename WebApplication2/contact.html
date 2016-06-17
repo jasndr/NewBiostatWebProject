@@ -116,14 +116,6 @@
         </ul>
     </div>
 
-    <!-- Breadcrumb/Navigational Hierarchy -->
-    <div class="hierarchy breadcrumbNav container">
-        <ol class="breadcrumb">
-            <li><a href="./index.html">Home</a></li>
-            <li class="currentLink"><a href="./contact.html">Contact Us</a></li>
-        </ol>
-    </div> <!-- (End Breadcrumb) -->
-
     </div> <!-- (End of Page Header) -->
 
      <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
@@ -206,22 +198,22 @@
             </li>
         </ul>
     </div>
-
-    <!-- Breadcrumb/Navigational Hierarchy -->
-    <div class="hierarchy breadcrumbNav container">
-        <ol class="breadcrumb">
-            <li><a href="./index.html">Home</a></li>
-            <li class="currentLink"><a href="./expertise.html">Our Expertise</a></li>
-        </ol>
-    </div> <!-- (End Breadcrumb) -->
    
-    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [END IMITATION HEADER] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- DIV to create Body Borders -->
     <div class="container mainBody">
 
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
+
+        <!-- Breadcrumb/Navigational Hierarchy -->
+            <div class="hierarchy breadcrumbNav">
+                <ol class="breadcrumb">
+                    <li><a href="./index.html">Home</a></li>
+                    <li class="currentLink"><a href="./contact.html">Contact Us</a></li>
+                </ol>
+            </div> <!-- (End Breadcrumb) -->
 
     <!-- Main Content for pages after home page (including this one) -->
     <div class="mainInfo">
@@ -259,7 +251,7 @@
                     651 Ilalo Street<br />
                     Honolulu, HI 96813<br />
                     Phone: <a class="redLink" href="tel:+18086921840">(808) 692-1840</a><br />
-                    Email: <a class="redLink" href="mailto: biostat@hawaii.edu">biostat@hawaii.edu</a><br />
+                    Email: <a class="redLink" href="./contact.html#contactForm">biostat@hawaii.edu</a><br />
                     <a class="btn btn-xs redContentButton" href="./documents/Driving_Info.pdf" 
                              target="_blank" role="button">Driving Directions</a>
                     <a class="btn btn-xs redContentButton" href="./documents/Parking_Info.pdf" 
@@ -321,10 +313,31 @@
                     </div>
                  </div>
 
+                <div class="hidingBox" id="contactForm"> <!-- BQHS Contact Form -->
+                    <div class="hbTitle" id="cfTitle"> <!-- CF Title -->
+                        <p>BQHS Contact Form</p>
+                    </div>
+                <div class="hbContent contentWords text-center" id="cfContent"><!-- CF Content -->
+                    <!-- Do not change the code! -->
+                    <a id="foxyform_embed_link_790062" href="http://www.foxyform.com/">foxyform</a>
+                    <script type="text/javascript">
+                        (function(d, t){
+                            var g = d.createElement(t),
+                            s = d.getElementsByTagName(t)[0];
+                            g.src = "http://www.foxyform.com/js.php?id=790062&sec_hash=0581804bfe2&width=350px";
+                            s.parentNode.insertBefore(g, s);
+                        }(document, "script"));
+                    </script>
+               <!-- Do not change the code! -->
+                    <br />
+                    <script type="text/javascript"> id = 204331; clr = "eeba99---"; </script><script type="text/javascript" src="http://kontactr.com/wp.js"></script>
+
+                </div>       
+                    
+                         
+
                <p class="contentWords text-center">Mahalo, and we look forward to working with you!</p>
-
-                
-
+                    
 
               </div> <!-- (End contentOfPage) -->
 
@@ -335,10 +348,7 @@
 
 </div> <!-- (End Main Content) -->
 
-</div> <!-- (End Div to create Body Borders)  -->
-
-
-      <!-- #Footer -->
+    <!-- #Footer -->
     <div class="container-fluid bottomFooter">
 
         <!-- Inner Footer Area-->
@@ -359,7 +369,7 @@
                      Honolulu, HI 96813
            </p>
             <p class="contactInfo pull-left">
-                <br />Phone: <a class="moduleLightHeader" href="tel:+1-808-692-1840">808.692.1840</a>  //  Fax: 808.692.1966  //  Email: biostat@hawaii.edu    
+                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: biostat@hawaii.edu    
             </p>
             
             
@@ -370,5 +380,8 @@
         <p class="copyright"><br /><br />&copy; 2016 Office of Biostatistics & Quantitative Health Sciences, University of Hawaii, John A. Burns School of Medicine</p>
 
     </div> <!-- (End of Footer area) -->
+
+</div> <!-- (End Div to create Body Borders)  -->
+
 </body>
 </html>

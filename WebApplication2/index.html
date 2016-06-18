@@ -63,23 +63,98 @@
          <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
+   
+
     <!-- #Main Navigation Bar -->
     <div class="mainNavBar">
-        <ul id="nav">
+     
+        <nav>
+	        <ul>
+		        <li><a class="activeTab" href="#">Home</a>
+                    <ul>
+				        <li><a href="#">About Us</a>
+                            <ul>
+				                <li><a href="#">Vision, Mission, and Values</a>
+                                    <ul>
+                                        <li><a href="#">Vision</a>
+                                        <li><a href="#">Mission</a>
+                                        <li><a href="#">Values</a>
+                                    </ul>
+				                </li>
+				                <li><a href="#">Expertise</a>
+                                    <ul>
+                                        <li><a href="#">Biostatistics</a>
+                                        <li><a href="#">Bioinformatics</a>
+                                        <li><a href="#">Database Management</a>
+                                        <li><a href="#">Biomedical Informatics</a></li>
+                                    </ul>
+				                </li>
+			                </ul>
+                        </li>
+				        <li><a href="#">Contact Us</a></li>
+				        <li><a href="#">Job Opportunties</a></li>
+                        <li><a href="#">Give a Gift</a></li>
+			        </ul>
+                </li>
+
+		        <li><a href="#">Research</a></li>
+
+		        <li><a href="#">Education</a>
+                    <ul>
+                        <li><a href="#">Courses Offered</a>
+                            <ul>
+                                <li><a href="#">Biostatistics</a></li>
+                                <li><a href="#">Bioinformatics</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">Online Resources</a>
+                            <ul>
+                                <li><a href="#">Biostatistics</a>
+                                    <ul>
+                                        <li><a href="#">Online Statistical Courses</a></li>
+                                        <li><a href="#">Statistical Test</a></li>
+                                        <li><a href="#">Statistical Calculators</a></li>
+                                        <li><a href="#">Statistical Software</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Bioinformatics</a>
+                                    <ul>
+                                        <li><a href="#">Data Repositories/Tools</a></li>
+                                        <li><a href="#">Additional Resources</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+		        <li><a href="#">Collaboration</a></li>
+
+                <li><a href="#">People</a>
+                    <ul>
+                        <li><a href="#">Faculty</a></li>
+                        <li><a href="#">Staff</a></li>
+                    </ul>
+                </li>
+	        </ul>
+        </nav>
+
+        <!--<ul id="nav">
             <li class="dropdown">
-                <a href="index.html" class="dropbtn activeTab">Welcome</a>                           <!-- (Welcome Link) -->
+                <a href="index.html" class="dropbtn activeTab">Welcome</a>                            (Welcome Link) 
                     <div class="dropdown-content">
-                        <a href="./mission.html" class="dropdown-toggle">Vision, Mission, & Values</a>
-                         <ul class="dropdown-menu">
-                            <li><a href="./mission.html#Vision">Vision</a></li>
-                            <li><a href="./mission.html#Mission">Mission</a></li>
-                             <li><a href="./mission.html#Values">Values</a></li>
+                        <a href="./mission.html" class="test">Vision, Mission, & Values </a>
+                         <ul class="dropdown-submenu submenu1">
+                            <li><a tabindex="-1" href="./mission.html#Vision">Vision</a></li>
+                            <li><a tabindex="-1" href="./mission.html#Mission">Mission</a></li>
+                             <li><a tabindex="-1" href="./mission.html#Values">Values</a></li>
                         </ul>
                         <a href="./donate.html">Enhancement Fund</a>
                     </div>
            </li>
             <li class="dropdown">
-             <a href="./expertise.html" class="dropbtn">Our Expertise</a>                      <!-- (Our Expertise Link) -->
+             <a href="./expertise.html" class="dropbtn">Our Expertise</a>                       (Our Expertise Link) 
                 <div class="dropdown-content">
                     <a href="./expertise.html#researchDesign">Research Design</a>                
                     <a href="./expertise.html#dataAnalysis">Data Analysis</a>                    
@@ -88,7 +163,7 @@
                 </div>
             </li>        
             <li class="dropdown">
-                <a href="./collaboration.html" class="dropbtn">Collaboration & Services</a>                        <!-- (Collaboration & Services Link) -->
+                <a href="./collaboration.html" class="dropbtn">Collaboration & Services</a>                         (Collaboration & Services Link) 
                 <div class="dropdown-content">
                     <a href="./collaboration.html#consultation">Free Consultation</a>
                     <a href="./collaboration.html#grant">Free Grant Development and Prepartation</a>
@@ -97,14 +172,14 @@
                 </div>
             </li>
             <li class="dropdown">
-                <a href="./members.html" class="dropbtn">Faculty & Staff</a>                                  <!-- (Faculty & Staff Link) -->
+                <a href="./members.html" class="dropbtn">Faculty & Staff</a>                                   (Faculty & Staff Link) 
                 <div class="dropdown-content">
                     <a href="./members.html#faculty">Faculty</a>
                     <a href="./members.html#staff">Staff</a>
                 </div>           
             </li>
             <li class="dropdown">
-                <a href="./resources.html" class="dropbtn">Resources</a>                                      <!-- (Resources Link) -->
+                <a href="./resources.html" class="dropbtn">Resources</a>                                       (Resources Link)
                 <div class="dropdown-content">
                     <a href="./resources.html#courses">Online Statistical Courses</a>
                     <a href="./resources.html#test">Statistical Test</a>
@@ -114,7 +189,7 @@
                     <a href="./resources.html#additional">Additional Bioinformatics Resources</a>
                 </div>
             </li>
-        </ul>
+        </ul> -->
     </div>
 
     
@@ -272,10 +347,10 @@
     </div> <!-- (End Main Content) -->
 
     <!-- #Footer -->
-    <div class="container-fluid bottomFooter">
+    <div class="bottomFooter">
 
         <!-- Inner Footer Area-->
-        <div class="container innerFooter">
+        <div class="innerFooter">
 
         <!-- #Left Footer -->
         <div class="container-fluid pull-left" id="leftFooter">
@@ -309,8 +384,6 @@
     </div> <!-- (End Page Header [reaches length of page on index page only]) -->
     
 
-
-    
 
 
 

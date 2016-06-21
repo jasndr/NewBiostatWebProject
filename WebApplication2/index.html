@@ -36,7 +36,7 @@
 
 <body>
 
-    <div class="pageHeaderHome"> <!-- Page Header division to separate from main content -->
+    <div class="pageHeader"> <!-- Page Header division to separate from main content -->
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
@@ -70,30 +70,30 @@
      
         <nav>
 	        <ul>
-		        <li><a class="activeTab" href="#">Home</a>
+		        <li><a class="activeTab" href="./index.html">Home</a>
                     <ul>
 				        <li><a href="#">About Us</a>
                             <ul>
-				                <li><a href="#">Vision, Mission, and Values</a>
+				                <li><a href="./mission.html">Vision, Mission, and Values</a>
                                     <ul>
-                                        <li><a href="#">Vision</a>
-                                        <li><a href="#">Mission</a>
-                                        <li><a href="#">Values</a>
+                                        <li><a href="./mission.html#Vision">Vision</a>
+                                        <li><a href="./mission.html#Mission">Mission</a>
+                                        <li><a href="./mission.html#Values">Values</a>
                                     </ul>
 				                </li>
-				                <li><a href="#">Expertise</a>
+				                <li><a href="./expertise.html">Expertise</a>
                                     <ul>
-                                        <li><a href="#">Biostatistics</a>
-                                        <li><a href="#">Bioinformatics</a>
-                                        <li><a href="#">Database Management</a>
-                                        <li><a href="#">Biomedical Informatics</a></li>
+                                        <li><a href="./expertise.html#biostatistics">Biostatistics</a>
+                                        <li><a href="./expertise.html#bioinformatics">Bioinformatics</a>
+                                        <li><a href="./expertise.html#datamanagement">Database Management</a>
+                                        <li><a href="./expertise.html#biomedicalinformatics">Biomedical Informatics</a></li>
                                     </ul>
 				                </li>
 			                </ul>
                         </li>
-				        <li><a href="#">Contact Us</a></li>
-				        <li><a href="#">Job Opportunties</a></li>
-                        <li><a href="#">Give a Gift</a></li>
+				        <li><a href="./contact.html">Contact Us</a></li>
+				        <li><a href="./jobs.html">Job Opportunties</a></li>
+                        <li><a href="./donate.html">Give a Gift</a></li>
 			        </ul>
                 </li>
 
@@ -108,20 +108,126 @@
                             </ul>
                         </li>
                         <li><a href="#">Training</a></li>
-                        <li><a href="#">Online Resources</a>
+                        <li><a href="./resources.html">Online Resources</a>
                             <ul>
                                 <li><a href="#">Biostatistics</a>
                                     <ul>
-                                        <li><a href="#">Online Statistical Courses</a></li>
-                                        <li><a href="#">Statistical Test</a></li>
-                                        <li><a href="#">Statistical Calculators</a></li>
-                                        <li><a href="#">Statistical Software</a></li>
+                                        <li><a href="./resources.html#courses">Online Statistical Courses</a></li>
+                                        <li><a href="./resources.html#test">Statistical Test</a></li>
+                                        <li><a href="./resources.html#calculators">Statistical Calculators</a></li>
+                                        <li><a href="./resources.html#software">Statistical Software</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">Bioinformatics</a>
                                     <ul>
-                                        <li><a href="#">Data Repositories/Tools</a></li>
-                                        <li><a href="#">Additional Resources</a></li>
+                                        <li><a href="./resources.html#repositories">Data Repositories/Tools</a></li>
+                                        <li><a href="./resources.html#additional">Additional Resources</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+		        <li><a href="./collaboration.html">Collaboration</a></li>
+
+                <li><a href="./members.html">People</a>
+                    <ul>
+                        <li><a href="./members.html#faculty">Faculty</a></li>
+                        <li><a href="./members.html#staff">Staff</a></li>
+                    </ul>
+                </li>
+	        </ul>
+        </nav>
+
+    </div>
+
+        </div> <!-- (End Page Header) -->
+
+     <!-- &&&&&&&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+
+    <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
+    <div class="container-fluid topNavBar pull-right">
+        <!-- #First navigation bar -->
+        <p>
+            <a class="topMostLinks" href="./contact.html">Contact</a> |
+            <a class="topMostLinks" href="./jobs.html">Careers</a> |
+            <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
+            <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
+        </p> 
+        <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
+            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
+            <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
+            <button type="submit" class="btn searchButton"">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- #BQHS Banner -->
+    <div class="container-fluid bannerFluid">
+         <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
+    </div>  
+
+     <!-- #Main Navigation Bar -->
+    <div class="mainNavBar">
+     
+        <nav>
+	        <ul>
+		        <li><a class="activeTab" href="./index.html">Home</a>
+                    <ul>
+				        <li><a href="#">About Us</a>
+                            <ul>
+				                <li><a href="./mission.html">Vision, Mission, and Values</a>
+                                    <ul>
+                                        <li><a href="./mission.html#Vision">Vision</a>
+                                        <li><a href="./mission.html#Mission">Mission</a>
+                                        <li><a href="./mission.html#Values">Values</a>
+                                    </ul>
+				                </li>
+				                <li><a href="./expertise.html">Expertise</a>
+                                    <ul>
+                                        <li><a href="./expertise.html#biostatistics">Biostatistics</a>
+                                        <li><a href="./expertise.html#bioinformatics">Bioinformatics</a>
+                                        <li><a href="./expertise.html#datamanagement">Database Management</a>
+                                        <li><a href="./expertise.html#biomedicalinformatics">Biomedical Informatics</a></li>
+                                    </ul>
+				                </li>
+			                </ul>
+                        </li>
+				        <li><a href="./contact.html">Contact Us</a></li>
+				        <li><a href="./jobs.html">Job Opportunties</a></li>
+                        <li><a href="./donate.html">Give a Gift</a></li>
+			        </ul>
+                </li>
+
+		        <li><a href="#">Research</a></li>
+
+		        <li><a href="#">Education</a>
+                    <ul>
+                        <li><a href="#">Courses Offered</a>
+                            <ul>
+                                <li><a href="#">Biostatistics</a></li>
+                                <li><a href="#">Bioinformatics</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="./resources.html">Online Resources</a>
+                            <ul>
+                                <li><a href="#">Biostatistics</a>
+                                    <ul>
+                                        <li><a href="./resources.html#courses">Online Statistical Courses</a></li>
+                                        <li><a href="./resources.html#test">Statistical Test</a></li>
+                                        <li><a href="./resources.html#calculators">Statistical Calculators</a></li>
+                                        <li><a href="./resources.html#software">Statistical Software</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Bioinformatics</a>
+                                    <ul>
+                                        <li><a href="./resources.html#repositories">Data Repositories/Tools</a></li>
+                                        <li><a href="./resources.html#additional">Additional Resources</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -131,82 +237,22 @@
 
 		        <li><a href="#">Collaboration</a></li>
 
-                <li><a href="#">People</a>
+                <li><a href="./members.html">People</a>
                     <ul>
-                        <li><a href="#">Faculty</a></li>
-                        <li><a href="#">Staff</a></li>
+                        <li><a href="./members.html#faculty">Faculty</a></li>
+                        <li><a href="./members.html#staff">Staff</a></li>
                     </ul>
                 </li>
 	        </ul>
         </nav>
 
-        <!--<ul id="nav">
-            <li class="dropdown">
-                <a href="index.html" class="dropbtn activeTab">Welcome</a>                            (Welcome Link) 
-                    <div class="dropdown-content">
-                        <a href="./mission.html" class="test">Vision, Mission, & Values </a>
-                         <ul class="dropdown-submenu submenu1">
-                            <li><a tabindex="-1" href="./mission.html#Vision">Vision</a></li>
-                            <li><a tabindex="-1" href="./mission.html#Mission">Mission</a></li>
-                             <li><a tabindex="-1" href="./mission.html#Values">Values</a></li>
-                        </ul>
-                        <a href="./donate.html">Enhancement Fund</a>
-                    </div>
-           </li>
-            <li class="dropdown">
-             <a href="./expertise.html" class="dropbtn">Our Expertise</a>                       (Our Expertise Link) 
-                <div class="dropdown-content">
-                    <a href="./expertise.html#researchDesign">Research Design</a>                
-                    <a href="./expertise.html#dataAnalysis">Data Analysis</a>                    
-                    <a href="./expertise.html#resultsDissemination">Results Dissemination</a>    
-                    <a href="./expertise.html#training">Training & Education</a>
-                </div>
-            </li>        
-            <li class="dropdown">
-                <a href="./collaboration.html" class="dropbtn">Collaboration & Services</a>                         (Collaboration & Services Link) 
-                <div class="dropdown-content">
-                    <a href="./collaboration.html#consultation">Free Consultation</a>
-                    <a href="./collaboration.html#grant">Free Grant Development and Prepartation</a>
-                    <a href="./collaboration.html#longterm">Long-term Funded Projects</a>
-                    <a href="./collaboration.html#shortterm">Short-term/Non-Extramurally Funded Projects</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="./members.html" class="dropbtn">Faculty & Staff</a>                                   (Faculty & Staff Link) 
-                <div class="dropdown-content">
-                    <a href="./members.html#faculty">Faculty</a>
-                    <a href="./members.html#staff">Staff</a>
-                </div>           
-            </li>
-            <li class="dropdown">
-                <a href="./resources.html" class="dropbtn">Resources</a>                                       (Resources Link)
-                <div class="dropdown-content">
-                    <a href="./resources.html#courses">Online Statistical Courses</a>
-                    <a href="./resources.html#test">Statistical Test</a>
-                    <a href="./resources.html#calculators">Statistical Calculators</a>
-                    <a href="./resources.html#software">Statistical Software</a>
-                    <a href="./resources.html#repositories">Bioinformatics Data Repositories/Tools</a>
-                    <a href="./resources.html#additional">Additional Bioinformatics Resources</a>
-                </div>
-            </li>
-        </ul> -->
     </div>
-
+   
+    <!-- &&&&&&&&&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
     
 
     <!-- DIV to create Body Borders -->
-    <div class="container mainBodyHome"> 
-
-    <!-- Breadcrumb/Navigational Hierarchy -->
-<!-- 
-    <div class="hierarchy">
-        <ol class="breadcrumb">
-            <li class="currentLink">BQHS</li>
-            <li><a href="index.html">Welcome</a></li>
-        </ol>
-
-    </div>
-        -->
+    <div class="container mainBody mainBodyHome"> 
 
             <!-- #Revolving Images  -->
         <div class="rotatingImages">
@@ -313,7 +359,23 @@
 
             <div class="col-md-4 col-xs-12 menuModule">
                 <div class="innerModule2">
-                    <div class="row"><img class="modulePictures" src="./images/module2.jpg" alt="Collaboration" /></div>
+                    <div class="row"><img class="modulePictures" src="./images/module3.jpg" alt="Education" /></div>
+                    <div class="row moduleContent">
+                        <h4><a class="moduleLightHeader" href="#">Education</a></h4>
+                        <p>
+                            We offer biostatistical and bioinformatical services and collaborations to promote excellence 
+                            in quantiative health research.
+                        <br /><br />
+                        <a class="moduleLightHeader" href="#"><i>Learn More...</i></a>
+                    </p>
+                    </div>
+                 </div>
+            </div>
+
+
+            <div class="col-md-4 col-xs-12 menuModule">
+                <div class="innerModule3">
+                    <div class="row"><img class="modulePictures" src="./images/module2.jpg" alt="Resources" /></div>
                     <div class="row moduleContent">
                         <h4><a class="moduleLightHeader" href="./collaboration.html">Collaboration</a></h4>
                         <p>
@@ -326,31 +388,15 @@
                  </div>
             </div>
 
-
-            <div class="col-md-4 col-xs-12 menuModule">
-                <div class="innerModule3">
-                    <div class="row"><img class="modulePictures" src="./images/module3.jpg" alt="Resources" /></div>
-                    <div class="row moduleContent">
-                        <h4><a class="moduleLightHeader" href="./resources.html">Resources</a></h4>
-                        <p>
-                            Want to learn more about Biostatistics and Quantitative Health Sciences?
-                            Find valuable tools and research methods here.
-                        <br /><br />
-                        <a class="moduleLightHeader" href="./resources.html"><i>Learn More...</i></a>
-                    </p>
-                    </div>
-                 </div>
-            </div>
-
         </div> <!-- (End Row 1) -->
 
     </div> <!-- (End Main Content) -->
 
-    <!-- #Footer -->
-    <div class="bottomFooter">
+   <!-- #Footer -->
+    <div class="container-fluid bottomFooter">
 
         <!-- Inner Footer Area-->
-        <div class="innerFooter">
+        <div class="container innerFooter">
 
         <!-- #Left Footer -->
         <div class="container-fluid pull-left" id="leftFooter">
@@ -380,12 +426,6 @@
     </div> <!-- (End of Footer area) -->
 
    </div> <!-- (End Div to create Body Borders)  -->
-
-    </div> <!-- (End Page Header [reaches length of page on index page only]) -->
-    
-
-
-
 
 
 </body>

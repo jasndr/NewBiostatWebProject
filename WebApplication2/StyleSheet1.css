@@ -11,11 +11,8 @@ html{
 }
 
 body {
-    /**background: 
-        linear-gradient(
-            rgba(206, 194, 142, .7),
-            rgba(206, 194, 142, .7)),
-        url("./images/Hawaii9-twotone-mirrored.jpg") no-repeat center center fixed;		*/
+    background:
+        url("./images/Hawaii9-mirrored-BW.jpg") no-repeat center center fixed;
     background-color: white;
     background-size: cover !important;
     color: #000;
@@ -130,6 +127,7 @@ a:hover{
 
 .activeTab{
     background-color: darkslategray;
+    color: white !important;
     height: 100%;
 }
 
@@ -138,6 +136,9 @@ a:hover{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    width: 100% !important;
+    display: block;
+    text-align: center;
     /**
     width: 100%;
     position: relative;
@@ -246,7 +247,23 @@ a:hover{
 
 /**((((((((((((((((((((((New Navigation Bar))))))))))))))))))))))*/
 
+nav{
+    width: 100%;
+    text-align: center;
+}
 
+
+nav li{
+    /*display: inline-block;*/
+    text-decoration: none;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+}
+
+nav li li{
+    display: block;
+    text-align: left;
+}
 
 /*Hide submenus by targeting any UL's within a UL*/
 nav ul ul {
@@ -261,20 +278,25 @@ nav ul ul {
 
 /*Style main navigation menu*/
 nav ul {
-
-
     z-index: 1000;
-    text-align: center;
-    background: 
+    text-align: left;
+    background:
+        linear-gradient(
+            rgba(238, 226, 168, 1),
+            rgba(255, 255, 255, 1));
+    /*background: 
         linear-gradient(
             rgba(51, 51, 51, 1),
-            rgba(100, 100, 100, 1));  
-    border-top: 2px solid #EEE2A8; /**#B5AA34 #FFDF00*/
-    /**border-bottom: 1px solid #000;*/
+            rgba(100, 100, 100, 1));*/
+    /*background-color: #EEE2A8;*/ 
+    color: black;
+    /*border-top: 2px solid #EEE2A8;*/ /**#B5AA34 #FFDF00*/
+    border-bottom: 1px solid #AAA;
     text-decoration: none;
 	list-style: none;
-	position: relative; /*Aboslutely position submenus according to menu ba*/
+	position: relative; /*Aboslutely position submenus according to menu*/
 	display: block; /*Condense width of menu to fit*/
+    /*margin: 0 auto;*/
 }
     /*Clear floats used on subsequent list items */
 	nav ul:after {
@@ -288,15 +310,15 @@ nav ul li {
 
 }
 	nav ul li:hover {
-		background: #595959;
-		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: #D5B82A;
+		/*background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
 		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
-		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);*/
         text-decoration: none;
         display: block;
 	}
 		nav ul li:hover a {
-			color: #FFF;
+			color: #000;
             text-decoration: none;
             white-space: nowrap;
             width: 100%;
@@ -304,13 +326,13 @@ nav ul li {
 	
 	nav ul li a {
 		display: inline-block; padding: 10px;
-		color: #FFF; text-decoration: none;
+		color: #000; text-decoration: none;
         white-space: nowrap;
 	}
 
     nav ul li a:link, nav ul li a:visited{
         text-decoration: none;
-        color: white;
+        color: black;
     }
 
 
@@ -318,25 +340,25 @@ nav ul li {
     position absolutely 100% top of UL*/
 
 nav ul ul {
-	background: #4D4D4D; border-radius: 0; border: none; padding: 0;
+	background: #E6D57F; border-radius: 0; border: none; padding: 0;
 	position: absolute; top: 100%;
 }
     /*LIs of each UL listed vertically with thin borders*/
 	nav ul ul li {
         font-size: 14px;
 		float: none; 
-		border-top: 1px solid #737373;
-		border-bottom: 1px solid #666;
+		border-top: 1px solid #FFF;
+		border-bottom: 1px solid #FFF;
 		position: relative;
 	}
 		nav ul ul li a {
 			padding: 10px;
-			color: #FFF;
+			color: #000;
 		}	
         /*Darkened backround to act as visual cue*/
 			nav ul ul li a:hover {
-				background: #595959;
-                color: darkorange;
+				background: #D5B82A;
+                color: white;
 			}
 
 /*Position submenus absolutely to the right of position of parent*/
@@ -642,9 +664,9 @@ a:hover{
     /**background-color: #114020;*/
     background:
         linear-gradient(
-            rgba(100, 100, 100, 1),
-            rgba(51, 51, 51, 1));
-    /**background-color: dimgray;*/
+            rgba(255, 255, 255, 1),
+            rgba(238, 226, 168, 1));
+    /*background-color: #EEE2A8;*/
     color: black;
     clear: both;
     display: block;
@@ -666,14 +688,14 @@ a:hover{
     margin-bottom: -20px !important;
     padding-top: 10px;
     padding-bottom: 5px;
-    border-bottom: thin solid #CCC/**#EEE2A8*/;
+    border-bottom: thin solid #000 /**#EEE2A8*/;
 }
 
 #leftFooter{
     float: left;
     margin: 0px;
     width: 25%;
-    border-right: thin solid #CCC/**#EEE2A8*/;
+    border-right: thin solid #000 /**#EEE2A8*/;
 }
 
 #rightFooter{
@@ -688,20 +710,20 @@ a:hover{
     font-family: 'Segoe UI';
     font-size: 16px;
     text-align: right;
-    color: #EEE;
+    color: #000;
 }
 
 .contactInfo{
     font-family: 'Segoe UI';
     font-size: 12px;
-    color: #EEE;
+    color: #000;
     text-align: right;
 }
 
 .copyright{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    color: #EEE;
+    color: #000;
     text-align: center;
 }
 
@@ -720,6 +742,7 @@ a:hover{
 }
 
 /*-----------------------[Content Pages] ---------------------------------------------------*/
+
 
 .breadcrumb {
     background-color: /**#FFFFF0*/ #FFF !important;

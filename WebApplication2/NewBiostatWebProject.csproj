@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="biostatanalysis.html" />
     <Content Include="BQHSfooter.html" />
     <Content Include="BQHSheader.html" />
     <Content Include="collaboration.html" />
@@ -144,6 +146,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="images\RMATRIX.jpg" />
+    <Content Include="researchdesign.html" />
     <Content Include="resources.html" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />

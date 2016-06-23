@@ -12,7 +12,10 @@ html{
 
 body {
     background:
-        url("./images/Hawaii9-mirrored-BW.jpg") no-repeat center center fixed;
+        linear-gradient(
+            rgba(255,255,255,.5),
+            rgba(255,255,255,.5)),
+        url("./images/beach-blue.jpg") no-repeat center center fixed;
     background-color: white;
     background-size: cover !important;
     color: #000;
@@ -122,7 +125,7 @@ a:hover{
 }
 
 .mainBodyHome{
-    padding-top: 33px !important;
+    margin-top: -10px !important;
 }
 
 .activeTab{
@@ -328,6 +331,7 @@ nav ul li {
 		display: inline-block; padding: 10px;
 		color: #000; text-decoration: none;
         white-space: nowrap;
+        width: 100%;
 	}
 
     nav ul li a:link, nav ul li a:visited{
@@ -347,15 +351,15 @@ nav ul ul {
 	nav ul ul li {
         font-size: 14px;
 		float: none; 
-		border-top: 1px solid #FFF;
-		border-bottom: 1px solid #FFF;
+		/*border-top: 1px solid #FFF;
+		border-bottom: 1px solid #FFF;*/
 		position: relative;
 	}
 		nav ul ul li a {
-			padding: 10px;
+			padding: 7.5px !important;
 			color: #000;
 		}	
-        /*Darkened backround to act as visual cue*/
+        /*Darkened background to act as visual cue*/
 			nav ul ul li a:hover {
 				background: #D5B82A;
                 color: white;
@@ -388,7 +392,7 @@ a:hover{
 }
 
 /*---------------------------[Home Page]----------------------------------*/
-
+beach
 .rotatingImages{
     margin-top: -50px;
     margin-bottom: 5px;

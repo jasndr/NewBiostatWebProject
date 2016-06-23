@@ -5,17 +5,17 @@
      #                                                                    #
      # @author Jason Delos Reyes                                          #
      # @date May/June 2016                                                #
-     # BQHS Page 2                                                        #
+     # BQHS - About Us                                                    #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>Expertise | BQHS</title>
+    <title>Resources | BQHS</title>
     <link rel="icon" href="./images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-    <meta name="description" content="BQHS specializes in research design, data analysis, and results dissemination for biostatistics and quantiative health sciences." />
-    <meta name="keywords" content="BQHS, Expertise, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="description" content="Who are we?" />
+    <meta name="keywords" content="BQHS, About, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
     <!-- TIPUE SEARCH STYLE SHEET -->
@@ -29,7 +29,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-     <script src="JavaScript.js"></script> 
+    <!-- <script src="JavaScript.js"></script> -->
 </head>
 
 
@@ -63,7 +63,7 @@
          <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-    <!-- #Main Navigation Bar -->
+     <!-- #Main Navigation Bar -->
     <div class="mainNavBar">
      
         <nav>
@@ -147,9 +147,11 @@
 
     </div>
 
-    </div> <!-- (End Page Header) -->
+    
 
-    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    </div> <!-- (End of Page Header) -->
+
+     <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
@@ -162,7 +164,7 @@
         </p> 
         <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
             <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
+            <input class="search form-control-static" type="text" name="q" id="tipue_search_input_fake" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
             <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
@@ -176,12 +178,12 @@
          <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-   <!-- #Main Navigation Bar -->
+     <!-- #Main Navigation Bar -->
     <div class="mainNavBar">
      
         <nav>
 	        <ul>
-		        <li><a href="./index.html">Home</a>
+		        <li><a class="activeTab" href="./index.html">Home</a>
                     <ul>
 				        <li><a href="#">About Us</a>
                             <ul>
@@ -192,7 +194,7 @@
                                         <li><a href="./mission.html#Values">Values</a>
                                     </ul>
 				                </li>
-				                <li><a class="activeTab" href="./expertise.html">Expertise</a>
+				                <li><a href="./expertise.html">Expertise</a>
                                     <ul>
                                         <li><a href="./expertise.html#biostatistics">Biostatistics</a>
                                         <li><a href="./expertise.html#bioinformatics">Bioinformatics</a>
@@ -210,7 +212,7 @@
 
 		        <li><a href="#">Research</a></li>
 
-		        <li><a href="#">Education</a>
+		        <li><a class="activeTab" href="#">Education</a>
                     <ul>
                         <li><a href="#">Courses Offered</a>
                             <ul>
@@ -240,7 +242,7 @@
                     </ul>
                 </li>
 
-		        <li><a href="#">Collaboration</a></li>
+		        <li><a href="./collaboration.html">Collaboration</a></li>
 
                 <li><a href="./members.html">People</a>
                     <ul>
@@ -253,16 +255,8 @@
 
     </div>
 
-    <!-- Breadcrumb/Navigational Hierarchy -->
-    <!--<div class="hierarchy breadcrumbNav container">
-        <ol class="breadcrumb">
-            <li><a href="./index.html">Home</a></li>
-            <li class="currentLink"><a href="./expertise.html">Our Expertise</a></li>
-        </ol>
-    </div>--> <!-- (End Breadcrumb) -->
    
     <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
-
 
     <!-- DIV to create Body Borders -->
     <div class="container mainBody">
@@ -270,22 +264,21 @@
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
 
-        <!-- Breadcrumb/Navigational Hierarchy -->
-        <div class="hierarchy breadcrumbNav">
-            <ol class="breadcrumb">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li class="currentLink"><a href="./expertise.html">Our Expertise</a></li>
-            </ol>
-        </div> <!-- (End Breadcrumb) -->    
+            <!-- Breadcrumb/Navigational Hierarchy -->
+            <div class="hierarchy breadcrumbNav">
+                <ol class="breadcrumb">
+                    <li><a href="./index.html">Home</a></li>
+                    <li class="currentLink"><a href="./about.html">About Us</a></li>
+                </ol>
+            </div> <!-- (End Breadcrumb) -->
 
     <!-- Main Content for pages after home page (including this one) -->
     <div class="mainInfo">
 
 
-          <!-- Left Sidebar --> 
+          <!-- Donation Page to the left --> 
         <div class="leftBank">
-                      
+          
             <!-- #FlowerPic (Header) -->
             <div class="belowVisionBox hierarchy">
                 
@@ -298,111 +291,34 @@
         <div class="rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>BQHS Expertise</p></div>
+            <div class="titleOfPage"><p>About Us</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <img class="contentImage" src="./images/Research.jpg" alt="Research" />
+                <img class="contentImage" src="./images/module3.jpg" alt="Research" />
 
-                <p class="contentWords">The faculty and staff at BQHS have extensive experience with epidemiologic investigations, basic science research, clinical studies,
-                    clinical trials, large-scale omics data analysis, and community-based investigations.  We are ready to provide prompt, high quality
-                    biostatistical and bioinformatical services listed below.
+                <p class="contentWords">The University of Hawaii John A. Burns School of Medicine Office of Biostatistics and Quantitative Health Sciences (BQHS)
+                    consist of a team of biostatisticians, bioinformaticians, and a database programmer to provide you quantitative expertise. We are located on the
+                    second floor of the Biosciences Building at the John. A Burns School of Medicine in Kaka'ako.  We are ready to provide prompt, high quality
+                    biostatistical and bioinformatical services to you.
                 </p>
+
+                <br />
+    
+               <div class="contentButtonWrapper">
+                   <a class="btn btn-success ContentButton text-center" href="./mission.html" role="button">Vision, Mission, and Values</a>
+               </div>
+
+                <br />
+
                 <div class="contentButtonWrapper">
-                    <a class="btn btn-success contentButton" href="./documents/BQHS_Brochure_061015.pdf" target="_blank" role="button">
-                        Download BQHS Collaboration & Service Brochure</a>
-                </div>
-
-
-
-                <!--<div class="hidingBox" id="researchDesign">--> <!-- Research Design -->
-                    <!--<div class="hbTitle" id="rdTitle">--> <!-- RD Title -->
-                        <!--<p>Research Design</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="rdContent">--><!-- RD Content -->
-                        <!--<ul>
-                            <li>Grant proposal development and review</li>
-                            <li>Research feasibility discussion to establish testable research hypothesis</li>
-                            <li>Sample size and statistical power determination</li>
-                            <li>Database design</li>
-                            <li>Data-instrument development, such as questionaire</li>
-                            <li>Data-coding protocols</li>
-                            <li>Sampling procedures</li>
-                        </ul>
-                        <p>
-                            <strong>Note:</strong> To help increase the likelihood of success in obtaining funding, BQHS faculty and staff need sufficient time to 
-                            customize the research design and data analysis sections for your individual research proposal. We <em>strongly recommend</em> that
-                            you contact BQHS as early as possible, at least several weeks before the deadline. The involvement of experienced BQHS faculty and
-                            staff from the beginning of the development of a research project tends to significantly increase the quality of an investigation.
-                        </p>
-                    </div> 
-                </div>
-
-                <div class="hidingBox" id="dataAnalysis">--> <!-- Data Analysis --> 
-                    <!--<div class="hbTitle" id="daTitle"> --><!-- DA Title -->
-                        <!--<p>Data Analysis</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="daContent">--> <!-- DA Content -->
-                       <!-- <p>Biostatistics</p>
-                        <ul>
-                            <li>Database design and development (OpenClinica, REDCap, ACCESS)</li>
-                            <li>Data coding and management</li>
-                            <li>Comprehensive univariable and multivariable analysis</li>
-                            <li>Data safety monitoring and interim analysis</li>
-                            <li>Tailored statistical tool development to address specific research questions and challenges</li>
-                        </ul>
-                        <p>Bioinformatics</p>
-                        <ul>
-                            <li>Next Generation Sequencing
-                                <ul>
-                                    <li>RNA-Seq</li>
-                                    <li>DNA-Seq</li>
-                                    <li>Chip-Seq</li>
-                                    <li>Exome sequencing</li>
-                                    <li>Targeted sequencing</li>
-                                    <li>Variant detection and more</li>
-                                </ul>
-                            </li>
-                            <li>Microarray data analysis</li>
-                            <li>Proteomics data analysis</li>
-                            <li>Gene annotation</li>
-                            <li>Pathway Analysis</li>
-                        </ul>
-                    </div> 
-                </div>
+                   <a class="btn btn-success ContentButton text-center" href="./expertise.html" role="button">BQHS Expertise</a>
+               </div>
+                
                
-                <div class="hidingBox" id="resultsDissemination">--> <!-- Results Dissemination --> 
-                    <!--<div class="hbTitle" id="redTitle">--> <!-- ReD Title -->
-                        <!--<p>Results Dissemination</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="redContent">--> <!-- ReD Content -->
-                       <!-- <ul>
-                            <li>Statistical results interpretation</li>
-                            <li>Results presentations (e.g., figures and tables) for manuscripts and posters</li>
-                            <li>Biostatsitics and bioinformatics methodology and results sections for reports and manuscripts</li>
-                        </ul>
-                        <p><strong>Note:</strong> Authorship is generally expected on scientific journal articles or presentations,
-                            where substative input and effort on research design and/or data analysis are provided. Reimbursement
-                            for BQHS support (either through %FTE or fee-for-service) <em>does not</em> preclude or replace 
-                            authorship.
-                        </p>
-                    </div> 
-                </div>
-
-                <div class="hidingBox" id="training">--> <!-- Training and Education --> 
-                    <!--<div class="hbTitle" id="teTitle">--> <!-- TE Title -->
-                       <!-- <p>Training and Education</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="teContent">--> <!-- TE Content -->
-                        <!--<ul>
-                            <li>Quantitative health science workships and seminars for trainees (graduate students, residents, fellows), 
-                                faculty, and staff</li>
-                            <li>Statistics and bioinformatics courses of various levels of difficulty</li>
-                        </ul>
-                    </div> 
-                </div>-->
-
+               
+                        
 
               </div> <!-- (End contentOfPage) -->
 
@@ -413,7 +329,7 @@
 
 </div> <!-- (End Main Content) -->
 
-        <!-- #Footer -->
+         <!-- #Footer -->
     <div class="container-fluid bottomFooter">
 
         <!-- Inner Footer Area-->
@@ -446,9 +362,7 @@
 
     </div> <!-- (End of Footer area) -->
 
-
 </div> <!-- (End Div to create Body Borders)  -->
-
 
 </body>
 </html>

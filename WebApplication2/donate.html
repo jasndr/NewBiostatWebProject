@@ -73,9 +73,17 @@
                     <ul>
 				        <li><a href="#">About Us</a>
                             <ul>
-				                <li><a href="./mission.html">Vision, Mission, and Values</a>
+				                <li><a href="./mission.html">Vision, Mission, and Values</a></li>
+				                <li><a href="./expertise.html">Expertise</a>
+                                    <ul>
+                                        <li><a href="#">Research Design</a></li>
+                                        <li><a href="#">Biostatistical Data Analysis</a></li>
+                                        <li><a href="#">Bioinformatical Data Analysis</a></li>
+                                        <li><a href="#">Biomedical Informatics</a></li>
+                                        <li><a href="#">Dissemination</a></li>
+                                        <li><a href="#">Training and Education</a></li>
+                                    </ul>
 				                </li>
-				                <li><a href="./expertise.html">Expertise</a></li>
 			                </ul>
                         </li>
 				        <li><a href="./contact.html">Contact Us</a></li>
@@ -103,12 +111,7 @@
 
 		        <li><a href="#">Education</a>
                     <ul>
-                        <li><a href="#">Courses Offered</a>
-                            <ul>
-                                <li><a href="#">Biostatistics</a></li>
-                                <li><a href="#">Bioinformatics</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="#">Courses Offered</a></li>
                         <li><a href="#">Training</a></li>
                         <li><a href="./resources.html">Online Resources</a>
                             <ul>
@@ -119,13 +122,18 @@
                     </ul>
                 </li>
 
-		        <li><a href="./collaboration.html">Services</a>
+		        <li><a href="./collaboration.html">Support & Services</a>
                     <ul>
-                        <li><a href="./collaboration.html#consultation">Consultation</a></li>
-                        <li><a href="./collaboration.html#grant">Grant Development</a></li>
-                        <li><a href="./collaboration.html#longterm">Project Support</a></li>
-                        <li><a href="./collaboration.html#shortterm">BQHS Rates</a></li>
-                        <li><a href="./contact.html#request">Request Form for Services</a></li>
+                        <li><a href="#">Infrastructure Grants</a></li>
+                        <li><a href="#">Services</a>
+                            <ul>
+                                <li><a href="#">Consultations & Projects</a></li>
+                                <li><a href="#">Grants Development</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Service Rates</a></li>
+                        <li><a href="#">Service Request Form</a></li>
+                        
                     </ul>
 		        </li>
 
@@ -142,7 +150,7 @@
 
     </div> <!-- (End of Page Header) -->
 
-     <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+     <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
@@ -247,7 +255,7 @@
     </div>
 
    
-    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [END IMITATION HEADER] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- DIV to create Body Borders -->
     <div class="container mainBody">
@@ -259,7 +267,7 @@
             <div class="hierarchy breadcrumbNav">
                 <ol class="breadcrumb">
                     <li><a href="./index.html">Home</a></li>
-                    <li class="currentLink"><a href="./donate.html">Enhancement Fund</a></li>
+                    <li class="currentLink"><a href="./donate.html">Give a Gift</a></li>
                 </ol>
             </div> <!-- (End Breadcrumb) -->
 
@@ -282,7 +290,7 @@
         <div class="rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>Enhancement Fund</p></div>
+            <div class="titleOfPage"><p>Give a Gift</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
@@ -291,17 +299,49 @@
 
                 <p class="contentWords">Your generous gift will allow BQHS to maintain and further develop this important JABSOM infrastructure resource.
                          Please see the "Give Now" button below to view your donation options. If you are donating by check, please select "Donate by
-                         US Mail" below and designate <em>JABSOM BQHS</em> on the donation form. Thank you for your generosity!  </p>    
+                         US Mail" below and designate <em>JABSOM BQHS</em> on the donation form. Thank you for your generosity!  </p> 
+                
+
+                <div class="hidingBox" id="giveOnline"> <!-- giveOnline -->
+                    <div class="hbTitle" id="gOTitle"> <!-- gO Title -->
+                        <p>Give a Gift Online Now</p>
+                    </div>
+                    <div class="hbContent contentWords" id="gOContent"> <!-- gO Content -->
+                        <p>To donate online, please click the button below.  Thank you!</p>
+                        <div class="contentButtonWrapper">
+                            <a class="text-center" href="https://giving.uhfoundation.org/#funds/12616904" role="button" target="_blank">
+                                <img class="giveNowButton" src="./images/button_give-now.jpg" />
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="hidingBox" id="giveMail"> <!-- giveMail -->
+                    <div class="hbTitle" id="gMTitle"> <!-- gM Title -->
+                        <p>Give a Gift by U.S. Mail</p>
+                    </div>
+                    <div class="hbContent contentWords" id="gMContent"> <!-- gM Content -->
+                        <p>To donate by check, please fill out the gift form below, <em>designate your gift to</em> 
+                            <strong>UH JABSOM Office of Biostatistics & Quantitative Health Sciences </strong> and send it along with 
+                            either a check or your credit card information to the following address:
+                            <br />
+                            <br />
+                            University of Hawaiʻi Foundation<br />
+                            P.O. Box 11270<br />
+                            Honolulu, HI, 96828-0270<br />
+                            <br />
+                            Checks should be made payable to the <em>University of Hawaiʻi Foundation</em>.  Thank you.
+                            
+
+                        </p>
+
+         
+                        
+                    </div>
+                </div>
+                  
    
-                <ul id="nav2">
-                    <li class="dropdown">
-                        <img class="giveNowButton" src="./images/button_give-now.jpg" />         
-                        <div class="dropdown-content">
-                            <a href="https://giving.uhfoundation.org/funds/12616904" target="_blank">Give Online</a>
-                            <a href="http://www.uhfoundation.org/give/gifts-us-mail" target="_blank">Give by US Mail</a>
-                        </div>
-                    </li>
-                </ul>      
+           
                    
                 <h4 class="mahalo">MAHALO!</h4>
       

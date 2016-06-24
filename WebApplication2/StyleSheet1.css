@@ -13,9 +13,9 @@ html{
 body {
     background:
         linear-gradient(
-            rgba(255,255,255,.5),
-            rgba(255,255,255,.5)),
-        url("./images/beach-blue.jpg") no-repeat center center fixed;
+            rgba(255,255,255,.6),
+            rgba(255,255,255,.6)),
+        url("./images/beach.jpg") no-repeat center center fixed;
     background-color: white;
     background-size: cover !important;
     color: #000;
@@ -31,6 +31,15 @@ a:hover{
     background: none;
     text-decoration: none;
 }
+
+/*-------------------[Menu Active Tab]------------------------*/
+
+#home .home, #research .research, #education .education, #services .services, #people .people{
+    background-color: darkslategray;
+    color: white !important;
+    height: 100%;
+}
+
 
 /*---------------------[Header]------------------------------*/
 
@@ -115,8 +124,8 @@ a:hover{
 }
 
 .mainBody{
-    margin-top: -10px;
-    padding-top: 0px;
+    margin-top: 110px;
+    padding-top: 0;
     width: 1125px !important;
     position: relative;
     z-index: 500;
@@ -128,20 +137,19 @@ a:hover{
     margin-top: -10px !important;
 }
 
-.activeTab{
-    background-color: darkslategray;
-    color: white !important;
-    height: 100%;
-}
-
-
 .mainNavBar{
+    margin-top: -20px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
     width: 100% !important;
     display: block;
     text-align: center;
+    background: 
+        linear-gradient(
+            rgba(238, 226, 168, 1),
+            rgba(255, 255, 255, 1));
+    border-bottom: 1px solid #AAA;
     /**
     width: 100%;
     position: relative;
@@ -251,16 +259,18 @@ a:hover{
 /**((((((((((((((((((((((New Navigation Bar))))))))))))))))))))))*/
 
 nav{
-    width: 100%;
-    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
 }
 
 
 nav li{
     /*display: inline-block;*/
     text-decoration: none;
-    margin-left: 1.25%;
-    margin-right: 1.25%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 nav li li{
@@ -294,7 +304,7 @@ nav ul {
     /*background-color: #EEE2A8;*/ 
     color: black;
     /*border-top: 2px solid #EEE2A8;*/ /**#B5AA34 #FFDF00*/
-    border-bottom: 1px solid #AAA;
+    /*border-bottom: 1px solid #AAA;*/
     text-decoration: none;
 	list-style: none;
 	position: relative; /*Aboslutely position submenus according to menu*/
@@ -392,9 +402,9 @@ a:hover{
 }
 
 /*---------------------------[Home Page]----------------------------------*/
-beach
+
 .rotatingImages{
-    margin-top: -50px;
+    margin-top: -5px;
     margin-bottom: 5px;
     right: 1.5%;
     position: relative;
@@ -768,8 +778,8 @@ beach
 :target:before{
     content: "";
     display: block;
-    height: 150px;
-    margin: -150px 0 0;
+    height: 200px;
+    margin: -200px 0 0;
 }
 
 .mainInfo{
@@ -852,7 +862,7 @@ beach
     background-color: #008000 !important;
     border-color: #008000 !important;
     color: floralwhite !important;
-}
+}ma
 
 .contentButtonWrapper{
     text-align: center;
@@ -868,8 +878,8 @@ beach
 
 .hbTitle{
     margin-top: 10px;
-    background-color: #008000;/**#A55B27;*/
-    color: white;
+    background-color: #79D2A1;/**#A55B27;*/
+    color: black;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     text-align: center;

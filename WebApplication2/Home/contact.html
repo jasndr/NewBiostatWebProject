@@ -46,10 +46,11 @@
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
-        <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
-            <button type="submit" class="btn searchButton"">
+        <div class="searchForm">                                                                                    
+            <form name="google-search" method="get" action="http://www.google.com/search">                   
+                <input type="hidden" name="sitesearch" value="http://biostat.jabsom.hawaii.edu/" />                   
+                <input class="search form-control-static" type="text" name="q" autocomplete="off" placeholder="Search BQHS..." />      
+                <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
             </form>

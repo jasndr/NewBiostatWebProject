@@ -5,17 +5,17 @@
      #                                                                    #
      # @author Jason Delos Reyes                                          #
      # @date May/June 2016                                                #
-     # BQHS Page 2                                                        #
+     # BQHS Page 7 - Careers                                              #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>Expertise | BQHS</title>
+    <title>Careers | BQHS</title>
     <link rel="icon" href="./images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-    <meta name="description" content="BQHS specializes in research design, data analysis, and results dissemination for biostatistics and quantiative health sciences." />
-    <meta name="keywords" content="BQHS, Expertise, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="description" content="Looking for opportunities in paradise?  We may have the career for you!" />
+    <meta name="keywords" content="BQHS, Jobs, Careers, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
     <!-- TIPUE SEARCH STYLE SHEET -->
@@ -29,7 +29,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-     <script src="JavaScript.js"></script> 
+    <!-- <script src="JavaScript.js"></script> -->
 </head>
 
 
@@ -47,10 +47,11 @@
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
-        <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
-            <button type="submit" class="btn searchButton"">
+        <div class="searchForm">                                                                                    
+            <form name="google-search" method="get" action="http://www.google.com/search">                   
+                <input type="hidden" name="sitesearch" value="http://biostat.jabsom.hawaii.edu/" />                   
+                <input class="search form-control-static" type="text" name="q" autocomplete="off" placeholder="Search BQHS..." />      
+                <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
             </form>
@@ -63,7 +64,7 @@
          <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-    <!-- #Main Navigation Bar -->
+     <!-- #Main Navigation Bar -->
     <div class="mainNavBar">
      
         <nav>
@@ -147,9 +148,9 @@
 
     </div>
 
-    </div> <!-- (End Page Header) -->
+    </div> <!-- (End of Page Header) -->
 
-    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+     <!-- &&&&&&&&&&&& [IMITATION HEADER - Do not touch code *below* this line until end of imitation header!!!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
@@ -176,12 +177,12 @@
          <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-   <!-- #Main Navigation Bar -->
+     <!-- #Main Navigation Bar -->
     <div class="mainNavBar">
      
         <nav>
 	        <ul>
-		        <li><a href="./index.html">Home</a>
+		        <li><a class="activeTab" href="./index.html">Home</a>
                     <ul>
 				        <li><a href="#">About Us</a>
                             <ul>
@@ -192,7 +193,7 @@
                                         <li><a href="./mission.html#Values">Values</a>
                                     </ul>
 				                </li>
-				                <li><a class="activeTab" href="./expertise.html">Expertise</a>
+				                <li><a href="./expertise.html">Expertise</a>
                                     <ul>
                                         <li><a href="./expertise.html#biostatistics">Biostatistics</a>
                                         <li><a href="./expertise.html#bioinformatics">Bioinformatics</a>
@@ -253,16 +254,8 @@
 
     </div>
 
-    <!-- Breadcrumb/Navigational Hierarchy -->
-    <!--<div class="hierarchy breadcrumbNav container">
-        <ol class="breadcrumb">
-            <li><a href="./index.html">Home</a></li>
-            <li class="currentLink"><a href="./expertise.html">Our Expertise</a></li>
-        </ol>
-    </div>--> <!-- (End Breadcrumb) -->
    
-    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
-
+    <!-- &&&& [END IMITATION HEADER - Do not touch code ^^^above this line until start of imitation header!!!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
 
     <!-- DIV to create Body Borders -->
     <div class="container mainBody">
@@ -270,22 +263,21 @@
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
 
-        <!-- Breadcrumb/Navigational Hierarchy -->
-        <div class="hierarchy breadcrumbNav">
-            <ol class="breadcrumb">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li class="currentLink"><a href="./expertise.html">Our Expertise</a></li>
-            </ol>
-        </div> <!-- (End Breadcrumb) -->    
+    <!-- Breadcrumb/Navigational Hierarchy -->
+    <div class="hierarchy breadcrumbNav">
+        <ol class="breadcrumb">
+            <li><a href="./index.html">Home</a></li>
+            <li class="currentLink"><a href="./jobs.html">Careers</a></li>
+        </ol>
+    </div> <!-- (End Breadcrumb) -->
 
     <!-- Main Content for pages after home page (including this one) -->
     <div class="mainInfo">
 
 
-          <!-- Left Sidebar --> 
+          <!-- Donation Page to the left --> 
         <div class="leftBank">
-                      
+          
             <!-- #FlowerPic (Header) -->
             <div class="belowVisionBox hierarchy">
                 
@@ -298,110 +290,133 @@
         <div class="rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>BQHS Expertise</p></div>
+            <div class="titleOfPage"><p>Looking for Exciting Opportunities in Paradise?</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <img class="contentImage" src="./images/Research.jpg" alt="Research" />
+                <img class="contentImage" src="./images/Kaneohe4.jpg" alt="Careers" />
 
-                <p class="contentWords">The faculty and staff at BQHS have extensive experience with epidemiologic investigations, basic science research, clinical studies,
-                    clinical trials, large-scale omics data analysis, and community-based investigations.  We are ready to provide prompt, high quality
-                    biostatistical and bioinformatical services listed below.
+                <p class="contentWords">BQHS is always looking for qualified and self-driven Ph.D. and Master-level biostatisticians, bioinformaticians,
+                    programmers, and database specialists to join our growing team. The following are summaries of their designated job descriptions.
+                    <em>Please see corresponding links for full job description information.</em>
                 </p>
-                <div class="contentButtonWrapper">
-                    <a class="btn btn-success contentButton" href="./documents/BQHS_Brochure_061015.pdf" target="_blank" role="button">
-                        Download BQHS Collaboration & Service Brochure</a>
-                </div>
+                
 
+                <div class="hidingBox" id="bioinformatician">  <!-- Bioinformatician Positions -->
+                    <div class="hbTitle" id="biTitle"> <!-- BI Title -->
+                        <p>Bioinformatician Positions</p>
+                    </div>
+                    <div class="hbContent contentWords" id="biContent"> <!-- BI Content -->
 
-
-                <!--<div class="hidingBox" id="researchDesign">--> <!-- Research Design -->
-                    <!--<div class="hbTitle" id="rdTitle">--> <!-- RD Title -->
-                        <!--<p>Research Design</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="rdContent">--><!-- RD Content -->
-                        <!--<ul>
-                            <li>Grant proposal development and review</li>
-                            <li>Research feasibility discussion to establish testable research hypothesis</li>
-                            <li>Sample size and statistical power determination</li>
-                            <li>Database design</li>
-                            <li>Data-instrument development, such as questionaire</li>
-                            <li>Data-coding protocols</li>
-                            <li>Sampling procedures</li>
-                        </ul>
-                        <p>
-                            <strong>Note:</strong> To help increase the likelihood of success in obtaining funding, BQHS faculty and staff need sufficient time to 
-                            customize the research design and data analysis sections for your individual research proposal. We <em>strongly recommend</em> that
-                            you contact BQHS as early as possible, at least several weeks before the deadline. The involvement of experienced BQHS faculty and
-                            staff from the beginning of the development of a research project tends to significantly increase the quality of an investigation.
-                        </p>
-                    </div> 
-                </div>
-
-                <div class="hidingBox" id="dataAnalysis">--> <!-- Data Analysis --> 
-                    <!--<div class="hbTitle" id="daTitle"> --><!-- DA Title -->
-                        <!--<p>Data Analysis</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="daContent">--> <!-- DA Content -->
-                       <!-- <p>Biostatistics</p>
+                         <a class="btn btn-success redContentButton" href="./documents/PhD_bioinformatician_BQHS_July2015.pdf" 
+                             target="_blank" role="button">Ph.D. Bioinformatician</a>
                         <ul>
-                            <li>Database design and development (OpenClinica, REDCap, ACCESS)</li>
-                            <li>Data coding and management</li>
-                            <li>Comprehensive univariable and multivariable analysis</li>
-                            <li>Data safety monitoring and interim analysis</li>
-                            <li>Tailored statistical tool development to address specific research questions and challenges</li>
+                            <li><em><strong>Duties &amp; Responsibilities:</strong> Use existing bioinformatics software or develop new approaches
+                                to solve problems during the conduct of biomedical research and to gain a better understanding of complex biological
+                                activities.
+                                </em></li>
+                            <li><em><strong>Minimum Qualifications:</strong> Ph.D. Degree in Bioinformatics, Biostatistics, Computer Sciences, or
+                                related quantitative fields &amp; one (1) year of translational bioinformatics collaboration in an academic/biotech setting.
+                                </em></li>
                         </ul>
-                        <p>Bioinformatics</p>
+
+                        <a class="btn btn-success redContentButton" href="./documents/MS_bioinformatician_BQHS_July2015.pdf" 
+                             target="_blank" role="button">M.S. Bioinformatician</a>
                         <ul>
-                            <li>Next Generation Sequencing
-                                <ul>
-                                    <li>RNA-Seq</li>
-                                    <li>DNA-Seq</li>
-                                    <li>Chip-Seq</li>
-                                    <li>Exome sequencing</li>
-                                    <li>Targeted sequencing</li>
-                                    <li>Variant detection and more</li>
-                                </ul>
-                            </li>
-                            <li>Microarray data analysis</li>
-                            <li>Proteomics data analysis</li>
-                            <li>Gene annotation</li>
-                            <li>Pathway Analysis</li>
+                            <li><em><strong>Duties &amp; Responsibilities:</strong> Use existing bioinformatics software to support biomedical research
+                                projects under general guidance.
+                                </em></li>
+                            <li><em><strong>Minimum Qualifications:</strong> Master's Degree in Bioinformatics, Biostatistics, Computer Sciences, or
+                                related quantitative fields &amp; one (1) year of translational bioinformatics collaboration in an academic/biotech setting.
+                                </em></li>
                         </ul>
-                    </div> 
+
+
+
+                    </div>
                 </div>
+
+                <div class="hidingBox" id="biostatistician">  <!-- Biostatistician Positions -->
+                    <div class="hbTitle" id="bsTitle"> <!-- BS Title -->
+                        <p>Biostatistician Positions</p>
+                    </div>
+                    <div class="hbContent contentWords" id="bsContent"> <!-- BS Content -->
+
+                         <a class="btn btn-success redContentButton" href="./documents/Senior_PhD_biostatistician_BQHS2015_July2015.pdf" 
+                             target="_blank" role="button">Senior Ph.D. Biostatistician</a>
+                        <ul>
+                            <li><em><strong>Duties &amp; Responsibilities:</strong> Independently provide research design and statistical analysis
+                                support to diverse research projects.
+                                </em></li>
+                            <li><em><strong>Minimum Qualifications:</strong> Ph.D. Degree in Biostatistics, Statistics, or
+                                related quantitative fields &amp; at least five (5) years of post-doctoral collaborative research and consultation experience.
+                                </em></li>
+                        </ul>
+
+                        <a class="btn btn-success redContentButton" href="./documents/PhD_biostatistician_BQHS_July2015.pdf" 
+                             target="_blank" role="button">Ph.D. Biostatistician</a>
+                        <ul>
+                            <li><em><strong>Duties &amp; Responsibilities:</strong> Provide research design and statistical analysis support to diverse research
+                                projects under general guidance.
+                                </em></li>
+                            <li><em><strong>Minimum Qualifications:</strong> Ph.D. Degree in Biostatistics, Statistics, or related quantitative fields &amp;
+                                experience interacting with multiple biomedical research investigators and providing statistical support.
+                                </em></li>
+                        </ul>
+
+                        <a class="btn btn-success redContentButton" href="./documents/Senior_MS_biostatistician_BQHS_July2015.pdf" 
+                             target="_blank" role="button">Senior M.S. Biostatistician</a>
+                        <ul>
+                            <li><em><strong>Duties &amp; Responsibilities:</strong> Independently provide consultation and collaboration support on research
+                                design and statistical analysis to multiple research projects under minimal guidance.
+                                </em></li>
+                            <li><em><strong>Minimum Qualifications:</strong> Master's Degree in Biostatistics or Statistics &amp; at least three (3) years
+                                of full-time, post-graduate statistical programming and data analysis experience.
+                                </em></li>
+                        </ul>
+
+                        <a class="btn btn-success redContentButton" href="./documents/MS_biostatistician_BQHS_July2015.pdf" 
+                             target="_blank" role="button">M.S. Biostatistician/Data Analyst</a>
+                        <ul>
+                            <li><em><strong>Duties &amp; Responsibilities:</strong> Provide statistical programming and analysis support to multiple research projects.
+                                </em></li>
+                            <li><em><strong>Minimum Qualifications:</strong> Master's Degree in Biostatistics &amp; experience in interacting with biomedical
+                                researchers, and providing statistical programming and analysis support.
+                                </em></li>
+                        </ul>
+                        </div>
+                </div>
+
+                <div class="hidingBox" id="technical"> <!-- Technical Positions -->
+                    <div class="hbTitle" id="tpTitle"> <!-- TP Title -->
+                        <p>Technical Positions</p>
+                    </div>
+                    <div class="hbContent contentWords" id="tpContent"> <!-- TP Content -->
+                       <a class="btn btn-success redContentButton" href="./documents/CLINICAL_DATABASE_PROGRAMMER_JOB.pdf" 
+                             target="_blank" role="button">Clinical Database Programmer/Analyst</a>
+                        <ul>
+                            <li><em><strong>Duties &amp; Responsibilities:</strong> Work closely with BQHS staff and research collaborators to develop and maintain
+                                databases for clinical trials and clinical research studies.
+                                </em></li>
+                            <li><em><strong>Minimum Qualifications:</strong> Bachelor's Degree in Computer Sciences or related field &amp; at least three years
+                                of full-time experience as a database programmer/analyst in a biomedical research setting or pharmaceutical/biotech/CRO industry
+                                with demonstrated professional maturity.
+                                </em></li>
+                        </ul>
+                    </div>
+                 </div>
+
+                    <p class="contentWords"><em>If you have read the full job description links by clicking the individual job titles above</em> and are interested in
+                        exploring career opportunities at UH JABSOM BQHS, please submit a cover letter describing your interest and qualifications, your resume/CV, 
+                        and a copy of school transcripts via email to <a href="./contact.html#contactForm">qhsjobs@hawaii.edu</a>. Mahalo for your interest!
+                    </p>
+
+         
+
                
-                <div class="hidingBox" id="resultsDissemination">--> <!-- Results Dissemination --> 
-                    <!--<div class="hbTitle" id="redTitle">--> <!-- ReD Title -->
-                        <!--<p>Results Dissemination</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="redContent">--> <!-- ReD Content -->
-                       <!-- <ul>
-                            <li>Statistical results interpretation</li>
-                            <li>Results presentations (e.g., figures and tables) for manuscripts and posters</li>
-                            <li>Biostatsitics and bioinformatics methodology and results sections for reports and manuscripts</li>
-                        </ul>
-                        <p><strong>Note:</strong> Authorship is generally expected on scientific journal articles or presentations,
-                            where substative input and effort on research design and/or data analysis are provided. Reimbursement
-                            for BQHS support (either through %FTE or fee-for-service) <em>does not</em> preclude or replace 
-                            authorship.
-                        </p>
-                    </div> 
-                </div>
 
-                <div class="hidingBox" id="training">--> <!-- Training and Education --> 
-                    <!--<div class="hbTitle" id="teTitle">--> <!-- TE Title -->
-                       <!-- <p>Training and Education</p>
-                    </div> 
-                    <div class="hbContent contentWords" id="teContent">--> <!-- TE Content -->
-                        <!--<ul>
-                            <li>Quantitative health science workships and seminars for trainees (graduate students, residents, fellows), 
-                                faculty, and staff</li>
-                            <li>Statistics and bioinformatics courses of various levels of difficulty</li>
-                        </ul>
-                    </div> 
-                </div>-->
+                
 
 
               </div> <!-- (End contentOfPage) -->
@@ -413,7 +428,7 @@
 
 </div> <!-- (End Main Content) -->
 
-        <!-- #Footer -->
+    <!-- #Footer -->
     <div class="container-fluid bottomFooter">
 
         <!-- Inner Footer Area-->
@@ -434,7 +449,7 @@
                      Honolulu, HI 96813
            </p>
             <p class="contactInfo pull-left">
-                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: biostat@hawaii.edu    
+                <br />Phone: 808.692.1480  //  Fax: 808.692.1466  //  Email: biostat@hawaii.edu    
             </p>
             
             
@@ -446,9 +461,7 @@
 
     </div> <!-- (End of Footer area) -->
 
-
 </div> <!-- (End Div to create Body Borders)  -->
-
 
 </body>
 </html>

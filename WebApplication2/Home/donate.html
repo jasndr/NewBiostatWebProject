@@ -4,27 +4,27 @@
      # University of Hawaii, John A. Burns School of Medicine             #
      #                                                                    #
      # @author Jason Delos Reyes                                          #
-     # @date May/June 2016                                                #
-     # BQHS Search Page                                                   #
+     # @date May 2016                                                     #
+     # BQHS Donate Page                                                   #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>Search | BQHS</title>
+    <title>Donate | BQHS</title>
     <link rel="icon" href="./images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-    <meta name="description" content="Search Results" />
-    <meta name="keywords" content="BQHS, Search, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="description" content="Vision, Mission, and Values" />
+    <meta name="keywords" content="BQHS, Donate, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
         <!-- Search style -->
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <link href="./tipuesearch/tipuesearch.css" rel="stylesheet" />
+        <link href="./tipuesearch/tipuesearch.css" rel="stylesheet">
         <!--- Search functionality --->
         <script type="text/javascript" src="./tipuesearch/tipuesearch_set.js"></script>
-        <script type="text/javascript" src="tipuesearch/tipuesearch_content.js"></script>
+        <script type="text/javascript" src="./tipuesearch/tipuesearch_content.js"></script>
         <script type="text/javascript" src="./tipuesearch/tipuesearch.min.js"></script>
         <!--- End search functionality --->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -48,10 +48,11 @@
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
-        <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="q" id="tipue_search_input1" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
-            <button type="submit" class="btn searchButton"">
+        <div class="searchForm">                                                                                    
+            <form name="google-search" method="get" action="http://www.google.com/search">                   
+                <input type="hidden" name="sitesearch" value="http://biostat.jabsom.hawaii.edu/" />                   
+                <input class="search form-control-static" type="text" name="q" autocomplete="off" placeholder="Search BQHS..." />      
+                <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
             </form>
@@ -182,7 +183,7 @@
      
         <nav>
 	        <ul>
-		        <li><a href="./index.html">Home</a>
+		        <li><a class="activeTab" href="./index.html">Home</a>
                     <ul>
 				        <li><a href="#">About Us</a>
                             <ul>
@@ -241,7 +242,7 @@
                     </ul>
                 </li>
 
-		        <li><a href="#">Collaboration</a></li>
+		        <li><a href="./collaboration.html">Collaboration</a></li>
 
                 <li><a href="./members.html">People</a>
                     <ul>
@@ -253,6 +254,7 @@
         </nav>
 
     </div>
+
    
     <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
@@ -266,7 +268,7 @@
             <div class="hierarchy breadcrumbNav">
                 <ol class="breadcrumb">
                     <li><a href="./index.html">Home</a></li>
-                    <li class="currentLink"><a href="./search.html">Search Results</a></li>
+                    <li class="currentLink"><a href="./donate.html">Give a Gift</a></li>
                 </ol>
             </div> <!-- (End Breadcrumb) -->
 
@@ -276,30 +278,6 @@
 
           <!-- Donation Page to the left --> 
         <div class="leftBank">
-
-            
-            <!-- #BQHS Enhancement Announcement (Header) -->
-         <!--   <div class="visionTitle">
-                <h4>Enhancement Fund</h4>
-            </div> -->
- 
-            <!-- #BQHS ENhancement Announcement (Content) -->
-         <!--   <div class="visionContent hierarchy">
-                <p><br />Your generous gift will allow BQHS to maintain and further develop this important JABSOM infrastructure resource.
-                         Thank you for your generosity! <br />
-                </p> 
- 
-                <ul id="nav2">
-                    <li class="dropdown">
-                        <img class="giveNowButton" src="./images/button_give-now.jpg" />         
-                        <div class="dropdown-content">
-                            <a href="https://giving.uhfoundation.org/funds/12616904" target="_blank">Give Online</a>
-                            <a href="http://www.uhfoundation.org/give/gifts-us-mail" target="_blank">Give by US Mail (Designate "JABSOM BQHS")</a>
-                        </div>
-                    </li>
-                </ul>         
-                <h4 class="mahalo">MAHALO!</h4>
-            </div> -->
           
             <!-- #FlowerPic (Header) -->
             <div class="belowVisionBox hierarchy">
@@ -313,29 +291,62 @@
         <div class="rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>Search Results</p></div>
+            <div class="titleOfPage"><p>Give a Gift</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <img class="contentImage" src="./images/Research.jpg" alt="Research" />
+                <img class="contentImage" src="./images/money.jpg" alt="Enhancement Fund" />
 
-                <p class="contentWords text-center">Search BQHS</p>
+                <p class="contentWords">Your generous gift will allow BQHS to maintain and further develop this important JABSOM infrastructure resource.
+                         Please see the "Give Now" button below to view your donation options. If you are donating by check, please select "Donate by
+                         US Mail" below and designate <em>JABSOM BQHS</em> on the donation form. Thank you for your generosity!  </p> 
+                
 
-                <div class="searchForm text-center">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-                    <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
-                        <input class="search" type="text" name="q" id="tipue_search_input2" autocomplete="off" required placeholder="Search BQHS..." />-->      <!--(For Cancer Center site, yes!) -->
-                        <button type="submit" class="btn searchButton"">
-                            <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                    </form>
-
-
+                <div class="hidingBox" id="giveOnline"> <!-- giveOnline -->
+                    <div class="hbTitle" id="gOTitle"> <!-- gO Title -->
+                        <p>Give a Gift Online Now</p>
+                    </div>
+                    <div class="hbContent contentWords" id="gOContent"> <!-- gO Content -->
+                        <p>To donate online, please click the button below.  Thank you!</p>
+                        <div class="contentButtonWrapper">
+                            <a class="text-center" href="https://giving.uhfoundation.org/#funds/12616904" role="button" target="_blank">
+                                <img class="giveNowButton" src="./images/button_give-now.jpg" />
+                            </a>
+                        </div> 
+                    </div>
                 </div>
 
+                <div class="hidingBox" id="giveMail"> <!-- giveMail -->
+                    <div class="hbTitle" id="gMTitle"> <!-- gM Title -->
+                        <p>Give a Gift by U.S. Mail</p>
+                    </div>
+                    <div class="hbContent contentWords" id="gMContent"> <!-- gM Content -->
+                        <p>To donate by check, please fill out the gift form below, <em>designate your gift to</em> 
+                            <strong>UH JABSOM Office of Biostatistics & Quantitative Health Sciences </strong> and send it along with 
+                            either a check or your credit card information to the following address:
+                            <br />
+                            <br />
+                            University of Hawaiʻi Foundation<br />
+                            P.O. Box 11270<br />
+                            Honolulu, HI, 96828-0270<br />
+                            <br />
+                            Checks should be made payable to the <em>University of Hawaiʻi Foundation</em>.  Thank you.
+                            
 
+                        </p>
 
-              
+         
+                        
+                    </div>
+                </div>
+                  
+   
+           
+                   
+                <h4 class="mahalo">MAHALO!</h4>
+      
+
                 
                 
 
@@ -386,4 +397,3 @@
 
 </body>
 </html>
-

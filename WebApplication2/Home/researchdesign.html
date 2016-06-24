@@ -4,33 +4,32 @@
      # University of Hawaii, John A. Burns School of Medicine             #
      #                                                                    #
      # @author Jason Delos Reyes                                          #
-     # @date May 2016                                                     #
-     # BQHS Donate Page                                                   #
+     # @date May/June 2016                                                #
+     # BQHS Research Design                                              #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>Donate | BQHS</title>
+    <title>Research Design | BQHS</title>
     <link rel="icon" href="./images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-    <meta name="description" content="Vision, Mission, and Values" />
-    <meta name="keywords" content="BQHS, Donate, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="description" content="BQHS specializes in research design, data analysis, and results dissemination for biostatistics and quantiative health sciences." />
+    <meta name="keywords" content="BQHS, Research Design, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
-        <!-- Search style -->
+    <!-- TIPUE SEARCH STYLE SHEET -->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="./tipuesearch/tipuesearch_content.js"></script>
         <link href="./tipuesearch/tipuesearch.css" rel="stylesheet">
-        <!--- Search functionality --->
-        <script type="text/javascript" src="./tipuesearch/tipuesearch_set.js"></script>
-        <script type="text/javascript" src="./tipuesearch/tipuesearch_content.js"></script>
-        <script type="text/javascript" src="./tipuesearch/tipuesearch.min.js"></script>
-        <!--- End search functionality --->
+        <script src="./tipuesearch/tipuesearch_set.js"></script>
+        <script src="./tipuesearch/tipuesearch.min.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+     <script src="JavaScript.js"></script> 
 </head>
 
 
@@ -48,10 +47,11 @@
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
-        <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="q" id="tipue_search_input1" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
-            <button type="submit" class="btn searchButton"">
+        <div class="searchForm">                                                                                    
+            <form name="google-search" method="get" action="http://www.google.com/search">                   
+                <input type="hidden" name="sitesearch" value="http://biostat.jabsom.hawaii.edu/" />                   
+                <input class="search form-control-static" type="text" name="q" autocomplete="off" placeholder="Search BQHS..." />      
+                <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
             </form>
@@ -64,7 +64,7 @@
          <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-     <!-- #Main Navigation Bar -->
+    <!-- #Main Navigation Bar -->
     <div class="mainNavBar">
      
         <nav>
@@ -148,9 +148,9 @@
 
     </div>
 
-    </div> <!-- (End of Page Header) -->
+    </div> <!-- (End Page Header) -->
 
-     <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
@@ -177,12 +177,12 @@
          <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-     <!-- #Main Navigation Bar -->
+   <!-- #Main Navigation Bar -->
     <div class="mainNavBar">
      
         <nav>
 	        <ul>
-		        <li><a class="activeTab" href="./index.html">Home</a>
+		        <li><a href="./index.html">Home</a>
                     <ul>
 				        <li><a href="#">About Us</a>
                             <ul>
@@ -193,7 +193,7 @@
                                         <li><a href="./mission.html#Values">Values</a>
                                     </ul>
 				                </li>
-				                <li><a href="./expertise.html">Expertise</a>
+				                <li><a class="activeTab" href="./expertise.html">Expertise</a>
                                     <ul>
                                         <li><a href="./expertise.html#biostatistics">Biostatistics</a>
                                         <li><a href="./expertise.html#bioinformatics">Bioinformatics</a>
@@ -241,7 +241,7 @@
                     </ul>
                 </li>
 
-		        <li><a href="./collaboration.html">Collaboration</a></li>
+		        <li><a href="#">Collaboration</a></li>
 
                 <li><a href="./members.html">People</a>
                     <ul>
@@ -254,8 +254,16 @@
 
     </div>
 
+    <!-- Breadcrumb/Navigational Hierarchy -->
+    <!--<div class="hierarchy breadcrumbNav container">
+        <ol class="breadcrumb">
+            <li><a href="./index.html">Home</a></li>
+            <li class="currentLink"><a href="./expertise.html">Our Expertise</a></li>
+        </ol>
+    </div>--> <!-- (End Breadcrumb) -->
    
     <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+
 
     <!-- DIV to create Body Borders -->
     <div class="container mainBody">
@@ -263,21 +271,23 @@
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
 
-            <!-- Breadcrumb/Navigational Hierarchy -->
-            <div class="hierarchy breadcrumbNav">
-                <ol class="breadcrumb">
-                    <li><a href="./index.html">Home</a></li>
-                    <li class="currentLink"><a href="./donate.html">Give a Gift</a></li>
-                </ol>
-            </div> <!-- (End Breadcrumb) -->
+        <!-- Breadcrumb/Navigational Hierarchy -->
+        <div class="hierarchy breadcrumbNav">
+            <ol class="breadcrumb">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./expertise.html">Our Expertise</a></li>
+                <li><a class="currentLink" href="./researchdesign.html">Research Design</a></li>
+            </ol>
+        </div> <!-- (End Breadcrumb) -->    
 
     <!-- Main Content for pages after home page (including this one) -->
     <div class="mainInfo">
 
 
-          <!-- Donation Page to the left --> 
+          <!-- Left Sidebar --> 
         <div class="leftBank">
-          
+                      
             <!-- #FlowerPic (Header) -->
             <div class="belowVisionBox hierarchy">
                 
@@ -290,64 +300,34 @@
         <div class="rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>Give a Gift</p></div>
+            <div class="titleOfPage"><p>BQHS Expertise</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <img class="contentImage" src="./images/money.jpg" alt="Enhancement Fund" />
+                <img class="contentImage" src="./images/Research.jpg" alt="Research" />
 
-                <p class="contentWords">Your generous gift will allow BQHS to maintain and further develop this important JABSOM infrastructure resource.
-                         Please see the "Give Now" button below to view your donation options. If you are donating by check, please select "Donate by
-                         US Mail" below and designate <em>JABSOM BQHS</em> on the donation form. Thank you for your generosity!  </p> 
+                <br />
+                <ul>
+                    <li>Grant proposal development and review</li>
+                    <li>Research feasibility discussion to establish testable research hypothesis</li>
+                    <li>Sample size and statistical power determination</li>
+                    <li>Database design</li>
+                    <li>Data-instrument development, such as questionnaire</li>
+                    <li>Data-coding protocols</li>
+                    <li>Sampling procedures</li>
+                </ul>
+
+                <p class="contentWords"> Note: To help increase the likelihood of success in obtaining funding, BQHS faculty and staff need sufficient
+                     time to customize the research design and data analysis sections for your individual research proposal. We strongly recommend 
+                    that you contact BQHS as early as possible, at least several weeks before the deadline. The involvement of experienced BQHS faculty 
+                    and staff from the beginning of the development of a research project tends to significantly increase the quality of an investigation.
+                </p>
                 
 
-                <div class="hidingBox" id="giveOnline"> <!-- giveOnline -->
-                    <div class="hbTitle" id="gOTitle"> <!-- gO Title -->
-                        <p>Give a Gift Online Now</p>
-                    </div>
-                    <div class="hbContent contentWords" id="gOContent"> <!-- gO Content -->
-                        <p>To donate online, please click the button below.  Thank you!</p>
-                        <div class="contentButtonWrapper">
-                            <a class="text-center" href="https://giving.uhfoundation.org/#funds/12616904" role="button" target="_blank">
-                                <img class="giveNowButton" src="./images/button_give-now.jpg" />
-                            </a>
-                        </div> 
-                    </div>
-                </div>
 
-                <div class="hidingBox" id="giveMail"> <!-- giveMail -->
-                    <div class="hbTitle" id="gMTitle"> <!-- gM Title -->
-                        <p>Give a Gift by U.S. Mail</p>
-                    </div>
-                    <div class="hbContent contentWords" id="gMContent"> <!-- gM Content -->
-                        <p>To donate by check, please fill out the gift form below, <em>designate your gift to</em> 
-                            <strong>UH JABSOM Office of Biostatistics & Quantitative Health Sciences </strong> and send it along with 
-                            either a check or your credit card information to the following address:
-                            <br />
-                            <br />
-                            University of Hawaiʻi Foundation<br />
-                            P.O. Box 11270<br />
-                            Honolulu, HI, 96828-0270<br />
-                            <br />
-                            Checks should be made payable to the <em>University of Hawaiʻi Foundation</em>.  Thank you.
-                            
 
-                        </p>
-
-         
-                        
-                    </div>
-                </div>
-                  
-   
-           
-                   
-                <h4 class="mahalo">MAHALO!</h4>
-      
-
-                
-                
+               
 
 
               </div> <!-- (End contentOfPage) -->
@@ -359,7 +339,7 @@
 
 </div> <!-- (End Main Content) -->
 
-    <!-- #Footer -->
+        <!-- #Footer -->
     <div class="container-fluid bottomFooter">
 
         <!-- Inner Footer Area-->
@@ -392,7 +372,9 @@
 
     </div> <!-- (End of Footer area) -->
 
+
 </div> <!-- (End Div to create Body Borders)  -->
+
 
 </body>
 </html>

@@ -5,17 +5,17 @@
      #                                                                    #
      # @author Jason Delos Reyes                                          #
      # @date May/June 2016                                                #
-     # BQHS Research Design                                              #
+     # BQHS Healthcare Databases                                          #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>Research Design | BQHS</title>
+    <title>Healthcare Databases | BQHS</title>
     <link rel="icon" href="../images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-    <meta name="description" content="BQHS specializes in research design, data analysis, and results dissemination for biostatistics and quantiative health sciences." />
-    <meta name="keywords" content="BQHS, Research Design, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="description" content="BQHS is a leading center of excellence for development and application of quantiative methodology." />
+    <meta name="keywords" content="BQHS, Healthcare Databases, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="../StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -26,7 +26,7 @@
 </head>
 
 
-<body id="home">
+<body id="research">
 
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
@@ -72,11 +72,10 @@
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
-        <div class="searchForm">                                                                                    
-            <form name="google-search" method="get" action="http://www.google.com/search">                   
-                <input type="hidden" name="sitesearch" value="http://biostat.jabsom.hawaii.edu/" />                   
-                <input class="search form-control-static" type="text" name="q" autocomplete="off" placeholder="Search BQHS..." />      
-                <button type="submit" class="btn searchButton"">
+        <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
+            <form action="../search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
+            <input class="search form-control-static" type="text" name="q" id="tipue_search_input_fake" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
+            <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
             </form>
@@ -104,10 +103,8 @@
         <!-- Breadcrumb/Navigational Hierarchy -->
         <div class="hierarchy breadcrumbNav">
             <ol class="breadcrumb">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../Home/about.html">About Us</a></li>
-                <li><a href="../Home/expertise.html">Our Expertise</a></li>
-                <li class="currentLink"><a href="../Home/researchdesign.html">Research Design</a></li>
+                <li><a href="../Research/research.html">Research</a></li>
+                <li class="currentLink"><a href="../Research/healthcaredatabases.html">Healthcare Databases</a></li>
             </ol>
         </div> <!-- (End Breadcrumb) -->    
 
@@ -130,35 +127,44 @@
         <div class="rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>Research Design</p></div>
+            <div class="titleOfPage"><p>Healthcare Databases</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <img class="contentImage" src="../images/Research.jpg" alt="Research" />
+                <img class="contentImage" src="../images/figure1.png" alt="Graph" />
 
                 <br />
-                <ul>
-                    <li>Grant proposal development and review</li>
-                    <li>Research feasibility discussion to establish testable research hypothesis</li>
-                    <li>Sample size and statistical power determination</li>
-                    <li>Database design</li>
-                    <li>Data-instrument development, such as questionnaire</li>
-                    <li>Data-coding protocols</li>
-                    <li>Sampling procedures</li>
-                </ul>
 
-                <p class="contentWords"> Note: To help increase the likelihood of success in obtaining funding, BQHS faculty and staff need sufficient
-                     time to customize the research design and data analysis sections for your individual research proposal. We strongly recommend 
-                    that you contact BQHS as early as possible, at least several weeks before the deadline. The involvement of experienced BQHS faculty 
-                    and staff from the beginning of the development of a research project tends to significantly increase the quality of an investigation.
+                <h4 class="contentWords">Healthcare Database</h4>
+
+                <p class="contentWords">Large health databases are useful resources for institutional and community healthcare researchers. The databases,
+                    if utilized properly, can be a low-cost alternative in generating preliminary data, developing research hypothesis, or for education
+                    and training purposes. Many community health researchers lack the resources and/or skills to access and properly handle large
+                    databases. BQHS has been developing an infrastructure resource of several major public-use databases, providing data management and
+                    analysis support, and developing methodological research using the healthcare databases.
                 </p>
+
+                <p class="contentWords">BQHS provides guidance on the data and its usage, including proper methods for working with complex survey weights.
+                    To encourage the use of healthcare databases, BQHS is in the process of making a catalog of possible data resources available on our website,
+                    including data sources. In addition, BQHS will create a library of examples of analyses using data from various sources. The objective is
+                    to make the greatest number of data sources known and available to healthcare researchers in Hawaii.
+                </p>
+
+                <h4 class="contentWords">Selected Publication Using Healthcare Databases</h4>
+
+                <ul>
+                    <li><strong>Davis, J</strong>, Tam E, and Taira DT. Disparate rates of utilization and progression to combined heart failure and chronic
+                         obstructive pulmonary disease among Asians and Pacific Islanders in Hawaii. <em>Hawaii Journal of Medicine and Public Health.</em> In press.</li>
+                    <li>Nakagawa K, <strong>Lim E</strong>, Harvey S, Miyamura J, and Juarez DT. Racial/ethnic disparities in the association between preeclampsia risk
+                         factors and preeclampsia among women residing in Hawaii. <em>Maternal Child Health Journal</em>, 2016 Mar 21. [Epub ahead of print]</li>
+                    <li>Obana KK and <strong>Davis J</strong>. Racial disparities in the prevalence of arthritis among Native Hawaiians and Pacific Islanders, Whites,
+                        and Asians. <em>Hawaii Journal of Medicine and Public Health</em>. 2016 Jun; 75(6): 155-161.
+                    </li>
+
+                </ul>
+              
                 
-
-
-
-               
-
 
               </div> <!-- (End contentOfPage) -->
 

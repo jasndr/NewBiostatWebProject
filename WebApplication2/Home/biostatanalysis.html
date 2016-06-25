@@ -11,20 +11,13 @@
 
 <head>
     <title>Biostatistical Data Analysis | BQHS</title>
-    <link rel="icon" href="./images/Logo_Final.png" />
+    <link rel="icon" href="../images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
     <meta name="description" content="BQHS specializes in research design, data analysis, and results dissemination for biostatistics and quantiative health sciences." />
     <meta name="keywords" content="BQHS, Biostatistical Data Analysis, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
-    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
-    <!-- TIPUE SEARCH STYLE SHEET -->
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="./tipuesearch/tipuesearch_content.js"></script>
-        <link href="./tipuesearch/tipuesearch.css" rel="stylesheet">
-        <script src="./tipuesearch/tipuesearch_set.js"></script>
-        <script src="./tipuesearch/tipuesearch.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -33,7 +26,7 @@
 </head>
 
 
-<body>
+<body id="home">
 
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
@@ -42,15 +35,16 @@
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
-            <a class="topMostLinks" href="./contact.html">Contact</a> |
-            <a class="topMostLinks" href="./jobs.html">Careers</a> |
+            <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
+            <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
-        <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
-            <button type="submit" class="btn searchButton"">
+        <div class="searchForm">                                                                                    
+            <form name="google-search" method="get" action="http://www.google.com/search">                   
+                <input type="hidden" name="sitesearch" value="http://biostat.jabsom.hawaii.edu/" />                   
+                <input class="search form-control-static" type="text" name="q" autocomplete="off" placeholder="Search BQHS..." />      
+                <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
             </form>
@@ -60,109 +54,27 @@
 
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
+         <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-    <!-- #Main Navigation Bar -->
-    <div class="mainNavBar">
-     
-        <nav>
-	        <ul>
-		        <li><a class="activeTab" href="./index.html">Home</a>
-                    <ul>
-				        <li><a href="#">About Us</a>
-                            <ul>
-				                <li><a href="./mission.html">Vision, Mission, and Values</a></li>
-				                <li><a href="./expertise.html">Expertise</a>
-                                    <ul>
-                                        <li><a href="#">Research Design</a></li>
-                                        <li><a href="#">Biostatistical Data Analysis</a></li>
-                                        <li><a href="#">Bioinformatical Data Analysis</a></li>
-                                        <li><a href="#">Biomedical Informatics</a></li>
-                                        <li><a href="#">Dissemination</a></li>
-                                        <li><a href="#">Training and Education</a></li>
-                                    </ul>
-				                </li>
-			                </ul>
-                        </li>
-				        <li><a href="./contact.html">Contact Us</a></li>
-				        <li><a href="./jobs.html">Job Opportunties</a></li>
-                        <li><a href="./donate.html">Give a Gift</a></li>
-			        </ul>
-                </li>
-
-		        <li><a href="#">Research</a>
-                    <ul>
-                        <li><a href="#">Research Expertise</a></li>
-                        <li><a href="#">Healthcare Databases</a>
-                            <ul>
-                                <li><a href="../NHANES/index.html">NHANES</a></li>
-                                <li><a href="#">BRFSS</a></li>
-                                <li><a href="#">CMS</a></li>
-                                <li><a href="#">HHIC</a></li>
-                                <li><a href="#">NHIS</a></li>
-                                <li><a href="#">HRS</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Collaborative Research</a></li>
-                    </ul>
-		        </li>
-
-		        <li><a href="#">Education</a>
-                    <ul>
-                        <li><a href="#">Courses Offered</a></li>
-                        <li><a href="#">Training</a></li>
-                        <li><a href="./resources.html">Online Resources</a>
-                            <ul>
-                                <li><a href="#">Biostatistics</a></li>
-                                <li><a href="#">Bioinformatics</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-		        <li><a href="./collaboration.html">Support & Services</a>
-                    <ul>
-                        <li><a href="#">Infrastructure Grants</a></li>
-                        <li><a href="#">Services</a>
-                            <ul>
-                                <li><a href="#">Consultations & Projects</a></li>
-                                <li><a href="#">Grants Development</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Service Rates</a></li>
-                        <li><a href="#">Service Request Form</a></li>
-                        
-                    </ul>
-		        </li>
-
-                <li><a href="./members.html">People</a>
-                    <ul>
-                        <li><a href="./members.html#faculty">Faculty</a></li>
-                        <li><a href="./members.html#staff">Staff</a></li>
-                    </ul>
-                </li>
-	        </ul>
-        </nav>
-
-    </div>
+    <!--#include virtual="../menu2.html"-->
 
     </div> <!-- (End Page Header) -->
 
-    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <!-- &&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
-            <a class="topMostLinks" href="./contact.html">Contact</a> |
-            <a class="topMostLinks" href="./jobs.html">Careers</a> |
+            <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
+            <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
         <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
+            <form action="../search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
+            <input class="search form-control-static" type="text" name="q" id="tipue_search_input_fake" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
             <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
@@ -173,95 +85,13 @@
 
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
+         <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-   <!-- #Main Navigation Bar -->
-    <div class="mainNavBar">
-     
-        <nav>
-	        <ul>
-		        <li><a href="./index.html">Home</a>
-                    <ul>
-				        <li><a href="#">About Us</a>
-                            <ul>
-				                <li><a href="./mission.html">Vision, Mission, and Values</a>
-                                    <ul>
-                                        <li><a href="./mission.html#Vision">Vision</a>
-                                        <li><a href="./mission.html#Mission">Mission</a>
-                                        <li><a href="./mission.html#Values">Values</a>
-                                    </ul>
-				                </li>
-				                <li><a class="activeTab" href="./expertise.html">Expertise</a>
-                                    <ul>
-                                        <li><a href="./expertise.html#biostatistics">Biostatistics</a>
-                                        <li><a href="./expertise.html#bioinformatics">Bioinformatics</a>
-                                        <li><a href="./expertise.html#datamanagement">Database Management</a>
-                                        <li><a href="./expertise.html#biomedicalinformatics">Biomedical Informatics</a></li>
-                                    </ul>
-				                </li>
-			                </ul>
-                        </li>
-				        <li><a href="./contact.html">Contact Us</a></li>
-				        <li><a href="./jobs.html">Job Opportunties</a></li>
-                        <li><a href="./donate.html">Give a Gift</a></li>
-			        </ul>
-                </li>
+    <!--#include virtual="menu2.html"-->    <!-- (FAKE, DO NOT TOUCH) -->
 
-		        <li><a href="#">Research</a></li>
-
-		        <li><a href="#">Education</a>
-                    <ul>
-                        <li><a href="#">Courses Offered</a>
-                            <ul>
-                                <li><a href="#">Biostatistics</a></li>
-                                <li><a href="#">Bioinformatics</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Training</a></li>
-                        <li><a href="./resources.html">Online Resources</a>
-                            <ul>
-                                <li><a href="#">Biostatistics</a>
-                                    <ul>
-                                        <li><a href="./resources.html#courses">Online Statistical Courses</a></li>
-                                        <li><a href="./resources.html#test">Statistical Test</a></li>
-                                        <li><a href="./resources.html#calculators">Statistical Calculators</a></li>
-                                        <li><a href="./resources.html#software">Statistical Software</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Bioinformatics</a>
-                                    <ul>
-                                        <li><a href="./resources.html#repositories">Data Repositories/Tools</a></li>
-                                        <li><a href="./resources.html#additional">Additional Resources</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-		        <li><a href="#">Collaboration</a></li>
-
-                <li><a href="./members.html">People</a>
-                    <ul>
-                        <li><a href="./members.html#faculty">Faculty</a></li>
-                        <li><a href="./members.html#staff">Staff</a></li>
-                    </ul>
-                </li>
-	        </ul>
-        </nav>
-
-    </div>
-
-    <!-- Breadcrumb/Navigational Hierarchy -->
-    <!--<div class="hierarchy breadcrumbNav container">
-        <ol class="breadcrumb">
-            <li><a href="./index.html">Home</a></li>
-            <li class="currentLink"><a href="./expertise.html">Our Expertise</a></li>
-        </ol>
-    </div>--> <!-- (End Breadcrumb) -->
    
-    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+ <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
 
     <!-- DIV to create Body Borders -->
@@ -273,10 +103,10 @@
         <!-- Breadcrumb/Navigational Hierarchy -->
         <div class="hierarchy breadcrumbNav">
             <ol class="breadcrumb">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./expertise.html">Our Expertise</a></li>
-                <li><a class="currentLink" href="./biostatanalysis.html">Biostatistical Data Analysis</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Home/about.html">About Us</a></li>
+                <li><a href="../Home/expertise.html">Our Expertise</a></li>
+                <li class="currentLink"><a href="../Home/biostatanalysis.html">Biostatistical Data Analysis</a></li>
             </ol>
         </div> <!-- (End Breadcrumb) -->    
 
@@ -304,17 +134,17 @@
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <img class="contentImage" src="./images/Research.jpg" alt="Research" />
+                <img class="contentImage" src="../images/Research.jpg" alt="Research" />
 
                 <br />
                 <ul>
-                    <li>Biostatistics
-                        <ul>
-                            <li>Rna-</li>
-                        </ul>
-                    </li>
+                    <li>Database design and development (OpenClinica, REDCap, ACCESS)</li>
+                    <li>Data coding and management</li>
+                    <li>Comprehensive univariable and multivariable analysis</li>
+                    <li>Data safety monitoring and interim analysis</li>
+                    <li>Tailored statistical tool development to address specific research questions and challenges</li>
                   
-                    <li>Bioinformatics</li>
+                  
                 </ul>
 
                 <p class="contentWords"> Note: To help increase the likelihood of success in obtaining funding, BQHS faculty and staff need sufficient
@@ -346,8 +176,8 @@
 
         <!-- #Left Footer -->
         <div class="container-fluid pull-left" id="leftFooter">
-            <img class="jabsomImage" src="./images/jabsom_logo_white_oval_transparent.png" alt="JABSOM" />
-            <img class="manoaImage" src="./images/manoaseal_transparent.png" alt="Manoa" />
+            <img class="jabsomImage" src="../images/jabsom_logo_white_oval_transparent.png" alt="JABSOM" />
+            <img class="manoaImage" src="../images/manoaseal_transparent.png" alt="Manoa" />
         </div>
         
 

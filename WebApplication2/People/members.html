@@ -11,20 +11,13 @@
 
 <head>
     <title>Faculty & Staff | BQHS</title>
-    <link rel="icon" href="./images/Logo_Final.png" />
+    <link rel="icon" href="../images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
     <meta name="description" content="BQHS Faculty & Staff" />
     <meta name="keywords" content="BQHS, Jobs, Faculty, Staff, Members, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
-    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
-    <!-- TIPUE SEARCH STYLE SHEET -->
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="./tipuesearch/tipuesearch_content.js"></script>
-        <link href="./tipuesearch/tipuesearch.css" rel="stylesheet">
-        <script src="./tipuesearch/tipuesearch_set.js"></script>
-        <script src="./tipuesearch/tipuesearch.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -33,7 +26,7 @@
 </head>
 
 
-<body>
+<body id="people">
 
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
@@ -42,8 +35,8 @@
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
-            <a class="topMostLinks" href="./contact.html">Contact</a> |
-            <a class="topMostLinks" href="./jobs.html">Careers</a> |
+            <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
+            <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
@@ -61,111 +54,29 @@
 
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
+         <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-     <!-- #Main Navigation Bar -->
-    <div class="mainNavBar">
-     
-        <nav>
-	        <ul>
-		        <li><a href="./index.html">Home</a>
-                    <ul>
-				        <li><a href="#">About Us</a>
-                            <ul>
-				                <li><a href="./mission.html">Vision, Mission, and Values</a></li>
-				                <li><a href="./expertise.html">Expertise</a>
-                                    <ul>
-                                        <li><a href="#">Research Design</a></li>
-                                        <li><a href="#">Biostatistical Data Analysis</a></li>
-                                        <li><a href="#">Bioinformatical Data Analysis</a></li>
-                                        <li><a href="#">Biomedical Informatics</a></li>
-                                        <li><a href="#">Dissemination</a></li>
-                                        <li><a href="#">Training and Education</a></li>
-                                    </ul>
-				                </li>
-			                </ul>
-                        </li>
-				        <li><a href="./contact.html">Contact Us</a></li>
-				        <li><a href="./jobs.html">Job Opportunties</a></li>
-                        <li><a href="./donate.html">Give a Gift</a></li>
-			        </ul>
-                </li>
-
-		        <li><a href="#">Research</a>
-                    <ul>
-                        <li><a href="#">Research Expertise</a></li>
-                        <li><a href="#">Healthcare Databases</a>
-                            <ul>
-                                <li><a href="../NHANES/index.html">NHANES</a></li>
-                                <li><a href="#">BRFSS</a></li>
-                                <li><a href="#">CMS</a></li>
-                                <li><a href="#">HHIC</a></li>
-                                <li><a href="#">NHIS</a></li>
-                                <li><a href="#">HRS</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Collaborative Research</a></li>
-                    </ul>
-		        </li>
-
-		        <li><a href="#">Education</a>
-                    <ul>
-                        <li><a href="#">Courses Offered</a></li>
-                        <li><a href="#">Training</a></li>
-                        <li><a href="./resources.html">Online Resources</a>
-                            <ul>
-                                <li><a href="#">Biostatistics</a></li>
-                                <li><a href="#">Bioinformatics</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-		        <li><a href="./collaboration.html">Support & Services</a>
-                    <ul>
-                        <li><a href="#">Infrastructure Grants</a></li>
-                        <li><a href="#">Services</a>
-                            <ul>
-                                <li><a href="#">Consultations & Projects</a></li>
-                                <li><a href="#">Grants Development</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Service Rates</a></li>
-                        <li><a href="#">Service Request Form</a></li>
-                        
-                    </ul>
-		        </li>
-
-                <li><a class="activeTab" href="./members.html">People</a>
-                    <ul>
-                        <li><a href="./members.html#faculty">Faculty</a></li>
-                        <li><a href="./members.html#staff">Staff</a></li>
-                    </ul>
-                </li>
-	        </ul>
-        </nav>
-
-    </div>
+     <!--#include virtual="../menu2.html"-->
 
     
 
     </div> <!-- (End of Page Header) --> 
 
-     <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+     <!-- &&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
-            <a class="topMostLinks" href="./contact.html">Contact</a> |
-            <a class="topMostLinks" href="./jobs.html">Careers</a> |
+            <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
+            <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
         <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
-            <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
+            <form action="../search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
+            <input class="search form-control-static" type="text" name="q" id="tipue_search_input_fake" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
             <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
@@ -176,88 +87,13 @@
 
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
+         <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-     <!-- #Main Navigation Bar -->
-    <div class="mainNavBar">
-     
-        <nav>
-	        <ul>
-		        <li><a href="./index.html">Home</a>
-                    <ul>
-				        <li><a href="#">About Us</a>
-                            <ul>
-				                <li><a href="./mission.html">Vision, Mission, and Values</a>
-                                    <ul>
-                                        <li><a href="./mission.html#Vision">Vision</a>
-                                        <li><a href="./mission.html#Mission">Mission</a>
-                                        <li><a href="./mission.html#Values">Values</a>
-                                    </ul>
-				                </li>
-				                <li><a href="./expertise.html">Expertise</a>
-                                    <ul>
-                                        <li><a href="./expertise.html#biostatistics">Biostatistics</a>
-                                        <li><a href="./expertise.html#bioinformatics">Bioinformatics</a>
-                                        <li><a href="./expertise.html#datamanagement">Database Management</a>
-                                        <li><a href="./expertise.html#biomedicalinformatics">Biomedical Informatics</a></li>
-                                    </ul>
-				                </li>
-			                </ul>
-                        </li>
-				        <li><a href="./contact.html">Contact Us</a></li>
-				        <li><a href="./jobs.html">Job Opportunties</a></li>
-                        <li><a href="./donate.html">Give a Gift</a></li>
-			        </ul>
-                </li>
-
-		        <li><a href="#">Research</a></li>
-
-		        <li><a href="#">Education</a>
-                    <ul>
-                        <li><a href="#">Courses Offered</a>
-                            <ul>
-                                <li><a href="#">Biostatistics</a></li>
-                                <li><a href="#">Bioinformatics</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Training</a></li>
-                        <li><a href="./resources.html">Online Resources</a>
-                            <ul>
-                                <li><a href="#">Biostatistics</a>
-                                    <ul>
-                                        <li><a href="./resources.html#courses">Online Statistical Courses</a></li>
-                                        <li><a href="./resources.html#test">Statistical Test</a></li>
-                                        <li><a href="./resources.html#calculators">Statistical Calculators</a></li>
-                                        <li><a href="./resources.html#software">Statistical Software</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Bioinformatics</a>
-                                    <ul>
-                                        <li><a href="./resources.html#repositories">Data Repositories/Tools</a></li>
-                                        <li><a href="./resources.html#additional">Additional Resources</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-		        <li><a href="#">Collaboration</a></li>
-
-                <li><a class="activeTab" href="./members.html">People</a>
-                    <ul>
-                        <li><a href="./members.html#faculty">Faculty</a></li>
-                        <li><a href="./members.html#staff">Staff</a></li>
-                    </ul>
-                </li>
-	        </ul>
-        </nav>
-
-    </div>
+    <!--#include virtual="menu2.html"-->    <!-- (FAKE, DO NOT TOUCH) -->
 
    
-    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [END IMITATION HEADER] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+ <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- DIV to create Body Borders -->
     <div class="container mainBody">
@@ -268,8 +104,8 @@
         <!-- Breadcrumb/Navigational Hierarchy -->
     <div class="hierarchy breadcrumbNav">
         <ol class="breadcrumb">
-            <li><a href="./index.html">Home</a></li>
-            <li class="currentLink"><a href="./members.html">Faculty & Staff</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li class="currentLink"><a href="../People/members.html">Faculty & Staff</a></li>
         </ol>
     </div> <!-- (End Breadcrumb) -->
 
@@ -297,7 +133,7 @@
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <!-- <img class="contentImage" src="./images/Kaneohe.jpg" alt="Careers" />-->
+                <!-- <img class="contentImage" src="../images/Kaneohe.jpg" alt="Careers" />-->
 
 
                         <div class="container-fluid" id="faculty"> <!-- Faculty -->
@@ -309,11 +145,11 @@
                                     <div class="panel panel-default facultyC">
                                         <div class="panel-heading facultyH">John J. Chen, Ph.D.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/john.jpg" alt="John J. Chen, Ph.D." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/john.jpg" alt="John J. Chen, Ph.D." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Professor & Director</em></p>
                                                 <p>Office: BSB 211 F<br />
-                                                    <a href="mailto: jjchen@hawaii.edu">jjchen@hawaii.edu</a><br />
+                                                    <a href="#">jjchen@hawaii.edu</a><br />
                                                     <a href="tel:+18086921814">(808) 692-1814</a>
                                                 </p>
                                             </div>
@@ -324,11 +160,11 @@
                                     <div class="panel panel-default facultyC">
                                         <div class="panel-heading facultyH">James Davis, Ph.D., M.S.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/jim.jpg" alt="James Davis, Ph.D." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/jim.jpg" alt="James Davis, Ph.D." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Associate Professor</em></p>
                                                 <p>Office: BSB 211 C<br />
-                                                    <a href="mailto: jamesdav@hawaii.edu">jamesdav@hawaii.edu</a><br />
+                                                    <a href="#">jamesdav@hawaii.edu</a><br />
                                                     <a href="tel:+18086921806">(808) 692-1806</a>
                                                 </p>
                                             </div>
@@ -342,11 +178,11 @@
                                     <div class="panel panel-default facultyC">
                                         <div class="panel-heading facultyH">Eunjung Lim, Ph.D., M.S.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/Eunjung_Lim_03242014.jpg" alt="Eunjung Lim, Ph.D." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/Eunjung_Lim_03242014.jpg" alt="Eunjung Lim, Ph.D." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Assistant Professor</em></p>
                                                 <p>Office: BSB 211 D<br />
-                                                    <a href="mailto: lime@hawaii.edu">lime@hawaii.edu</a><br />
+                                                    <a href="#">lime@hawaii.edu</a><br />
                                                     <a href="tel:+18086921817">(808) 692-1817</a>
                                                 </p>
                                             </div>
@@ -357,11 +193,11 @@
                                     <div class="panel panel-default facultyC">
                                         <div class="panel-heading facultyH">Hyeong Jun Ahn, Ph.D.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/Jun_03242014.jpg" alt="Hyeong Jun Ahn, Ph.D." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/Jun_03242014.jpg" alt="Hyeong Jun Ahn, Ph.D." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Assistant Professor</em></p>
                                                 <p>Office: BSB 211 E<br />
-                                                    <a href="mailto: hjahn@hawaii.edu">hjahn@hawaii.edu</a><br />
+                                                    <a href="#">hjahn@hawaii.edu</a><br />
                                                     <a href="tel:+18086921822">(808) 692-1822</a>
                                                 </p>
                                             </div>
@@ -382,11 +218,11 @@
                                     <div class="panel panel-default staffC">
                                         <div class="panel-heading staffH">Rosa Castro, M.B.A.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/rosa.jpg" alt="Rosa Castro, M.B.A." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/rosa.jpg" alt="Rosa Castro, M.B.A." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Office Manager</em></p>
                                                 <p>Office: BSB 211 A-2<br />
-                                                    <a href="mailto: rdcastro@hawaii.edu">rdcastro@hawaii.edu</a><br />
+                                                    <a href="#">rdcastro@hawaii.edu</a><br />
                                                     <a href="tel:+18086921823">(808) 692-1823</a>
                                                 </p>
                                             </div>
@@ -397,11 +233,11 @@
                                     <div class="panel panel-default staffC">
                                         <div class="panel-heading staffH">Jewellien Robinson, B.B.A.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/jewels.jpg" alt="Jewels Robinson, B.B.A." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/jewels.jpg" alt="Jewels Robinson, B.B.A." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Institutional Support</em></p>
                                                 <p>Office: BSB 211 H-3<br />
-                                                    <a href="mailto: jllr@hawaii.edu">jllr@hawaii.edu</a><br />
+                                                    <a href="#">jllr@hawaii.edu</a><br />
                                                     <a href="tel:+18086921465">(808) 692-1465</a>
                                                 </p>
                                             </div>
@@ -415,11 +251,11 @@
                                     <div class="panel panel-default staffC">
                                         <div class="panel-heading staffH">Chathura Siriwardhana , Ph.D.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/avatar.png" alt="Chathura Siriwardhana , Ph.D." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/avatar.png" alt="Chathura Siriwardhana , Ph.D." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Biostatistician</em></p>
                                                 <p>Office: BSB 211 H-7<br />
-                                                    <a href="mailto: chathura.siriwardhana@louisville.edu">chathura@hawaii.edu</a><br />
+                                                    <a href="#">chathura@hawaii.edu</a><br />
                                                     <a href="tel:+18086921XXX">(808)692-1XXX</a>
                                                 </p>
                                             </div>
@@ -430,11 +266,11 @@
                                     <div class="panel panel-default staffC">
                                         <div class="panel-heading staffH">Rui Fang, M.S.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/Rui_Fang_03242014.jpg" alt="Rui Fang, M.S." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/Rui_Fang_03242014.jpg" alt="Rui Fang, M.S." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Junior Biostatistician</em></p>
                                                 <p>Office: BSB 211 H-6<br />
-                                                    <a href="mailto: fangr@hawaii.edu">fangr@hawaii.edu</a><br />
+                                                    <a href="#">fangr@hawaii.edu</a><br />
                                                     <a href="tel:+18086921815">(808) 692-1815</a>
                                                 </p>
                                             </div>
@@ -448,11 +284,11 @@
                                     <div class="panel panel-default staffC">
                                         <div class="panel-heading staffH">Krupa Gandhi, M.P.H.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/krupa.jpg" alt="Krupa Ghandi, M.S." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/krupa.jpg" alt="Krupa Ghandi, M.S." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Junior Biostatistician</em></p>
                                                 <p>Office: BSB 211 H-2<br />
-                                                    <a href="mailto: kgandhi@hawaii.edu">kgandhi@hawaii.edu</a><br />
+                                                    <a href="#">kgandhi@hawaii.edu</a><br />
                                                     <a href="tel:+18086921812">(808) 692-1812</a>
                                                 </p>
                                             </div>
@@ -464,11 +300,11 @@
                                     <div class="panel panel-default staffC">
                                         <div class="panel-heading staffH">So Yung Choi, M.S.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/avatar.png" alt="So Yung Choi, M.S." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/avatar.png" alt="So Yung Choi, M.S." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Junior Biostatistician</em></p>
                                                 <p>Office: BSB 211 H-4<br />
-                                                    <a href="mailto: schoi56@jhu.edu">schoi56@jhu.edu</a><br />
+                                                    <a href="#">schoi56@jhu.edu</a><br />
                                                     <a href="tel:+18086921862">(808) 692-1XXX</a>
                                                 </p>
                                             </div>
@@ -482,11 +318,11 @@
                                     <div class="panel panel-default staffC">
                                         <div class="panel-heading staffH">Vedbar Khadka, Ph.D.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/ved.jpg" alt="Vedbar Khadka, Ph.D." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/ved.jpg" alt="Vedbar Khadka, Ph.D." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Bioinformatician</em></p>
                                                 <p>Office: BSB 211 A-3<br />
-                                                    <a href="mailto: vedbar@hawaii.edu">vedbar@hawaii.edu</a><br />
+                                                    <a href="#">vedbar@hawaii.edu</a><br />
                                                     <a href="tel:+18086921862">(808) 692-1862</a>
                                                 </p>
                                             </div>
@@ -498,11 +334,11 @@
                                     <div class="panel panel-default staffC">
                                         <div class="panel-heading staffH">Lu Wang, Ph.D.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/lu.jpg" alt="Lu Wang, Ph.D." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/lu.jpg" alt="Lu Wang, Ph.D." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Junior Bioinformatician</em></p>
                                                 <p>Office: BSB 211 A-4<br />
-                                                    <a href="mailto: lwang6@hawaii.edu">lwang6@hawaii.edu</a><br />
+                                                    <a href="#">lwang6@hawaii.edu</a><br />
                                                     <a href="tel:+18086921806">(808) 692-1806</a>
                                                 </p>
                                             </div>
@@ -516,11 +352,11 @@
                                     <div class="panel panel-default staffC">
                                         <div class="panel-heading staffH">Yang Rui, B.S.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/yang.jpg" alt="Yang Rui, B.S." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/yang.jpg" alt="Yang Rui, B.S." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Clinical Database Programmer/Analyst</em></p>
                                                 <p>Office: BSB 211 A-5<br />
-                                                    <a href="mailto: yrui@hawaii.edu">yrui@hawaii.edu</a><br />
+                                                    <a href="#">yrui@hawaii.edu</a><br />
                                                     <a href="tel:+18086921466">(808) 692-1466</a>
                                                 </p>
                                             </div>
@@ -531,11 +367,11 @@
                                     <div class="panel panel-default staffC">
                                         <div class="panel-heading staffH">Jason Delos Reyes, B.S.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/jason.jpg" alt="Jason Delos Reyes, B.S." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/jason.jpg" alt="Jason Delos Reyes, B.S." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Web Application Developer</em></p>
                                                 <p>Office: BSB 211 A-9<br />
-                                                    <a href="mailto: jdelosr@hawaii.edu">jdelosr@hawaii.edu</a><br />
+                                                    <a href="#">jdelosr@hawaii.edu</a><br />
                                                     <a href="tel:+18086921481">(808) 692-1481</a>
                                                 </p>
                                             </div>
@@ -549,11 +385,11 @@
                                 <div class="panel panel-default staffC">
                                         <div class="panel-heading staffH">Phoebe Hwang, M.S.</div>
                                         <div class="row">
-                                            <div class="insideMemberLeft"><img class="memberImg" src="./images/phoebe.jpg" alt="Phoebe Hwang, M.S." /></div>
+                                            <div class="insideMemberLeft"><img class="memberImg" src="../images/phoebe.jpg" alt="Phoebe Hwang, M.S." /></div>
                                             <div class="insideMemberRight">
                                                 <p><em>Graduate Student Assistant</em></p>
                                                 <p>Office: BSB 211 A-1<br />
-                                                    <a href="mailto: pwnhwang@hawaii.edu">pwnhwang@hawaii.edu</a><br />
+                                                    <a href="#">pwnhwang@hawaii.edu</a><br />
                                                     <a href="tel:+18086921819">(808) 692-1819</a>
                                                 </p>
                                             </div>
@@ -594,8 +430,8 @@
 
         <!-- #Left Footer -->
         <div class="container-fluid pull-left" id="leftFooter">
-            <img class="jabsomImage" src="./images/jabsom_logo_white_oval_transparent.png" alt="JABSOM" />
-            <img class="manoaImage" src="./images/manoaseal_transparent.png" alt="Manoa" />
+            <img class="jabsomImage" src="../images/jabsom_logo_white_oval_transparent.png" alt="JABSOM" />
+            <img class="manoaImage" src="../images/manoaseal_transparent.png" alt="Manoa" />
         </div>
         
 

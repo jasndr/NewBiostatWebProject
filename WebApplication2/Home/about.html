@@ -26,7 +26,7 @@
 </head>
 
 
-<body>
+<body id="home">
 
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
@@ -63,7 +63,7 @@
 
     </div> <!-- (End of Page Header) -->
 
-     <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+     <!-- &&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
@@ -87,88 +87,13 @@
 
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="./images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
+         <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-     <!-- #Main Navigation Bar -->
-    <div class="mainNavBar">
-     
-        <nav>
-	        <ul>
-		        <li><a class="activeTab" href="../index.html">Home</a>
-                    <ul>
-				        <li><a href="#">About Us</a>
-                            <ul>
-				                <li><a href="./mission.html">Vision, Mission, and Values</a>
-                                    <ul>
-                                        <li><a href="./mission.html#Vision">Vision</a>
-                                        <li><a href="./mission.html#Mission">Mission</a>
-                                        <li><a href="./mission.html#Values">Values</a>
-                                    </ul>
-				                </li>
-				                <li><a href="./expertise.html">Expertise</a>
-                                    <ul>
-                                        <li><a href="./expertise.html#biostatistics">Biostatistics</a>
-                                        <li><a href="./expertise.html#bioinformatics">Bioinformatics</a>
-                                        <li><a href="./expertise.html#datamanagement">Database Management</a>
-                                        <li><a href="./expertise.html#biomedicalinformatics">Biomedical Informatics</a></li>
-                                    </ul>
-				                </li>
-			                </ul>
-                        </li>
-				        <li><a href="./contact.html">Contact Us</a></li>
-				        <li><a href="./jobs.html">Job Opportunties</a></li>
-                        <li><a href="./donate.html">Give a Gift</a></li>
-			        </ul>
-                </li>
-
-		        <li><a href="#">Research</a></li>
-
-		        <li><a class="activeTab" href="#">Education</a>
-                    <ul>
-                        <li><a href="#">Courses Offered</a>
-                            <ul>
-                                <li><a href="#">Biostatistics</a></li>
-                                <li><a href="#">Bioinformatics</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Training</a></li>
-                        <li><a href="./resources.html">Online Resources</a>
-                            <ul>
-                                <li><a href="#">Biostatistics</a>
-                                    <ul>
-                                        <li><a href="./resources.html#courses">Online Statistical Courses</a></li>
-                                        <li><a href="./resources.html#test">Statistical Test</a></li>
-                                        <li><a href="./resources.html#calculators">Statistical Calculators</a></li>
-                                        <li><a href="./resources.html#software">Statistical Software</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Bioinformatics</a>
-                                    <ul>
-                                        <li><a href="./resources.html#repositories">Data Repositories/Tools</a></li>
-                                        <li><a href="./resources.html#additional">Additional Resources</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-		        <li><a href="./collaboration.html">Collaboration</a></li>
-
-                <li><a href="./members.html">People</a>
-                    <ul>
-                        <li><a href="./members.html#faculty">Faculty</a></li>
-                        <li><a href="./members.html#staff">Staff</a></li>
-                    </ul>
-                </li>
-	        </ul>
-        </nav>
-
-    </div>
+     <!--#include virtual="menu2.html"-->    <!-- (FAKE, DO NOT TOUCH) -->
 
    
-    <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- DIV to create Body Borders -->
     <div class="container mainBody">
@@ -180,7 +105,7 @@
             <div class="hierarchy breadcrumbNav">
                 <ol class="breadcrumb">
                     <li><a href="../index.html">Home</a></li>
-                    <li class="currentLink"><a href=".">About Us</a></li>
+                    <li class="currentLink"><a href="about.html">About Us</a></li>
                 </ol>
             </div> <!-- (End Breadcrumb) -->
 
@@ -188,13 +113,14 @@
     <div class="mainInfo">
 
 
-          <!-- Donation Page to the left --> 
+
+          <!-- Small Menu to the left --> 
         <div class="leftBank">
           
-            <!-- #FlowerPic (Header) -->
-            <div class="belowVisionBox hierarchy">
-                
-            </div>
+           <!-- #include virtual="./home-smallmenu.html"-->
+
+
+            <!--<img class="flowerPic" src="../images/Flower6-fade.png" />-->
 
         </div> <!-- (End leftBank) -->
 

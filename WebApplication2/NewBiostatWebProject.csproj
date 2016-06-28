@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Education\education.html" />
     <Content Include="Home\about.html" />
     <Content Include="Home\bioinfoanalysis.html" />
     <Content Include="Home\biomedinfo.html" />
@@ -152,7 +153,15 @@
     <Content Include="images\RMATRIX.jpg" />
     <Content Include="Home\researchdesign.html" />
     <Content Include="Education\resources.html" />
+    <Content Include="Research\brfss.html" />
+    <Content Include="Research\cms.html" />
+    <Content Include="Research\collabresearch.html" />
     <Content Include="Research\healthcaredatabases.html" />
+    <Content Include="Research\hhic.html" />
+    <Content Include="Research\hrs.html" />
+    <Content Include="Research\meps.html" />
+    <Content Include="Research\nhanes.html" />
+    <Content Include="Research\nhis.html" />
     <Content Include="Research\research.html" />
     <Content Include="Research\researchexpertise.html" />
     <Content Include="scripts\bootstrap.js" />
@@ -172,6 +181,13 @@
     <Content Include="JavaScript.js" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="Services\consultations.html" />
+    <Content Include="Services\grants.html" />
+    <Content Include="Services\igrants.html" />
+    <Content Include="Services\rates.html" />
+    <Content Include="Services\requestform.html" />
+    <Content Include="Services\services.html" />
+    <Content Include="Services\support.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -180,7 +196,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="documents\" />
-    <Folder Include="Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

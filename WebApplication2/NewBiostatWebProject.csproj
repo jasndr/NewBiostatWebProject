@@ -181,8 +181,6 @@
     <Content Include="JavaScript.js" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="Services\consultations.html" />
-    <Content Include="Services\grants.html" />
     <Content Include="Services\igrants.html" />
     <Content Include="Services\rates.html" />
     <Content Include="Services\requestform.html" />

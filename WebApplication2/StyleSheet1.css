@@ -884,10 +884,19 @@ a:hover{
 
 .contentImage-wide{
     max-height: 267px;
+    max-width: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
+
+.contentImage-tiny{
+    max-height: 85px;
+    max-width: 150px;
+    display: inline;
+}
+
 
 .contentWords{
     padding-top: 10px;
@@ -1041,7 +1050,16 @@ a:hover{
 
 .memberTable{
     width: 100%;
-    margin-left: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.memberItems{
+    padding: 5px;
+    text-align: left;
+    background-color: white;
+    border: 1px solid black;
 }
 
 .memberImg{

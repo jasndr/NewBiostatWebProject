@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Education\e-smallmenu.html" />
     <Content Include="Education\education.html" />
     <Content Include="Home\about.html" />
     <Content Include="Home\bioinfoanalysis.html" />
@@ -153,6 +154,7 @@
     <Content Include="images\RMATRIX.jpg" />
     <Content Include="Home\researchdesign.html" />
     <Content Include="Education\resources.html" />
+    <Content Include="People\p-smallmenu.html" />
     <Content Include="Research\brfss.html" />
     <Content Include="Research\cms.html" />
     <Content Include="Research\collabresearch.html" />
@@ -162,6 +164,7 @@
     <Content Include="Research\meps.html" />
     <Content Include="Research\nhanes.html" />
     <Content Include="Research\nhis.html" />
+    <Content Include="Research\r-smallmenu.html" />
     <Content Include="Research\research.html" />
     <Content Include="Research\researchexpertise.html" />
     <Content Include="scripts\bootstrap.js" />
@@ -184,6 +187,7 @@
     <Content Include="Services\igrants.html" />
     <Content Include="Services\rates.html" />
     <Content Include="Services\requestform.html" />
+    <Content Include="Services\s-smallmenu.html" />
     <Content Include="Services\services.html" />
     <Content Include="Services\support.html" />
     <Content Include="StyleSheet1.css" />

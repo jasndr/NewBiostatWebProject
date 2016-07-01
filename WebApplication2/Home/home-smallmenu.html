@@ -1,28 +1,65 @@
 ﻿
-        <div class="smallMenu">
+        <div class="smallMenu container-fluid">
 
-            
+            <!-- Start Menu -->
+            <div id="MainMenu">
 
-                <!--<nav>
-                    <ul>
-				        <li><a href="../Home/about.html">About Us</a>
-                            <ul>
-				                <li><a href="../Home/mission.html">Vision, Mission, and Values</a></li>
-				                <li><a href="../Home/expertise.html">Expertise</a>
-                                    <ul>
-                                        <li><a href="../Home/researchdesign.html">Research Design</a></li>
-                                        <li><a href="../Home/biostatanalysis.html">Biostatistical Data Analysis</a></li>
-                                        <li><a href="../Home/bioinfoanalysis.html">Bioinformatical Data Analysis</a></li>
-                                        <li><a href="../Home/biomedinfo.html">Biomedical Informatics</a></li>
-                                        <li><a href="../Home/resultsdissem.html">Dissemination</a></li>
-                                        <li><a href="../Home/traininged.html">Training and Education</a></li>
-                                    </ul>
-				                </li>
-			                </ul>
-                        </li>
-				        <li><a href="../Home/contact.html">Contact Us</a></li>
-				        <li><a href="../Home/jobs.html">Job Opportunties</a></li>
-                        <li><a href="../Home/donate.html">Give a Gift</a></li>
-			        </ul>
-                </nav>-->
+                <!-- List Group Panel -->
+                <div class="list-group panel">
+
+                    <!-- Main Item #1 -->
+                    <a href="../Home/mission.html" class="list-group-item list-group-item mainMenuLink" data-parent="#MainMenu">Vision, Mission & Values</a>
+
+                        <!--<div class="collapse list-group-submenu" id="SubMenu1">
+
+                            <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 1 a</a>
+                            <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 2 b</a>
+                            <a href="#SubSubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubSubMenu1">Subitem 3 c <i class="fa fa-caret-down"></i></a>
+
+                            <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1">
+
+                            <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 1</a>
+                            <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 2</a>
+
+                            </div>
+
+                            <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 4 d</a>
+
+                        </div>
+
+                        <a href="javascript:;" class="list-group-item">Subitem 2</a>
+                        <a href="javascript:;" class="list-group-item">Subitem 3</a>
+
+                    </div>-->
+
+                    <!-- Main Item #2 -->
+                    <a href="#expertiseMenu" class="list-group-item list-group-item mainMenuLink" data-toggle="collapse" data-parent="#MainMenu">Expertise  <span class="glyphicon glyphicon-collapse-down"></span></a>
+
+                    <div class="collapse" id="expertiseMenu">
+
+                        <a href="../Home/researchdesign.html" class="list-group-item subMenuLink">Research Design</a>
+                        <a href="../Home/biostatanalysis.html" class="list-group-item subMenuLink">Biostatistical Data Analysis</a>
+                        <a href="../Home/bioinfoanalysis.html" class="list-group-item subMenuLink">Bioinformatical Data Analysis</a>
+                        <a href="../Home/biomedinfo.html" class="list-group-item subMenuLink">Biomedical Informatics</a>
+                        <a href="../Home/resultsdissem.html" class="list-group-item subMenuLink">Results Dissemination</a>
+                        <a href="../Home/traininged.html" class="list-group-item subMenuLink">Training & Education</a>
+
+                    </div>
+
+                    <!-- Main Item #3 -->
+                    <a href="../Home/contact.html" class="list-group-item list-group-item mainMenuLink" data-parent="#MainMenu">Contact Us</a>
+
+
+                    <!-- Main Item #4 -->
+                    <a href="../Home/jobs.html" class="list-group-item list-group-item mainMenuLink" data-parent="#MainMenu">Job Opportunities</a>
+
+
+                    <!-- Main Item #5 -->
+                    <a href="../Home/donate.html" class="list-group-item list-group-item mainMenuLink" data-parent="#MainMenu">Give a Gift</a>
+
+
+                </div> <!-- (End list-group panel) -->
+
+           </div> <!-- (End mainMenu) -->
+                      
             </div>

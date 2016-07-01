@@ -34,12 +34,11 @@ a:hover, a:visited{
 
 /*-------------------[Menu Active Tab]------------------------*/
 
-#home .home, #research .research, #education .education, #services .services, #people .people{
+#home .home, #about .about, #research .research, #education .education, #services .services, #people .people{
     background-color: darkslategray;
     color: white !important;
     height: 100%;
 }
-
 
 /*---------------------[Header]------------------------------*/
 
@@ -85,6 +84,8 @@ a:hover, a:visited{
 
 
 .search{
+    display: block;
+    float: right;
     background-color: white;
     color: black;
     border: 0px solid #DBDBDB;
@@ -95,9 +96,11 @@ a:hover, a:visited{
 }
 
 .searchButton{
+    display: block;
     position: relative;
-    left: -8px;
-    top: -2px;
+    float: right;
+    left: 190px !important;
+    top: 0;
     background-color: white;
     color: gray;
     font-weight: bold;
@@ -259,9 +262,11 @@ a:hover, a:visited{
 /**((((((((((((((((((((((New Navigation Bar))))))))))))))))))))))*/
 
 nav{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    padding-left: 5%;
     margin-bottom: -10px;
 }
 
@@ -324,6 +329,7 @@ nav ul li {
 
 	float: left;
     text-decoration: none;
+    white-space: nowrap;
 
 }
 	nav ul li:hover {
@@ -819,9 +825,32 @@ a:hover{
 }
 
 .smallMenu{
-    background: #AAA;
+    border-color: #114020 !important;
+    background: none;
     width: 100%;
+    font-family: 'Raleway', sans-serif;
 }
+
+.smallMenu a:hover{
+    background:
+        linear-gradient(
+            rgba(17, 64, 31, 0.9),
+            rgba(17, 64, 31, 0.9)) !important;
+    color: white !important;
+}
+
+.mainMenuLink{
+    background-color: #79D2A1 !important;
+    color: #000 !important;
+}
+
+.subMenuLink{
+    background-color: #EAFAEA !important;
+    color: #000 !important;
+    font-size: 12px;
+}
+
+
 
 .list-group.panel > .list-group-item{
     border-bottom-right-radius: 4px;

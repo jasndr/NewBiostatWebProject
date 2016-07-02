@@ -411,7 +411,7 @@ a:hover{
 }
 
 .currentLink a{
-    color: green;
+    color: green !important;
 }
 
 .hierarchy a:hover{
@@ -784,13 +784,20 @@ a:hover{
     font-weight: normal !important;
 }
 
-.breadCrumbNav{
-    background-color: /**#FFFFF0*/ #FFF !important;
-    width: 1025px !important;
+.breadcrumbNav{
+    background-color: /**#FFFFF0*/ #FFF;
+    width: 1025px;
 }
 
-.breadCrumbNav a{
-    color: dimgray !important;
+.breadcrumbNav a{
+    color: black;
+}
+
+.realBreadcrumbNav{
+    width: 1125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 :target:before{
@@ -827,8 +834,10 @@ a:hover{
 .smallMenu{
     border-color: #114020 !important;
     background: none;
-    width: 100%;
+    /*width: 100%;*/
+    width: 207px;
     font-family: 'Raleway', sans-serif;
+    position: fixed;
 }
 
 .smallMenu a:hover{
@@ -838,6 +847,8 @@ a:hover{
             rgba(17, 64, 31, 0.9)) !important;
     color: white !important;
 }
+
+
 
 .mainMenuLink{
     background-color: #79D2A1 !important;
@@ -860,6 +871,7 @@ a:hover{
 .list-group-submenu{
     margin-left: 20px;
 }
+
 
 /*.flowerPic{
     background:
@@ -924,6 +936,13 @@ a:hover{
     max-height: 85px;
     max-width: 150px;
     display: inline;
+}
+
+.contentImage-short{
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

@@ -105,6 +105,7 @@
     <Content Include="Home\expertise.html" />
     <Content Include="Home\home-smallmenu.html" />
     <Content Include="Home\resultsdissem.html" />
+    <Content Include="Home\sitemap.html" />
     <Content Include="Home\traininged.html" />
     <Content Include="images\button_give-now.jpg" />
     <Content Include="Content\bootstrap-theme.css" />

@@ -35,6 +35,7 @@
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
+            <a class="topMostLinks" href="../Home/sitemap.html">Sitemap</a> |
             <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
             <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
@@ -59,7 +60,14 @@
 
      <!--#include virtual="../menu2.html"-->
 
-    
+    <!-- Breadcrumb/Navigational Hierarchy -->
+            <div class="hierarchy breadcrumbNav realBreadcrumbNav">
+                <ol class="breadcrumb">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Education/education.html">Education</a></li>
+                    <li class="currentLink"><a href="../Education/resources.html">Resources</a></li>
+                </ol>
+            </div> <!-- (End Breadcrumb) -->
 
     </div> <!-- (End of Page Header) -->
 
@@ -100,15 +108,14 @@
 
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
-
-            <!-- Breadcrumb/Navigational Hierarchy -->
+                        
+            <!-- &&&&&&&&&&&&&&&&&&&&&&&&& [FAKE BREADCRUMB NAV] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
             <div class="hierarchy breadcrumbNav">
                 <ol class="breadcrumb">
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="../Education/education.html">Education</a></li>
-                    <li class="currentLink"><a href="../Education/resources.html">Resources</a></li>
+                    <li class="currentLink"><a href="about.html">About Us</a></li>
                 </ol>
-            </div> <!-- (End Breadcrumb) -->
+            </div> <!-- &&&&&&&&&&&&&&&&&& (END FAKE BREADCRUMB NAV) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->    
 
     <!-- Main Content for pages after home page (including this one) -->
     <div class="mainInfo">
@@ -196,10 +203,10 @@
                         <a class="redLink" href="http://home.ubalt.edu/ntsbarsh/Business-stat/otherapplets/pvalues.htm" 
                             target="_blank">Online P-value Calculator</a>
                         <p><br /><strong>Power and Sample Size Calculators</strong></p>
-                        <p><em>Power and sampel size calculation is crucial to properly plan your staudy and control your budget. Several JavaScript-based
+                        <p><em>Power and sample size calculation is crucial to properly plan your staudy and control your budget. Several JavaScript-based
                             calculators are available from the following universities: </em></p>
-                        <a class="redLink" href="http://epibiostat.ucsf.edu/" 
-                            target="_blank">University of California, San Francisco</a>
+                        <a class="redLink" href="http://www.biostat.ucsf.edu/sampsize.html" 
+                            target="_blank">University of California, San Francisco</a><br />
                         <a class="redLink" href="http://homepage.stat.uiowa.edu/~rlenth/Power/" 
                             target="_blank">University of Iowa</a>
                         <p><br /><em><strong>Note:</strong> Power and sample size calculation is intended to help design a study. It is not intended to be conducted
@@ -331,6 +338,11 @@
         </div> <!-- (End rightBank) -->
 
     </div> <!-- (End mainInfo) -->
+
+    <!--Return to top button-->
+        <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
 </div> <!-- (End Main Content) -->
 

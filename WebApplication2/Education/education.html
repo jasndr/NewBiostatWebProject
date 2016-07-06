@@ -36,6 +36,7 @@
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
+            <a class="topMostLinks" href="../Home/sitemap.html">Sitemap</a> |
             <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
             <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
@@ -59,6 +60,14 @@
     </div>  
 
     <!--#include virtual="../menu2.html"-->
+
+    <!-- Breadcrumb/Navigational Hierarchy -->
+        <div class="hierarchy breadcrumbNav realBreadcrumbNav">
+            <ol class="breadcrumb">
+                <li><a href="../index.html">Home</a></li>
+                <li class="currentLink"><a href="../Education/Education.html">Education</a></li>
+            </ol>
+        </div> <!-- (End Breadcrumb) -->
 
     </div> <!-- (End Page Header) -->
 
@@ -100,14 +109,14 @@
 
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
-
-        <!-- Breadcrumb/Navigational Hierarchy -->
-        <div class="hierarchy breadcrumbNav">
-            <ol class="breadcrumb">
-                <li><a href="../index.html">Home</a></li>
-                <li class="currentLink"><a href="../Research/Research.html">Education</a></li>
-            </ol>
-        </div> <!-- (End Breadcrumb) -->    
+                               
+       <!-- &&&&&&&&&&&&&&&&&&&&&&&&& [FAKE BREADCRUMB NAV] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
+            <div class="hierarchy breadcrumbNav">
+                <ol class="breadcrumb">
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="currentLink"><a href="about.html">About Us</a></li>
+                </ol>
+            </div> <!-- &&&&&&&&&&&&&&&&&& (END FAKE BREADCRUMB NAV) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->             
 
     <!-- Main Content for pages after home page (including this one) -->
     <div class="mainInfo">
@@ -151,7 +160,7 @@
                     <div class="hbContent contentWords" id="coContent"> <!-- CO Content -->
 
                         <p class="contentWords">BQHS offers the following two graduate-level courses every year under the Department of Tropical Medicine, 
-                            Medical Microbiology and Pharmacology
+                            Medical Microbiology and Pharmacology:
                         </p>
 
                         <h4 class="contentWords"><em>Fall Semester</em></h4>
@@ -194,7 +203,7 @@
                         </p>
 
                         <a class="redLink" href="../documents/TRMD_705_Spring2016_Flyer%20PDF.pdf" 
-                             target="_blank" role="button">TRMD 702 - Introductory Bioinformatics - Course Flyer</a>
+                             target="_blank" role="button">TRMD 705 - Introductory Bioinformatics - Course Flyer</a>
 
                         </div>
                 </div>
@@ -252,6 +261,11 @@
                         </div>
                 </div>
                 
+                <!--Return to top button-->
+                <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+                <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
 
               </div> <!-- (End contentOfPage) -->
 

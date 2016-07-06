@@ -7,6 +7,26 @@ $('.panel-heading a').on('click', function(e){
 
 });
 
+//jQuery Scroll to Top Function
+$(document).ready(function () {
+    //Scroll to Top Function
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= 50) {
+            $('#return-to-top').fadeIn(200);
+        } else {
+            $('#return-to-top').fadeOut(200);
+        }
+    });
+
+    $('#return-to-top').click(function () {
+        $('body').animate({
+            scrollTop: 0
+        }, 500);
+    });
+});
+
+
+
 
 /**
 function doSearch(s) {

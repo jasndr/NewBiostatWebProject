@@ -97,13 +97,13 @@
     <Content Include="Education\e-smallmenu.html" />
     <Content Include="Education\education.html" />
     <Content Include="Home\about.html" />
-    <Content Include="Home\bioinfoanalysis.html" />
     <Content Include="Home\biomedinfo.html" />
-    <Content Include="Home\biostatanalysis.html" />
     <Content Include="Home\contact.html" />
+    <Content Include="Home\dataanalysis.html" />
     <Content Include="Home\donate.html" />
     <Content Include="Home\expertise.html" />
     <Content Include="Home\home-smallmenu.html" />
+    <Content Include="Home\index.html" />
     <Content Include="Home\resultsdissem.html" />
     <Content Include="Home\sitemap.html" />
     <Content Include="Home\traininged.html" />
@@ -137,8 +137,7 @@
     <Content Include="Home\jobs.html" />
     <Content Include="menu.html" />
     <Content Include="menu2.html" />
-    <Content Include="People\members.html" />
-    <Content Include="Home\mission.html" />
+    <Content Include="Home\members.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -155,7 +154,6 @@
     <Content Include="images\RMATRIX.jpg" />
     <Content Include="Home\researchdesign.html" />
     <Content Include="Education\resources.html" />
-    <Content Include="People\p-smallmenu.html" />
     <Content Include="Research\brfss.html" />
     <Content Include="Research\cms.html" />
     <Content Include="Research\collabresearch.html" />
@@ -186,10 +184,8 @@
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Services\igrants.html" />
-    <Content Include="Services\rates.html" />
     <Content Include="Services\requestform.html" />
     <Content Include="Services\s-smallmenu.html" />
-    <Content Include="Services\services.html" />
     <Content Include="Services\support.html" />
     <Content Include="StyleSheet2.css" />
     <Content Include="StyleSheet1.css" />

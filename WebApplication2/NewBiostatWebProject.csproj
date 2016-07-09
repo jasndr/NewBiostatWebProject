@@ -94,8 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Education\coursesoffered.html" />
     <Content Include="Education\e-smallmenu.html" />
     <Content Include="Education\education.html" />
+    <Content Include="Education\training.html" />
     <Content Include="Home\about.html" />
     <Content Include="Home\biomedinfo.html" />
     <Content Include="Home\contact.html" />
@@ -184,8 +186,10 @@
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Services\igrants.html" />
+    <Content Include="Services\rates.html" />
     <Content Include="Services\requestform.html" />
     <Content Include="Services\s-smallmenu.html" />
+    <Content Include="Services\services.html" />
     <Content Include="Services\support.html" />
     <Content Include="StyleSheet2.css" />
     <Content Include="StyleSheet1.css" />

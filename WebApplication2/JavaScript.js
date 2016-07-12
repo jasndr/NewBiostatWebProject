@@ -26,6 +26,7 @@ $(document).ready(function () {
 });
 
 
+
 //Removed the idea of clickable/hoverable drop-down menu area (could be implemented in the future).
 /**$(document).ready(function () {
 
@@ -82,5 +83,5 @@ $(document).ready(function () {
 //    path = location.pathname.split('.nsf')[0] + '.nsf/';
 //    target.location.href = path + url;
 
-} 
+//} 
 

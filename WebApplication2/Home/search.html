@@ -5,18 +5,17 @@
      #                                                                    #
      # @author Jason Delos Reyes                                          #
      # @date May/June 2016                                                #
-     # BQHS HRS Database                                                  #
+     # BQHS - Search                                                      #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>HRS | BQHS</title>
+    <title>Search | BQHS</title>
     <link rel="icon" href="../images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-    <meta name="description" content="HRS explores the changes in labor force participation and health transition that individuals undergo toward the end of their
-        work lives and in the years that follow." />
-    <meta name="keywords" content="BQHS, HRS, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="description" content="Who are we?" />
+    <meta name="keywords" content="BQHS, About, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="../StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -25,10 +24,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="../JavaScript.js"></script> 
+
+    <!-- TIPUE SEARCH FUNCTION ONLY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../tipuesearch/tipuesearch_content.js"></script>
+    <link href="../tipuesearch/tipuesearch.css" rel="stylesheet">
+    <script src="../tipuesearch/tipuesearch_set.js"></script>
+    <script src="../tipuesearch/tipuesearch.min.js"></script>
+    <!-- TIPUE SEARCH FUNCTION ONLY-->
 </head>
 
 
-<body id="research">
+<body id="home">
 
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
@@ -42,11 +49,11 @@
             <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
-        </p>
+        </p> 
         <!-- ((TIPUE SEARCH FUNCTION)) -->
         <div class="searchForm">                                                                                
             <form action="../Home/search.html">                                        
-            <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." required/>      
+            <input class="search form-control-static" type="text" name="q" id="tipue_search_inputFAKE" autocomplete="off" placeholder="Search BQHS..." required/>      
             <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
@@ -60,33 +67,32 @@
          <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-    <!--#include virtual="../menu2.html"-->
-    
-        <!-- Breadcrumb/Navigational Hierarchy -->
-        <div class="hierarchy breadcrumbNav realBreadcrumbNav">
-            <ol class="breadcrumb">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../Research/research.html">Research</a></li>
-                <li><a href="../Research/healthcaredatabases.html">Healthcare Databases</a></li>
-                <li class="currentLink"><a href="../Research/hrs.html">HRS</a></li>
-            </ol>
-        </div> <!-- (End Breadcrumb) -->    
+     <!--#include virtual="../menu2.html"-->
 
-    </div> <!-- (End Page Header) -->
+    <!-- Breadcrumb/Navigational Hierarchy -->
+            <div class="hierarchy breadcrumbNav realBreadcrumbNav">
+                <ol class="breadcrumb">
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="currentLink"><a href="about.html">Search</a></li>
+                </ol>
+            </div> <!-- (End Breadcrumb) -->
 
-    <!-- &&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    </div> <!-- (End of Page Header) -->
+
+     <!-- &&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
+            <a class="topMostLinks" href="../Home/sitemap.html">Sitemap</a> |
             <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
             <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
-        </p> 
+        </p>
         <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="../search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
+            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
             <input class="search form-control-static" type="text" name="q" id="tipue_search_input_fake" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
             <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
@@ -101,11 +107,10 @@
          <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-    <!--#include virtual="menu2.html"-->    <!-- (FAKE, DO NOT TOUCH) -->
+     <!--#include virtual="menu2.html"-->    <!-- (FAKE, DO NOT TOUCH) -->
 
    
- <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
-
+    <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- DIV to create Body Borders -->
     <div class="container mainBody">
@@ -113,27 +118,23 @@
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
 
-        <!-- &&&&&&&&&&&&&&&&&&&&&&&&& [FAKE BREADCRUMB NAV] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
+            <!-- &&&&&&&&&&&&&&&&&&&&&&&&& [FAKE BREADCRUMB NAV] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
             <div class="hierarchy breadcrumbNav">
                 <ol class="breadcrumb">
                     <li><a href="../index.html">Home</a></li>
                     <li class="currentLink"><a href="about.html">About Us</a></li>
                 </ol>
-            </div> <!-- &&&&&&&&&&&&&&&&&& (END FAKE BREADCRUMB NAV) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->    
+            </div> <!-- &&&&&&&&&&&&&&&&&& (END FAKE BREADCRUMB NAV) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
 
     <!-- Main Content for pages after home page (including this one) -->
     <div class="mainInfo">
 
 
-          <!-- Left Sidebar --> 
-        <div class="leftBank">
-                      
-            <!--#include virtual="./r-smallmenu.html"-->
 
-            <!-- #FlowerPic (Header) -->
-            <div class="belowVisionBox hierarchy">
-                
-            </div>
+          <!-- Small Menu to the left --> 
+        <div class="leftBank">
+          
+            <!--<img class="flowerPic" src="../images/Flower6-fade.png" />-->
 
         </div> <!-- (End leftBank) -->
 
@@ -142,57 +143,26 @@
         <div class="rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>HRS</p></div>
+            <div class="titleOfPage"><p>Search Results</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <img class="contentImage-short" src="../images/hrs.png" />
+                <img class="contentImage-wide" src="../images/Logo_Final.png" alt="Research" />
 
-                <h3 class="contentWords"><a class="redLink" href="http://hrsonline.isr.umich.edu/" target="_blank">Health and Retirement Study (HRS)</a></h3>
-
-                <p class="contentWords">HRS is a longitudinal panel study that surveys a representative sample of approximately 20,000 people in America
-                     over the age of 50 every two years. Supported by the National Institute on Aging and the Social Security Administration, HRS explores
-                     the changes in labor force participation and the health transitions that individuals undergo toward the end of their work lives and in
-                     the years that follow. Since its launch in 1992, the study has collected information about income, work, assets, pension plans, health
-                     insurance, disability, physical health and functioning, cognitive functioning, and health care expenditures.
-                </p>
-
-                <p class="contentWords">Through its unique and in-depth interviews, HRS provides an invaluable and growing body of multidisciplinary data.
-                     Researchers can explore hypotheses on aging with this, one of the nation’s best datasets, to address important questions about the
-                     challenges and opportunities of aging. In addition, HRS can be used for education or training. Students can learn methods to see how
-                     couples influence one another in their health outcomes and health behaviors and how to analyze factors that can only vary between couples,
-                     such as geographic region.
-                </p>
-
-                <h4 class="contentWords">Years Available</h4>
-
-                <ul>
-                    <li><a href="http://hrsonline.isr.umich.edu/index.php?p=showcbk" class="redLink" target="_blank">1992 - 2014 Data Codebooks</a></li>
-                </ul>
-
-                <h5 class="contentWords">Note for Data Users</h5>
-
-                <ul>
-                    <li>In order to access HRS public release data, you must first register and obtain a username and password. By registering at this site,
-                        you are agreeig to the conditions of use governing access to HRS public release data.  For more information, please visit 
-                        <a href="http://hronline.isr.umich.edu/index.php?p=reg/" class="redLink" target="_blank"> http://hronline.isr.umich.edu/index.php?p=reg/ </a>
-                    </li>
-                    <li>The user agreement includes the following citation in any research reports, papers, or publications: <em>"The HRS (Health and Retirement Study)
-                         is sponsored by the National Institute on Aging (grant number NIA U01AG009740) and is conducted by the University of Michigan."</em> The users must
-                         provide information regarding any research product based on HRS by sending electronic copy to  
-                        <a class="redLink" href="#">hrsquestions@umich.edu</a>.
-                    </li>
-                    <li>The sample weights are not computed automatically in the database and may be calculated differently for different research questions.
-                         Please consult BQHS for further information on how to calculate sample weights.
-                    </li>
-                </ul>
-
-                <div class="contentButtonWrapper text-center">
-                   <a class="btn btn-success redContentButton text-center" href="http://hrsonline.isr.umich.edu/" role="button" target="_blank">Go to HRS Data Warehouse</a>
+                <div class="searchResults">
+                    <form action="search.html">
+                        <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+                    </form>
+                    <div class="searchResults" id="tipue_search_content"></div>    
                 </div>
 
-                
+                <script>
+                    $(document).ready(function() {
+                         $('#tipue_search_input').tipuesearch();
+                    });
+                </script>
+   
 
               </div> <!-- (End contentOfPage) -->
 
@@ -208,7 +178,7 @@
 
 </div> <!-- (End Main Content) -->
 
-        <!-- #Footer -->
+         <!-- #Footer -->
     <div class="container-fluid bottomFooter">
 
         <!-- Inner Footer Area-->
@@ -241,9 +211,7 @@
 
     </div> <!-- (End of Footer area) -->
 
-
 </div> <!-- (End Div to create Body Borders)  -->
-
 
 </body>
 </html>

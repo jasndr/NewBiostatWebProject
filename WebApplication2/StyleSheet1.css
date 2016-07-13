@@ -41,6 +41,18 @@ a:hover, a:visited{
     height: 100%;
 }
 
+/*----------------[LeftNav Active Tab - About Us]-------------------------*/
+div#activeEX a#activeEX, div#activeFS a#activeFS, div#activeCU a#activeCU, div#activeJO a#activeJO, div#activeGG a#activeGG,
+/*----------------[LeftNav Active Tab - Research]-------------------------*/
+div#activeRS a#activeRS, div#activeHD a#activeHD, div#activeCR a#activeCR,
+/*----------------[LeftNav Active Tab - Education]------------------------*/
+div#activeCO a#activeCO, div#activeTR a#activeTR, div#activeOR a#activeOR,
+/*----------------[LeftNav Active Tab - Support & Services]---------------*/
+div#activeIG a#activeIG, div#activeSE a#activeSE, div#activeSR a#activeSR, div#activeRF a#activeRF{
+    background-color: #114020 !important;
+    color: white !important;
+}
+
 /*---------------------[Header]------------------------------*/
 
 
@@ -1166,7 +1178,7 @@ a:hover{
 .memberItems{
     padding: 5px 1px 5px 5px;
     text-align: left;
-    background-color: white;
+    background: none;
     /*border: 1px solid black;*/
 }
 

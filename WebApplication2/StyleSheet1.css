@@ -12,12 +12,12 @@ html{
 }
 
 body {
-    background:
+    /*background:
         linear-gradient(
             rgba(255,255,255,.6),
             rgba(255,255,255,.6)),
-        url("./images/beach.jpg") no-repeat center center fixed;
-    background-color: white;
+        url("./images/beach.jpg") no-repeat center center fixed;*/
+    background-color: #EAE5DF !important;
     background-size: cover !important;
     color: #000;
     /**padding-top: 185px;*/
@@ -42,7 +42,7 @@ a:hover, a:visited{
 }
 
 /*----------------[LeftNav Active Tab - About Us]-------------------------*/
-div#activeEX a#activeEX, div#activeFS a#activeFS, div#activeCU a#activeCU, div#activeJO a#activeJO, div#activeGG a#activeGG,
+div#activeVM a#activeVM, div#activeEX a#activeEX, div#activeFS a#activeFS, div#activeCU a#activeCU, div#activeJO a#activeJO, div#activeGG a#activeGG,
 /*----------------[LeftNav Active Tab - Research]-------------------------*/
 div#activeRS a#activeRS, div#activeHD a#activeHD, div#activeCR a#activeCR,
 /*----------------[LeftNav Active Tab - Education]------------------------*/
@@ -839,8 +839,8 @@ a:hover{
 :target:before{
     content: "";
     display: block;
-    height: 200px;
-    margin: -200px 0 0;
+    height: 250px;
+    margin: -250px 0 0;
 }
 
 .mainInfo{

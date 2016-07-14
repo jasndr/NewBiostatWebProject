@@ -106,6 +106,7 @@
     <Content Include="Home\expertise.html" />
     <Content Include="Home\home-smallmenu.html" />
     <Content Include="Home\index.html" />
+    <Content Include="Home\mission.html" />
     <Content Include="Home\resultsdissem.html" />
     <Content Include="Home\search.html" />
     <Content Include="Home\sitemap.html" />

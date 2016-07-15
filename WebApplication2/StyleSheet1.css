@@ -17,7 +17,7 @@ body {
             rgba(255,255,255,.6),
             rgba(255,255,255,.6)),
         url("./images/beach.jpg") no-repeat center center fixed;*/
-    background-color: #EAE5DF !important;
+    background-color: /*#EAE5DF*/ #F5F3F0 !important;
     background-size: cover !important;
     color: #000;
     /**padding-top: 185px;*/
@@ -503,7 +503,7 @@ a:hover{
 }
 
 .textBox2{
-    text-shadow:  1px 1px 0 #000;
+    /*text-shadow:  1px 1px 0 #000;*/
 }
 
 .textBox a{
@@ -511,7 +511,7 @@ a:hover{
 }
 
 .textBox2 a{
-    color: #79D2A1;
+    color: #267349;
 }
 
 .textBox a:hover{
@@ -520,7 +520,7 @@ a:hover{
 
 .textBox2 a:hover{
     color: darkgreen;
-    text-shadow:  1px 1px 0 #FFF;
+    /*text-shadow:  1px 1px 0 #FFF;*/
 }
 
 .carousel-control.left, .carousel-control.right{
@@ -685,6 +685,10 @@ a:hover{
     opacity: .85;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.moduleWords{
+    font-weight: normal;
 }
 
 

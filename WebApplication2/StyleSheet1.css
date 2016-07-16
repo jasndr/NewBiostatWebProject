@@ -53,6 +53,14 @@ div#activeIG a#activeIG, div#activeSE a#activeSE, div#activeSR a#activeSR, div#a
     color: white !important;
 }
 
+/*----------------[LeftNav Sublink Bold - About Us]------------------------*/
+div#boldRD a#boldRD, div#boldDD a#boldDD, div#boldDA a#boldDA, div#boldRED a#boldRED, div#boldTE a#boldTE,
+/*----------------[LeftNav Sublink Bold - Research]------------------------*/
+div#boldBR a#boldBR, div#boldCM a#boldCM, div#boldHH a#boldHH, div#boldHR a#boldHR, div#boldME a#boldME, div#boldNH a#boldNH, div#boldNI a#boldNI{
+    font-weight: bold !important;
+    background-color: #C1F0C1 !important;
+}
+
 /*---------------------[Header]------------------------------*/
 
 
@@ -164,9 +172,10 @@ div#activeIG a#activeIG, div#activeSE a#activeSE, div#activeSR a#activeSR, div#a
     font-family: 'Noto Sans', Verdana,sans-serif;
     font-weight: 400;
     font-size: 18px;
-    width: 100% !important;
+    width: auto !important;
     display: block;
     text-align: center;
+    /*background-color: brown;*/
     background: 
         linear-gradient(
             rgba(238, 226, 168, 1),
@@ -285,7 +294,7 @@ nav{
     text-align: center;
     /*margin-left: auto;
     margin-right: auto;*/
-    padding-left: 5%;
+    margin-left: 10%;
     margin-bottom: -10px;
 }
 
@@ -511,7 +520,7 @@ a:hover{
 }
 
 .textBox2 a{
-    color: #267349;
+    color: darkgreen;
 }
 
 .textBox a:hover{
@@ -519,7 +528,7 @@ a:hover{
 }
 
 .textBox2 a:hover{
-    color: darkgreen;
+    color: #66CC94;
     /*text-shadow:  1px 1px 0 #FFF;*/
 }
 
@@ -899,6 +908,7 @@ a:hover{
     background-color: #EAFAEA !important;
     color: #000 !important;
     font-size: 12px !important;
+    font-weight: normal !important;
     padding-left: 30px !important;
 }
 
@@ -980,10 +990,25 @@ a:hover{
 }
 
 .contentImage-short{
-    height: 80px;
+    height: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.contentImage-tall{
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentImage-hhic{
+    
+}
+
+.contentImage-hrs{
+
 }
 
 

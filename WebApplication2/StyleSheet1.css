@@ -41,22 +41,24 @@ a:hover, a:visited{
     height: 100%;
 }
 
-/*----------------[LeftNav Active Tab - About Us]-------------------------*/
+/*----------------[LeftNav Active Tab - About Us]----------------------------*/
 div#activeVM a#activeVM, div#activeEX a#activeEX, div#activeFS a#activeFS, div#activeCU a#activeCU, div#activeJO a#activeJO, div#activeGG a#activeGG,
-/*----------------[LeftNav Active Tab - Research]-------------------------*/
+/*----------------[LeftNav Active Tab - Research]----------------------------*/
 div#activeRS a#activeRS, div#activeHD a#activeHD, div#activeCR a#activeCR,
-/*----------------[LeftNav Active Tab - Education]------------------------*/
+/*----------------[LeftNav Active Tab - Education]---------------------------*/
 div#activeCO a#activeCO, div#activeTR a#activeTR, div#activeOR a#activeOR,
-/*----------------[LeftNav Active Tab - Support & Services]---------------*/
+/*----------------[LeftNav Active Tab - Support & Services]------------------*/
 div#activeIG a#activeIG, div#activeSE a#activeSE, div#activeSR a#activeSR, div#activeRF a#activeRF{
     background-color: #114020 !important;
     color: white !important;
 }
 
-/*----------------[LeftNav Sublink Bold - About Us]------------------------*/
+/*----------------[LeftNav Sublink Bold - About Us]--------------------------*/
 div#boldRD a#boldRD, div#boldDD a#boldDD, div#boldDA a#boldDA, div#boldRED a#boldRED, div#boldTE a#boldTE,
-/*----------------[LeftNav Sublink Bold - Research]------------------------*/
-div#boldBR a#boldBR, div#boldCM a#boldCM, div#boldHH a#boldHH, div#boldHR a#boldHR, div#boldME a#boldME, div#boldNH a#boldNH, div#boldNI a#boldNI{
+/*----------------[LeftNav Sublink Bold - Research]--------------------------*/
+div#boldBR a#boldBR, div#boldCM a#boldCM, div#boldHH a#boldHH, div#boldHR a#boldHR, div#boldME a#boldME, div#boldNH a#boldNH, div#boldNI a#boldNI,
+/*----------------[LeftNav Sublink Bold - Education and Support & Services]--*/
+.subLinkBold{
     font-weight: bold !important;
     background-color: #C1F0C1 !important;
 }
@@ -168,11 +170,13 @@ div#boldBR a#boldBR, div#boldCM a#boldCM, div#boldHH a#boldHH, div#boldHR a#bold
 }
 
 .mainNavBar{
+    min-width: 1125px;
+    width: 100%;
+    white-space: nowrap;
     margin-top: -20px;
     font-family: 'Noto Sans', Verdana,sans-serif;
     font-weight: 400;
     font-size: 18px;
-    width: auto !important;
     display: block;
     text-align: center;
     /*background-color: brown;*/
@@ -200,102 +204,22 @@ div#boldBR a#boldBR, div#boldCM a#boldCM, div#boldHH a#boldHH, div#boldHR a#bold
     height: 100%;*/
 } 
 
-
-/**
-.dropdown-menu{
-    display: block;
-    position: static;
-    margin-bottom: 5px;
-    width: 100%;
+.mainNavBar > nav > ul > li{
+    margin-left: 2em;
+    margin-right: 2em; 
 }
-
-#nav, #nav3, #navFake {
-    border-width: 1px 0;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background: 
-        linear-gradient(
-            rgba(51, 51, 51, 1),
-            rgba(100, 100, 100, 1));
-}
-
-#nav li, #nav3 li, #navFake li{
-    display: inline;
-    text-decoration: none;
-    padding-left: 1.25%;
-    padding-right: 1.25%;
-}
-
-
-#nav a, #nav3 a, #navFake a, .dropbtn{
-    display: inline-block;
-    white-space: nowrap;
-    padding: 10px;
-    color: #FFF;
-    text-decoration: none;
-    height: 100%;
-}
-
-
-#nav a:hover, #nav3 a:hover, #navFake a:hover, .dropdown:hover .dropbtn{
-   background: #333;
-   color: #FFF;
-}
-
-#nav .dropdown, #nav3 .dropdown #navFake .dropdown{
-    display: inline-block;
-}
-
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #555;
-    color: #FFF;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    text-align: left;
-    font-size: 14px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300 !important;
-    -webkit-font-smoothing: antialiased !important;
-}
-
-.dropdown-content a{
-    color: #FFF !important;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    width: 100%
-}
-
-.dropdown-content a:hover{
-    background-color: #333 !important;
-    color: #FFF !important;
-
-}
-
-.dropdown:hover .dropdown-content{
-    display: block;
-}
-
-.dropdown-submenu{
-    display: inline-block;
-}*/
-
-
 
 
 /**((((((((((((((((((((((New Navigation Bar))))))))))))))))))))))*/
 
 nav{
-    width: 100%;
+    /*width: 100%;*/
     text-align: center;
-    /*margin-left: auto;
-    margin-right: auto;*/
-    margin-left: 10%;
-    margin-bottom: -10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-left: 10%;*/
+    margin-bottom: -17px;
 }
 
 
@@ -337,11 +261,12 @@ nav ul {
     /*background-color: #EEE2A8;*/ 
     color: black;
     /*border-top: 2px solid #EEE2A8;*/ /**#B5AA34 #FFDF00*/
-    /*border-bottom: 1px solid #AAA;*/
+    border-bottom: 1px solid #AAA;
     text-decoration: none;
 	list-style: none;
 	position: relative; /*Aboslutely position submenus according to menu*/
-	display: block; /*Condense width of menu to fit*/
+	display: inline-block; /*Condense width of menu to fit*/
+    white-space: nowrap !important;
     /*margin: 0 auto;*/
 }
     /*Clear floats used on subsequent list items */
@@ -427,6 +352,90 @@ nav ul ul ul {
 }
 
 /**(((((((((((((((((((End New Navigation Bar)))))))))))))))))))*/
+
+/**
+.dropdown-menu{
+    display: block;
+    position: static;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+#nav, #nav3, #navFake {
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: 
+        linear-gradient(
+            rgba(51, 51, 51, 1),
+            rgba(100, 100, 100, 1));
+}
+
+#nav li, #nav3 li, #navFake li{
+    display: inline;
+    text-decoration: none;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+}
+
+
+#nav a, #nav3 a, #navFake a, .dropbtn{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+    height: 100%;
+}
+
+
+#nav a:hover, #nav3 a:hover, #navFake a:hover, .dropdown:hover .dropbtn{
+   background: #333;
+   color: #FFF;
+}
+
+#nav .dropdown, #nav3 .dropdown #navFake .dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #555;
+    color: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300 !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.dropdown-content a{
+    color: #FFF !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 100%
+}
+
+.dropdown-content a:hover{
+    background-color: #333 !important;
+    color: #FFF !important;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-submenu{
+    display: inline-block;
+}*/
+
 
 a{
     color:#C00;
@@ -1066,6 +1075,7 @@ a:hover{
 }
 
 .hbContent{
+    display: block;
     margin-top: 0;
     background-color: #EAFAEA; /**#EEBA99;*/
     padding-bottom: 10px !important;

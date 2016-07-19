@@ -26,6 +26,22 @@ $(document).ready(function () {
 });
 
 
+//jQuery Sublink Highlight Function
+$(document).ready(function () {
+
+    /** http://stackoverflow.com/questions/8766084/how-to-highlight-the-clicked-navigation-item */
+    $('#subBS').click(function () {
+        $('#subBS').addClass('subLinkBold').$('subBI').removeClass('subLinkBold');
+        return (false);
+    });
+
+    $('#subBI').click(function () {
+        $('#subBI').addClass('subLinkBold').$('subBS').removeClass('subLinkBold');
+        return (false);
+    });
+
+});
+
 
 //Removed the idea of clickable/hoverable drop-down menu area (could be implemented in the future).
 /**$(document).ready(function () {

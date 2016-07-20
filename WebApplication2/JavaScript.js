@@ -7,9 +7,10 @@ $('.panel-heading a').on('click', function(e){
 
 });
 
-//jQuery Scroll to Top Function
+//jQuery 
 $(document).ready(function () {
-    //Scroll to Top Function
+
+    //Scroll to top button - Appear if down the page
     $(window).scroll(function () {
         if ($(this).scrollTop() >= 50) {
             $('#return-to-top').fadeIn(200);
@@ -18,26 +19,22 @@ $(document).ready(function () {
         }
     });
 
+    //Scroll to top button - Function
     $('#return-to-top').click(function () {
         $('body').animate({
             scrollTop: 0
         }, 500);
     });
-});
 
-
-//jQuery Sublink Highlight Function
-$(document).ready(function () {
-
-    /** http://stackoverflow.com/questions/8766084/how-to-highlight-the-clicked-navigation-item */
-    $('#subBS').click(function () {
-        $('#subBS').addClass('subLinkBold').$('subBI').removeClass('subLinkBold');
-        return (false);
+    //Sublink Highlight Function - Education>Resources
+    $('#resourcesMenu a').click(function () {
+        $(this).attr('id', 'boldOR').siblings().removeAttr('id');
+        
     });
 
-    $('#subBI').click(function () {
-        $('#subBI').addClass('subLinkBold').$('subBS').removeClass('subLinkBold');
-        return (false);
+    //Sublink Highlight Function - Support & Services > Services
+    $('#servicesMenu a').click(function () {
+        $(this).attr('id', 'boldSE').siblings().removeAttr('id');
     });
 
 });

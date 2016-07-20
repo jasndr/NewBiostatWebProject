@@ -57,11 +57,16 @@ div#activeIG a#activeIG, div#activeSE a#activeSE, div#activeSR a#activeSR, div#a
 div#boldRD a#boldRD, div#boldDD a#boldDD, div#boldDA a#boldDA, div#boldRED a#boldRED, div#boldTE a#boldTE,
 /*----------------[LeftNav Sublink Bold - Research]--------------------------*/
 div#boldBR a#boldBR, div#boldCM a#boldCM, div#boldHH a#boldHH, div#boldHR a#boldHR, div#boldME a#boldME, div#boldNH a#boldNH, div#boldNI a#boldNI,
-/*----------------[LeftNav Sublink Bold - Education and Support & Services]--*/
-.subLinkBold{
+/*----------------[LeftNav Sublink Bold - Education]-------------------------*/
+ a#boldOR,
+/*----------------[LeftNav Sublink Bold - Support & Services]-----------------*/
+ a#boldSE{
     font-weight: bold !important;
     background-color: #C1F0C1 !important;
 }
+
+
+
 
 /*---------------------[Header]------------------------------*/
 

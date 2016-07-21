@@ -1270,6 +1270,14 @@ a:hover{
     font-family: 'Noto Sans', Verdana,sans-serif;
 }
 
+.memberAltColor{
+    background-color: #C1f0C1;
+}
+
+.memberAltColor2{
+    background-color: #FFF;
+}
+
 .bigInfo{
     /*font-weight: bold !important;*/
     font-size: 20px !important;

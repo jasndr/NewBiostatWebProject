@@ -12,11 +12,31 @@ $(document).ready(function () {
 
     //Scroll to top button - Appear if down the page
     $(window).scroll(function () {
+
+        //Make "return-to-top" button appear if down the page
         if ($(this).scrollTop() >= 50) {
             $('#return-to-top').fadeIn(200);
         } else {
             $('#return-to-top').fadeOut(200);
-        }
+        };
+
+
+        //Hightlight Sublink - Education>Resources
+    //    var cur_pos = $(this).scrollTop(),
+    //    biostat_pos = $('#biostatistics').height() - 330,
+    //    bioinfo_pos = $('#bioinformatics').height() - 330;
+
+        
+    //    if ($('#activeOR').length != 0) {
+
+    //        if (cur_pos >= biostat_pos && cur_pos < bioinfo_pos) {
+    //            $('#noBoldBS').attr('id', 'boldOR').siblings().attr('id', 'noBoldBI');
+    //        } else if (cur_pos >= bioinfo_pos) {
+    //            $('#noBoldBI').attr('id', 'boldOR').siblings().attr('id', 'noBoldBS');
+    //        };
+
+    //    };
+
     });
 
     //Scroll to top button - Function
@@ -38,6 +58,24 @@ $(document).ready(function () {
     });
 
 });
+
+//var education_sections = $('#resourcesMenu a'),
+//     education_nav = $('#educationSmallMenu'),
+//     education_nav_height = education_nav.outerHeight();
+
+//$(window).on('scroll', function () {
+    
+
+//        if (cur_pos >= top && cur_pos <= bottom) {
+//            if (cur_pos >= biostat_pos && cur_pos <= bioinfo_pos) 
+//                $('noBoldBS').attr('id', 'boldOR').siblings().attr('id', 'noBoldBI');
+//        } else {
+//            $('noBoldBI').attr('id', 'boldOR').siblings().attr('id', 'noBoldBS');
+//        }
+    
+
+//});
+
 
 
 //Removed the idea of clickable/hoverable drop-down menu area (could be implemented in the future).

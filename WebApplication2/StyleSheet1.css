@@ -712,6 +712,7 @@ a:hover{
 
 .moduleWords{
     font-weight: normal;
+    font-size: 16px;
 }
 
 
@@ -885,13 +886,14 @@ a:hover{
         linear-gradient(
             rgba(255, 255, 255, .4),
             rgba(255, 255, 255, .4)),
-        url("./images/Flower6-fade.png") no-repeat;
+        url("./images/Flower6-fade.png") bottom;
      background-size: contain;
      background-color: #ADAD67;
     flex: 1;
     padding-left: 0;
     margin-right: 5px;
     max-width: 100%;
+    z-index: 5000;
 }
 
 .smallMenu{
@@ -1017,16 +1019,16 @@ a:hover{
     margin-right: auto;
 }
 
-.contentImage-hhic{
-    
-}
-
-.contentImage-hrs{
-
-}
-
 
 .contentWords{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.contentHeader{
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 10px;
@@ -1037,6 +1039,7 @@ a:hover{
     display: table;
     margin: 0 auto;
     text-align: center;
+    font-size: 16px !important;
     background-color: darkseagreen !important;
     border-color: darkseagreen !important;
     color: black !important;
@@ -1158,6 +1161,7 @@ a:hover{
      border-radius: 35px;
      display: none;
      transition: all 0.3s ease;
+     z-index: 5000;
  }
 
  #return-to-top i{
@@ -1226,20 +1230,39 @@ a:hover{
     /*border: 1px solid black;*/
 }
 
-.makeWide{
-    padding-right: 35px;
-}
+/*.contentWords#fcontent, .contentWords#sContent{
+    padding-left: 10px;
+    text-indent: -10px;
+}*/
 
-.makeWide2{
+.makeWide{
     padding-right: 80px;
 }
 
+.makeWide2{
+    padding-right: 43px;
+}
+
 .makeWide3{
-    padding-right: 15px;
+    padding-right: 23px !important;
 }
 
 .makeWide4{
-    padding-right: 43px;
+    padding-right: 55px;
+}
+
+.memberItemsPhone{
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.memberItemsTitle{
+    margin-left: -100px;
+}
+
+.memberItemsOffice{
+    padding-right: 10px;
+    font-size: 14px;
 }
 
 .makeTiny{

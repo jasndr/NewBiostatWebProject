@@ -1,34 +1,24 @@
-﻿<!DOCTYPE html>
-<!-- ######################################################################
-     # Office of Biostatistics & Quantitative Health Science Website      #
-     # University of Hawaii, John A. Burns School of Medicine             #
-     #                                                                    #
-     # @author Jason Delos Reyes                                          #
-     # @date May/June 2016                                                #
-     # BQHS Research Strengths                                            #
-     ###################################################################### -->
-<html>
+<!DOCTYPE html>
 
 <head>
-    <title>Research Strengths | BQHS</title>
-    <link rel="icon" href="../images/Logo_Final.png" />
+	<title>Contact Form Success | BQHS</title>
+	<link rel="icon" href="../images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-    <meta name="description" content="The faculty and staff at BQHS aspire to be a crossroads of knowledge from the biological, physical, social, and 
-                    managerial sciences." />
-    <meta name="keywords" content="BQHS, Research Strengths, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="description" content="Vision, Mission, and Values" />
+    <meta name="keywords" content="BQHS, Vision Mission & Values, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="../StyleSheet1.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-     <script src="../JavaScript.js"></script> 
+    <script src="../JavaScript.js"></script>
 </head>
 
-
-<body id="research">
+<body id="about">
 
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
@@ -53,28 +43,21 @@
             </form>
         </div>
     </div>
-
-
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
          <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
-
     <!--#include virtual="../menu2.html"-->
-
     <!-- Breadcrumb/Navigational Hierarchy -->
-        <div class="hierarchy breadcrumbNav realBreadcrumbNav">
-            <ol class="breadcrumb">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../Research/research.html">Research</a></li>
-                <li class="currentLink"><a href="../Research/researchexpertise.html">Research Strengths</a></li>
-            </ol>
-        </div> <!-- (End Breadcrumb) -->
-
-    </div> <!-- (End Page Header) -->
-
-    <!-- &&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
-
+    <div class="hierarchy breadcrumbNav realBreadcrumbNav">
+        <ol class="breadcrumb">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Home/about.html">About Us</a></li>
+            <li class="currentLink"><a href="../Home/mission.html">Vision, Mission, & Values</a></li>
+        </ol>
+     </div> <!-- (End Breadcrumb) -->
+    </div> <!-- (End of Page Header) -->
+     <!-- &&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
@@ -84,10 +67,9 @@
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
-        <!-- ((TIPUE SEARCH FUNCTION)) -->
-        <div class="searchForm">                                                                                
-            <form action="../Home/search.html">                                        
-            <input class="search form-control-static" type="text" name="q" id="tipue_search_input_fake" autocomplete="off" placeholder="Search BQHS..." required/>      
+        <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
+            <form action="../search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
+            <input class="search form-control-static" type="text" name="q" id="tipue_search_input_fake" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
             <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
@@ -106,30 +88,29 @@
    
  <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
-
     <!-- DIV to create Body Borders -->
-    <div class="container mainBody" id="activeRS">
+    <div class="container mainBody" id="activeVM">
 
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
-        <div class="mainContent container-fluid">     
-            
-        <!-- &&&&&&&&&&&&&&&&&&&&&&&&& [FAKE BREADCRUMB NAV] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
-            <div class="hierarchy breadcrumbNav">
-                <ol class="breadcrumb">
-                    <li><a href="../index.html">Home</a></li>
-                    <li class="currentLink"><a href="about.html">About Us</a></li>
-                </ol>
-            </div> <!-- &&&&&&&&&&&&&&&&&& (END FAKE BREADCRUMB NAV) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->        
+        <div class="mainContent container-fluid">
 
+            <!-- &&&&&&[FAKE BREADCRUMB NAV]&&&&&&&&&&&&&&&&&&&&&&&& -->
+        <div class="hierarchy breadcrumbNav">
+            <ol class="breadcrumb">
+                <li><a href="../index.html">Home</a></li>
+                <li class="currentLink"><a href="../NiceSimpleContactForm/contactthanks.php">Contact Form Success</a></li>
+            </ol>
+        </div> <!-- &&&&&&&&&&&&&&(END FAKE BREADCRUMB NAV)&&&&&&&&&&&&&&& -->   
+            
     <!-- Main Content for pages after home page (including this one) -->
     <div class="mainInfo">
 
 
-          <!-- Left Sidebar --> 
+          <!-- Donation Page to the left --> 
         <div class="leftBank">
-               
-            <!--#include virtual="./r-smallmenu.html"-->
-                   
+
+ 
+          
             <!-- #FlowerPic (Header) -->
             <div class="belowVisionBox hierarchy">
                 
@@ -141,36 +122,27 @@
         <!-- Majority of the content will go the right side -->
         <div class="rightBank">
 
-            <!-- Title of Page -->
-            <div class="titleOfPage"><p>Research Strengths</p></div>
-            
+           
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <!--<img class="contentImage-wide" src="../images/DSC01669-Blurr.png" alt="Jun Presenting" />-->
-
-                <br />
-
-                <p class="contentWords">The faculty and staff at BQHS have expertise in the following research areas:
-                </p>
-
-                <ul>
-                    <li class="contentWords">Bayesian biostatistics</li>
-                    <li class="contentWords">Bioinformatics and computational biology</li>
-                    <li class="contentWords">Biomedical informatics</li>
-                    <li class="contentWords">Clinical trial/clinical research</li>
-                    <li class="contentWords">Data visualization</li>
-                    <li class="contentWords">Epidemiology</li>
-                    <li class="contentWords">Healthcare data analytics</li>
-                    <li class="contentWords">Longitudinal and hierarchical data analysis</li>
-                    <li class="contentWords">Multivariate analysis</li>
-                    <li class="contentWords">Nonparametric analysis</li>
-                    <li class="contentWords">Spatial statistics</li>
-                    <li class="contentWords">Structural equation modeling</li>
-                    <li class="contentWords">Survival analysis</li>
-                </ul>
-              
                 
+                <div id="page-wrap">
+
+		
+					<h1 class="contentHeader">Your message has been sent!</h1><br />
+		
+					<p class="contentWords"><a class="redLink" href="../Home/contact.html#contactForm">Back to Contact Form</a></p>
+	
+				</div>
+	
+				<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+				<script type="text/javascript">
+					_uacct = "UA-68528-29";
+					urchinTracker();
+				</script>
+                
+
 
               </div> <!-- (End contentOfPage) -->
 
@@ -186,7 +158,7 @@
 
 </div> <!-- (End Main Content) -->
 
-        <!-- #Footer -->
+    <!-- #Footer -->
     <div class="container-fluid bottomFooter">
 
         <!-- Inner Footer Area-->
@@ -219,9 +191,8 @@
 
     </div> <!-- (End of Footer area) -->
 
-
 </div> <!-- (End Div to create Body Borders)  -->
 
-
 </body>
+
 </html>

@@ -2,20 +2,20 @@
 
 #page-wrap {
 	width: 660px;
-	background: white;
+	/**background: white;*/
 	padding: 20px 50px 20px 50px;
 	margin: 20px auto;
 	min-height: 500px;
 	height: auto !important;
 	height: 500px;
+	display: block;
 }
 
 #contact-area {
 	width: 600px;
 	margin-top: 25px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 
 #contact-area input, #contact-area textarea {
@@ -25,14 +25,17 @@
     font-size: 16px;
 	margin: 0px 0px 10px 0px;
 	border: 1px solid #000;
+	display: block;
 }
 
 #contact-area textarea {
 	height: 90px;
+	display: block;
 }
 
 #contact-area textarea:focus, #contact-area input:focus {
 	border: 2px solid #000;
+	display: block;
 }
 
 #contact-area input.submit-button {
@@ -40,6 +43,7 @@
 	float: right;
 	background-color: #114020;
     color: white;
+	display: block;
 }
 
 #contact-area input.submit-button:hover {
@@ -51,6 +55,7 @@
             rgba(255, 255, 255, .1),
             rgba(255, 255, 255, .1));
     color: black;
+	display: block;
 }
 
 label {
@@ -60,4 +65,5 @@ label {
 	width: 100px;
 	padding-top: 5px;
 	font-size: 16px;
+	display: block;
 }

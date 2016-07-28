@@ -210,8 +210,8 @@ div#boldBR a#boldBR, div#boldCM a#boldCM, div#boldHH a#boldHH, div#boldHR a#bold
 } 
 
 .mainNavBar > nav > ul > li{
-    margin-left: 2em;
-    margin-right: 2em; 
+    margin-left: 3em;
+    margin-right: 3em; 
 }
 
 
@@ -1308,10 +1308,34 @@ a:hover{
     padding: 5px;
 }
 
+.mainPanel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftPanel{
+    width: 60%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 0;
+    margin-left: 5px;
+    background-color: none !important;
+}
+
+.rightPanel{
+    width: 35%;
+    float: right;
+    padding-left: 5px;
+    padding-right: 30px;
+    margin-left: 5px;
+    border-left: 1px solid #D5B82A;
+}
+
 .insideMemberLeft{
     float: left;
     width: 40%;
-    margin-left: 15px;
+    margin-left: 80px;
 }
 
 .insideMemberRight{

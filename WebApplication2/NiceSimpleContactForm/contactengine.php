@@ -4,14 +4,13 @@ $EmailFrom = "biostat@hawaii.edu";
 $EmailTo = "biostat@hawaii.edu";
 $Subject = "BQHS Inquiry";
 $Name = Trim(stripslashes($_POST['Name'])); 
-$Tel = Trim(stripslashes($_POST['Tel'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
 $Message = Trim(stripslashes($_POST['Message'])); 
 
 // validation
 $validationOK=true;
 if (!$validationOK) {
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=..\NiceSimpleContactForm\error.htm\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=..\NiceSimpleContactForm\fail-error.html\">";
   exit;
 }
 
@@ -19,9 +18,6 @@ if (!$validationOK) {
 $Body = "";
 $Body .= "Name: ";
 $Body .= $Name;
-$Body .= "\n";
-$Body .= "Tel: ";
-$Body .= $Tel;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $Email;
@@ -35,9 +31,9 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$Email>");
 
 // redirect to success page 
 if ($success){
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=..\NiceSimpleContactForm\contactthanks.php\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=..\NiceSimpleContactForm\contactthanks.html\">";
 }
 else{
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=..\NiceSimpleContactForm\error.htm\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=..\NiceSimpleContactForm\fail-error.html\">";
 }
 ?>

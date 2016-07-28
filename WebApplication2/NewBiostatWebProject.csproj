@@ -104,6 +104,10 @@
     <Content Include="Home\dataanalysis.html" />
     <Content Include="Home\donate.html" />
     <Content Include="Home\expertise.html" />
+    <Content Include="Home\Faculty\davis-james.html" />
+    <Content Include="Home\Faculty\ahn-hyeongjun.html" />
+    <Content Include="Home\Faculty\lim-eunjung.html" />
+    <Content Include="Home\Faculty\chen-john.html" />
     <Content Include="Home\home-smallmenu.html" />
     <Content Include="Home\index.html" />
     <Content Include="Home\mission.html" />
@@ -142,6 +146,7 @@
     <Content Include="menu.html" />
     <Content Include="menu2.html" />
     <Content Include="Home\members.html" />
+    <Content Include="menu3.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

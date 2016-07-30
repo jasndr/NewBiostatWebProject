@@ -886,9 +886,10 @@ a:hover{
         linear-gradient(
             rgba(255, 255, 255, .4),
             rgba(255, 255, 255, .4)),
-        url("./images/Flower6-fade.png") bottom;
+        url("./images/Flower6-fade.png") top fixed;
      background-size: contain;
      background-color: #ADAD67;
+     background-position: center bottom;
     flex: 1;
     padding-left: 0;
     margin-right: 5px;
@@ -1145,6 +1146,16 @@ a:hover{
  .mahalo{
      text-align: center;
      font-weight: bold;
+ }
+
+ .webTracker{
+     position: fixed;
+     bottom: 20px;
+     left: 20px;
+     display: block;
+     transition: all 0.3s ease;
+     z-index: 5000;
+     display: none;
  }
 
  /*(((Return to top Feature)))*/

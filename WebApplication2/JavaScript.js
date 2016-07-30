@@ -16,8 +16,10 @@ $(document).ready(function () {
         //Make "return-to-top" button appear if down the page
         if ($(this).scrollTop() >= 50) {
             $('#return-to-top').fadeIn(200);
+            $('.webTracker').fadeIn(250);
         } else {
             $('#return-to-top').fadeOut(200);
+            $('.webTracker').fadeOut(250);
         };
 
 
@@ -45,6 +47,7 @@ $(document).ready(function () {
             scrollTop: 0
         }, 500);
     });
+
 
     //Sublink Highlight Function - Education>Resources
     $('#resourcesMenu a').click(function () {

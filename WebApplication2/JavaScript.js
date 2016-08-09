@@ -7,75 +7,40 @@ $('.panel-heading a').on('click', function(e){
 
 });
 
-$(document).ready(function () {
 
-    var smallMenu = $('.smallMenu');
-    var minTop = $('.pageHeader').outerHeight();
-    var maxTop = $('.bottomFooter').offset().top - smallMenu.outerHeight();
-
-
-    $(document).scroll(function () {
-
-        var scrollVal = $(document).scrollTop();
-
-        smallMenu.css('top', scrollVal);
-
-        if (scrollVal < minTop) {
-            smallMenu.css('top', minTop);
-        }
-
-        if (smallMenu.offset().top > maxTop) {
-            smallMenu.css('top', maxTop);
-        }
+//function checkOffset() {
+//    var a = $(document).scrollTop() + window.innerHeight;
+//    var b = $('.bottomFooter').offset().top;
+//    var c = $('.BQHSbanner').offset().bottom;
 
 
-    });
 
-
-});
-
-//$(document).ready(function () {
-
-//    if ($('.smallMenu').length) {
-
-//        var smallMenu = $('.smallMenu');
-//        var smallMenuTop = $('.smallMenu').offset().top;
-//        var smallMenuHeight = $('.smallMenu').height();
-
+//    if (a < b) {
+//        $('.smallMenu').css('top', 'auto');
+//    } {
+//        $('.smallMenu').css('bottom', (10 + (a - b)) + 'px');
       
-  
-
-//        $(window).scroll(function () {
-            
-//            var limit = $('.smallMenu').offset().top - smallMenuHeight;
-
-//            var windowTop = $(window).scrollTop();
-
-//            if (smallMenuTop > windowTop) {
-//                smallMenu.css({ position: 'fixed'});
-//            } else {
-//                smallMenu.css({ position: 'static' });
-//            }
-            
-//            if (limit < windowTop) {
-//                var diff = limit - windowTop;
-//                smallMenu.css({ top: diff });
-//            }
-
-           
-            
-
-
-//        });
-
 //    }
+//}
+//$(document).ready(checkOffset);
+//$(document).scroll(checkOffset);
+
+
+//$(document).ready(function (e) {
+//    var containerTop = $('.pageHeader').offset().top;
+//    $(window).scroll(function () {
+//        var scrollT = $(window).scrollTop();
+//        if (scrollT > containerTop) {
+//            $('.smallMenu').css({ position: 'fixed', top: '110px' });
+//        } else {
+//            $('.smallMenu').css({ position: 'relative', top: '0px' });
+//        }
+//    })
+//})
+
 
 //    =============================================================================
 
-
-
-
-//});
 
 
 

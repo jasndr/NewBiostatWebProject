@@ -497,6 +497,7 @@ a:hover{
 }
 
 .carousel-caption{
+    /*background-color: white;*/
     margin-left: -20%;
     margin-right: -20%;
     margin-bottom: -5.5%;
@@ -522,7 +523,7 @@ a:hover{
 }
 
 .textBox {
-    margin-bottom: -20px;
+    margin-bottom: -25px;
 }
 
 .textBox2{

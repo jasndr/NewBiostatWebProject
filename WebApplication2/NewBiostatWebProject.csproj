@@ -104,6 +104,7 @@
     <Content Include="Home\dataanalysis.html" />
     <Content Include="Home\donate.html" />
     <Content Include="Home\expertise.html" />
+    <Content Include="Home\Faculty\deng-youping.html" />
     <Content Include="Home\Faculty\davis-james.html" />
     <Content Include="Home\Faculty\ahn-hyeongjun.html" />
     <Content Include="Home\Faculty\lim-eunjung.html" />

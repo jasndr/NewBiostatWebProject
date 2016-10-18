@@ -1314,7 +1314,6 @@ a:hover{
 }
 
 .bigInfo{
-    /*font-weight: bold !important;*/
     font-size: 20px !important;
     border: 3px solid green;
     padding: 5px;

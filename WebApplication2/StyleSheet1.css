@@ -1438,7 +1438,6 @@ div#buttonPanelContent{
 
 div#buttonPanelContent:hover{
     color: black;
-    /*background-color: mediumseagreen;*/
     text-decoration-color:  #C3D79C;
     background: 
         linear-gradient(

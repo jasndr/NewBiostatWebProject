@@ -1425,9 +1425,29 @@ a:hover{
 }
 
 /**--------[HealthcareDatabase/NHANES] -----------*/
-#buttonPanelContent{
-    background-color: mediumseagreen;
-    display: table-cell;
+div#buttonPanelHeader{
+    background-color: #4F6328;
+    color: white;
+}
+
+div#buttonPanelContent{
+    border-color: #9CBC5C;
+    background-color: #9CBC5C;
+    color: black;
+}
+
+div#buttonPanelContent:hover{
+    color: black;
+    /*background-color: mediumseagreen;*/
+    text-decoration-color:  #C3D79C;
+    background: 
+        linear-gradient(
+            rgba(170, 188, 134,.9),
+            rgba(170, 188, 134,.9));
+}
+
+a#nounderline{
+    text-decoration: none;
 }
 
 

@@ -95,9 +95,9 @@ $(document).ready(function () {
     });
 
     //Sublink Highlight Function - Support & Services > Services
-    $('#servicesMenu a').click(function () {
-        $(this).attr('id', 'boldSE').siblings().removeAttr('id');
-    });
+    //$('#servicesMenu a').click(function () {
+    //    $(this).attr('id', 'boldSE').siblings().removeAttr('id');
+    //});
 
 });
 

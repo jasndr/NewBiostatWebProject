@@ -1449,6 +1449,12 @@ a#nounderline{
     text-decoration: none;
 }
 
+/**--------[BioinformaticsCore] -----------*/
+#fakeMenuReplace{
+    margin-bottom: -27px !important;
+}
 
-
+#fakeMenuReplace2{
+    margin-bottom: -10px !important;
+}
 

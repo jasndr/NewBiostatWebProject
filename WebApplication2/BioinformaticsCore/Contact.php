@@ -4,13 +4,13 @@
      # University of Hawaii, John A. Burns School of Medicine             #
      #                                                                    #
      # @author Jason Delos Reyes                                          #
-     # @date May/June 2016                                                #
+     # @date November 2016                                                #
      # BQHS Page 6 - Contact Us                                           #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>Contact Us | BQHS</title>
+    <title>Contact Us | Bioinformatics Core | BQHS</title>
     <link rel="icon" href="../images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
@@ -60,7 +60,7 @@
          <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-     <!--#include virtual="../menu2.html"-->
+     <div><?php include './menu2.html';?></div>
 
     <!-- Breadcrumb/Navigational Hierarchy -->
             <div class="hierarchy breadcrumbNav realBreadcrumbNav">
@@ -96,11 +96,12 @@
 
 
     <!-- #BQHS Banner -->
-    <div class="container-fluid bannerFluid">
+    <div class="container bannerFluid">
          <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-    <!--#include virtual="menu2.html"-->    <!-- (FAKE, DO NOT TOUCH) -->
+    <!-- (FAKE, DO NOT TOUCH) -->
+   <div id="fakeMenuReplace2"><?php include './menu2.html';?></div>
 
    
  <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
@@ -128,7 +129,7 @@
           <!-- Donation Page to the left --> 
         <div class="leftBank">
         
-            <!--#include virtual="./home-smallmenu.html"-->
+            <?php include './home-smallmenu.html';?>
 
             <!-- #FlowerPic (Header) -->
             <div class="belowVisionBox hierarchy">
@@ -154,12 +155,14 @@
 
                
                 <p class="contentWords text-center">
+                    Youping Deng, Ph.D.<br />
+                    <strong><em>Bioinformatics Core</em></strong><br />
                     <strong>Office of Biostatistics & Quantitative Health Sciences (BQHS)</strong><br />
                     University of Hawaii John A. Burns School of Medicine<br />
                     651 Ilalo Street<br />
                     Honolulu, HI 96813<br />
-                    Phone: <a class="redLink" href="tel:+18086921840">(808) 692-1840</a><br />
-                    Email: <a class="redLink" href="../Home/contact.html#contactForm">biostat@hawaii.edu</a><br />
+                    Phone: <a class="redLink" href="tel:+18086921664">(808) 692-1664</a><br />
+                    Email: <a class="redLink" href="#contactForm">dengy@hawaii.edu</a><br />
                     <a class="redLink" href="../documents/Driving_Info.pdf" target="_blank">Driving Directions </a>|
                     <a class="redLink" href="../documents/Parking_Info_09212016_PDF.pdf" target="_blank">Parking Directions</a>
                 </p>
@@ -176,7 +179,7 @@
                         </p>
 
                         <div class="memberTitleAlt">
-                            <a class="btn btn-success bigInfo redContentButton memberTitle" href="http://biostat.jabsom.hawaii.edu/Home/ClientRequestForm" 
+                            <a class="btn btn-success bigInfo redContentButton memberTitle" href="./ClientRequestForm.php" 
                              target="_blank" role="button">Online BQHS Collaboration Request Form</a>
                         </div>
                         
@@ -186,35 +189,6 @@
                         </div>
                 </div>
 
-               <!-- <div class="hidingBox" id="policies"> --><!-- New to BQHS Services? -->
-                    <!--<!--<div class="hbTitle" id="npTitle">--> <!-- NP Title -->
-                        <!--<p>New to BQHS Services?</p>
-                    </div>
-                    <div class="hbContent contentWords" id="npContent">--> <!-- NP Content -->
-                       
-                       <!-- <p>The following BQHS policies may be related to your project.</p>
-                        <p><strong>Grant Application Support:</strong> Please note that to ensure that our work significantly increases your likelihood of
-                            success in obtaining funding, the BQHS faculty and staff require sufficient time to be acquainted with your study background
-                            and objectives, to investigate and identify the optimal research design and analysis approach, and to customize the research design
-                            and data analysis section for your individual research proposal. We <em>strongly recommend</em> that you contact BQHS as early
-                            as possible, at least several weeks before the deadline. The "no charge" grant development and support policy <strong><em>does not</em></strong>
-                            cover pilot data analysis, which the researcher may want to include in the application. The preliminary data analysis can be extensive
-                            and time consuming. The time and effort required for this activity can usually be covered by a fee-for-service arrangement.
-                        </p>
-                        <p><strong>Authorship:</strong> Authorship is generally expected on scientific journal articles or presentations, where substative input
-                            and effort on research design and/or data analysis are provided. Reimbursement for BQHS support (either through %FTE or fee-for-service)
-                            <strong><em>does not</em></strong> preclude or replace authorship.
-                        </p>
-                        <p><strong>Funding Support Acknowledgement:</strong> If you utilize BQHS services, please insert the following acknowledgement in your
-                            publications resulted from the BQHS service(s) acquired.
-                        </p>
-                        <p><em>"XXX(Individual initials) was/were partially supported by grants U54MD007584 and G12MD007601 from the National Institute on
-                            Minority Health and Health Disparities and P20GM103466 from the National Institute of General Medical Sciences from the National
-                            Institutes of Health. The content is solely the responsibility of the authors and does not necessarily represent the official
-                            views of the NIH."</em></p>
-
-                    </div>
-                 </div>-->
 
                 <div class="hidingBox" id="contactForm"> <!-- BQHS Contact Form -->
                     <div class="hbTitle" id="cfTitle"> <!-- CF Title -->
@@ -222,11 +196,11 @@
                     </div>
                 <div class="hbContent contentWords text-center" id="cfContent"><!-- CF Content -->
                     
-                    <p class="contentWords">If you have any questions, please send a message below, which will redirect to <a class="redLink" href="../Home/contact.html#contactForm">biostat@hawaii.edu</a>.  We will get back to you soon.</p>
+                    <p class="contentWords">If you have any questions, please send a message below, which will redirect to <a class="redLink" href="#contactForm">dengy@hawaii.edu</a>.  We will get back to you soon.</p>
 
                     <div id="contact-area">
 			
-			            <form method="post" action="../NiceSimpleContactForm/contactengine.php">
+			            <form method="post" action="../NiceSimpleContactForm/contactengine2.php">
 				            <label for="Name">Name:</label>
 				            <input type="text" name="Name" id="Name" required />
 

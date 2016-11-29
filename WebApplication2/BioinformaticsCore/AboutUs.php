@@ -4,30 +4,30 @@
      # University of Hawaii, John A. Burns School of Medicine             #
      #                                                                    #
      # @author Jason Delos Reyes                                          #
-     # @date May/June/July 2016                                           #
-     # BQHS Training                                                      #
+     # @date November 2016                                                #
+     # BQHS - About Us                                                    #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>Training | BQHS</title>
+    <title>About Us | Bioinformatics Core | BQHS</title>
     <link rel="icon" href="../images/Logo_Final.png" />
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-    <meta name="description" content="BQHS faculty and staff have provided over 40 seminars and workshops to over 11 departments/institutes." />
-    <meta name="keywords" content="BQHS, Training, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+	<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+    <meta name="description" content="Who are we?" />
+    <meta name="keywords" content="BQHS, About, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="../StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-     <script src="../JavaScript.js"></script> 
+    <script src="../JavaScript.js"></script> 
 </head>
 
 
-<body id="education">
+<body id="about">
 
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
@@ -41,7 +41,7 @@
             <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
-        </p>
+        </p> 
         <!-- ((TIPUE SEARCH FUNCTION)) -->
         <div class="searchForm">                                                                                
             <form action="../Home/search.html">                                        
@@ -57,34 +57,35 @@
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
          <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
-    </div>  
+    </div> 
 
-    <!--#include virtual="../menu2.html"-->
+        <!-- include menu file -->
+        <div><?php include 'menu2.html';?></div>
 
     <!-- Breadcrumb/Navigational Hierarchy -->
-        <div class="hierarchy breadcrumbNav realBreadcrumbNav">
-            <ol class="breadcrumb">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../Education/education.html">Education</a></li>
-                <li class="currentLink"><a href="../Education/training.html">Training</a></li>
-            </ol>
-        </div> <!-- (End Breadcrumb) -->
+            <!--<div class="hierarchy breadcrumbNav realBreadcrumbNav">
+                <ol class="breadcrumb">
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="currentLink"><a href="./AboutUs">About Us</a></li>
+                </ol>
+            </div> --><!-- (End Breadcrumb) -->
 
-    </div> <!-- (End Page Header) -->
+    </div> <!-- (End of Page Header) -->
 
-    <!-- &&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+     <!-- &&&&&&&&&&& [IMITATION HEADER - Do not touch code ***below*** this line until end of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
+            <a class="topMostLinks" href="../Home/sitemap.html">Sitemap</a> |
             <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
             <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
-        </p> 
+        </p>
         <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="../search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
+            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
             <input class="search form-control-static" type="text" name="q" id="tipue_search_input_fake" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
             <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
@@ -99,39 +100,39 @@
          <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-    <!--#include virtual="menu2.html"-->    <!-- (FAKE, DO NOT TOUCH) -->
+       <!-- (FAKE, DO NOT TOUCH) -->
+    <div id="fakeMenuReplace"><?php include './menu2.html';?></div>
 
    
- <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
-
+    <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- DIV to create Body Borders -->
-    <div class="container mainBody" id="activeTR">
+    <div class="container mainBody fakeMenuReplace">
 
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
-                    
-        <!-- &&&&&&&&&&&&&&&&&&&&&&&&& [FAKE BREADCRUMB NAV] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
+
+            <!-- &&&&&&&&&&&&&&&&&&&&&&&&& [FAKE BREADCRUMB NAV] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
             <div class="hierarchy breadcrumbNav">
                 <ol class="breadcrumb">
-                    <li><a href="../index.html">Home</a></li>
-                    <li class="currentLink"><a href="about.html">About Us</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li class="currentLink"><a href="./AboutUs">About Us</a></li>
                 </ol>
-            </div> <!-- &&&&&&&&&&&&&&&&&& (END FAKE BREADCRUMB NAV) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->        
+            </div> <!-- &&&&&&&&&&&&&&&&&& (END FAKE BREADCRUMB NAV) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
 
     <!-- Main Content for pages after home page (including this one) -->
     <div class="mainInfo">
 
 
-          <!-- Left Sidebar --> 
-        <div class="leftBank">
-                      
-            <!--#include virtual="e-smallmenu.html"-->
 
-            <!-- #FlowerPic (Header) -->
-            <div class="belowVisionBox hierarchy">
-                
-            </div>
+          <!-- Small Menu to the left --> 
+        <div class="leftBank">
+          
+           <!--#include virtual="./home-smallmenu.html"-->
+            <?php include 'home-smallmenu.html'; ?>
+
+
+            <!--<img class="flowerPic" src="../images/Flower6-fade.png" />-->
 
         </div> <!-- (End leftBank) -->
 
@@ -140,51 +141,29 @@
         <div class="rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>Training</p></div>
+            <div class="titleOfPage"><p>About Us</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-               <p class="contentWords">
-                    BQHS faculty and staff have provided over 50 seminars and workshops to over a dozen departments/institutes in the past five years with
-                    a variety of statistical topics including basic biostatistics, clinical and translational research using big data, research design,
-                    and bioethics in statistics. Our faculty members have mentored visiting scholars, students, and trainees, and have served as thesis
-                    and dissertation committee members of graduate students from across campus.
-               </p>
+                <img class="contentImage-wide" src="../images/Rui-blur.png" alt="Research" />
 
-               <p class="contentWords">
-                    <em><strong>Note:</strong> For upcoming seminars, please <a class="redLink" href="../Home/contact.html#contactForm"><strong>contact us</strong> </a>for details.</em>
-               </p>
+                <p class="contentWords">The Bioinformatics Core serves as a centralized resource for providing expert and timely bioinformatics consulting,
+                     analysis, collaborative research, management, and training solutions for high-throughput data.  The data includes different kinds of “omics”
+                     data (e.g., genomics, transcriptomics, epigenomes, proteomics, metabolomics, metagenomics data), which are generated from a variety of platforms
+                     such as PCR, microarray, NGS, mass-spec, and so on. The core provides a high-level expertise in bioinformatics, ensuring the support needed to
+                     design, conduct, analyze, interpret, and manage results requiring or facilitated by informatics applications. Bioinformatics support will be
+                     integrated into all phases of basic, clinical, and translational research through a coordinated program of quantitative health sciences
+                     consultation and analysis. 
+                </p>
 
+                <p class="contentWords">
+                    The Bioinformatics Core aims to build and maintain an infrastructure that enables the application of strong bioinformatics solutions with a
+                     measurable impact on the ability of JABSOM and UH investigators to both publish their work and obtain new funding.
+                </p>
+                        
 
-                <!--<h4 class="contentHeader"><u>Upcoming Seminars</u></h4>-->
-                    
-                        <!--<table class="seminarTable contentWords text-center">
-                            <tr>
-                                <td><strong>Seminar Title</strong></td>
-                                <td><strong>Date and Time</strong></td>
-                                <td><strong>Presenter</strong></td>
-                            </tr>-->
-                            <!--<tr>
-                                <td><a class="redLink" href="../documents/BQHS_OB_residents_08122016_dist.pdf" target="_blank"><strong>OB/GYN Biostatistics Lecture 1</strong></a></td>
-                                <td>August 12, 2016 <br /> 10:00am - 11:00am</td>
-                                <td>Dr. John Chen</td>
-                            </tr>-->
-                            <!--<tr>
-                                <td><a class="redLink" href="../documents/BQHS_OB_residents_10142016_dist.pdf" target="_blank"><strong>OB/GYN Biostatistics Lecture 2</strong></a></td>
-                                <td>October 14, 2016 <br /> 10:00am - 11:00am</td>
-                                <td>Dr. John Chen</td>
-                            </tr>-->
-                            <!--<tr>
-                                <td><a class="redLink" href="../documents/SHC-HON Research 'Aha_11.4.16.pdf" target="_blank"><strong>Shriners Hospitals Research 'Aha Invited Talk </strong></a></td>
-                                <td>November 4, 2016 <br /> 1:45pm</td>
-                                <td>Dr. John Chen</td>
-                            </tr>-->
-                        <!--</table>-->
-               
-
-
-              <!--</div>--> <!-- (End contentOfPage) -->
+              </div> <!-- (End contentOfPage) -->
 
 
         </div> <!-- (End rightBank) -->
@@ -198,7 +177,7 @@
 
 </div> <!-- (End Main Content) -->
 
-        <!-- #Footer -->
+         <!-- #Footer -->
     <div class="container-fluid bottomFooter">
 
         <!-- Inner Footer Area-->
@@ -231,9 +210,7 @@
 
     </div> <!-- (End of Footer area) -->
 
-
 </div> <!-- (End Div to create Body Borders)  -->
-
 
 </body>
 </html>

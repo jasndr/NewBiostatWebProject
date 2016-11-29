@@ -94,13 +94,24 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BioinformaticsCore\AboutUs.php" />
+    <Content Include="BioinformaticsCore\ClientRequestForm.php" />
+    <Content Include="BioinformaticsCore\Contact.php" />
+    <Content Include="BioinformaticsCore\index.html" />
+    <Content Include="BioinformaticsCore\menu2a.html" />
+    <Content Include="BioinformaticsCore\menu2.html" />
+    <Content Include="BioinformaticsCore\Services\BioinformaticsDataAnalysis.php" />
+    <Content Include="BioinformaticsCore\Services\CollaborativeResearch.php" />
+    <Content Include="BioinformaticsCore\Services\Consultation.php" />
+    <Content Include="BioinformaticsCore\Services\DataManagementService.php" />
+    <Content Include="BioinformaticsCore\Services\TeachingWorkshop.php" />
+    <Content Include="BioinformaticsCore\Services\GrantSupport.php" />
     <Content Include="Education\coursesoffered.html" />
     <Content Include="Education\e-smallmenu.html" />
     <Content Include="Education\education.html" />
     <Content Include="Education\training.html" />
     <Content Include="Home\about.html" />
     <Content Include="Home\biomedinfo.html" />
-    <Content Include="Home\ClientRequestForm.html" />
     <Content Include="Home\contact.html" />
     <Content Include="Home\dataanalysis.html" />
     <Content Include="Home\donate.html" />
@@ -162,7 +173,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Home\html-contact-form.php" />
     <Content Include="Home\ClientRequestForm.php" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="images\RMATRIX.jpg" />
@@ -214,6 +224,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="BioinformaticsCore\Research\" />
+    <Folder Include="BioinformaticsCore\Resources\" />
     <Folder Include="documents\" />
   </ItemGroup>
   <PropertyGroup>

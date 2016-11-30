@@ -27,7 +27,7 @@
 </head>
 
 
-<body id="about">
+<body id="bi-services">
 
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
@@ -63,12 +63,12 @@
         <div><?php include '../menu2a.html';?></div>
 
     <!-- Breadcrumb/Navigational Hierarchy -->
-            <!--<div class="hierarchy breadcrumbNav realBreadcrumbNav">
+            <div class="hierarchy breadcrumbNav realBreadcrumbNav">
                 <ol class="breadcrumb">
                     <li><a href="./index.html">Services</a></li>
-                    <li class="currentLink"><a href="./BioinformaticsDataAnalysis">Bioinformatics Data Analysis</a></li>
+                    <li class="currentLink"><a href="./BioinformaticsDataAnalysis.php">Bioinformatics Data Analysis</a></li>
                 </ol>
-            </div> --><!-- (End Breadcrumb) -->
+            </div><!-- (End Breadcrumb) -->
 
     </div> <!-- (End of Page Header) -->
 
@@ -108,7 +108,7 @@
     <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- DIV to create Body Borders -->
-    <div class="container mainBody fakeMenuReplace">
+    <div class="container mainBody fakeMenuReplace"  id="activebisDA">
 
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
@@ -129,7 +129,7 @@
           <!-- Small Menu to the left --> 
         <div class="leftBank">
           
-            <?php include 'bi-research-smallmenu.html'; ?>
+            <?php include 'bis-smallmenu.html'; ?>
 
 
             <!--<img class="flowerPic" src="../../images/Flower6-fade.png" />-->

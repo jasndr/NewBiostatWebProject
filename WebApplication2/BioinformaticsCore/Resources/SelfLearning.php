@@ -5,29 +5,29 @@
      #                                                                    #
      # @author Jason Delos Reyes                                          #
      # @date November 2016                                                #
-     # BQHS - About Us                                                    #
+     # Self-Learning - Bioinformatics Core                                #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>About Us | Bioinformatics Core | BQHS</title>
-    <link rel="icon" href="../images/Logo_Final.png" />
+    <title>Self-Learning | Bioinformatics Core | BQHS</title>
+    <link rel="icon" href="../../images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
     <meta name="description" content="Who are we?" />
-    <meta name="keywords" content="BQHS, About, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="keywords" content="Self Learning, Bioinformatics Core, BQHS, About, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
-    <link rel="stylesheet" type="text/css" href="../StyleSheet1.css" />
+    <link rel="stylesheet" type="text/css" href="../../StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="../JavaScript.js"></script> 
+    <script src="../../JavaScript.js"></script> 
 </head>
 
 
-<body id="bi-home">
+<body id="bi-resources">
 
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
@@ -36,15 +36,15 @@
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
-            <a class="topMostLinks" href="../Home/sitemap.html">Sitemap</a> |
-            <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
-            <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
+            <a class="topMostLinks" href="../../Home/sitemap.html">Sitemap</a> |
+            <a class="topMostLinks" href="../../Home/contact.html">Contact</a> |
+            <a class="topMostLinks" href="../../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
         <!-- ((TIPUE SEARCH FUNCTION)) -->
         <div class="searchForm">                                                                                
-            <form action="../Home/search.html">                                        
+            <form action="../../Home/search.html">                                        
             <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." required/>      
             <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
@@ -56,19 +56,19 @@
 
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
+         <img class="BQHSbanner" src="../../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div> 
 
         <!-- include menu file -->
-        <div><?php include 'menu2.html';?></div>
+        <div><?php include '../menu2a.html';?></div>
 
     <!-- Breadcrumb/Navigational Hierarchy -->
             <div class="hierarchy breadcrumbNav realBreadcrumbNav">
                 <ol class="breadcrumb">
-                    <li><a href="./index.html">Home</a></li>
-                    <li class="currentLink"><a href="./AboutUs.php">About Us</a></li>
+                    <li><a href="./index.html">Resources</a></li>
+                    <li class="currentLink"><a href="./SelfLearning.php">Self-Learning</a></li>
                 </ol>
-            </div> <!-- (End Breadcrumb) -->
+            </div><!-- (End Breadcrumb) -->
 
     </div> <!-- (End of Page Header) -->
 
@@ -97,26 +97,27 @@
 
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
+         <img class="BQHSbanner" src="../../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
        <!-- (FAKE, DO NOT TOUCH) -->
-    <div id="fakeMenuReplace"><?php include './menu2.html';?></div>
+     <!--<div class="fakeMenuReplace"></div>-->
+    <div id="fakeMenuReplace"><?php include '../menu2a.html';?></div>
 
    
     <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- DIV to create Body Borders -->
-    <div class="container mainBody fakeMenuReplace" id="activebiAU">
+    <div class="container mainBody fakeMenuReplace" id="activebirsSL">
 
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
 
             <!-- &&&&&&&&&&&&&&&&&&&&&&&&& [FAKE BREADCRUMB NAV] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
-            <div class="hierarchy breadcrumbNav">
+            <div class="hierarchy breadcrumbNav realBreadcrumbNav">
                 <ol class="breadcrumb">
-                    <li><a href="./index.html">Home</a></li>
-                    <li class="currentLink"><a href="./AboutUs.php">About Us</a></li>
+                    <li><a href="./index.html">Research</a></li>
+                    <li class="currentLink"><a href="./SelfLearning.php">Self-Learning</a></li>
                 </ol>
             </div> <!-- &&&&&&&&&&&&&&&&&& (END FAKE BREADCRUMB NAV) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
 
@@ -128,10 +129,10 @@
           <!-- Small Menu to the left --> 
         <div class="leftBank">
           
-            <?php include './home-smallmenu.html'; ?>
+            <?php include 'birs-smallmenu.html'; ?>
 
 
-            <!--<img class="flowerPic" src="../images/Flower6-fade.png" />-->
+            <!--<img class="flowerPic" src="../../images/Flower6-fade.png" />-->
 
         </div> <!-- (End leftBank) -->
 
@@ -140,26 +141,84 @@
         <div class="rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>About Us</p></div>
+            <div class="titleOfPage"><p>Self-Learning</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <img class="contentImage-wide" src="../images/Rui-blur.png" alt="Research" />
+                <!-- <img class="contentImage-wide" src="../../images/Rui-blur.png" alt="Research" />-->
 
-                <p class="contentWords">The Bioinformatics Core serves as a centralized resource for providing expert and timely bioinformatics consulting,
-                     analysis, collaborative research, management, and training solutions for high-throughput data.  The data includes different kinds of “omics”
-                     data (e.g., genomics, transcriptomics, epigenomes, proteomics, metabolomics, metagenomics data), which are generated from a variety of platforms
-                     such as PCR, microarray, NGS, mass-spec, and so on. The core provides a high-level expertise in bioinformatics, ensuring the support needed to
-                     design, conduct, analyze, interpret, and manage results requiring or facilitated by informatics applications. Bioinformatics support will be
-                     integrated into all phases of basic, clinical, and translational research through a coordinated program of quantitative health sciences
-                     consultation and analysis. 
-                </p>
 
-                <p class="contentWords">
-                    The Bioinformatics Core aims to build and maintain an infrastructure that enables the application of strong bioinformatics solutions with a
-                     measurable impact on the ability of JABSOM and UH investigators to both publish their work and obtain new funding.
-                </p>
+				<div class="contentWords">
+
+						<a class="redLink" href="http://www.ncbi.nlm.nih.gov/genbank/" 
+                            target="_blank">NCBI GenBank</a>
+                        <p><em>Database of nucleotide and protein sequence data</em></p>
+
+                        <a class="redLink" href="http://www.ebi.ac.uk/" 
+                            target="_blank">EMBL-EBI</a>
+                        <p><em>Database of nucleotide and protein sequence data</em></p>
+
+                        <a class="redLink" href="http://www.ddbj.nig.ac.jp/" 
+                            target="_blank">DDBJ</a>
+                        <p><em>Database of nucleotide and protein sequence data</em></p>
+
+						<a class="redLink" href="http://pfam.xfam.org/" 
+                            target="_blank">Pfam</a>
+                        <p><em>Database of protein families</em></p>
+
+						<a class="redLink" href="http://smart.embl-heidelberg.de/" 
+                            target="_blank">Smart</a>
+                        <p><em>Tool for protein domains identification and analysis</em></p>
+
+						<a class="redLink" href="http://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml" 
+                            target="_blank">NCBI CDD</a>
+                        <p><em>Conserved Domain Database is a protein annotation resource</em></p>
+
+						<a class="redLink" href="http://cancergenome.nih.gov/" 
+                            target="_blank">TCGA</a>
+                        <p><em>The cancer genome atlas data portal</em></p>
+
+						<a class="redLink" href="http://www.ncbi.nlm.nih.gov/geo/" 
+                            target="_blank">NCBI GEO</a>
+                        <p><em>Repository of functional genomics (both array- and sequence-based) data</em></p>
+
+						<a class="redLink" href="http://genome.ucsc.edu/ENCODE/" 
+                            target="_blank">ENCODE</a>
+                        <p><em>Repository of Encyclopedia of DNA Elements (ENCODE) data</em></p>
+
+						<a class="redLink" href="http://www.ebi.ac.uk/arrayexpress/" 
+                            target="_blank">ArrayExpress</a>
+                        <p><em>Database of high-throughput functional genomics data</em></p>
+
+						<a class="redLink" href="http://www.informatics.jax.org/" 
+                            target="_blank">MGI: Mouse Genome Informatics</a>
+                        <p><em>Database and bioinformatics resource on the genetics, genomics, and biology of mouse</em></p>
+
+						<a class="redLink" href="http://www.rcsb.org/pdb/home/home.do" 
+                            target="_blank">RCSB Protein Databank</a>
+                        <p><em>Repository of 3D structures of large biological molecules, including proteins and nucleic acids</em></p>
+
+						<a class="redLink" href="http://bioinfo.wilmer.jhu.edu/tiger/" 
+                            target="_blank">TIGER</a>
+                        <p><em>Database of tissue-specific gene expression and regulation data</em></p>
+
+						<a class="redLink" href="http://cgap.nci.nih.gov/Genes" 
+                            target="_blank">Cancer Genome Anatomy Project</a>
+                        <p><em>Database of normal, pre-cancerous and cancerous genomes</em></p>
+
+						<a class="redLink" href="http://www.ebi.ac.uk/QuickGO/" 
+                            target="_blank">QuickGo</a>
+                        <p><em>Tool for gene ontology searching</em></p>
+
+						<a class="redLink" href="http://www.expasy.org/" 
+                            target="_blank">ExPASy</a>
+                        <p><em>Resource portal includes databases and tools in different areas of life sciences including proteomics, genomics,
+                            structural bioinformatics, systems biology, phylogeny, population genetics, transcriptomics, drug design, and others.</em></p>
+				
+				</div>
+
+               
                         
 
               </div> <!-- (End contentOfPage) -->
@@ -184,8 +243,8 @@
 
         <!-- #Left Footer -->
         <div class="container-fluid pull-left" id="leftFooter">
-            <img class="jabsomImage" src="../images/jabsom_logo_white_oval_transparent.png" alt="JABSOM" />
-            <img class="manoaImage" src="../images/manoaseal_transparent.png" alt="Manoa" />
+            <img class="jabsomImage" src="../../images/jabsom_logo_white_oval_transparent.png" alt="JABSOM" />
+            <img class="manoaImage" src="../../images/manoaseal_transparent.png" alt="Manoa" />
         </div>
         
 

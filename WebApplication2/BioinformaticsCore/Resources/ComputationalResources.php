@@ -5,29 +5,29 @@
      #                                                                    #
      # @author Jason Delos Reyes                                          #
      # @date November 2016                                                #
-     # BQHS - About Us                                                    #
+     # Computational Resource - Bioinformatics Core                       #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>About Us | Bioinformatics Core | BQHS</title>
-    <link rel="icon" href="../images/Logo_Final.png" />
+    <title>Computational Resources | Bioinformatics Core | BQHS</title>
+    <link rel="icon" href="../../images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
     <meta name="description" content="Who are we?" />
-    <meta name="keywords" content="BQHS, About, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="keywords" content="Computational Resources, Bioinformatics Core, BQHS, About, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
-    <link rel="stylesheet" type="text/css" href="../StyleSheet1.css" />
+    <link rel="stylesheet" type="text/css" href="../../StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="../JavaScript.js"></script> 
+    <script src="../../JavaScript.js"></script> 
 </head>
 
 
-<body id="bi-home">
+<body id="bi-resources">
 
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
@@ -36,15 +36,15 @@
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
-            <a class="topMostLinks" href="../Home/sitemap.html">Sitemap</a> |
-            <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
-            <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
+            <a class="topMostLinks" href="../../Home/sitemap.html">Sitemap</a> |
+            <a class="topMostLinks" href="../../Home/contact.html">Contact</a> |
+            <a class="topMostLinks" href="../../Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p> 
         <!-- ((TIPUE SEARCH FUNCTION)) -->
         <div class="searchForm">                                                                                
-            <form action="../Home/search.html">                                        
+            <form action="../../Home/search.html">                                        
             <input class="search form-control-static" type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search BQHS..." required/>      
             <button type="submit" class="btn searchButton"">
                 <span class="glyphicon glyphicon-search"></span>
@@ -56,19 +56,19 @@
 
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
+         <img class="BQHSbanner" src="../../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div> 
 
         <!-- include menu file -->
-        <div><?php include 'menu2.html';?></div>
+        <div><?php include '../menu2a.html';?></div>
 
     <!-- Breadcrumb/Navigational Hierarchy -->
             <div class="hierarchy breadcrumbNav realBreadcrumbNav">
                 <ol class="breadcrumb">
-                    <li><a href="./index.html">Home</a></li>
-                    <li class="currentLink"><a href="./AboutUs.php">About Us</a></li>
+                    <li><a href="./index.html">Resources</a></li>
+                    <li class="currentLink"><a href="./ComputationalResources.php">Computational Resources</a></li>
                 </ol>
-            </div> <!-- (End Breadcrumb) -->
+            </div><!-- (End Breadcrumb) -->
 
     </div> <!-- (End of Page Header) -->
 
@@ -97,26 +97,27 @@
 
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
-         <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
+         <img class="BQHSbanner" src="../../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
        <!-- (FAKE, DO NOT TOUCH) -->
-    <div id="fakeMenuReplace"><?php include './menu2.html';?></div>
+     <!--<div class="fakeMenuReplace"></div>-->
+    <div id="fakeMenuReplace"><?php include '../menu2a.html';?></div>
 
    
     <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- DIV to create Body Borders -->
-    <div class="container mainBody fakeMenuReplace" id="activebiAU">
+    <div class="container mainBody fakeMenuReplace" id="activebirsCR">
 
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
 
             <!-- &&&&&&&&&&&&&&&&&&&&&&&&& [FAKE BREADCRUMB NAV] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
-            <div class="hierarchy breadcrumbNav">
+            <div class="hierarchy breadcrumbNav realBreadcrumbNav">
                 <ol class="breadcrumb">
-                    <li><a href="./index.html">Home</a></li>
-                    <li class="currentLink"><a href="./AboutUs.php">About Us</a></li>
+                    <li><a href="./index.html">Research</a></li>
+                    <li class="currentLink"><a href="./ComputationalResources.php">Computational Resources</a></li>
                 </ol>
             </div> <!-- &&&&&&&&&&&&&&&&&& (END FAKE BREADCRUMB NAV) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
 
@@ -128,10 +129,10 @@
           <!-- Small Menu to the left --> 
         <div class="leftBank">
           
-            <?php include './home-smallmenu.html'; ?>
+            <?php include 'birs-smallmenu.html'; ?>
 
 
-            <!--<img class="flowerPic" src="../images/Flower6-fade.png" />-->
+            <!--<img class="flowerPic" src="../../images/Flower6-fade.png" />-->
 
         </div> <!-- (End leftBank) -->
 
@@ -140,26 +141,47 @@
         <div class="rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>About Us</p></div>
+            <div class="titleOfPage"><p>Computational Resources</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <img class="contentImage-wide" src="../images/Rui-blur.png" alt="Research" />
+                <!-- <img class="contentImage-wide" src="../../images/Rui-blur.png" alt="Research" />-->
 
-                <p class="contentWords">The Bioinformatics Core serves as a centralized resource for providing expert and timely bioinformatics consulting,
-                     analysis, collaborative research, management, and training solutions for high-throughput data.  The data includes different kinds of “omics”
-                     data (e.g., genomics, transcriptomics, epigenomes, proteomics, metabolomics, metagenomics data), which are generated from a variety of platforms
-                     such as PCR, microarray, NGS, mass-spec, and so on. The core provides a high-level expertise in bioinformatics, ensuring the support needed to
-                     design, conduct, analyze, interpret, and manage results requiring or facilitated by informatics applications. Bioinformatics support will be
-                     integrated into all phases of basic, clinical, and translational research through a coordinated program of quantitative health sciences
-                     consultation and analysis. 
-                </p>
 
-                <p class="contentWords">
-                    The Bioinformatics Core aims to build and maintain an infrastructure that enables the application of strong bioinformatics solutions with a
-                     measurable impact on the ability of JABSOM and UH investigators to both publish their work and obtain new funding.
-                </p>
+				<div class="hidingBox" id="inhouse"> <!-- In-house -->
+                    <div class="hbTitle" id="ihTitle"> <!-- IH Title -->
+                        <p>In-House</p>
+                    </div> 
+                    <div class="hbContent contentWords" id="ihContent"><!-- IH Content -->
+                        <ul class="contentWords">
+                            <li>BQHS Beowulf Cluster
+								<ul>
+									<li>Consists of 3 nodes and two nodes are of 14 Cores and 256 GB RAM each.</li>
+								</ul>
+							</li>
+                        </ul>
+                        
+                    </div> 
+                </div>
+
+				<div class="hidingBox" id="oncampus"> <!-- On-Campus -->
+                    <div class="hbTitle" id="ocTitle"> <!-- OC Title -->
+                        <p>On Campus</p>
+                    </div> 
+                    <div class="hbContent contentWords" id="ocContent"><!-- OC Content -->
+                        <ul class="contentWords">
+                            <li><a class="redLink" href="http://www.hawaii.edu/its/ci/hpc-resources/">UH ITS HPC Resource</a>
+								<ul>
+									<li>Consists of 276 nodes based on the Cray CS300.</li>
+								</ul>
+							</li>
+                        </ul>
+                        
+                    </div> 
+                </div>
+
+               
                         
 
               </div> <!-- (End contentOfPage) -->
@@ -184,8 +206,8 @@
 
         <!-- #Left Footer -->
         <div class="container-fluid pull-left" id="leftFooter">
-            <img class="jabsomImage" src="../images/jabsom_logo_white_oval_transparent.png" alt="JABSOM" />
-            <img class="manoaImage" src="../images/manoaseal_transparent.png" alt="Manoa" />
+            <img class="jabsomImage" src="../../images/jabsom_logo_white_oval_transparent.png" alt="JABSOM" />
+            <img class="manoaImage" src="../../images/manoaseal_transparent.png" alt="Manoa" />
         </div>
         
 

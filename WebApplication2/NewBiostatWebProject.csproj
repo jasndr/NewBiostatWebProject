@@ -97,10 +97,22 @@
     <Content Include="BioinformaticsCore\AboutUs.php" />
     <Content Include="BioinformaticsCore\ClientRequestForm.php" />
     <Content Include="BioinformaticsCore\Contact.php" />
+    <Content Include="BioinformaticsCore\people-smallmenu.html" />
+    <Content Include="BioinformaticsCore\home-smallmenu.html" />
     <Content Include="BioinformaticsCore\index.html" />
     <Content Include="BioinformaticsCore\menu2a.html" />
     <Content Include="BioinformaticsCore\menu2.html" />
+    <Content Include="BioinformaticsCore\People.php" />
+    <Content Include="BioinformaticsCore\Research\birh-smallmenu.html" />
+    <Content Include="BioinformaticsCore\Research\Publications.php" />
+    <Content Include="BioinformaticsCore\Research\ResearchProject.php" />
+    <Content Include="BioinformaticsCore\Research\ResearchGrant.php" />
+    <Content Include="BioinformaticsCore\Resources\birs-smallmenu.html" />
+    <Content Include="BioinformaticsCore\Resources\SelfLearning.php" />
+    <Content Include="BioinformaticsCore\Resources\SoftwareResources.php" />
+    <Content Include="BioinformaticsCore\Resources\ComputationalResources.php" />
     <Content Include="BioinformaticsCore\Services\BioinformaticsDataAnalysis.php" />
+    <Content Include="BioinformaticsCore\Services\bis-smallmenu.html" />
     <Content Include="BioinformaticsCore\Services\CollaborativeResearch.php" />
     <Content Include="BioinformaticsCore\Services\Consultation.php" />
     <Content Include="BioinformaticsCore\Services\DataManagementService.php" />
@@ -224,8 +236,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BioinformaticsCore\Research\" />
-    <Folder Include="BioinformaticsCore\Resources\" />
     <Folder Include="documents\" />
   </ItemGroup>
   <PropertyGroup>

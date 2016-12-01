@@ -108,7 +108,8 @@
     <Content Include="BioinformaticsCore\Research\ResearchProject.php" />
     <Content Include="BioinformaticsCore\Research\ResearchGrant.php" />
     <Content Include="BioinformaticsCore\Resources\birs-smallmenu.html" />
-    <Content Include="BioinformaticsCore\Resources\SelfLearning.php" />
+    <Content Include="BioinformaticsCore\Resources\Education.php" />
+    <Content Include="BioinformaticsCore\Resources\Self-Learning.php" />
     <Content Include="BioinformaticsCore\Resources\SoftwareResources.php" />
     <Content Include="BioinformaticsCore\Resources\ComputationalResources.php" />
     <Content Include="BioinformaticsCore\Services\BioinformaticsDataAnalysis.php" />

@@ -66,7 +66,7 @@
             <div class="hierarchy breadcrumbNav realBreadcrumbNav">
                 <ol class="breadcrumb">
                     <li><a href="./index.html">Resources</a></li>
-                    <li class="currentLink"><a href="./SelfLearning.php">Self-Learning</a></li>
+                    <li class="currentLink"><a href="./Self-Learning.php">Self-Learning</a></li>
                 </ol>
             </div><!-- (End Breadcrumb) -->
 
@@ -117,7 +117,7 @@
             <div class="hierarchy breadcrumbNav realBreadcrumbNav">
                 <ol class="breadcrumb">
                     <li><a href="./index.html">Research</a></li>
-                    <li class="currentLink"><a href="./SelfLearning.php">Self-Learning</a></li>
+                    <li class="currentLink"><a href="./Self-Learning.php">Self-Learning</a></li>
                 </ol>
             </div> <!-- &&&&&&&&&&&&&&&&&& (END FAKE BREADCRUMB NAV) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
 
@@ -215,6 +215,28 @@
                             target="_blank">ExPASy</a>
                         <p><em>Resource portal includes databases and tools in different areas of life sciences including proteomics, genomics,
                             structural bioinformatics, systems biology, phylogeny, population genetics, transcriptomics, drug design, and others.</em></p>
+                        <br />
+
+						<h4>Additional Bioinformatics Resources</h4>
+
+						<a class="redLink" href="http://www.hsls.pitt.edu/obrc/" 
+                            target="_blank">Online Bioinformatics Resources Collection</a>
+							<br /><br />
+						<a class="redLink" href="https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools" 
+                            target="_blank">List of RNA-Seq bioinformatics tools</a>
+							<br /><br />
+						<a class="redLink" href="https://en.wikipedia.org/wiki/List_of_sequence_alignment_software" 
+                            target="_blank">List of sequence alignment software</a>
+							<br /><br />
+						<a class="redLink" href="https://en.wikipedia.org/wiki/List_of_software_for_molecular_mechanics_modeling" 
+                            target="_blank">List of software for molecular mechanics modeling</a>
+							<br /><br />   
+						<a class="redLink" href="http://www.ccmb.med.umich.edu/bioinf-core/tools"
+							target="_blank">University of Michigan Medical School - Bioinformatics Core</a>
+							<br /><br />
+						<a class="redLink" href="http://tools.immuneepitope.org/ellipro/" 
+                            target="_blank">ElliPro: Antibody Epitope Prediction</a>
+
 				
 				</div>
 

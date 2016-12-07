@@ -460,7 +460,7 @@ echo "<p class='err'>".nl2br($errors)."</p>";
                             <label class="control-label">Captcha code</label>
                         </div>
                         <div class="col-sm-2">
-                            <img src="./html-contact-form-captcha/captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg'>
+                            <img src="../Home/html-contact-form-captcha/captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg'>
                             <img id="imgCaptcha" class="img-responsive" src="GenerateCaptcha?636123875456386485" />
                         </div>
                         <!--<div class="col-sm-1">
@@ -481,7 +481,7 @@ echo "<p class='err'>".nl2br($errors)."</p>";
                             <label class="control-label">Captcha code</label>
                     </div>
 					<div class="col-sm-2">
-						<img src="./html-contact-form-captcha/captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg' ><br>
+						<img src="../Home/html-contact-form-captcha/captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg' ><br>
 						<label for='message'>Enter the code above here :</label><br>
 					</div>
 					<div class="col-sm-2">

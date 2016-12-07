@@ -32,6 +32,15 @@
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
 
+	 <!-- Bioinformatics Ad Button-->
+        <div class="bioinformatics-ad">
+            <a href="../">
+                <p class="label success return-label">
+                    <span class="align">Bioinformatics Core</span>
+                </p>
+            </a>
+        </div>
+
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
@@ -177,16 +186,16 @@
 
 						<!-- Youping Deng, Ph.D. -->
 						<tr class="memberAltColor">
-							<td class="memberItems">
+							<td class="memberItems makeWide5">
 								 <a class="redLink" href="../Home/Faculty/deng-youping.html" target="_blank"><strong>Youping Deng</strong></a>,<br /> Ph.D.
 							</td>
-							<td class="memberItems">
+							<td class="memberItems makeWide2">
 								<em>Professor & Director,<br />Bioinformatics Core</em>
 							</td>
-							<td class="memberItems memberItemsOffice">
+							<td class="memberItems memberItemsOffice makeWide3">
 								BSB 325 B
 							</td>
-							<td class="memberItems redLink">
+							<td class="memberItems redLink makeWide4">
 								dengy@hawaii.edu
 							</td>
 							<td class="memberItems memberItemsPhone">
@@ -195,7 +204,7 @@
 						</tr>
 
 						<!-- Mahdi Belcaid-->
-						<tr class="memberAltColor2">
+						<!-- <tr class="memberAltColor2">
 							<td class="memberItems">
 								 <a class="redLink" href="http://pceidr.jabsom.hawaii.edu/guest/Guest.vm;jsessionid=497F9481B5A37758D7A6D04BDCEA72A7?method=homePage&id=50" target="_blank">
 									<strong>Mahdi Belcaid</strong></a>,<br /> Ph.D.
@@ -212,10 +221,10 @@
 							<td class="memberItems memberItemsPhone">
 								(808) 956-5175
 							</td>
-						</tr>
+						</tr>-->
 
 						<!-- Vedbar Khadka -->
-						<tr class="memberAltColor">
+						<tr class="memberAltColor2">
 							<td class="memberItems">
 								<strong>Vedbar Khadka</strong>,<br /> Ph.D.
 							</td>
@@ -234,7 +243,7 @@
 						</tr>
 
 						<!-- Rui Fang -->
-						<tr class="memberAltColor2">
+						<tr class="memberAltColor">
 							<td class="memberItems">
 								 <strong>Rui Fang</strong>,<br /> M.S.
 							</td>

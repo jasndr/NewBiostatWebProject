@@ -32,6 +32,15 @@
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
 
+	 <!-- Bioinformatics Ad Button-->
+        <div class="bioinformatics-ad">
+            <a href="../../">
+                <p class="label success return-label">
+                    <span class="align">Bioinformatics Core</span>
+                </p>
+            </a>
+        </div>
+
     <!-- #Top Menu (Link to other entities not directly related to BQHS main topics) -->
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->

@@ -14,6 +14,7 @@ $txtDegree = '';
 $txtEmail = '';
 $txtPhone = '';
 $txtDept = '';
+$txtProjectTitle = '';
 $ddlPIStatus = '';
 
 $tblStudyArea = '';
@@ -198,17 +199,17 @@ echo "<p class='err'>".nl2br($errors)."</p>";
                 <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner" />
             </div>
 
-            <h2><strong>BQHS COLLABORATION &amp; SUPPORT REQUEST FORM</strong></h2>
+            <h2><strong>QHS BIOINFORMATICS CORE COLLABORATION &amp; SUPPORT REQUEST FORM</strong></h2>
             <hr />
             <h4>
                 <strong>
-                    Mahalo for contacting the Office of Biostatistics &amp; Quantitative Health Sciences (BQHS)! To request our quantitative health sciences
+                    Mahalo for contacting the &amp; Quantitative Health Sciences Bioinformatics Core! To request our quantitative health sciences
                     support, please complete and submit the form below.
                 </strong>
             </h4>
             <br />
 
-            <form>
+            <!--<form>-->
 
                 <div class="panel panel-success">
                     <div class="panel-heading">
@@ -238,7 +239,7 @@ echo "<p class='err'>".nl2br($errors)."</p>";
                     </div>
                     <label class="col-sm-2 control-label" for="txtPhone">
                         Phone number
-                        <p class="help-block">(only enter numbers)</p>
+                        <a class="help-block">(only enter numbers)</a>
                     </label>
                     <div class="col-sm-2">
                         <input class="form-control" type="text" name="txtPhone" placeholder="Phone"  value='<?php echo htmlentities($txtPhone) ?>'/>
@@ -289,7 +290,7 @@ echo "<p class='err'>".nl2br($errors)."</p>";
                 </div>
                 <div class="row">
                     <label class="col-sm-2 control-label">
-                        Study Area(s)<p class="help-block">(check all that apply)</p>
+                        Study Area(s)<a class="help-block">(check all that apply)</a>
                     </label>
                     <div class="col-sm-10">
                         <table id="tblStudyArea" class="table">
@@ -353,7 +354,7 @@ echo "<p class='err'>".nl2br($errors)."</p>";
                     <div class="col-sm-2">
                         <label class="control-label">
                             Type(s) of support needed
-                            <p class="help-block">(check all that apply)</p>
+                            <a class="help-block">(check all that apply)</a>
                         </label>
                     </div>
                     <div class="col-sm-10">
@@ -487,10 +488,9 @@ echo "<p class='err'>".nl2br($errors)."</p>";
 					<div class="col-sm-2">
 						<input class="form-control" id="6_letters_code" name="6_letters_code" type="text"><br>
 						<small>Can't read the image? click <a href='javascript: refreshCaptcha();'>here</a> to refresh</small>
-						</p>
 					</div>
 				</div>
-					<div class="row text-center>
+					<div class="row text-center">
 					
 					<div class="col-sm-2">
 					<input type="submit" value="Submit" name='submit' class="btn center-block">
@@ -510,7 +510,7 @@ echo "<p class='err'>".nl2br($errors)."</p>";
 
         </div><!--End mainarea-->
 
-        </form>
+        </form>-->
 
     <script type="text/javascript">
         $(document).ready(function (){

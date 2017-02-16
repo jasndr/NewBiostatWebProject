@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!-- ######################################################################
      # Office of Biostatistics & Quantitative Health Science Website      #
      # University of Hawaii, John A. Burns School of Medicine             #
@@ -46,12 +46,12 @@
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
-            <a class="topMostLinks" href="../Home/sitemap.html">Sitemap</a> |
-            <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
-            <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
-            <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
+            <a class="topMostLinks" href="./Sitemap.php">Sitemap</a> |
+            <a class="topMostLinks" href="./Contact.php">Contact</a> |
+            <a class="topMostLinks" href="./Jobs.php">Careers</a> |
+            <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> |
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
-        </p>
+        </p>  
         <!-- ((TIPUE SEARCH FUNCTION)) -->
         <div class="searchForm">                                                                                
             <form action="../Home/search.html">                                        

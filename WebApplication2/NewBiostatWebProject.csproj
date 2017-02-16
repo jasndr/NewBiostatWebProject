@@ -94,6 +94,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BioinformaticsCore\deng-youping.php" />
+    <Content Include="BioinformaticsCore\Jobs.php" />
+    <Content Include="BioinformaticsCore\Sitemap.php" />
     <Content Include="BioinformaticsCore\AboutUs.php" />
     <Content Include="BioinformaticsCore\ClientRequestForm.php" />
     <Content Include="BioinformaticsCore\Contact.php" />

@@ -55,7 +55,7 @@ div#activeIG a#activeIG, div#activeSE a#activeSE, div#activeSR a#activeSR, div#a
 /*=============================[Bioinformatics portion]=================================*/
 /*=======================================================================================*/
 /*-----------------[LeftNav Active Tab - Home]---------------------------------*/
-div#activebiAU a#activebiAU, div#activebiCO a#activebiCO,
+div#activebiAU a#activebiAU, div#activebiCO a#activebiCO, div#activebiCA a#activebiCA,
 /*-----------------[LeftNav Active Tab - Services]-----------------------------*/
 div#activebisCO a#activebisCO, div#activebisDA a#activebisDA, div#activebisGS a#activebisGS, div#activebisTW a#activebisTW, div#activebisDM a#activebisDM, 
     div#activebisCR a#activebisCR,
@@ -1432,7 +1432,12 @@ a:hover{
 /**--------[Education/Training] -----------*/
 
 .seminarTable{
-    width: 100%;
+    width: 95%;
+}
+
+.seminarTable td{
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 /**--------[HealthcareDatabase/NHANES] -----------*/

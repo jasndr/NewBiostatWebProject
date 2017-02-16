@@ -4,18 +4,18 @@
      # University of Hawaii, John A. Burns School of Medicine             #
      #                                                                    #
      # @author Jason Delos Reyes                                          #
-     # @date November 2016                                                #
-     # BQHS - About Us                                                    #
+     # @date July 2016                                                    #
+     # BQHS - Youping Deng, Ph.D.                                         #
      ###################################################################### -->
 <html>
 
 <head>
-    <title>People | Bioinformatics Core | BQHS</title>
+    <title>Youping Deng, Ph.D. | Bioinformatics Core | BQHS</title>
     <link rel="icon" href="../images/Logo_Final.png" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
     <meta name="description" content="Who are we?" />
-    <meta name="keywords" content="People, Bioinformatics Core, BQHS, About, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="keywords" content="BQHS, Youping Deng, Bioionformatics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="../StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -32,7 +32,7 @@
     <!-- Page Header to create fixed header -->
     <div class="pageHeader">
 
-	 <!-- Bioinformatics Ad Button-->
+    <!-- Bioinformatics Ad Button-->
         <div class="bioinformatics-ad">
             <a href="../">
                 <p class="label success return-label">
@@ -45,12 +45,12 @@
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
-            <a class="topMostLinks" href="./Sitemap.php">Sitemap</a>|
-            <a class="topMostLinks" href="./Contact.php">Contact</a>|
-            <a class="topMostLinks" href="./Jobs.php">Careers</a>|
-            <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a>|
+            <a class="topMostLinks" href="./Sitemap.php">Sitemap</a> |
+            <a class="topMostLinks" href="./Contact.php">Contact</a> |
+            <a class="topMostLinks" href="./Jobs.php">Careers</a> |
+            <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
-        </p>
+        </p> 
         <!-- ((TIPUE SEARCH FUNCTION)) -->
         <div class="searchForm">                                                                                
             <form action="../Home/search.html">                                        
@@ -66,16 +66,16 @@
     <!-- #BQHS Banner -->
     <div class="container-fluid bannerFluid">
          <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
-    </div> 
+    </div>  
 
-        <!-- include menu file -->
-        <div><?php include 'menu2.html';?></div>
+     <?php include './menu2.html';?>
 
     <!-- Breadcrumb/Navigational Hierarchy -->
             <div class="hierarchy breadcrumbNav realBreadcrumbNav">
                 <ol class="breadcrumb">
                     <li><a href="./index.html">Home</a></li>
-                    <li class="currentLink"><a href="./People.php">People</a></li>
+                    <li><a href="./People.php">People</a></li>
+                    <li class="currentLink"><a href="./deng-youping.php">Youping Deng, Ph.D.</a></li>
                 </ol>
             </div> <!-- (End Breadcrumb) -->
 
@@ -87,16 +87,16 @@
     <div class="container-fluid topNavBar pull-right">
         <!-- #First navigation bar -->
         <p>
-            <a class="topMostLinks" href="../Home/sitemap.html">Sitemap</a> |
-            <a class="topMostLinks" href="../Home/contact.html">Contact</a> |
-            <a class="topMostLinks" href="../Home/jobs.html">Careers</a> |
+            <a class="topMostLinks" href="./Home/sitemap.html">Sitemap</a> |
+            <a class="topMostLinks" href="./Home/contact.html">Contact</a> |
+            <a class="topMostLinks" href="./Home/jobs.html">Careers</a> |
             <a class="topMostLinks" href="http://hawaii.edu" target="_blank">University of Hawaii</a> | 
             <a class="topMostLinks" href="http://jabsom.hawaii.edu" target="_blank">John A. Burns School of Medicine</a>
         </p>
         <div class="searchForm">                                                                                    <!-- MAYBE ADD WORKING PHP/JAVASCRIPT CODE HERE? -->
-            <form action="./search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
+            <form action="../search.html">  <!-- CHANGE TO BIOSTAT URL WHEN ONLINE -->                                           <!-- Is it even necessary (JABSOM Site not necessary) -->
             <input class="search form-control-static" type="text" name="q" id="tipue_search_input_fake" autocomplete="off" placeholder="Search BQHS..." />      <!--(For Cancer Center site, yes!) -->
-            <button type="submit" class="btn searchButton"">
+            <button type="submit" class="btn searchButton">
                 <span class="glyphicon glyphicon-search"></span>
             </button>
             </form>
@@ -109,14 +109,13 @@
          <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner"/>
     </div>  
 
-       <!-- (FAKE, DO NOT TOUCH) -->
-    <div id="fakeMenuReplace"><?php include './menu2.html';?></div>
+     <div id="fakeMenuReplace"><?php include './menu2.html';?></div>    <!-- (FAKE, DO NOT TOUCH) -->
 
    
     <!-- &&&&& [END IMITATION HEADER - Do not touch code ^^^above^^^ this line until start of imitation header!] &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
 
     <!-- DIV to create Body Borders -->
-    <div class="container mainBody fakeMenuReplace" id="activebipPP">
+    <div class="container mainBody">
 
         <!-- #Main Content ===> This alternates between all BQHS pages. -->
         <div class="mainContent container-fluid">
@@ -125,7 +124,7 @@
             <div class="hierarchy breadcrumbNav">
                 <ol class="breadcrumb">
                     <li><a href="./index.html">Home</a></li>
-                    <li class="currentLink"><a href="./People.php">People</a></li>
+                    <li class="currentLink"><a href="about.html">About Us</a></li>
                 </ol>
             </div> <!-- &&&&&&&&&&&&&&&&&& (END FAKE BREADCRUMB NAV) &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& -->
 
@@ -136,11 +135,8 @@
 
           <!-- Small Menu to the left --> 
         <div class="leftBank">
-          
-            <?php include './people-smallmenu.html'; ?>
 
-
-            <!--<img class="flowerPic" src="../images/Flower6-fade.png" />-->
+            <!--<img class="flowerPic" src=".../images/Flower6-fade.png" />-->
 
         </div> <!-- (End leftBank) -->
 
@@ -149,135 +145,83 @@
         <div class="rightBank">
 
             <!-- Title of Page -->
-            <div class="titleOfPage"><p>People</p></div>
+            <div class="titleOfPage"><p>Faculty</p></div>
             
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <!--<img class="contentImage-wide" src="../images/Rui-blur.png" alt="Research" />-->
+                <h2 class="contentHeader">Youping Deng, Ph.D. <br /></h2>
 
+                <div class="mainPanel">
 
-
-                <div class="hidingBox" id="faculty"> 
-                    <div class="hbTitle" id="fTitle"> <!-- F Title -->
-                        <p>Bioinformatics Core Faculty & Staff</p>
+                    <div class="leftPanel">
+                        <div class="facultyC">
+                            <div class="row">
+                                <div class="insideMemberLeft"><img class="memberImg" src="../images/youping.jpg" alt="Youping Deng, Ph.D." /></div>
+                                    <div class="insideMemberRight">
+                                        <p><strong>Professor & Lead Bioinformatician</strong><br /></p>
+                                        <p><strong>Director of Bioinformatics Core</strong><br /></p>
+                                        <p>Office: BSB 325B<br />
+                                            <a href="#">dengy@hawaii.edu</a><br />
+                                            <a href="tel:+18086921664">(808) 692-1664</a>
+                                        </p>
+                                     </div>
+                                </div>
+                           </div>
+                     </div>
+                    <div class="rightPanel">
+                        <p><strong>Degrees</strong></p>
+                        <ul>
+                            <li>Ph.D.<br />Peking Union Medical College and Chinese Academy of Medical Sciences<br />Beijing, China</li>
+                        </ul>
                     </div>
-                    <div class="hbContent contentWords" id="fContent"> <!-- F Content -->
 
-					<div class="text-center">
-						 <table class="memberTable contentWords text-center">     
-						<tr>
-                            <td class="memberItems"></td>
-							<td class="memberItems">
-								<strong>Name</strong>
-							</td>
-							<td class="memberItems">
-								<strong>Title</strong>
-							</td>
-							<td class="memberItems">
-								<strong>Office</strong>
-							</td>
-							<td class="memberItems">
-								<strong>Email</strong>
-							</td>
-							<td class="memberItems">
-								<strong>Phone</strong>
-							</td>
-						</tr>
-
-						<!-- Youping Deng, Ph.D. -->
-						<tr class="memberAltColor">
-                            <td class="memberItems">
-                                <img class="memberImg" src="../images/youping.jpg" alt="Youping Deng, Ph.D." /></td>
-							<td class="memberItems makeWide5">
-								 <a class="redLink" href="./deng-youping.php" target="_blank"><strong>Youping<br /> Deng</strong></a>,<br /> Ph.D.
-							</td>
-                            <td class="memberItems">
-                                <em>
-                                    Professor & Director,
-                                    <br />Bioinformatics Core
-                                </em>
-                            </td>
-							<td class="memberItems memberItemsOffice">
-								BSB 325 B
-							</td>
-							<td class="memberItems redLink">
-								dengy@hawaii.edu
-							</td>
-							<td class="memberItems memberItemsPhone">
-								(808) 692-1664
-							</td>
-						</tr>
-
-						<!-- Mahdi Belcaid-->
-						<!-- <tr class="memberAltColor2">
-							<td class="memberItems">
-								 <a class="redLink" href="http://pceidr.jabsom.hawaii.edu/guest/Guest.vm;jsessionid=497F9481B5A37758D7A6D04BDCEA72A7?method=homePage&id=50" target="_blank">
-									<strong>Mahdi Belcaid</strong></a>,<br /> Ph.D.
-							</td>
-							<td class="memberItems">
-								<em>Assistant Researcher</em>
-							</td>
-							<td class="memberItems memberItemsOffice">
-								POST 310A
-							</td>
-							<td class="memberItems redLink">
-								mahdi@hawaii.edu
-							</td>
-							<td class="memberItems memberItemsPhone">
-								(808) 956-5175
-							</td>
-						</tr>-->
-
-						<!-- Vedbar Khadka -->
-						<tr class="memberAltColor2">
-                            <td class="memberItems"><img class="memberImg" src="../images/ved.jpg" alt="Vedbar Khadka, Ph.D." /></td>
-							<td class="memberItems">
-								<strong>Vedbar<br /> Khadka</strong>,<br /> Ph.D.
-							</td>
-							<td class="memberItems">
-								<em>Bioinformatician</em>
-							</td>
-							<td class="memberItems memberItemsOffice">
-								BSB 211 A-3
-							</td>
-							<td class="memberItems redLink">
-								vedbar@hawaii.edu
-							</td>
-							<td class="memberItems memberItemsPhone">
-								(808) 692-1862
-							</td>
-						</tr>
-
-						<!-- Rui Fang -->
-						<tr class="memberAltColor">
-                            <td class="memberItems">
-                                <img class="memberImg" src="../images/Rui_Fang_03242014.jpg" alt="Rui Fang, M.S." /></td>
-							<td class="memberItems">
-								 <strong>Rui<br /> Fang</strong>,<br /> M.S.
-							</td>
-							<td class="memberItems memberItemsTitle">
-								<em>Biostatistical Analyst</em>
-							</td>
-							<td class="memberItems memberItemsOffice">
-								BSB 211 H-6
-							</td>
-							<td class="memberItems redLink">
-								fangr@hawaii.edu
-							</td>
-							<td class="memberItems memberItemsPhone">
-								(808) 692-1815
-							</td>
-						</tr>
-
-              
-
-                    
-					</table>
-				</div>
-                                   
-                    </div>
                 </div>
+               
+                <div class="researchFocus">
+
+                    <p class="contentWords"><strong><br /><br /><br /><br /><br /><br /><br />Research Focus</strong></p>
+                    <p class="contentWords">Bioinformatics, biomedical informatics, cancer, genomics, systems biology
+                    </p>
+                    
+                 </div>
+
+                <div>
+                    <p class="contentWords"><strong>Selected Publications</strong></p> 
+
+                    <ul>
+                        <li class="contentWords">Chen X, Chen H, Dai M, Ai J, Li Y, Mahon B, Dai S, <strong>Deng Y</strong>. Plasma lipidomics profiling identified lipid biomarkers in distinguishing
+                            early-stage breast cancer from benign lesions. <em>Oncotarget</em>. 2016 May 2. doi: 10.18632/oncotarget.9124. PubMed PMID: 27153558. [Epub ahead of print] 
+                        </li>
+
+                        <li class="contentWords">Hu L, Ai J, Long H, Liu W, Wang X, Zuo Y, Li Y, Wu Q, <strong>Deng Y</strong>. Integrative microRNA and gene profiling data analysis reveals novel
+                            biomarkers and mechanisms for lung cancer. <em>Oncotarget</em>. 2016 Feb 23;7(8):8441-54. doi: 10.18632/oncotarget.7264. PubMed PMID: 26870998; PubMed Central PMCID: PMC480978.
+                        </li>
+
+                        <li class="contentWords">Wang C, Gong B, Buschel PR, Thierry-Mieg J, Thierry-Mieg D, Xu J, Fang H, Hong H, Shen J, Su Z, Meehan J, Li X, Yang L, Li H,
+                            Labaj PP, Kreil DP, Megherbi D, Gaj S, Caiment F, van Delft J, Kleinjans J, Scherer A, Devanarayan V, Wang J, Yang Y, Qian HR, Lancashire LJ,
+                            Bessarabova M, Nikolsky Y, Furlanello C, Chierici M, Albanese D, Jurman G, Riccadonna S, Filosi M, Visintainer R, Zhang KK, Li J, Hseih JH, Svolboda DL,
+                            Fuscoe JC, <strong>Deng Y</strong>, Shi L, Paules R Auerbach SS, Tong W. The concordance between RNA-seq and microarray data depends on chemical treatment 
+                            and transcript abundance. <em>Nat Biotechnol</em>. 2014 Sep; 32(9):926-32. doi: 10.1038/nbt.3001. Epub 2014 Aug 24. PubMed PMID: 25150839; PubMed Central PMCID: PMC4243706.
+                        </li>
+
+                        <li class="contentWords">Melson J, Li Y, Cassinotti E, Melnikov A, Boni L, Ai J, Greenspan M, Mobarhan S, Levenson V, <strong>Deng Y</strong>. Commonality and
+                            differences of methylation signatures in the plasma of patients with pancreatic cancer and colorectal cancer. <em>Int J Cancer</em>. 2014 Jun 1;134(11): 2656-62. doi: 10.1002/ijc.28593.
+                            Epub 2013 Nov 29. PubMed PMID: 224288256.
+                        </li>
+
+                        <li class="contentWords">Pirooznia M, Habib T, Perkins EJ, <strong>Deng Y</strong>. GOfetcher: a database with complex searching facility for gene ontolog. <em>Bioinformatics</em>. 2008 
+                            Nov  1;24(21):2561-3. doi:10.1093/bioinformatics/btn441. Epub 2008 Aug 26. PubMed PMID: 18728045.
+                        </li>
+
+   
+                     </ul>
+
+                    <!--<p class="contentWords">Publication List by <a class="redLink" href="http://www.ncbi.nlm.nih.gov/myncbi/browse/collection/49839708/?sort=date&direction=ascending"><strong>PubMed</strong></a>.</p>-->
+
+                </div>
+                
+               
                         
 
               </div> <!-- (End contentOfPage) -->

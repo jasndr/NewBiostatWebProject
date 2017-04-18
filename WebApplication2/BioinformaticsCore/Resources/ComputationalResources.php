@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- ######################################################################
      # Office of Biostatistics & Quantitative Health Science Website      #
      # University of Hawaii, John A. Burns School of Medicine             #
@@ -228,7 +228,7 @@
                      Honolulu, HI 96813
            </p>
             <p class="contactInfo pull-left">
-                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: biostat@hawaii.edu    
+                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: qhs@hawaii.edu    
             </p>
             
             

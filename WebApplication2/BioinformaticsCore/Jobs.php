@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- ######################################################################
      # Office of Biostatistics & Quantitative Health Science Website      #
      # University of Hawaii, John A. Burns School of Medicine             #
@@ -154,8 +154,80 @@
             <!-- Content of Page -->
             <div class="contentOfPage"> 
 
-                <p class="contentWords"><em>[List of job opporunities are currently being accumulated.  Please return at a later time.]</em>
+                <p class="contentWords">
+                    QHS is always looking for qualified and self-motivated Ph.D. and Master-level quantitative health sciences specialists to join our growing team.
+                    <em>Please see below for our current job openings and full job description information.</em>
                 </p>
+
+                <p class="contentWords">
+                    If you are interested in exploring career opportunities at UH JABSOM QHS, please submit a cover letter describing your interest
+                         and qualifications, your resume/CV, and a copy of school transcripts via email to
+                    <a class="redLink" href="./Contact.php#contactForm">
+                        <strong>qhsjobs@hawaii.edu</strong>
+                    </a>. Mahalo for your interest.
+                </p>
+
+
+                <div class="hidingBox" id="bioinfoPostDoc">
+                    <!-- Biostatistician Positions -->
+                    <div class="hbTitle" id="bpdTitle">
+                        <!-- BPD Title -->
+                        <p>
+                            <a class="redLink" href="https://hrweb.rcuh.com/psc/hrprd_exapp/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL?Page=HRS_CE_JOB_DTL&Action=A&JobOpeningId=17088&SiteId=2&PostingSeq=1&"
+                                target="_blank">
+                                <strong>Post-Doctoral Researcher</strong>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="hbContent contentWords" id="bpdContent">
+                        <!-- BPD Content -->
+
+                        <ul>
+                            <li>
+                                <em>Duties &amp; Responsibilities:</em>  Focuses on translational medicine study and identifying biomarkers for early detection of cancer and prediction of
+                                 clinical outcomes of cancer treated with different strategies. Further investigates the function and mechanism of newly recognized targets based on human
+                                 patient samples using in vitro and in vivo models.  Performs most updated one or more of "omic" technologies including transcriptomics, epigenomics and
+                                 next generation sequencing. Participates in bioinformatics data analysis.  Interacts with medical doctors and research scientists at University of Hawai‘i
+                                 to facility personalized medicine development through interpreting these huge amount of data.  Writes manuscripts, and supervises graduate students. 
+                            </li>
+                            <li>
+                                <em>Minimum Qualifications:</em>  Ph.D. in Molecular Biology, Biochemistry or related fields 
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="hidingBox" id="bioinfoSpecialist">
+                    <!-- Bioinformatician Positions -->
+                    <div class="hbTitle" id="biasTitle">
+                        <!-- BIAS Title -->
+                        <p>
+                            <a class="redLink" href="http://www.pers.hawaii.edu/wuh/Jobs/NAdvert/24503"
+                                target="_blank">
+                                <strong>Bioinformatics Assistant Specialist</strong>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="hbContent contentWords" id="biasContent">
+                        <!-- BIAS Content -->
+
+                        <ul>
+                            <li>
+                                <em>Duties &amp; Responsibilities:</em>  Works in close collaboration with other members of JABSOM bioinformatics team, providing comprehensive bioinformatic
+                                 support and collaborations to faculty and staff in the school and university, including the development of grant proposals and scientific manuscripts
+                                 and participates in educational activities.
+                            </li>
+                            <li>
+                                <em>Minimum Qualifications:</em>  Master's degree in Bioinformatics or related field and three years of experience in bioinformatics
+                                 (or related field) as Junior Specialist or equivalent
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
 
 
               </div> <!-- (End contentOfPage) -->
@@ -193,7 +265,7 @@
                      Honolulu, HI 96813
            </p>
             <p class="contactInfo pull-left">
-                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: biostat@hawaii.edu    
+                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: qhs@hawaii.edu    
             </p>
             
             

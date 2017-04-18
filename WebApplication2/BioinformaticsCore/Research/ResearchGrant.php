@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- ######################################################################
      # Office of Biostatistics & Quantitative Health Science Website      #
      # University of Hawaii, John A. Burns School of Medicine             #
@@ -170,6 +170,38 @@
                      and biostatistical support for all junior investigators, their staff, and INBRE affiliated investigators and students.  The core offers
                      comprehensive bioinformatical and biostatistical service and support, research, and training and education.
                 </p>
+
+                <h3 class="contentHeader">
+                    <a class="redLink" href="http://pceidr.jabsom.hawaii.edu" target="_blank">Pacific Center for Emerging Infectious Disease Research   </a>
+                    <img class="contentImage-tiny" src="../../images/pceidr.png" />
+                </h3>
+
+                <p class="contentWords">
+                    Pacific Center for Emerging Infectious Disease Research (PCEIDR) grant (PI: R. Yanagihara, 5P30GM114737)
+                    is funded by National Institute of General Medical Sciences.
+                    The principal objective of the Phase III COBRE for emerging infectious diseases is to enhance the conditions that accelerate the pace of scientific discovery, 
+                    heighten research productivity and increase competitiveness for extramural funding.
+                </p>
+
+
+                <h3 class="contentHeader">
+                    <a class="redLink" href="http://rmatrix.jabsom.hawaii.edu/" target="_blank">RMATRIX-II   </a>
+                    <img class="contentImage-tiny" src="../../images/rmatrix.png" />
+                </h3>
+
+                <p class="contentWords">
+                    The Research Centers in Minority Institutions (RCMI) Multidisciplinary And Translational Research Infrastructure
+                     eXpansion (RMATRIX) grant (MPI: J. Hedges, N. Mokuau, U54MD007584) is funded by National Institute on Minority Health and Health Disparities (NIMHD). RMATRIX fosters
+                     clinical and translational health disparities research by providing an integrated research infrastructure.
+                </p>
+
+                <p class="contentWords">
+                    BQHS serves as the Biostatistics & Health Sciences Data Analytics (BHDA) Core and provides integrated research and database
+                     design, biostatistical and bioinformatical data analytic collaborations and support to clinical and translational health disparities researchers.
+                     The BHDA Core also offers quantitative health sciences training and education through individual research methodology mentoring, seminars and
+                     workshops, and for-credit courses.
+                </p>
+                
                         
 
               </div> <!-- (End contentOfPage) -->
@@ -207,7 +239,7 @@
                      Honolulu, HI 96813
            </p>
             <p class="contactInfo pull-left">
-                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: biostat@hawaii.edu    
+                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: qhs@hawaii.edu    
             </p>
             
             

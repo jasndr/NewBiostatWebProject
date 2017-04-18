@@ -209,26 +209,6 @@
 							</td>
 						</tr>
 
-						<!-- Mahdi Belcaid-->
-						<!-- <tr class="memberAltColor2">
-							<td class="memberItems">
-								 <a class="redLink" href="http://pceidr.jabsom.hawaii.edu/guest/Guest.vm;jsessionid=497F9481B5A37758D7A6D04BDCEA72A7?method=homePage&id=50" target="_blank">
-									<strong>Mahdi Belcaid</strong></a>,<br /> Ph.D.
-							</td>
-							<td class="memberItems">
-								<em>Assistant Researcher</em>
-							</td>
-							<td class="memberItems memberItemsOffice">
-								POST 310A
-							</td>
-							<td class="memberItems redLink">
-								mahdi@hawaii.edu
-							</td>
-							<td class="memberItems memberItemsPhone">
-								(808) 956-5175
-							</td>
-						</tr>-->
-
 						<!-- Vedbar Khadka -->
 						<tr class="memberAltColor2">
                             <td class="memberItems"><img class="memberImg" src="../images/ved.jpg" alt="Vedbar Khadka, Ph.D." /></td>
@@ -269,7 +249,58 @@
 								(808) 692-1815
 							</td>
 						</tr>
-
+                          
+                       <!-- Razvan Sultana-->
+                       <tr class="memberAltColor2">
+                           <td class="memberItems">
+                               <img class="memberImg" src="../images/Razvan.jpg" alt="Razvan Sultana, Ph.D." />
+                           </td>
+                           <td class="memberItems">
+                               <strong>Razvan Sultana</strong>,
+                               <br />Ph.D.
+                           </td>
+                           <td class="memberItems">
+                               <em>
+                                   Computational Biologist /
+                                   <br />Junior Specialist
+                               </em>
+                           </td>
+                           <td class="memberItems memberItemsOffice">
+                               BSB 222
+                           </td>
+                           <td class="memberItems redLink">
+                               rsultana@hawaii.edu
+                           </td>
+                           <td class="memberItems memberItemsPhone">
+                               (808) 692-1057
+                           </td>
+                       </tr>
+					   
+					   <!-- Mark Menor-->
+                       <tr class="memberAltColor">
+                           <td class="memberItems">
+                               <img class="memberImg" src="../images/MarkMenor_headshot2.png" alt="Razvan Sultana, Ph.D." />
+                           </td>
+                           <td class="memberItems">
+                               <strong>Mark Menor</strong>,
+                               <br />Ph.D.
+                           </td>
+                           <td class="memberItems">
+                               <em>
+                                   Bioinformatics /
+                                   <br />Junior Researcher
+                               </em>
+                           </td>
+                           <td class="memberItems memberItemsOffice">
+                               BSB 211 A-4
+                           </td>
+                           <td class="memberItems redLink">
+                               mmenor@hawaii.edu
+                           </td>
+                           <td class="memberItems memberItemsPhone">
+                               (808) 692-1507
+                           </td>
+                       </tr>
               
 
                     
@@ -315,7 +346,7 @@
                      Honolulu, HI 96813
            </p>
             <p class="contactInfo pull-left">
-                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: biostat@hawaii.edu    
+                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: qhs@hawaii.edu    
             </p>
             
             

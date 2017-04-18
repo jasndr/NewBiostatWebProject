@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- ######################################################################
      # Office of Biostatistics & Quantitative Health Science Website      #
      # University of Hawaii, John A. Burns School of Medicine             #
@@ -15,7 +15,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
     <meta name="description" content="Who are we?" />
-    <meta name="keywords" content="BQHS, About, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
+    <meta name="keywords" content="Bioinformatics, University of Hawaii, About, Biostatistics, Quantitative Health Sciences, Hawaii, University of Hawaii, John A. Burns School of Medicine" />
     <meta name="author" content="Jason Delos Reyes" />
     <link rel="stylesheet" type="text/css" href="../StyleSheet1.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -156,13 +156,13 @@
 
                 <img class="contentImage-wide" src="../images/Rui-blur.png" alt="Research" />
 
-                <p class="contentWords">The Bioinformatics Core serves as a centralized resource for providing expert and timely bioinformatics consulting,
-                     analysis, collaborative research, management, and training solutions for high-throughput data.  The data includes different kinds of “omics”
-                     data (e.g., genomics, transcriptomics, epigenomes, proteomics, metabolomics, metagenomics data), which are generated from a variety of platforms
-                     such as PCR, microarray, NGS, mass-spec, and so on. The core provides a high-level expertise in bioinformatics, ensuring the support needed to
-                     design, conduct, analyze, interpret, and manage results requiring or facilitated by informatics applications. Bioinformatics support will be
-                     integrated into all phases of basic, clinical, and translational research through a coordinated program of quantitative health sciences
-                     consultation and analysis. 
+                <p class="contentWords">The Bioinformatics Core serves as a centralized resource for providing expert and timely bioinformatics consulting, analysis,
+                 collaborative research, management, and training solutions for high-throughput data in the University of Hawaii and its collaborators. The data includes
+                 different kinds of “omics” data (e.g., genomics, transcriptomics, epigenomes, proteomics, metabolomics, metagenomics data), which are generated from a variety of platforms
+                 such as PCR, microarray, NGS, mass-spec, and so on. The core provides a high-level expertise in bioinformatics, ensuring the support needed to
+                 design, conduct, analyze, interpret, and manage results requiring or facilitated by informatics applications. Bioinformatics support will be
+                 integrated into all phases of basic, clinical, and translational research through a coordinated program of quantitative health sciences
+                 consultation and analysis. 
                 </p>
 
                 <p class="contentWords">
@@ -206,7 +206,7 @@
                      Honolulu, HI 96813
            </p>
             <p class="contactInfo pull-left">
-                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: biostat@hawaii.edu    
+                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: qhs@hawaii.edu    
             </p>
             
             

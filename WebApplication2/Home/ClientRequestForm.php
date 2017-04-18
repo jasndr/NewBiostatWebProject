@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$your_email ='biostat@hawaii.edu';// <<=== update to your email address
+$your_email ='qhs@hawaii.edu';// <<=== update to your email address
 
 
 $errors = '';

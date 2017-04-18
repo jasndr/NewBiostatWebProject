@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- ######################################################################
      # Office of Biostatistics & Quantitative Health Science Website      #
      # University of Hawaii, John A. Burns School of Medicine             #
@@ -157,30 +157,79 @@
 
                 <!-- <img class="contentImage-wide" src="../../images/Rui-blur.png" alt="Research" />-->
 
+                <div class="hidingBox" id="educationalresources"> <!-- In-house -->
+                    <div class="hbTitle" id="erTitle"> <!-- IH Title -->
+                        <p>Educational Resources</p>
+                    </div> 
+                    <div class="hbContent contentWords" id="erContent"><!-- IH Content -->
+                        
+                        <ul class="contentWords">
+                            <li>
+                                <a class="redLink" href="https://en.wikibooks.org/wiki/Next_Generation_Sequencing_%28NGS%29"
+                                    target="_blank">
+                                    Next Generation Sequencing
+                                </a>
+                            </li>
+                            <li>
+                                <a class="redLink" href="http://www.ncbi.nlm.nih.gov/home/tutorials.shtml"
+                                    target="_blank">
+                                    NCBI
+                                </a>
+                            </li>
+                            <li>
+                                <a class="redLink" href="http://www.ebi.ac.uk/training/past-courses-held-embl-ebi"
+                                    target="_blank">
+                                    EMBL-EBL
+                                </a>
+                            </li>
+                            <li>
+                                <a class="redLink" href="http://cran.r-project.org/doc/manuals/R-intro.html#Introduction-and-preliminaries"
+                                    target="_blank">
+                                    An Introduction to R
+                                </a>
+                            </li>
+                            <li>
+                                <a class="redLink" href="http://bioportal.weizmann.ac.il/course/prog/ "
+                                    target="_blank">
+                                    Perl for Bioinformatics
+                                </a>
+                            </li>
+                            <li>
+                                <a class="redLink" href="http://www.dalkescientific.com/writings/NBN/ "
+                                    target="_blank">
+                                    Python Programming for Bioinformatics
+                                </a>
+                            </li>
+
+                        </ul>
+                        
+                    </div> 
+                </div>
+
+				<div class="hidingBox" id="coursesOffered"> <!-- On-Campus -->
+                    <div class="hbTitle" id="coTitle"> <!-- OC Title -->
+                        <p>Courses Offered</p>
+                    </div> 
+                    <div class="hbContent contentWords" id="coContent"><!-- OC Content -->
+                        <h4 class="contentWords">
+                            <em>Spring Semester</em>
+                        </h4>
+
+                        <p class="contentWords">
+                            <strong>TRMD 705: Introductory Bioinformatics (3 credits)  -     </strong>
+                            <a class="btn redContentButton" href="../../documents/TRMD_705_Spring2016_Flyer PDF.pdf" target="_blank" role="button">Course Flyer</a>
+                        </p>
+
+                        <p class="contentWords">TRMD 705 Introductory Bioinformatics course is an introduction to fundamental concepts in bioinformatics with a strong emphasis on hands-on training. This course will develop awareness of web-based resources, and will motivate to use and explore wide range of publicly available databases. This course will cover topics such as molecular biology, sequence alignment, biological databases, phylogeny, and genomics. It will briefly cover microarray and RNA-seq data analysis. Students will also be exposed to  bioinformatics algorithms and open source scripting languages such as R, Perl and Python in multi-platform environment.  </p>
+
+                        
+                    </div> 
+                </div>
+
 
 				<div class="contentWords">
 
-					<h4><em>Educational Resources</em></h4>
-						<ul class="contentWords">
-							<li><a class="redLink" href="https://en.wikibooks.org/wiki/Next_Generation_Sequencing_%28NGS%29" 
-								target="_blank">Next Generation Sequencing</a></li>
-								<br /><br />
-							<li><a class="redLink" href="http://www.ncbi.nlm.nih.gov/home/tutorials.shtml" 
-								target="_blank">NCBI</a></li>
-								<br /><br />
-							<li><a class="redLink" href="http://www.ebi.ac.uk/training/past-courses-held-embl-ebi" 
-								target="_blank">EMBL-EBL</a></li>
-								 <br /><br />
-							<li><a class="redLink" href="http://cran.r-project.org/doc/manuals/R-intro.html#Introduction-and-preliminaries" 
-								target="_blank">An Introduction to R</a></li>
-								<br /><br />
-							<li><a class="redLink" href="http://bioportal.weizmann.ac.il/course/prog/ " 
-								target="_blank">Perl for Bioinformatics</a></li>
-								 <br /><br />
-							<li><a class="redLink" href="http://www.dalkescientific.com/writings/NBN/ "
-								target="_blank">Python Programming for Bioinformatics</a></li>
-
-						</ul>
+					
 						
 				
 				</div>
@@ -223,7 +272,7 @@
                      Honolulu, HI 96813
            </p>
             <p class="contactInfo pull-left">
-                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: biostat@hawaii.edu    
+                <br />Phone: 808.692.1840  //  Fax: 808.692.1966  //  Email: qhs@hawaii.edu    
             </p>
             
             

@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -135,6 +136,7 @@
     <Content Include="Home\Faculty\deng-youping.html" />
     <Content Include="Home\Faculty\davis-james.html" />
     <Content Include="Home\Faculty\ahn-hyeongjun.html" />
+    <Content Include="Home\Faculty\siriwardhana-chathura.html" />
     <Content Include="Home\Faculty\lim-eunjung.html" />
     <Content Include="Home\Faculty\chen-john.html" />
     <Content Include="Home\home-smallmenu.html" />
@@ -178,9 +180,6 @@
     <Content Include="Home\members.html" />
     <Content Include="menu3.html" />
     <Content Include="packages.config" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

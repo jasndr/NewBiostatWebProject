@@ -167,20 +167,20 @@
 					<div class="text-center">
 						 <table class="memberTable contentWords text-center">     
 						<tr>
-                            <td class="memberItems"></td>
-							<td class="memberItems">
+                            <td class="memberItems bioinfoMem"></td>
+							<td class="memberItems bioinfoMem">
 								<strong>Name</strong>
 							</td>
-							<td class="memberItems">
+							<td class="memberItems bioinfoMem">
 								<strong>Title</strong>
 							</td>
-							<td class="memberItems">
+							<td class="memberItems bioinfoMem">
 								<strong>Office</strong>
 							</td>
-							<td class="memberItems">
+							<td class="memberItems bioinfoMem">
 								<strong>Email</strong>
 							</td>
-							<td class="memberItems">
+							<td class="memberItems bioinfoMem">
 								<strong>Phone</strong>
 							</td>
 						</tr>
@@ -199,7 +199,7 @@
                                 </em>
                             </td>
 							<td class="memberItems memberItemsOffice">
-								BSB 325 B
+								BSB<br /> 325 B
 							</td>
 							<td class="memberItems redLink">
 								dengy@hawaii.edu
@@ -219,7 +219,7 @@
 								<em>Bioinformatician</em>
 							</td>
 							<td class="memberItems memberItemsOffice">
-								BSB 211 A-3
+								BSB<br /> 211 A-3
 							</td>
 							<td class="memberItems redLink">
 								vedbar@hawaii.edu
@@ -240,7 +240,7 @@
 								<em>Biostatistical Analyst</em>
 							</td>
 							<td class="memberItems memberItemsOffice">
-								BSB 211 H-6
+								BSB<br /> 211 H-6
 							</td>
 							<td class="memberItems redLink">
 								fangr@hawaii.edu
@@ -250,39 +250,13 @@
 							</td>
 						</tr>
                           
-                       <!-- Razvan Sultana-->
+                       <!-- Mark Menor-->
                        <tr class="memberAltColor2">
-                           <td class="memberItems">
-                               <img class="memberImg" src="../images/Razvan.jpg" alt="Razvan Sultana, Ph.D." />
-                           </td>
-                           <td class="memberItems">
-                               <strong>Razvan Sultana</strong>,
-                               <br />Ph.D.
-                           </td>
-                           <td class="memberItems">
-                               <em>
-                                   Computational Biologist /
-                                   <br />Junior Specialist
-                               </em>
-                           </td>
-                           <td class="memberItems memberItemsOffice">
-                               BSB 222
-                           </td>
-                           <td class="memberItems redLink">
-                               rsultana@hawaii.edu
-                           </td>
-                           <td class="memberItems memberItemsPhone">
-                               (808) 692-1057
-                           </td>
-                       </tr>
-					   
-					   <!-- Mark Menor-->
-                       <tr class="memberAltColor">
                            <td class="memberItems">
                                <img class="memberImg" src="../images/MarkMenor_headshot2.png" alt="Razvan Sultana, Ph.D." />
                            </td>
                            <td class="memberItems">
-                               <strong>Mark Menor</strong>,
+                               <strong>Mark<br /> Menor</strong>,
                                <br />Ph.D.
                            </td>
                            <td class="memberItems">
@@ -292,13 +266,152 @@
                                </em>
                            </td>
                            <td class="memberItems memberItemsOffice">
-                               BSB 211 A-4
+                               BSB<br /> 211 A-4
                            </td>
                            <td class="memberItems redLink">
                                mmenor@hawaii.edu
                            </td>
                            <td class="memberItems memberItemsPhone">
                                (808) 692-1507
+                           </td>
+                       </tr>
+					   
+					   <!-- Rebecca Rodriguez, M.S.-->
+                       <tr class="memberAltColor">
+                           <td class="memberItems">
+                                <img class="memberImg" src="../images/rebecca.jpg" alt="Rebecca Rodriguez, M.S." /></td>
+							<td class="memberItems makeWide5">
+								 <strong>Rebecca<br /> Rodriguez</strong>,<br /> M.S.
+							</td>
+                            <td class="memberItems">
+                                <em>
+                                    Ph.D. Graduate Student
+                                </em>
+                            </td>
+							<td class="memberItems memberItemsOffice">
+								BSB<br /> 211
+							</td>
+							<td class="memberItems redLink">
+								rmr4@hawaii.edu
+							</td>
+							<td class="memberItems memberItemsPhone">
+								(808) 692-1816
+							</td>
+                       </tr>
+					   
+					   <!-- Ting Gong, M.S.-->
+						<tr class="memberAltColor2">
+                            <td class="memberItems"><img class="memberImg" src="../images/ting.JPG" alt="Ting Gong, M.S." /></td>
+							<td class="memberItems">
+								<strong>Ting<br /> Gong</strong>,<br /> M.S.
+							</td>
+							<td class="memberItems">
+								<em>Ph.D. Graduate Student</em>
+							</td>
+							<td class="memberItems memberItemsOffice">
+								BSB<br /> 320
+							</td>
+							<td class="memberItems redLink">
+								tgong@hawaii.edu
+							</td>
+							<td class="memberItems memberItemsPhone">
+								(808) 692-1614
+							</td>
+						</tr>
+
+						<!-- Bjarne Bartlett -->
+						<tr class="memberAltColor">
+                            <td class="memberItems">
+                                <img class="memberImg" src="../images/bjarne.jpg" alt="Bjarne Bartlett, B.S." /></td>
+							<td class="memberItems">
+								 <strong>Bjarne<br /> Bartlett</strong>,<br /> B.S.
+							</td>
+							<td class="memberItems memberItemsTitle">
+								<em>Graduate Student</em>
+							</td>
+							<td class="memberItems memberItemsOffice">
+								BSB<br /> 320
+							</td>
+							<td class="memberItems redLink">
+								bjarne@hawaii.edu
+							</td>
+							<td class="memberItems memberItemsPhone">
+								(808) 692-1614
+							</td>
+						</tr>
+
+						<!-- Tianying Zhao -->
+						<tr class="memberAltColor2">
+                            <td class="memberItems">
+                               <img class="memberImg" src="../images/tianying.JPG" alt="Tianying Zhao, B.S." />
+                           </td>
+                           <td class="memberItems">
+                               <strong>Tianying<br /> Zhao</strong>,
+                               <br />B.S.
+                           </td>
+                           <td class="memberItems">
+                               <em>
+                                   Graduate Student
+                               </em>
+                           </td>
+                           <td class="memberItems memberItemsOffice">
+                               BSB<br /> 320
+                           </td>
+                           <td class="memberItems redLink">
+                               tianying@hawaii.edu
+                           </td>
+                           <td class="memberItems memberItemsPhone">
+                               (808) 692-1614
+                           </td>
+						</tr>
+                          
+                       <!-- Shengming Dai -->
+                       <tr class="memberAltColor">
+                           <td class="memberItems">
+                               <img class="memberImg" src="../images/dai.jpg" alt="Shengming Dai, Ph.D." />
+                           </td>
+                           <td class="memberItems">
+                               <strong>Shengming<br /> Dai</strong>,
+                               <br />Ph.D.
+                           </td>
+                           <td class="memberItems">
+                               <em>
+                                   Visiting Scholar
+                               </em>
+                           </td>
+                           <td class="memberItems memberItemsOffice">
+                               BSB<br /> 320
+                           </td>
+                           <td class="memberItems redLink">
+                               dais@hawaii.edu
+                           </td>
+                           <td class="memberItems memberItemsPhone">
+                               (808) 692-1614
+                           </td>
+                       </tr>
+					   
+					   <!-- Masaki Nasu-->
+                       <tr class="memberAltColor2">
+                           <td class="memberItems">
+                               <img class="memberImg" src="../images/nasu_masaki2.jpg" alt="Masaki Nasu, Ph.D." />
+                           </td>
+                           <td class="memberItems">
+                               <strong>Masaki<br /> Nasu</strong>,
+                               <br />Ph.D.
+                           </td>
+                           <td class="memberItems">
+                               <em>
+                                   Post-Doctoral Researcher
+                               </em>
+                           </td>
+                           <td class="memberItems memberItemsOffice">
+                               BSB<br /> 320-02
+                           </td>
+                           <td class="memberItems redLink">
+                               mnasu@hawaii.edu
+                           </td>
+                           <td class="memberItems memberItemsPhone">
+                               (808) 692-1670
                            </td>
                        </tr>
               
@@ -342,7 +455,7 @@
         <div class="container-fluid" id="rightFooter">
 
            <p class="officeLocation pull-left">
-               <br />651 Ilalo Street, Biosciences Building, Suite 211,
+               <br />651 Ilalo Street, Medical Education Building, Suite 411,
                      Honolulu, HI 96813
            </p>
             <p class="contactInfo pull-left">
@@ -354,7 +467,7 @@
 
     </div><!-- (End of Inner Footer Area) -->
 
-        <p class="copyright"><br /><br />&copy; 2017 Office of Biostatistics & Quantitative Health Sciences, University of Hawaii John A. Burns School of Medicine</p>
+       <p class="copyright"><br /><br />&copy; <script type="text/javascript"> document.write(new Date().getFullYear());</script> Office of Biostatistics & Quantitative Health Sciences, University of Hawaii John A. Burns School of Medicine</p>
 
     </div> <!-- (End of Footer area) -->
 

@@ -1,8 +1,8 @@
 <?php
 
-$EmailFrom = "biostat@hawaii.edu";
-$EmailTo = "biostat@hawaii.edu";
-$Subject = "BQHS Inquiry";
+$EmailFrom = "qhs@hawaii.edu";
+$EmailTo = "qhs@hawaii.edu";
+$Subject = "JABSOM Biostatistics Core Inquiry";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
 $Message = Trim(stripslashes($_POST['Message'])); 

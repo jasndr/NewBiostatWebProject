@@ -49,6 +49,7 @@ $('.panel-heading a').on('click', function(e){
 //jQuery 
 $(document).ready(function () {
 
+    
     //Scroll to top button - Appear if down the page
     $(window).scroll(function () {
 
@@ -98,6 +99,11 @@ $(document).ready(function () {
     //$('#servicesMenu a').click(function () {
     //    $(this).attr('id', 'boldSE').siblings().removeAttr('id');
     //});
+
+    
+    
+    
+    
 
 });
 

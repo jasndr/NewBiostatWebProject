@@ -70,7 +70,7 @@ if(isset($_POST['submit']))
 	{
 		//send the email
 		$to = $your_email;
-		$subject="BQHS Request";
+		$subject="JABSOM Biostatistics Core Facility Collaborative & Service Request";
 		$from = $txtEmail;
 		$ip = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '';
 		
@@ -198,11 +198,11 @@ echo "<p class='err'>".nl2br($errors)."</p>";
                 <img class="BQHSbanner" src="../images/OBQHS_Banner.jpg" alt="BQHS Banner" />
             </div>
 
-            <h2><strong>BQHS COLLABORATION &amp; SUPPORT REQUEST FORM</strong></h2>
+            <h2><strong>JABSOM BIOSTATISTICS CORE FACILITY COLLABORATION &amp; SERVICE REQUEST FORM</strong></h2>
             <hr />
             <h4>
                 <strong>
-                    Mahalo for contacting the Office of Biostatistics &amp; Quantitative Health Sciences (BQHS)! To request our quantitative health sciences
+                    Mahalo for contacting the JABSOM Biostatistics Core Facility! To request our quantitative health sciences
                     support, please complete and submit the form below.
                 </strong>
             </h4>

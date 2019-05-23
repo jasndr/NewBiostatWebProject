@@ -157,8 +157,9 @@
 
                 <!-- <img class="contentImage-wide" src="../../images/Rui-blur.png" alt="Research" />-->
 
-                <h3 class="contentHeader"><a class="redLink" href="http://inbre.jabsom.hawaii.edu/" target="_blank">INBRE-III   </a>
-                    <img class="contentImage-tiny" src="../../images/inbre-iii.png" />
+
+                <h3 class="contentHeader"><a class="redLink" href="http://inbre.jabsom.hawaii.edu/" target="_blank">INBRE-IV   </a>
+                    <img class="contentImage-tiny" src="../../images/INBRE_HAWAII.png" />
                 </h3>
 
                 <p class="contentWords">Institutional Development Award (IDeA) Network for Biomedical Research Excellence (INBRE) grant (PI: R. Nichols, P20GM103466)
@@ -201,7 +202,25 @@
                      The BHDA Core also offers quantitative health sciences training and education through individual research methodology mentoring, seminars and
                      workshops, and for-credit courses.
                 </p>
-                
+
+				<h3 class="contentHeader"><a class="redLink" href="http://ola.jabsom.hawaii.edu/" target="_blank">Ola HAWAII   </a>
+                    <img class="contentImage-tiny" src="../../images/OlaHawaiiLogo.png" />
+                </h3>
+
+                <p class="contentWords">
+					U54 Ola Hawaii grant (MPI: J. Hedges, N. Mokuau U54MD007601) funded by National Institute on Minority Health and Health 
+				    Disparities (NIMHD) is an integrated, translational research initiative helps key University of Hawaii at Manoa basic science cores and 
+					clinical research currently provided through the JABSOM and Myron B. Thompson School of Social work U54 RMATRIX-II collaboration. It is 
+					inteded to support health disparities investigators and community partners to harness the power of diverse thought to determine the causes 
+					of and interventions for health disparities in Hawaii.
+                </p>
+
+                <p class="contentWords">
+					In collaboration with experts in research ethics, the QHS serves as the Biostatistics, Research Design and Research Ethics Core and provides 
+					a centralized resource for research methodology skills needed to conduct appropriately designed, hypothesis-driven biomedical research and 
+					ensure that all researchers implement ethical principles in biomedical research.
+                </p>
+               
                         
 
               </div> <!-- (End contentOfPage) -->

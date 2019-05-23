@@ -229,29 +229,9 @@
 							</td>
 						</tr>
 
-						<!-- Rui Fang -->
-						<tr class="memberAltColor">
-                            <td class="memberItems">
-                                <img class="memberImg" src="../images/Rui_Fang_03242014.jpg" alt="Rui Fang, M.S." /></td>
-							<td class="memberItems">
-								 <strong>Rui<br /> Fang</strong>,<br /> M.S.
-							</td>
-							<td class="memberItems memberItemsTitle">
-								<em>Biostatistical Analyst</em>
-							</td>
-							<td class="memberItems memberItemsOffice">
-								BSB<br /> 211 H-6
-							</td>
-							<td class="memberItems redLink">
-								fangr@hawaii.edu
-							</td>
-							<td class="memberItems memberItemsPhone">
-								(808) 692-1815
-							</td>
-						</tr>
                           
                        <!-- Mark Menor-->
-                       <tr class="memberAltColor2">
+                       <tr class="memberAltColor">
                            <td class="memberItems">
                                <img class="memberImg" src="../images/MarkMenor_headshot2.png" alt="Razvan Sultana, Ph.D." />
                            </td>
@@ -277,7 +257,7 @@
                        </tr>
 					   
 					   <!-- Rebecca Rodriguez, M.S.-->
-                       <tr class="memberAltColor">
+                       <tr class="memberAltColor2">
                            <td class="memberItems">
                                 <img class="memberImg" src="../images/rebecca.jpg" alt="Rebecca Rodriguez, M.S." /></td>
 							<td class="memberItems makeWide5">
@@ -300,7 +280,7 @@
                        </tr>
 					   
 					   <!-- Ting Gong, M.S.-->
-						<tr class="memberAltColor2">
+						<tr class="memberAltColor">
                             <td class="memberItems"><img class="memberImg" src="../images/ting.JPG" alt="Ting Gong, M.S." /></td>
 							<td class="memberItems">
 								<strong>Ting<br /> Gong</strong>,<br /> M.S.
@@ -320,7 +300,7 @@
 						</tr>
 
 						<!-- Bjarne Bartlett -->
-						<tr class="memberAltColor">
+						<tr class="memberAltColor2">
                             <td class="memberItems">
                                 <img class="memberImg" src="../images/bjarne.jpg" alt="Bjarne Bartlett, B.S." /></td>
 							<td class="memberItems">
@@ -341,7 +321,7 @@
 						</tr>
 
 						<!-- Tianying Zhao -->
-						<tr class="memberAltColor2">
+						<tr class="memberAltColor">
                             <td class="memberItems">
                                <img class="memberImg" src="../images/tianying.JPG" alt="Tianying Zhao, B.S." />
                            </td>
@@ -365,30 +345,6 @@
                            </td>
 						</tr>
                           
-                       <!-- Shengming Dai -->
-                       <tr class="memberAltColor">
-                           <td class="memberItems">
-                               <img class="memberImg" src="../images/dai.jpg" alt="Shengming Dai, Ph.D." />
-                           </td>
-                           <td class="memberItems">
-                               <strong>Shengming<br /> Dai</strong>,
-                               <br />Ph.D.
-                           </td>
-                           <td class="memberItems">
-                               <em>
-                                   Visiting Scholar
-                               </em>
-                           </td>
-                           <td class="memberItems memberItemsOffice">
-                               BSB<br /> 320
-                           </td>
-                           <td class="memberItems redLink">
-                               dais@hawaii.edu
-                           </td>
-                           <td class="memberItems memberItemsPhone">
-                               (808) 692-1614
-                           </td>
-                       </tr>
 					   
 					   <!-- Masaki Nasu-->
                        <tr class="memberAltColor2">
@@ -412,6 +368,81 @@
                            </td>
                            <td class="memberItems memberItemsPhone">
                                (808) 692-1670
+                           </td>
+                       </tr>
+
+					   <!-- Laura Tipton-->
+                       <tr class="memberAltColor">
+                           <td class="memberItems">
+                               <img class="memberImg" src="../images/lauratipton.jpg" alt="Laura Tipton, Ph.D." />
+                           </td>
+                           <td class="memberItems">
+                               <strong>Laura<br /> Tipton</strong>,
+                               <br />Ph.D.
+                           </td>
+                           <td class="memberItems">
+                               <em>
+                                   Bioinformatics Junior Researcher
+                               </em>
+                           </td>
+                           <td class="memberItems memberItemsOffice">
+                               BSB<br /> 320
+                           </td>
+                           <td class="memberItems redLink">
+                               ltipton@hawaii.edu
+                           </td>
+                           <td class="memberItems memberItemsPhone">
+                               (808) 692-1614
+                           </td>
+                       </tr>
+
+					   <!-- Chunyi Liu-->
+                       <tr class="memberAltColor2">
+                           <td class="memberItems">
+                               <img class="memberImg" src="../images/avatar.png" alt="Chunyi Liu, Ph.D." />
+                           </td>
+                           <td class="memberItems">
+                               <strong>Chunyi<br /> Liu</strong>,
+                               <br />Ph.D.
+                           </td>
+                           <td class="memberItems">
+                               <em>
+                                   Post-Doctoral Researcher
+                               </em>
+                           </td>
+                           <td class="memberItems memberItemsOffice">
+                               BSB<br /> 320
+                           </td>
+                           <td class="memberItems redLink">
+                               cliu3322@hawaii.edu
+                           </td>
+                           <td class="memberItems memberItemsPhone">
+                               (808) 692-1614
+                           </td>
+                       </tr>
+
+					   <!-- Shaoqiu Chen-->
+                       <tr class="memberAltColor">
+                           <td class="memberItems">
+                               <img class="memberImg" src="../images/shaoqiuchen.png" alt="Shaoqiu Chen, B.S." />
+                           </td>
+                           <td class="memberItems">
+                               <strong>Shaoqiu<br /> Chen</strong>,
+                               <br />B.S.
+                           </td>
+                           <td class="memberItems">
+                               <em>
+                                   Ph.D. Graduate Student
+                               </em>
+                           </td>
+                           <td class="memberItems memberItemsOffice">
+                               BSB<br /> 320
+                           </td>
+                           <td class="memberItems redLink">
+                               shaoqiu@hawaii.edu
+                           </td>
+                           <td class="memberItems memberItemsPhone">
+                               (302) 217-4202
                            </td>
                        </tr>
               

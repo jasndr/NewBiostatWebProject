@@ -245,6 +245,15 @@
 							<br /><br />
 						<a class="redLink" href="http://tools.immuneepitope.org/ellipro/" 
                             target="_blank">ElliPro: Antibody Epitope Prediction</a>
+							<br /><br />
+						<a class="redLink" href="http://automl.info/"
+							target="_blank">Machine learning</a>
+							<br /><br />
+						<a class="redLink" href="https://satijalab.org/seurat/get_started.html"
+							target="_blank">Single Cell</a>
+							<br /><br />
+						<a class="redLink" href="https://informatics.fas.harvard.edu/atac-seq-guidelines.html"
+							target="blank">ATAC-seq</a>
 
 				
 				</div>

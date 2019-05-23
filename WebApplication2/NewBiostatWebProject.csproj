@@ -184,6 +184,17 @@
     <Content Include="menu2.html" />
     <Content Include="Home\members.html" />
     <Content Include="menu3.html" />
+    <Content Include="NiceSimpleContactForm\contactengine.php" />
+    <Content Include="NiceSimpleContactForm\contactengine2.php" />
+    <Content Include="NiceSimpleContactForm\contactthanks.html" />
+    <Content Include="NiceSimpleContactForm\contactthanks.php" />
+    <Content Include="NiceSimpleContactForm\contactthanks2.html" />
+    <Content Include="NiceSimpleContactForm\fail-error.html" />
+    <Content Include="NiceSimpleContactForm\fail-error2.html" />
+    <Content Include="NiceSimpleContactForm\images\stripe.png" />
+    <Content Include="NiceSimpleContactForm\images\title.gif" />
+    <Content Include="NiceSimpleContactForm\index.html" />
+    <Content Include="NiceSimpleContactForm\style.css" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

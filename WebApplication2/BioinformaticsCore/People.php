@@ -403,11 +403,11 @@
                            </td>
                            <td class="memberItems">
                                <strong>Chunyi<br /> Liu</strong>,
-                               <br />Ph.D.
+                               <br /><span style="text-decoration: line-through">Ph.D.</span>
                            </td>
                            <td class="memberItems">
                                <em>
-                                   Post-Doctoral Researcher
+                                   <span style="text-decoration: line-through">Post-Doctoral Researcher</span>
                                </em>
                            </td>
                            <td class="memberItems memberItemsOffice">

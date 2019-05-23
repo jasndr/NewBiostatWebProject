@@ -159,7 +159,7 @@
 
 
                 <h3 class="contentHeader"><a class="redLink" href="http://inbre.jabsom.hawaii.edu/" target="_blank">INBRE-IV   </a>
-                    <img class="contentImage-tiny" src="../../images/INBRE_HAWAII.png" />
+                    <img class="contentImage-tiny" src="../../images/INBRE_HAWAII.jpg" />
                 </h3>
 
                 <p class="contentWords">Institutional Development Award (IDeA) Network for Biomedical Research Excellence (INBRE) grant (PI: R. Nichols, P20GM103466)

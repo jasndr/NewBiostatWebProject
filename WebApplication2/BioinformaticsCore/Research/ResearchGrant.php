@@ -204,7 +204,7 @@
                 </p>
 
 				<h3 class="contentHeader"><a class="redLink" href="http://ola.jabsom.hawaii.edu/" target="_blank">Ola HAWAII   </a>
-                    <img class="contentImage-tiny" src="../../images/OlaHawaiiLogo.png" />
+                    <img class="contentImage-tiny" src="../../images/OlaHawaiiLogo.PNG" />
                 </h3>
 
                 <p class="contentWords">

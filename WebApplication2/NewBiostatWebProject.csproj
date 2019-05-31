@@ -169,6 +169,7 @@
     <Content Include="images\jabsom_logo_white_oval_transparent.png" />
     <Content Include="images\lauratipton.jpg" />
     <Content Include="images\Logo_Final.png" />
+    <Content Include="images\mayumijijiwa.jpg" />
     <Content Include="images\module1.jpg" />
     <Content Include="images\module2.jpg" />
     <Content Include="images\module3.jpg" />
@@ -180,6 +181,7 @@
     <Content Include="images\Research.jpg" />
     <Content Include="Home\jobs.html" />
     <Content Include="images\shaoqiuchen.PNG" />
+    <Content Include="images\yuchen.JPG" />
     <Content Include="menu.html" />
     <Content Include="menu2.html" />
     <Content Include="Home\members.html" />

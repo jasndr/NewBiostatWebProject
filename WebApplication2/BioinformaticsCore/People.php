@@ -392,7 +392,7 @@
                                ltipton@hawaii.edu
                            </td>
                            <td class="memberItems memberItemsPhone">
-                               (808) 692-1614
+                               (808) 692-1529
                            </td>
                        </tr>
 
@@ -424,7 +424,7 @@
 					   <!-- Shaoqiu Chen-->
                        <tr class="memberAltColor">
                            <td class="memberItems">
-                               <img class="memberImg" src="../images/shaoqiuchen.png" alt="Shaoqiu Chen, B.S." />
+                               <img class="memberImg" src="../images/shaoqiuchen.PNG" alt="Shaoqiu Chen, B.S." />
                            </td>
                            <td class="memberItems">
                                <strong>Shaoqiu<br /> Chen</strong>,
@@ -445,6 +445,57 @@
                                (302) 217-4202
                            </td>
                        </tr>
+
+					   <!-- Mayumi Jijiwa, PhD-->
+                       <tr class="memberAltColor2">
+                           <td class="memberItems">
+                               <img class="memberImg" src="../images/mayumijijiwa.jpg" alt="Mayumi Jijiwa, M.D., Ph.D." />
+                           </td>
+                           <td class="memberItems">
+                               <strong>Mayumi<br /> Jijiwa</strong>,
+                               <br />M.D., Ph.D.
+                           </td>
+                           <td class="memberItems">
+                               <em>
+									Post-Doctoral Researcher
+                               </em>
+                           </td>
+                           <td class="memberItems memberItemsOffice">
+                               BSB<br /> 222
+                           </td>
+                           <td class="memberItems redLink">
+                               jijiwa@hawaii.edu
+                           </td>
+                           <td class="memberItems memberItemsPhone">
+                               (808) 692-1531
+                           </td>
+                       </tr>
+
+					   <!-- Yu Chen, M.S.-->
+                       <tr class="memberAltColor">
+                           <td class="memberItems">
+                               <img class="memberImg" src="../images/yuchen.JPG" alt="Yu Chen, M.S." />
+                           </td>
+                           <td class="memberItems">
+                               <strong>Yu<br /> Chen</strong>,
+                               <br />M.S.
+                           </td>
+                           <td class="memberItems">
+                               <em>
+                                   Ph.D. Graduate Student
+                               </em>
+                           </td>
+                           <td class="memberItems memberItemsOffice">
+                               BSB<br /> 222
+                           </td>
+                           <td class="memberItems redLink">
+                               yuchen8@hawaii.edu
+                           </td>
+                           <td class="memberItems memberItemsPhone">
+                               (808) 692-1670
+                           </td>
+                       </tr>
+
               
 
                     
